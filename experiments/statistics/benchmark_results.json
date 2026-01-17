@@ -1,1 +1,18 @@
-
+{
+  "timestamp": "2026-01-14 09:20:01",
+  "results": [
+    {
+      "resolution": 2,
+      "strassen_ms": 2.1608080714941025,
+      "standard_ms": 0.022748485207557678,
+      "speedup": 0.010527767601232679,
+      "strassen_mults": 7,
+      "standard_mults": 8,
+      "mult_reduction": 0.125,
+      "max_error": 0.0,
+      "mean_error": 0.0,
+      "memory_mb": 520.52734375,
+      "passed": true,
+    }
+  ]
+}
