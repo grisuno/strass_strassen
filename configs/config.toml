@@ -1,0 +1,38 @@
+# Strassen Grokked Configuration
+# Author: grisun0
+
+[project]
+name = "strassen_grokked"
+version = "2.0.0"
+description = "Zero-shot expansion of Strassen matrix multiplication"
+
+[algorithm]
+rank = 7
+base_size = 2
+coefficients_file = "weights.pt"
+
+[expansion]
+# Matrix sizes to test (must be powers of 2)
+# Zero-shot: same 2x2 operator applied recursively
+resolutions = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048]
+
+# Memory limits
+max_memory_gb = 8.0
+dtype = "float32"  # float32, float64, int32, int64
+
+[benchmark]
+warmup_iterations = 1
+test_iterations = 1
+verify_correctness = true
+compare_with_standard = true
+
+[test]
+# Test configurations per resolution
+samples_per_resolution = 100
+tolerance_float = 1e-4
+tolerance_int = 0
+
+[logging]
+verbose = true
+save_results = true
+results_file = "benchmark_results.json"
