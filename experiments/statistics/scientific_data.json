@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "timestamp": "2026-01-14T10:38:13",
+    "threads": 8,
+    "strassen_threshold": 2048,
+    "block_size": 64,
+    "dtype": "float32",
+    "compiler": "gcc -O3 -ffast-math -march=native -mavx512f -mavx512dq -mfma -fopenmp",
+    "environment": "Linux x86_64 cloud sandbox"
+  },
+  "benchmarks": [
+    {
+      "size": 512,
+      "numpy_blas_ms": 0.50,
+      "standard_avx512_ms": 1.69,
+      "strassen_avx512_ms": 15.08,
+      "speedup_vs_blas": 0.033,
+      "speedup_vs_std": 0.112,
+      "relative_error": 8.45e-07
+    },
+    {
+      "size": 1024,
+      "numpy_blas_ms": 11.57,
+      "standard_avx512_ms": 100.18,
+      "strassen_avx512_ms": 119.70,
+      "speedup_vs_blas": 0.097,
+      "speedup_vs_std": 0.837,
+      "relative_error": 1.40e-06
+    },
+    {
+      "size": 2048,
+      "numpy_blas_ms": 78.60,
+      "standard_avx512_ms": 573.94,
+      "strassen_avx512_ms": 599.97,
+      "speedup_vs_blas": 0.131,
+      "speedup_vs_std": 0.957,
+      "relative_error": 1.93e-06
+    },
+    {
+      "size": 4096,
+      "numpy_blas_ms": 599.26,
+      "standard_avx512_ms": 5479.06,
+      "strassen_avx512_ms": 3299.80,
+      "speedup_vs_blas": 0.182,
+      "speedup_vs_std": 1.660,
+      "relative_error": 3.72e-06,
+      "note": "CROSSOVER POINT: Strassen beats Standard AVX-512"
+    },
+    {
+      "size": 8192,
+      "numpy_blas_ms": 4536.01,
+      "standard_avx512_ms": 44871.02,
+      "strassen_avx512_ms": 24940.60,
+      "speedup_vs_blas": 0.182,
+      "speedup_vs_std": 1.799,
+      "relative_error": 7.20e-06,
+      "note": "Strassen 1.8x faster than Standard AVX-512"
+    }
+  ],
+  "analysis": {
+    "crossover_point": 4096,
+    "crossover_description": "Strassen AVX-512 becomes faster than Standard AVX-512 at N >= 4096",
+    "theoretical_complexity": {
+      "standard": "O(n^3)",
+      "strassen": "O(n^2.807)"
+    },
+    "asymptotic_speedup_at_8192": 1.799,
+    "note": "OpenBLAS uses additional optimizations (assembly kernels, better cache blocking) that our AVX-512 implementation does not have"
+  },
+  "conclusions": {
+    "algorithm_correctness": true,
+    "strassen_beats_standard_same_implementation": true,
+    "strassen_beats_openblas": false,
+    "crossover_vs_standard": 4096,
+    "crossover_vs_blas": "Not achieved with current implementation"
+  }
+}
