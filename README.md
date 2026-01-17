@@ -221,6 +221,7 @@ This project is licensed under the GNU Affero General Public License v3.0 - see 
 - **Author:** grisun0
 - **Repository:** https://github.com/grisuno/agi
 - **DOI:** [https://zenodo.org/records/18277664](https://zenodo.org/records/18277664)
+- **WIKI:** [https://deepwiki.com/grisuno/strass_strassen](https://deepwiki.com/grisuno/strass_strassen)
 
 ---
 
