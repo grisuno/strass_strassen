@@ -1,0 +1,37 @@
+{
+  "Intel Xeon E5 (tested)": {
+    "range": [
+      8,
+      1024
+    ],
+    "l3_mb": 35.0
+  },
+  "Intel i7-8700": {
+    "range": [
+      8,
+      1024
+    ],
+    "l3_mb": 12.0
+  },
+  "Apple M1/M2": {
+    "range": [
+      8,
+      1024
+    ],
+    "l3_mb": 12.0
+  },
+  "Intel i5 (laptop)": {
+    "range": [
+      8,
+      1024
+    ],
+    "l3_mb": 6.0
+  },
+  "Raspberry Pi 4": {
+    "range": [
+      8,
+      1024
+    ],
+    "l3_mb": 1.0
+  }
+}
