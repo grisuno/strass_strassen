@@ -1,0 +1,760 @@
+{
+  "experiment_suite": "Reviewer Experiments (Robust)",
+  "timestamp": "2026-01-19T01:37:39.532180",
+  "n_checkpoints": 13,
+  "experiments": {
+    "exp1_covariance_spectrometry": {
+      "description": "Measures \u03ba(\u03a3\u209c) for different batch sizes",
+      "batch_size_analysis": [
+        {
+          "checkpoint": "strassen_coefficients.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 557855.0625,
+              "lambda_max": 0.5578551292419434,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 811530.875,
+              "lambda_max": 0.8115309476852417,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 1000000.0,
+              "lambda_max": 1.3751473426818848,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 678088.0625,
+              "lambda_max": 0.6780881285667419,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        },
+        {
+          "checkpoint": "strassen_discrete_final.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 1.0001667737960815,
+              "lambda_max": 1.000166889753018e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 1.0004547834396362,
+              "lambda_max": 1.0004548585129669e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 1.0008660554885864,
+              "lambda_max": 1.0008661774918437e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 1.0030418634414673,
+              "lambda_max": 1.0030420298789977e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        },
+        {
+          "checkpoint": "strassen_exact.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 1.0004136562347412,
+              "lambda_max": 1.0004138175645494e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 1.0008728504180908,
+              "lambda_max": 1.000872998702107e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 1.001904845237732,
+              "lambda_max": 1.0019049341281061e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 1.001054286956787,
+              "lambda_max": 1.0010544428951107e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        },
+        {
+          "checkpoint": "strassen_float64.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 2240.084716796875,
+              "lambda_max": 0.002240085043013096,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 24182.64453125,
+              "lambda_max": 0.024182647466659546,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 7391.2109375,
+              "lambda_max": 0.007391211576759815,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 16962.732421875,
+              "lambda_max": 0.01696273498237133,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        },
+        {
+          "checkpoint": "strassen_grokked_weights.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 1.0001143217086792,
+              "lambda_max": 1.0001144801208284e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 1.0004229545593262,
+              "lambda_max": 1.0004230261984048e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 1.0033448934555054,
+              "lambda_max": 1.0033450053015258e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 1.0018343925476074,
+              "lambda_max": 1.0018344482887187e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        },
+        {
+          "checkpoint": "strassen_grokkit.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 1.0010223388671875,
+              "lambda_max": 1.001022496893711e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 1.0024322271347046,
+              "lambda_max": 1.0024323273682967e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 1.0021830797195435,
+              "lambda_max": 1.0021832395068486e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 1.0064923763275146,
+              "lambda_max": 1.0064925390906865e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        },
+        {
+          "checkpoint": "strassen_multiscale.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 2886.491943359375,
+              "lambda_max": 0.002886492293328047,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 2195.68603515625,
+              "lambda_max": 0.0021956865675747395,
+              "lambda_min": 1.0000002248489182e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 18462.00390625,
+              "lambda_max": 0.018462006002664566,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 5886.6064453125,
+              "lambda_max": 0.005886607337743044,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        },
+        {
+          "checkpoint": "strassen_result.pt",
+          "batch_sizes": [
+            {
+              "batch_size": 8,
+              "kappa": 1.0790480375289917,
+              "lambda_max": 1.0790481610456482e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 16,
+              "kappa": 1.6684190034866333,
+              "lambda_max": 1.6684191450622166e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 24,
+              "kappa": 1.2638386487960815,
+              "lambda_max": 1.2638388398045208e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 32,
+              "kappa": 2.20307993888855,
+              "lambda_max": 2.203080157414661e-06,
+              "lambda_min": 1.0000001111620804e-06
+            },
+            {
+              "batch_size": 64,
+              "kappa": Infinity,
+              "lambda_max": 0.0,
+              "lambda_min": 0.0
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "batch_sizes": [
+          8,
+          16,
+          24,
+          32
+        ],
+        "mean_kappa_per_B": [
+          70373.33999066055,
+          104739.35977102816,
+          128232.31087265909,
+          87617.95210875571
+        ],
+        "optimal_batch_size": 8,
+        "minimum_kappa": 70373.33999066055
+      }
+    },
+    "exp2_noise_ablation": {
+      "description": "Tests tolerance to gradient vs weight noise",
+      "noise_levels": [
+        0.0001,
+        0.0005,
+        0.001,
+        0.005,
+        0.01
+      ],
+      "treatments": {
+        "strassen_coefficients.pt": {
+          "baseline_accuracy": 0.03400000184774399,
+          "noise_effects": [
+            {
+              "sigma": 0.0001,
+              "noisy_accuracy": 0.02800000086426735,
+              "accuracy_retention": 0.8235293924292901
+            },
+            {
+              "sigma": 0.0005,
+              "noisy_accuracy": 0.009999999776482582,
+              "accuracy_retention": 0.2941176245008385
+            },
+            {
+              "sigma": 0.001,
+              "noisy_accuracy": 0.009999999776482582,
+              "accuracy_retention": 0.2941176245008385
+            },
+            {
+              "sigma": 0.005,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            },
+            {
+              "sigma": 0.01,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            }
+          ]
+        },
+        "strassen_discrete_final.pt": {
+          "baseline_accuracy": 1.0,
+          "noise_effects": [
+            {
+              "sigma": 0.0001,
+              "noisy_accuracy": 0.656000018119812,
+              "accuracy_retention": 0.656000018119812
+            },
+            {
+              "sigma": 0.0005,
+              "noisy_accuracy": 0.07999999821186066,
+              "accuracy_retention": 0.07999999821186066
+            },
+            {
+              "sigma": 0.001,
+              "noisy_accuracy": 0.019999999552965164,
+              "accuracy_retention": 0.019999999552965164
+            },
+            {
+              "sigma": 0.005,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            },
+            {
+              "sigma": 0.01,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            }
+          ]
+        },
+        "strassen_exact.pt": {
+          "baseline_accuracy": 1.0,
+          "noise_effects": [
+            {
+              "sigma": 0.0001,
+              "noisy_accuracy": 0.5720000267028809,
+              "accuracy_retention": 0.5720000267028809
+            },
+            {
+              "sigma": 0.0005,
+              "noisy_accuracy": 0.04600000008940697,
+              "accuracy_retention": 0.04600000008940697
+            },
+            {
+              "sigma": 0.001,
+              "noisy_accuracy": 0.009999999776482582,
+              "accuracy_retention": 0.009999999776482582
+            },
+            {
+              "sigma": 0.005,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            },
+            {
+              "sigma": 0.01,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            }
+          ]
+        },
+        "strassen_float64.pt": {
+          "baseline_accuracy": 0.871999979019165,
+          "noise_effects": [
+            {
+              "sigma": 0.0001,
+              "noisy_accuracy": 0.527999997138977,
+              "accuracy_retention": 0.6055045984437719
+            },
+            {
+              "sigma": 0.0005,
+              "noisy_accuracy": 0.05400000140070915,
+              "accuracy_retention": 0.061926608600895765
+            },
+            {
+              "sigma": 0.001,
+              "noisy_accuracy": 0.009999999776482582,
+              "accuracy_retention": 0.011467889927853771
+            },
+            {
+              "sigma": 0.005,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            },
+            {
+              "sigma": 0.01,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            }
+          ]
+        },
+        "strassen_grokked_weights.pt": {
+          "baseline_accuracy": 1.0,
+          "noise_effects": [
+            {
+              "sigma": 0.0001,
+              "noisy_accuracy": 0.5960000157356262,
+              "accuracy_retention": 0.5960000157356262
+            },
+            {
+              "sigma": 0.0005,
+              "noisy_accuracy": 0.029999999329447746,
+              "accuracy_retention": 0.029999999329447746
+            },
+            {
+              "sigma": 0.001,
+              "noisy_accuracy": 0.017999999225139618,
+              "accuracy_retention": 0.017999999225139618
+            },
+            {
+              "sigma": 0.005,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            },
+            {
+              "sigma": 0.01,
+              "noisy_accuracy": 0.0,
+              "accuracy_retention": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "exp3_prospective_prediction": {
+      "description": "Tests if early-epoch \u03ba predicts final success",
+      "predictions": [
+        {
+          "checkpoint": "strassen_coefficients.pt",
+          "kappa": Infinity,
+          "margin": 0.16402973234653473,
+          "active_slots": 7,
+          "actual_success": false,
+          "predicted_success": false,
+          "correct": true
+        },
+        {
+          "checkpoint": "strassen_discrete_final.pt",
+          "kappa": Infinity,
+          "margin": 0.0,
+          "active_slots": 7,
+          "actual_success": true,
+          "predicted_success": false,
+          "correct": false
+        },
+        {
+          "checkpoint": "strassen_exact.pt",
+          "kappa": Infinity,
+          "margin": 0.0,
+          "active_slots": 7,
+          "actual_success": true,
+          "predicted_success": false,
+          "correct": false
+        },
+        {
+          "checkpoint": "strassen_float64.pt",
+          "kappa": Infinity,
+          "margin": 0.21429984271526337,
+          "active_slots": 7,
+          "actual_success": false,
+          "predicted_success": false,
+          "correct": true
+        },
+        {
+          "checkpoint": "strassen_grokked_weights.pt",
+          "kappa": Infinity,
+          "margin": 0.0,
+          "active_slots": 7,
+          "actual_success": true,
+          "predicted_success": false,
+          "correct": false
+        },
+        {
+          "checkpoint": "strassen_grokkit.pt",
+          "kappa": Infinity,
+          "margin": 0.20199783146381378,
+          "active_slots": 7,
+          "actual_success": false,
+          "predicted_success": false,
+          "correct": true
+        },
+        {
+          "checkpoint": "strassen_multiscale.pt",
+          "kappa": Infinity,
+          "margin": 0.18354950845241547,
+          "active_slots": 7,
+          "actual_success": false,
+          "predicted_success": false,
+          "correct": true
+        },
+        {
+          "checkpoint": "strassen_result.pt",
+          "kappa": Infinity,
+          "margin": 0.209014430642128,
+          "active_slots": 7,
+          "actual_success": false,
+          "predicted_success": false,
+          "correct": true
+        },
+        {
+          "checkpoint": "strassen_robust.pt",
+          "kappa": Infinity,
+          "margin": 0.032730475068092346,
+          "active_slots": 0,
+          "actual_success": true,
+          "predicted_success": false,
+          "correct": false
+        },
+        {
+          "checkpoint": "strassen_grokkit.pt",
+          "kappa": Infinity,
+          "margin": 0.22179721295833588,
+          "active_slots": 7,
+          "actual_success": false,
+          "predicted_success": false,
+          "correct": true
+        },
+        {
+          "checkpoint": "strassen_result.pt",
+          "kappa": Infinity,
+          "margin": 0.209014430642128,
+          "active_slots": 7,
+          "actual_success": false,
+          "predicted_success": false,
+          "correct": true
+        },
+        {
+          "checkpoint": "weights.pt",
+          "kappa": Infinity,
+          "margin": 0.0,
+          "active_slots": 7,
+          "actual_success": true,
+          "predicted_success": false,
+          "correct": false
+        }
+      ],
+      "summary": {
+        "prediction_accuracy": 0.5833333333333334,
+        "n_correct": 7,
+        "n_total": 12
+      }
+    },
+    "exp4_trajectory_perturbation": {
+      "description": "Tests trajectory stability under perturbations",
+      "perturbations": [
+        0.001,
+        0.01,
+        0.1
+      ],
+      "treatments": {
+        "strassen_coefficients.pt": {
+          "perturbation_effects": [
+            {
+              "sigma": 0.001,
+              "norm_ratio": 1.000135320892956
+            },
+            {
+              "sigma": 0.01,
+              "norm_ratio": 1.0028013413846406
+            },
+            {
+              "sigma": 0.1,
+              "norm_ratio": 1.0134306500656578
+            }
+          ]
+        },
+        "strassen_discrete_final.pt": {
+          "perturbation_effects": [
+            {
+              "sigma": 0.001,
+              "norm_ratio": 1.0002562204996746
+            },
+            {
+              "sigma": 0.01,
+              "norm_ratio": 1.002707799275716
+            },
+            {
+              "sigma": 0.1,
+              "norm_ratio": 1.0198585987091064
+            }
+          ]
+        },
+        "strassen_exact.pt": {
+          "perturbation_effects": [
+            {
+              "sigma": 0.001,
+              "norm_ratio": 0.9999053478240967
+            },
+            {
+              "sigma": 0.01,
+              "norm_ratio": 1.0023066997528076
+            },
+            {
+              "sigma": 0.1,
+              "norm_ratio": 1.0241059462229412
+            }
+          ]
+        },
+        "strassen_float64.pt": {
+          "perturbation_effects": [
+            {
+              "sigma": 0.001,
+              "norm_ratio": 1.000080972474471
+            },
+            {
+              "sigma": 0.01,
+              "norm_ratio": 0.9982021142226419
+            },
+            {
+              "sigma": 0.1,
+              "norm_ratio": 1.0012854998747482
+            }
+          ]
+        },
+        "strassen_grokked_weights.pt": {
+          "perturbation_effects": [
+            {
+              "sigma": 0.001,
+              "norm_ratio": 0.9997787475585938
+            },
+            {
+              "sigma": 0.01,
+              "norm_ratio": 1.0019782384236653
+            },
+            {
+              "sigma": 0.1,
+              "norm_ratio": 0.9899792671203613
+            }
+          ]
+        }
+      }
+    },
+    "exp5_discreteness_attractors": {
+      "description": "Characterizes discrete basin attraction",
+      "checkpoints": [
+        {
+          "checkpoint": "strassen_coefficients.pt",
+          "discretization_margin": 0.16402973234653473,
+          "active_slots": 7,
+          "is_discrete": false
+        },
+        {
+          "checkpoint": "strassen_discrete_final.pt",
+          "discretization_margin": 0.0,
+          "active_slots": 7,
+          "is_discrete": true
+        },
+        {
+          "checkpoint": "strassen_exact.pt",
+          "discretization_margin": 0.0,
+          "active_slots": 7,
+          "is_discrete": true
+        },
+        {
+          "checkpoint": "strassen_float64.pt",
+          "discretization_margin": 0.21429984271526337,
+          "active_slots": 7,
+          "is_discrete": false
+        },
+        {
+          "checkpoint": "strassen_grokked_weights.pt",
+          "discretization_margin": 0.0,
+          "active_slots": 7,
+          "is_discrete": true
+        },
+        {
+          "checkpoint": "strassen_grokkit.pt",
+          "discretization_margin": 0.20199783146381378,
+          "active_slots": 7,
+          "is_discrete": false
+        },
+        {
+          "checkpoint": "strassen_multiscale.pt",
+          "discretization_margin": 0.18354950845241547,
+          "active_slots": 7,
+          "is_discrete": false
+        },
+        {
+          "checkpoint": "strassen_result.pt",
+          "discretization_margin": 0.209014430642128,
+          "active_slots": 7,
+          "is_discrete": false
+        },
+        {
+          "checkpoint": "strassen_robust.pt",
+          "discretization_margin": 0.032730475068092346,
+          "active_slots": 0,
+          "is_discrete": true
+        },
+        {
+          "checkpoint": "strassen_grokkit.pt",
+          "discretization_margin": 0.22179721295833588,
+          "active_slots": 7,
+          "is_discrete": false
+        },
+        {
+          "checkpoint": "strassen_result.pt",
+          "discretization_margin": 0.209014430642128,
+          "active_slots": 7,
+          "is_discrete": false
+        },
+        {
+          "checkpoint": "weights.pt",
+          "discretization_margin": 0.0,
+          "active_slots": 7,
+          "is_discrete": true
+        }
+      ],
+      "summary": {
+        "discretized_count": 5,
+        "total_count": 12,
+        "discretization_rate": 0.4166666666666667
+      }
+    }
+  }
+}
