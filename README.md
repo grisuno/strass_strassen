@@ -1,4 +1,4 @@
-# Algorithmic Invariance and Zero-Shot Structural Scaling in Neural Networks
+# Engineering Algorithmic Structure in Neural Networks: A Materials Science Perspective
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18263654.svg)](https://zenodo.org/records/18277664)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
@@ -9,14 +9,27 @@
 
 ## Abstract
 
-We study a class of training dynamics in neural networks where, after sufficient optimization, the learned solution exhibits strong structural invariance. Once this regime is reached, the model can be deterministically expanded to significantly larger input dimensions without retraining, while preserving perfect or near-perfect generalization.
+This work presents what I learned from attempting to induce Strassen matrix multiplication structure in neural networks, and why I now view this work as materials engineering rather than theory.
+
+I demonstrate through Strassen matrix multiplication that by controlling batch size, training duration, and regularization, I can induce discrete algorithmic structure that transfers zero-shot from 2x2 to 64x64 matrices. Under controlled conditions, 68% of runs crystallize into verifiable Strassen structure.
+
+What I initially framed as a theory did not hold up to scrutiny. Post-hoc analysis revealed that κ (the condition number I proposed) correlates with success but does not predict it prospectively. The hypothesis was backwards: successful models have κ≈1, but models with κ≈1 are not guaranteed to succeed.
+
+What remains valid is the engineering protocol itself. Here is what actually works: train with batch sizes in [24, 128], use weight decay ≥1e-4, run for 1000+ epochs, prune to 7 slots, round weights to integers. Do this, and you will induce Strassen structure with 68% probability.
 
 Key results:
-- **Convergence Theorem:** Conditions under which SGD converges to algorithmically invariant solutions
-- **Uniqueness of T:** The expansion operator is unique up to permutation symmetry
-- **Automatic T Discovery:** Algorithm for constructing T from converged weights
+- **Engineering Protocol:** Working recipe with explicit tolerance windows
+- **Success Rate:** 68% (133/195 runs) achieve verifiable Strassen structure
 - **Statistical Validation:** N=195 observations, F(4,190)=15.34, p<0.001, eta-squared=0.244
-- **Strassen Rediscovery:** 1.95x speedup over OpenBLAS on 8192x8192 matrices
+- **Zero-Shot Transfer:** Learned coefficients work for 2x2 to 64x64 matrices
+- **Strassen Rediscovery:** 1.95x speedup over OpenBLAS on 8192x8192 matrices (single-threaded)
+
+**What I claimed vs what I demonstrated:**
+- κ causes success: NOT DEMONSTRATED (58.3% prediction accuracy is chance)
+- κ predicts outcome prospectively: NOT DEMONSTRATED
+- Batch size explained by κ: NOT DEMONSTRATED (mechanism remains open)
+- Fragility confirms narrow basin: DEMONSTRATED (0% success for σ≥0.001)
+- Engineering protocol works: DEMONSTRATED (68% success rate)
 
 ---
 
@@ -176,9 +189,20 @@ The network learns the exact Strassen formulas:
 
 ### Optimal Batch Size
 
-The optimal batch size is a **range** determined by cache coherence:
-- L1 cache (32KB): B* in [32, 64]
-- L2 cache (256KB): B* in [64, 128]
+The optimal batch size is a **range** empirically determined:
+- B in [24, 128] correlates with successful discretization
+- B outside this range: success drops to near zero
+- **Mechanism remains open:** Initial cache coherence hypothesis was ruled out (B=1024 fits in L3)
+- **κ correlation:** Post-hoc analysis shows κ≈1 for successful models, but κ does not enable prediction
+
+---
+
+## Limitations (What Did Not Work)
+
+1. **κ as predictor:** Early-epoch κ does not predict final success (58.3% accuracy = chance)
+2. **Batch size mechanism:** No validated explanation for why [24, 128] works
+3. **Generalization:** Attempts on 3x3 matrices (Laderman's algorithm) failed
+4. **Theory:** Gradient covariance hypothesis is post-hoc correlation, not causal theory
 
 ---
 
