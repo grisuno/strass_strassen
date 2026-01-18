@@ -1,21 +1,24 @@
-# ABLATION STUDY: Strassen vs OpenBLAS
-**Autor**: grisun0
-**Fecha**: 2026-01-14  
-**Protocolo**: Riguroso con warmup, múltiples runs, estadísticas
+# ABLATION STUDY: Engineering Strassen Performance
+**Author**: grisun0
+**Date**: 2026-01-14
+**Protocol**: Rigorous with warmup, multiple runs, statistics
 
 ---
 
-## 1. Configuración Experimental
+## Executive Summary
 
-| Parámetro | Valor |
-|-----------|-------|
-| Hardware | Cloud Linux Sandbox (AVX-512) |
-| OpenBLAS version | 0.3.21 (multi-threaded) |
-| Compiler | GCC -O3 -march=native -mavx512f |
-| Runs per config | 3-5 (medidos) |
-| Warmup runs | 1-2 (descartados) |
-| Seed | 42 (reproducibilidad) |
-| Precision | float32 (single) |
+| Condition | Speedup | Verdict |
+|-----------|---------|---------|
+| Multi-thread BLAS | 0.5-1.0x | OpenBLAS wins |
+| Single-thread BLAS, N=4096 | 1.18x | Strassen wins |
+| Single-thread BLAS, N=8192 | **1.95x** | **Strassen wins** |
+
+**Conclusion**: The Strassen algorithm induced through our engineering protocol is mathematically correct and computationally superior under specific conditions.
+
+**Caveats**:
+- Speedup requires single-threaded OpenBLAS (artificial constraint)
+- Multi-threaded conditions: OpenBLAS wins due to optimized parallel kernels
+- This is proof of executability, not superiority under typical conditions |
 
 ---
 
@@ -248,4 +251,17 @@ os.environ['OPENBLAS_NUM_THREADS'] = '1'
 | Single-thread BLAS, N=4096 | 1.18x | Strassen gana |
 | Single-thread BLAS, N=8192 | **1.95x** | **Strassen gana** |
 
-**CONCLUSION**: El algoritmo Strassen descubierto por grokking es matematicamente correcto y computacionalmente superior bajo las condiciones adecuadas.
+## CONCLUSION: What This Study Demonstrates
+
+The Strassen algorithm induced through our engineering protocol is:
+
+1. **Mathematically correct**: Reproduces exactly the 7 Strassen formulas
+2. **Computationally superior** under specific conditions: Up to 1.95x speedup with single-threaded OpenBLAS
+3. **Numerically stable**: Error remains ~1e-6 in float32
+
+**What this does NOT demonstrate**:
+- Superiority over production BLAS libraries under typical multi-threaded conditions
+- Generalization to other algorithms or matrix sizes without careful threshold tuning
+- Theoretical understanding of why certain thresholds work
+
+This is engineering documentation, not fundamental theory. The recipe works; the mechanism remains open.
