@@ -1,7 +1,6 @@
 # Engineering Algorithmic Structure in Neural Networks: A Materials Science Perspective
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18263654.svg)](https://zenodo.org/records/18277664)
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+<a herf="https://zenodo.org/records/18293019" target="_blank"><img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/8cb513de-461d-4122-827c-e3f9528df058" /></a> [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 **Author:** grisun0
 
@@ -244,7 +243,7 @@ This project is licensed under the GNU Affero General Public License v3.0 - see 
 
 - **Author:** grisun0
 - **Repository:** https://github.com/grisuno/agi
-- **DOI:** [https://zenodo.org/records/18277664](https://zenodo.org/records/18277664)
+- **DOI:** [https://zenodo.org/records/18293019](https://zenodo.org/records/18293019)
 - **WIKI:** [https://deepwiki.com/grisuno/strass_strassen](https://deepwiki.com/grisuno/strass_strassen)
 
 ---
@@ -253,6 +252,6 @@ This project is licensed under the GNU Affero General Public License v3.0 - see 
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18072859.svg)](https://zenodo.org/records/18277664)
+<a herf="https://zenodo.org/records/18293019" target="_blank"><img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/8cb513de-461d-4122-827c-e3f9528df058" /></a> 
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y2Z73AV)
