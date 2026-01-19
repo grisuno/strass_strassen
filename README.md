@@ -94,8 +94,8 @@ Key results:
 ## Installation
 
 ```bash
-git clone https://github.com/grisuno/agi.git
-cd agi
+git clone https://github.com/grisuno/strass_strassen.git
+cd strass_strassen
 pip install -r requirements.txt
 ```
 
