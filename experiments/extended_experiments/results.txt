@@ -1,0 +1,690 @@
+❯ python3 validate2.py
+
+================================================================================
+  BATERÍA DE EXPERIMENTOS DE VALIDACIÓN
+  Respuesta a Revisores del Paper
+================================================================================
+
+[DEBUG] Buscando en: /home/grisun0/src/py/strass/github/experiments/checkpoints
+[DEBUG] Buscando en: /home/grisun0/src/py/strass/github/checkpoints
+[INFO] ✓ Encontrado: /home/grisun0/src/py/strass/github/checkpoints/strassen_exact.pt
+
+======================================================================
+CARGANDO CHECKPOINT GROKKEADO
+======================================================================
+Checkpoint: /home/grisun0/src/py/strass/github/checkpoints/strassen_exact.pt
+Device: cpu
+Cargado formato grokkit: U, V, W
+
+======================================================================
+VERIFICACIÓN DE GROKKING
+======================================================================
+Accuracy: 100.00% (threshold: 99.9%)
+LC: 1.000000 (threshold: 0.999)
+Active Slots: 7 (threshold: 8)
+Max Error: 1.67e-06
+Mean Error: 7.82e-08
+¿Grokked?: SÍ
+======================================================================
+
+
+================================================================================
+  EJECUTANDO EXPERIMENTOS
+================================================================================
+
+Experimento LC: Omitido (modelo ya grokked perfectamente)
+
+================================================================================
+EJECUTANDO EXPERIMENTO LC DESDE CERO (PUNTO B)
+================================================================================
+
+
+======================================================================
+EXPERIMENTO LC DESDE CERO (PUNTO B DEL REVISOR)
+======================================================================
+Objetivo: Medir LC durante entrenamiento para capturar transicion de fase
+Epocas: 3000
+======================================================================
+
+
+======================================================================
+EXPERIMENTO LC: ENTRENANDO DESDE CERO (PUNTO B DEL REVISOR)
+======================================================================
+Objetivo: Medir LC durante entrenamiento para capturar transición de fase
+Épocas: 3000
+======================================================================
+
+   Epoch |         LC |  Train Acc |   Test Acc |         Loss | Active
+----------------------------------------------------------------------
+       0 |   441.5850 |      0.00% |    -13.69% |     2.689220 |      8
+     120 |     0.1896 |      0.00% |     96.17% |     0.003836 |      8
+     240 |     0.0040 |      0.20% |     99.12% |     0.000184 |      8
+     360 |     0.0021 |      1.20% |     99.41% |     0.000069 |      8
+     480 |     0.0006 |      1.55% |     99.54% |     0.000054 |      8
+     600 |     0.0006 |      2.80% |     99.63% |     0.000041 |      8
+     720 |     0.0004 |      4.25% |     99.67% |     0.000033 |      8
+     840 |     0.0002 |      3.25% |     99.67% |     0.000026 |      8
+     960 |     0.0005 |      4.00% |     99.68% |     0.000022 |      8
+    1080 |     0.0007 |      5.00% |     99.75% |     0.000017 |      8
+    1200 |     0.0004 |     11.80% |     99.84% |     0.000007 |      8
+    1320 |     0.0002 |     27.75% |     99.90% |     0.000003 |      8
+    1440 |     0.0000 |     46.35% |     99.93% |     0.000002 |      8
+    1560 |     0.0000 |     62.65% |     99.95% |     0.000000 |      8
+    1680 |     0.0000 |     81.30% |     99.97% |     0.000000 |      8
+    1800 |     0.0000 |     92.30% |     99.98% |     0.000000 |      8
+    1920 |     0.0000 |     97.85% |     99.99% |     0.000000 |      8
+    2040 |     0.0000 |     99.50% |     99.99% |     0.000000 |      8
+    2160 |     0.0000 |     99.95% |     99.99% |     0.000000 |      8
+    2280 |     0.0000 |     99.95% |     99.99% |     0.000000 |      8
+    2400 |     0.0000 |    100.00% |    100.00% |     0.000000 |      8
+    2520 |     0.0000 |    100.00% |    100.00% |     0.000000 |      8
+    2640 |     0.0000 |    100.00% |    100.00% |     0.000000 |      8
+    2760 |     0.0000 |    100.00% |    100.00% |     0.000000 |      8
+    2880 |     0.0000 |    100.00% |    100.00% |     0.000000 |      8
+    2999 |     0.0000 |    100.00% |    100.00% |     0.000000 |      8
+
+======================================================================
+RESULTADOS EXPERIMENTO LC
+======================================================================
+Tiempo: 1.7s | Grokking: época 2160
+Accuracy final: 100.00%
+LC rango: [0.0000, 441.5850]
+======================================================================
+
+✓ Guardado: experiment_results/figure1b_lc_training.png
+
+======================================================================
+EXPERIMENTO 2: PODA ITERATIVA + FINE-TUNING
+======================================================================
+
+
+======================================================================
+PROTOCOLO DE PODA ITERATIVA
+======================================================================
+Baseline - Accuracy: 100.00%, LC: 1.000000
+Active Slots: 7, Max Error: 1.91e-06
+Delta Threshold: 0.1
+======================================================================
+
+--- Iteración 1/60 ---
+Podando: 10.0%
+Pesos removidos: 0, Sparsity: 57.14%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 2.307922e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999997
+Error máximo: 3.49e-05, Error medio: 3.44e-06
+Degradación δ: 0.0000
+
+--- Iteración 2/60 ---
+Podando: 15.0%
+Pesos removidos: 13, Sparsity: 15.48%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 3.174132e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999996
+Error máximo: 4.67e-05, Error medio: 4.09e-06
+Degradación δ: 0.0000
+
+--- Iteración 3/60 ---
+Podando: 20.0%
+Pesos removidos: 17, Sparsity: 20.24%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 6.224823e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999994
+Error máximo: 7.53e-05, Error medio: 5.73e-06
+Degradación δ: 0.0000
+
+--- Iteración 4/60 ---
+Podando: 25.0%
+Pesos removidos: 21, Sparsity: 25.00%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 9.810430e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999993
+Error máximo: 1.32e-04, Error medio: 6.77e-06
+Degradación δ: 0.0000
+
+--- Iteración 5/60 ---
+Podando: 30.0%
+Pesos removidos: 25, Sparsity: 29.76%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 5.918507e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999994
+Error máximo: 6.19e-05, Error medio: 5.64e-06
+Degradación δ: 0.0000
+
+--- Iteración 6/60 ---
+Podando: 35.0%
+Pesos removidos: 30, Sparsity: 35.71%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 8.614431e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999994
+Error máximo: 9.66e-05, Error medio: 6.22e-06
+Degradación δ: 0.0000
+
+--- Iteración 7/60 ---
+Podando: 40.0%
+Pesos removidos: 34, Sparsity: 40.48%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 3.653429e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999996
+Error máximo: 4.15e-05, Error medio: 4.09e-06
+Degradación δ: 0.0000
+
+--- Iteración 8/60 ---
+Podando: 45.0%
+Pesos removidos: 38, Sparsity: 45.24%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 2.214382e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999997
+Error máximo: 3.53e-05, Error medio: 3.31e-06
+Degradación δ: 0.0000
+
+--- Iteración 9/60 ---
+Podando: 50.0%
+Pesos removidos: 42, Sparsity: 50.00%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 7.461875e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999994
+Error máximo: 7.76e-05, Error medio: 5.91e-06
+Degradación δ: 0.0000
+
+--- Iteración 10/60 ---
+Podando: 55.0%
+Pesos removidos: 46, Sparsity: 54.76%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 4.780319e-11, final_acc = 100.00%
+Después del fine-tune - Accuracy: 100.00%, LC: 0.999995
+Error máximo: 6.20e-05, Error medio: 5.01e-06
+Degradación δ: 0.0000
+
+--- Iteración 11/60 ---
+Podando: 60.0%
+Pesos removidos: 50, Sparsity: 59.52%
+Fine-tuning (200 épocas)...
+Fine-tune: final_loss = 5.585629e-02, final_acc = 0.00%
+Después del fine-tune - Accuracy: 0.00%, LC: 0.836423
+Error máximo: 2.16e+00, Error medio: 1.54e-01
+Degradación δ: 100.0000
+
+⚠  Degradación excede threshold (100.0000 > 0.1). Revertiendo...
+
+======================================================================
+RESULTADOS FINALES DE PODA
+======================================================================
+Sparsity final: 0.00%
+Accuracy final: 100.00%
+LC final: 0.999995
+Slots activos: 7
+Error máximo: 7.32e-05
+Razón de parada: delta=100.0000 > threshold=0.1
+Cuenca discreta alcanzada: True
+Éxito del protocolo: False
+======================================================================
+
+✓ Guardado: experiment_results/figure2_pruning_results.png
+
+======================================================================
+EXPERIMENTO 3: CURVAS ROC CON BOOTSTRAP
+======================================================================
+
+Muestras de test: 10000
+Clase 'grokking' (error < 0.001): 10000 (100.0%)
+Clase 'no grokking': 0 (0.0%)
+
+⚠  ADVERTENCIA: Solo una clase presente. AUC indefinido.
+   Esto ocurre cuando el modelo grokkeó perfectamente (100% accuracy).
+✓ Guardado placeholder: experiment_results/figure3_roc_curves.png
+
+================================================================================
+EJECUTANDO EXPERIMENTO RUNS BALANCEADOS (PUNTO C)
+================================================================================
+
+
+======================================================================
+EXPERIMENTO RUNS BALANCEADOS (PUNTO C DEL REVISOR)
+======================================================================
+Objetivo: Generar mix de runs grokked/no-grokked para AUC válido
+Total de runs: 60
+======================================================================
+
+
+======================================================================
+GENERANDO RUNS BALANCEADOS (PUNTO C DEL REVISOR)
+======================================================================
+Objetivo: Generar mix de runs grokked/no-grokked para AUC valido
+Total de runs: 60
+======================================================================
+
+
+--- Run 1/60 ---
+  LR: 0.02000, WD: 0.000100, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 56.12%
+  Accuracy test: 99.93%
+
+--- Run 2/60 ---
+  LR: 0.01600, WD: 0.000080, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 71.58%
+  Accuracy test: 99.95%
+
+--- Run 3/60 ---
+  LR: 0.02400, WD: 0.000080, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 94.88%
+  Accuracy test: 99.98%
+
+--- Run 4/60 ---
+  LR: 0.00100, WD: 0.000100, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.02%
+  Accuracy test: 97.32%
+
+--- Run 5/60 ---
+  LR: 0.00200, WD: 0.000050, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 1.54%
+  Accuracy test: 99.22%
+
+--- Run 6/60 ---
+  LR: 0.10000, WD: 0.000200, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 99.98%
+  Accuracy test: 99.99%
+
+--- Run 7/60 ---
+  LR: 0.20000, WD: 0.000500, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 8/60 ---
+  LR: 0.02000, WD: 0.001000, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 99.86%
+  Accuracy test: 99.99%
+
+--- Run 9/60 ---
+  LR: 0.02000, WD: 0.000001, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 10/60 ---
+  LR: 0.02000, WD: 0.000100, Epochs: 3000, Batch: 32
+  Resultado: NO GROKKEADO
+  Accuracy final: 98.26%
+  Accuracy test: 99.98%
+
+--- Run 11/60 ---
+  LR: 0.02000, WD: 0.000100, Epochs: 3000, Batch: 1024
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 12/60 ---
+  LR: 0.01800, WD: 0.000080, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 99.76%
+  Accuracy test: 99.99%
+
+--- Run 13/60 ---
+  LR: 0.01760, WD: 0.000096, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 14/60 ---
+  LR: 0.03120, WD: 0.000064, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 15/60 ---
+  LR: 0.00090, WD: 0.000120, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.00%
+  Accuracy test: 95.84%
+
+--- Run 16/60 ---
+  LR: 0.00220, WD: 0.000040, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.10%
+  Accuracy test: 98.51%
+
+--- Run 17/60 ---
+  LR: 0.13000, WD: 0.000240, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 85.64%
+  Accuracy test: 99.97%
+
+--- Run 18/60 ---
+  LR: 0.18000, WD: 0.000400, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 99.99%
+
+--- Run 19/60 ---
+  LR: 0.02200, WD: 0.001200, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 67.78%
+  Accuracy test: 99.95%
+
+--- Run 20/60 ---
+  LR: 0.02600, WD: 0.000001, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 21/60 ---
+  LR: 0.01800, WD: 0.000120, Epochs: 3000, Batch: 32
+  Resultado: NO GROKKEADO
+  Accuracy final: 98.10%
+  Accuracy test: 99.99%
+
+--- Run 22/60 ---
+  LR: 0.02200, WD: 0.000080, Epochs: 3000, Batch: 1024
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 23/60 ---
+  LR: 0.01800, WD: 0.000080, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 24/60 ---
+  LR: 0.01760, WD: 0.000096, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 42.36%
+  Accuracy test: 99.90%
+
+--- Run 25/60 ---
+  LR: 0.03120, WD: 0.000064, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 26/60 ---
+  LR: 0.00090, WD: 0.000120, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.00%
+  Accuracy test: 72.48%
+
+--- Run 27/60 ---
+  LR: 0.00220, WD: 0.000040, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 5.08%
+  Accuracy test: 99.74%
+
+--- Run 28/60 ---
+  LR: 0.13000, WD: 0.000240, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 29/60 ---
+  LR: 0.18000, WD: 0.000400, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 30/60 ---
+  LR: 0.02200, WD: 0.001200, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 31/60 ---
+  LR: 0.02600, WD: 0.000001, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 32/60 ---
+  LR: 0.01800, WD: 0.000120, Epochs: 3000, Batch: 32
+  Resultado: NO GROKKEADO
+  Accuracy final: 96.44%
+  Accuracy test: 99.98%
+
+--- Run 33/60 ---
+  LR: 0.02200, WD: 0.000080, Epochs: 3000, Batch: 1024
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 34/60 ---
+  LR: 0.02340, WD: 0.000096, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 35/60 ---
+  LR: 0.01584, WD: 0.000077, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 25.78%
+  Accuracy test: 99.89%
+
+--- Run 36/60 ---
+  LR: 0.03432, WD: 0.000077, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 37/60 ---
+  LR: 0.00117, WD: 0.000096, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.00%
+  Accuracy test: 74.17%
+
+--- Run 38/60 ---
+  LR: 0.00198, WD: 0.000048, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.14%
+  Accuracy test: 98.44%
+
+--- Run 39/60 ---
+  LR: 0.14300, WD: 0.000192, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 99.84%
+  Accuracy test: 99.99%
+
+--- Run 40/60 ---
+  LR: 0.23400, WD: 0.000480, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 41/60 ---
+  LR: 0.01980, WD: 0.000960, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 42/60 ---
+  LR: 0.02860, WD: 0.000001, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 87.74%
+  Accuracy test: 99.97%
+
+--- Run 43/60 ---
+  LR: 0.02340, WD: 0.000096, Epochs: 3000, Batch: 32
+  Resultado: NO GROKKEADO
+  Accuracy final: 96.54%
+  Accuracy test: 99.99%
+
+--- Run 44/60 ---
+  LR: 0.01980, WD: 0.000096, Epochs: 3000, Batch: 1024
+  Resultado: NO GROKKEADO
+  Accuracy final: 94.52%
+  Accuracy test: 99.98%
+
+--- Run 45/60 ---
+  LR: 0.01800, WD: 0.000080, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 81.32%
+  Accuracy test: 99.96%
+
+--- Run 46/60 ---
+  LR: 0.01760, WD: 0.000096, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 47/60 ---
+  LR: 0.03120, WD: 0.000064, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 48/60 ---
+  LR: 0.00090, WD: 0.000120, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.00%
+  Accuracy test: 97.58%
+
+--- Run 49/60 ---
+  LR: 0.00220, WD: 0.000040, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 5.62%
+  Accuracy test: 99.62%
+
+--- Run 50/60 ---
+  LR: 0.13000, WD: 0.000240, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 51/60 ---
+  LR: 0.18000, WD: 0.000400, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 88.54%
+  Accuracy test: 99.98%
+
+--- Run 52/60 ---
+  LR: 0.02200, WD: 0.001200, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 53/60 ---
+  LR: 0.02600, WD: 0.000001, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 54/60 ---
+  LR: 0.01800, WD: 0.000120, Epochs: 3000, Batch: 32
+  Resultado: NO GROKKEADO
+  Accuracy final: 14.48%
+  Accuracy test: 99.85%
+
+--- Run 55/60 ---
+  LR: 0.02200, WD: 0.000080, Epochs: 3000, Batch: 1024
+  Resultado: NO GROKKEADO
+  Accuracy final: 99.34%
+  Accuracy test: 99.99%
+
+--- Run 56/60 ---
+  LR: 0.02340, WD: 0.000096, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 57/60 ---
+  LR: 0.01584, WD: 0.000077, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 58/60 ---
+  LR: 0.03432, WD: 0.000077, Epochs: 3000, Batch: 256
+  Resultado: GROKKEADO
+  Accuracy final: 100.00%
+  Accuracy test: 100.00%
+
+--- Run 59/60 ---
+  LR: 0.00117, WD: 0.000096, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 0.00%
+  Accuracy test: 97.25%
+
+--- Run 60/60 ---
+  LR: 0.00198, WD: 0.000048, Epochs: 3000, Batch: 256
+  Resultado: NO GROKKEADO
+  Accuracy final: 2.24%
+  Accuracy test: 99.40%
+
+======================================================================
+RESUMEN DE RUNS BALANCEADOS
+======================================================================
+Total runs: 60
+Grokked: 28
+No grokked: 32
+Ratio: 46.7% / 53.3%
+======================================================================
+
+
+✅ AUC CALCULABLE CON ÉXITO
+   AUC: 1.0000
+   IC 95%: [1.0000, 1.0000]
+✓ Guardado: figure4_roc_balanced_runs.png
+✓ Guardado: experiment_results/figure4b_balanced_runs_summary.png
+
+================================================================================
+  GUARDANDO RESULTADOS
+================================================================================
+
+✓ Guardado: experiment_results/experiment_results.json
+✓ Guardado: experiment_results/EXPERIMENT_SUMMARY.md
+
+================================================================================
+  EXPERIMENTOS COMPLETADOS
+================================================================================
+
+Resultados guardados en: experiment_results
+Archivos generados:
+  - EXPERIMENT_SUMMARY.md
+  - experiment_results.json
+  - figure1b_lc_training.pdf
+  - figure1b_lc_training.png
+  - figure2_pruning_results.pdf
+  - figure2_pruning_results.png
+  - figure3_roc_curves.pdf
+  - figure3_roc_curves.png
+  - figure4_roc_balanced_runs.pdf
+  - figure4_roc_balanced_runs.png
+  - figure4b_balanced_runs_summary.pdf
+  - figure4b_balanced_runs_summary.png
+================================================================================
+
+
+================================================================================
+RESUMEN EJECUTIVO
+================================================================================
+
+Checkpoint verificado:
+  Accuracy: 100.00%
+  LC: 1.000000
+  Slots activos: 7
+
+Protocolo de poda:
+  Sparsity final: 0.00%
+  Accuracy final: 100.00%
+  Cuenca discreta: Alcanzada
+  Razón de parada: delta=100.0000 > threshold=0.1
+
+Experimento LC desde Cero (Punto B):
+  Grokking alcanzado: Sí
+  Época de grokking: 2160
+
+Runs Balanceados (Punto C):
+  Total runs: 60
+  Grokked: 28
+  No grokkeado: 32
+  AUC: 1.0000 (IC 95%: [1.0000, 1.0000])
+
+Análisis ROC/AUC (individual):
+  AUC: Indefinido (Single class - cannot compute ROC/AUC)
+
+================================================================================
