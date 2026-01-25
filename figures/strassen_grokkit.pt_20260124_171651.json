@@ -1,0 +1,55 @@
+{
+  "checkpoint": "checkpoints/strassen_grokkit.pt",
+  "grade": "Cristal \u00d3ptico (\u03ba\u22481, \u03b4<0.01, resiliencia >1e-3)",
+  "purity_index": 2.6021469593048097,
+  "component_scores": {
+    "kappa_score": 0,
+    "delta_score": 0.008587837219238281,
+    "resilience_score": 10.0,
+    "invariance_score": 1.0
+  },
+  "diffraction": {
+    "invariance_ratio": 0.0,
+    "mean_error": 1.1592907240986825,
+    "is_genuine": false
+  },
+  "resilience": {
+    "sigma_1e-05": {
+      "success_rate": 0.0,
+      "final_margin_mean": 0.4957752227783203
+    },
+    "sigma_5e-05": {
+      "success_rate": 0.0,
+      "final_margin_mean": 0.4958287239074707
+    },
+    "sigma_0.0001": {
+      "success_rate": 0.0,
+      "final_margin_mean": 0.49585728645324706
+    },
+    "sigma_0.0005": {
+      "success_rate": 0.0,
+      "final_margin_mean": 0.4956376075744629
+    },
+    "sigma_0.001": {
+      "success_rate": 0.0,
+      "final_margin_mean": 0.4957703471183777
+    },
+    "sigma_0.005": {
+      "success_rate": 0.0,
+      "final_margin_mean": 0.4959571838378906
+    },
+    "sigma_0.01": {
+      "success_rate": 0.0,
+      "final_margin_mean": 0.4978426992893219
+    },
+    "critical_sigma": 0.01
+  },
+  "expansion": {
+    "pass": false,
+    "max_error": 0.49570608139038086
+  },
+  "metrics": {
+    "kappa": 455502397440.0,
+    "delta": 0.49570608139038086
+  }
+}

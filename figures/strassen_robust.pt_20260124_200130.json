@@ -1,0 +1,18 @@
+{
+  "checkpoint": "strassen_robust.pt",
+  "purity_index": 0.8720826774835587,
+  "grade": "Polycrystalline (\u03b4<0.3, generalizes but impure)",
+  "components": {
+    "kappa_score": 1.0,
+    "delta_score": 0.6971337795257568,
+    "resilience_score": 1.0,
+    "invariance_score": 1.0,
+    "lc_score": 0.8645833134651184
+  },
+  "metrics": {
+    "kappa": Infinity,
+    "delta": 0.15143311023712158,
+    "lc": 0.8645833134651184
+  },
+  "verification_passed": false
+}

@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints/strassen_exact.pt",
+  "grade": "Cristal \u00d3ptico (\u03b4<0.01, estructura perfecta)",
+  "purity_index": 0.86875,
+  "component_scores": {
+    "kappa_score": 1.0,
+    "delta_score": 1.0,
+    "resilience_score": 1.0,
+    "invariance_score": 0
+  },
+  "metrics": {
+    "kappa": Infinity,
+    "delta": 0.0,
+    "lc": 0.375
+  },
+  "expansion": {
+    "pass": true,
+    "max_error": 0.0
+  }
+}

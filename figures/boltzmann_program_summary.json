@@ -1,0 +1,123 @@
+{
+  "phase1_molecular": {
+    "crystal": {
+      "n_checkpoints": 3,
+      "entropy": 0.0,
+      "effective_volume": 0.0,
+      "alpha_purity_correlation": 0.0,
+      "mean_alpha": 20.0,
+      "warning": "Low variance data - KDE skipped"
+    },
+    "glass": {
+      "n_checkpoints": 6,
+      "entropy": -698.0263332460969,
+      "effective_volume": 364.35959174164327,
+      "alpha_purity_correlation": 0.99972307087089,
+      "mean_alpha": 0.9065038521026682
+    }
+  },
+  "phase2_entropy": {
+    "individual_results": {
+      "strassen_discrete_final.pt": {
+        "initial_entropy": 6.215255287705799,
+        "final_entropy": 0.30943933993273665,
+        "entropy_drop": 5.905815947773062,
+        "max_production_rate": 0.18551602447958437,
+        "timescale": 32.999999910152056
+      },
+      "strassen_grokked_weights.pt": {
+        "initial_entropy": 5.971387330577794,
+        "final_entropy": 0.29729786927847324,
+        "entropy_drop": 5.67408946129932,
+        "max_production_rate": 0.17823693266274088,
+        "timescale": 32.999999929059975
+      },
+      "strassen_exact.pt": {
+        "initial_entropy": 6.033627071991268,
+        "final_entropy": 0.3003966035394241,
+        "entropy_drop": 5.733230468451844,
+        "max_production_rate": 0.18009469535424394,
+        "timescale": 33.00000022976105
+      }
+    },
+    "scaling_law": {
+      "slope": 0.8250000005747754,
+      "intercept": 16.500000011495523
+    },
+    "mean_timescale": 33.000000022991024,
+    "entropy_exponent": 5.771045292508075
+  },
+  "phase3_extensivity": {
+    "individual_results": {
+      "strassen_discrete_final.pt": {
+        "errors": {
+          "2": 1.4142791826543544e-07,
+          "4": 1.7532400420350314e-07,
+          "8": 3.176005520799663e-07,
+          "16": 7.754686066618888e-07,
+          "32": 1.5174691725405864e-06,
+          "64": 3.6423036817723187e-06
+        },
+        "scaling_exponent": 0.9732037745877604,
+        "purity_factor": 16.741296469295946,
+        "max_size_success": 64
+      },
+      "strassen_grokked_weights.pt": {
+        "errors": {
+          "2": 1.343752700222467e-07,
+          "4": 1.030785412581281e-07,
+          "8": 6.492929855994589e-07,
+          "16": 6.744120355506311e-07,
+          "32": 1.4579409253201447e-06,
+          "64": 3.130559662167798e-06
+        },
+        "scaling_exponent": 0.9780432927579932,
+        "purity_factor": 16.786080261681754,
+        "max_size_success": 64
+      },
+      "strassen_exact.pt": {
+        "errors": {
+          "2": 0.0,
+          "4": 1.9770163817156572e-07,
+          "8": 3.7285951748344814e-07,
+          "16": 8.609628139311098e-07,
+          "32": 1.3518402965928544e-06,
+          "64": 3.2586301585979527e-06
+        },
+        "scaling_exponent": 2.4139369317368926,
+        "purity_factor": 21.419228158283147,
+        "max_size_success": 64
+      }
+    },
+    "phi_alpha_function": {
+      "coefficient": -0.0,
+      "form": "phi(alpha) \u221d exp(--0.00\u00b7alpha)"
+    },
+    "extensivity_verified": "False"
+  },
+  "phase4_quantum": {
+    "individual_results": {
+      "strassen_discrete_final.pt": {
+        "hbar_effective": 175609.62003511935,
+        "symmetry_dimension": 0,
+        "uncertainty_ratio": 1.0,
+        "quantum_classical_transition": false
+      },
+      "strassen_grokked_weights.pt": {
+        "hbar_effective": 175609.62003511935,
+        "symmetry_dimension": 0,
+        "uncertainty_ratio": 1.0,
+        "quantum_classical_transition": false
+      },
+      "strassen_exact.pt": {
+        "hbar_effective": 175609.62003511935,
+        "symmetry_dimension": 0,
+        "uncertainty_ratio": 1.0,
+        "quantum_classical_transition": false
+      }
+    },
+    "hbar_scaling_law": "hbar_eff(alpha) \u221d exp(--0.60\u00b7alpha)",
+    "quantum_regime_count": 3,
+    "classical_regime_count": 0
+  }
+}

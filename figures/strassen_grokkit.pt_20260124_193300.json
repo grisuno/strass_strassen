@@ -1,0 +1,18 @@
+{
+  "checkpoint": "strassen_grokkit.pt",
+  "purity_index": 0.5929843276739121,
+  "grade": "Amorphous Glass (\u03b4<0.5, local minimum)",
+  "components": {
+    "kappa_score": 1.0,
+    "delta_score": 0.0006899833679199219,
+    "resilience_score": 1.0,
+    "invariance_score": 1.0,
+    "lc_score": 0.8541666865348816
+  },
+  "metrics": {
+    "kappa": Infinity,
+    "delta": 0.49965500831604004,
+    "lc": 0.8541666865348816
+  },
+  "verification_passed": false
+}

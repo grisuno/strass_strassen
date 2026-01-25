@@ -1,0 +1,31 @@
+{
+  "individual_results": {
+    "strassen_discrete_final.pt": {
+      "initial_entropy": 6.215255287705799,
+      "final_entropy": 0.30943933993273665,
+      "entropy_drop": 5.905815947773062,
+      "max_production_rate": 0.18551602447958437,
+      "timescale": 32.999999910152056
+    },
+    "strassen_grokked_weights.pt": {
+      "initial_entropy": 5.971387330577794,
+      "final_entropy": 0.29729786927847324,
+      "entropy_drop": 5.67408946129932,
+      "max_production_rate": 0.17823693266274088,
+      "timescale": 32.999999929059975
+    },
+    "strassen_exact.pt": {
+      "initial_entropy": 6.033627071991268,
+      "final_entropy": 0.3003966035394241,
+      "entropy_drop": 5.733230468451844,
+      "max_production_rate": 0.18009469535424394,
+      "timescale": 33.00000022976105
+    }
+  },
+  "scaling_law": {
+    "slope": 0.8250000005747754,
+    "intercept": 16.500000011495523
+  },
+  "mean_timescale": 33.000000022991024,
+  "entropy_exponent": 5.771045292508075
+}

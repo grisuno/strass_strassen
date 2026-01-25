@@ -1,0 +1,25 @@
+{
+  "individual_results": {
+    "strassen_discrete_final.pt": {
+      "hbar_effective": 175609.62003511935,
+      "symmetry_dimension": 0,
+      "uncertainty_ratio": 1.0,
+      "quantum_classical_transition": false
+    },
+    "strassen_grokked_weights.pt": {
+      "hbar_effective": 175609.62003511935,
+      "symmetry_dimension": 0,
+      "uncertainty_ratio": 1.0,
+      "quantum_classical_transition": false
+    },
+    "strassen_exact.pt": {
+      "hbar_effective": 175609.62003511935,
+      "symmetry_dimension": 0,
+      "uncertainty_ratio": 1.0,
+      "quantum_classical_transition": false
+    }
+  },
+  "hbar_scaling_law": "hbar_eff(alpha) \u221d exp(--0.60\u00b7alpha)",
+  "quantum_regime_count": 3,
+  "classical_regime_count": 0
+}

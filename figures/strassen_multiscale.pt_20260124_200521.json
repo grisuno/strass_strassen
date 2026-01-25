@@ -1,0 +1,18 @@
+{
+  "checkpoint": "strassen_multiscale.pt",
+  "purity_index": 0.5934826761484147,
+  "grade": "Amorphous Glass (\u03b4<0.5, local minimum)",
+  "components": {
+    "kappa_score": 1.0,
+    "delta_score": 0.0006337761878967285,
+    "resilience_score": 1.0,
+    "invariance_score": 1.0,
+    "lc_score": 0.8645833134651184
+  },
+  "metrics": {
+    "kappa": Infinity,
+    "delta": 0.49968311190605164,
+    "lc": 0.8645833134651184
+  },
+  "verification_passed": false
+}

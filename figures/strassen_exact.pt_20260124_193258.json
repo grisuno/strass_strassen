@@ -1,0 +1,18 @@
+{
+  "checkpoint": "strassen_exact.pt",
+  "purity_index": 0.86875,
+  "grade": "Optical Crystal (\u03b4<0.01, perfect structure)",
+  "components": {
+    "kappa_score": 1.0,
+    "delta_score": 1.0,
+    "resilience_score": 1.0,
+    "invariance_score": 0.0,
+    "lc_score": 0.375
+  },
+  "metrics": {
+    "kappa": Infinity,
+    "delta": 0.0,
+    "lc": 0.375
+  },
+  "verification_passed": true
+}

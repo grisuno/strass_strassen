@@ -1,0 +1,18 @@
+{
+  "checkpoint": "strassen_float64.pt",
+  "purity_index": 0.6049270153045654,
+  "grade": "Amorphous Glass (\u03b4<0.5, local minimum)",
+  "components": {
+    "kappa_score": 1.0,
+    "delta_score": 0.027942538261413574,
+    "resilience_score": 1.0,
+    "invariance_score": 1.0,
+    "lc_score": 0.875
+  },
+  "metrics": {
+    "kappa": Infinity,
+    "delta": 0.4860287308692932,
+    "lc": 0.875
+  },
+  "verification_passed": false
+}
