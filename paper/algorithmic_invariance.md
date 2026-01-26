@@ -911,7 +911,7 @@ I attempted to test whether the protocol works across different precision format
 
 The GNS measurements have been successfully updated, and the current values for T_{eff} and kappa are now consistent with theoretical expectations. Previously, a system issue resulted in a reported GNS of 0.0000 across all batch sizes; however, the current data reflects a realistic noise-to-signal ratio in the gradients.Key Observations:Inverse Correlation: There is a clear monotonic decrease in the GNS as the Batch Size (B) increases. The average GNS drops from 11.11 at B=8 to 1.99 at B=512, indicating that larger batches significantly smooth out the stochastic noise inherent in the training process.Stochastic Stability: While individual seeds show expected variance (e.g., B=16 ranging from 4.90 to 14.63), the mean values provide a stable metric for determining the "critical batch size."Optimization Efficiency: The convergence of GNS values at B=512 suggests that increasing the batch size further may yield diminishing returns in terms of gradient efficiency, as the noise scale is approaching a lower baseline.This correction confirms that the underlying dynamics of the model's optimization landscape are now being captured accurately, providing a reliable foundation for scaling the training infrastructure.
 
-### Resultados de GNS por Batch Size y Seed
+### Results of GNS by Batch Size and Seed
 
 | ID | Batch Size (B) | Seed | GNS |
 | :--- | :---: | :---: | :--- |
