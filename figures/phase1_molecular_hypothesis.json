@@ -8,10 +8,10 @@
     "warning": "Low variance data - KDE skipped"
   },
   "glass": {
-    "n_checkpoints": 6,
-    "entropy": -698.0263332460969,
-    "effective_volume": 364.35959174164327,
-    "alpha_purity_correlation": 0.99972307087089,
-    "mean_alpha": 0.9065038521026682
+    "n_checkpoints": 7,
+    "entropy": 1.945910148355313,
+    "effective_volume": 29417984229376.0,
+    "alpha_purity_correlation": 0.9997235229669591,
+    "mean_alpha": 0.8774141839434223
   }
 }

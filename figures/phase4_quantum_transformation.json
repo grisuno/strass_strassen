@@ -19,7 +19,7 @@
       "quantum_classical_transition": false
     }
   },
-  "hbar_scaling_law": "hbar_eff(alpha) \u221d exp(--0.60\u00b7alpha)",
+  "hbar_scaling_law": "hbar_eff(alpha) proportional to exp(--0.60*alpha)",
   "quantum_regime_count": 3,
   "classical_regime_count": 0
 }

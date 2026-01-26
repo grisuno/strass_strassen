@@ -1,0 +1,319 @@
+{
+  "individual_results": {
+    "strassen_robust.pt": {
+      "effective_temperature": 1.0014446871764449e-07,
+      "specific_heat": 3170152960.0,
+      "is_crystallizing": true,
+      "hbar_algorithmic": 2.828674145160791,
+      "mutual_information": 0.006951177958399057,
+      "ricci_curvature": 190443.78125,
+      "carnot_efficiency": {
+        "efficiency": 202620359.39421535,
+        "work_done": 1.8876112681165098,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.9994705104131899,
+        "relative_efficiency": 202727701.5808876
+      },
+      "equation_of_state": {
+        "temperature_effective": 1.0014446871764449e-07,
+        "temperature_critical": 0.0003891440738815414,
+        "deviation_from_equilibrium": -0.00038904392941282377,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 2.0998516065753314,
+        "gibbs_free_energy": 183.97784642976657,
+        "is_stable": "False"
+      },
+      "phase_classification": "Critical Point (Phase Transition)"
+    },
+    "strassen_result.pt": {
+      "effective_temperature": 3.5162485716080244e-14,
+      "specific_heat": 5.232510117466477e-14,
+      "is_crystallizing": false,
+      "hbar_algorithmic": 95.4626939381776,
+      "mutual_information": 7.710455247433856e-05,
+      "ricci_curvature": 0.0,
+      "carnot_efficiency": {
+        "efficiency": 75849978.14900306,
+        "work_done": 0.7066183964361124,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.9985868089283201,
+        "relative_efficiency": 75957320.34835234
+      },
+      "equation_of_state": {
+        "temperature_effective": 3.5162485716080244e-14,
+        "temperature_critical": 0.000702359991341974,
+        "deviation_from_equilibrium": -0.0007023599913068114,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 5.968341894666812e-12,
+        "gibbs_free_energy": 67.8427680949103,
+        "is_stable": "False"
+      },
+      "phase_classification": "Unknown Phase"
+    },
+    "strassen_discrete_final.pt": {
+      "effective_temperature": 4.97461225695144e-17,
+      "specific_heat": 2.3869555440712343e-19,
+      "is_crystallizing": false,
+      "hbar_algorithmic": 38.151295046056624,
+      "mutual_information": 0.006286880001425743,
+      "ricci_curvature": 0.0,
+      "carnot_efficiency": {
+        "efficiency": 2146844139.1155005,
+        "work_done": 20.0,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.999950002499875,
+        "relative_efficiency": 2146951481.1077504
+      },
+      "equation_of_state": {
+        "temperature_effective": 4.97461225695144e-17,
+        "temperature_critical": 4.5399929762484855e-08,
+        "deviation_from_equilibrium": -4.5399929712738736e-08,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 2.049417451791861e-14,
+        "gibbs_free_energy": 1920.6035404801369,
+        "is_stable": "False"
+      },
+      "phase_classification": "Crystalline (Low T, High Order)"
+    },
+    "strassen_float64.pt": {
+      "effective_temperature": 1.4432549599874278e-09,
+      "specific_heat": 0.00018832465866580606,
+      "is_crystallizing": false,
+      "hbar_algorithmic": 25.944749116035496,
+      "mutual_information": 0.0002896730729844421,
+      "ricci_curvature": 15465307.0,
+      "carnot_efficiency": {
+        "efficiency": 77446064.81472483,
+        "work_done": 0.7214875398139765,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.9986158930848033,
+        "relative_efficiency": 77553407.01391453
+      },
+      "equation_of_state": {
+        "temperature_effective": 1.4432549599874278e-09,
+        "temperature_critical": 0.0006971576083421124,
+        "deviation_from_equilibrium": -0.0006971561650871524,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 3.1679832094833123e-07,
+        "gibbs_free_energy": 69.29061275394658,
+        "is_stable": "False"
+      },
+      "phase_classification": "Unknown Phase"
+    },
+    "strassen_coefficients.pt": {
+      "effective_temperature": 4.674960152328822e-08,
+      "specific_heat": 1.2851418256759644,
+      "is_crystallizing": true,
+      "hbar_algorithmic": 9.807265413147594,
+      "mutual_information": 0.0007814012933522463,
+      "ricci_curvature": 298262.3125,
+      "carnot_efficiency": {
+        "efficiency": 78970303.61792493,
+        "work_done": 0.7356873485045885,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.9986425720462963,
+        "relative_efficiency": 79077645.8169622
+      },
+      "equation_of_state": {
+        "temperature_effective": 4.674960152328822e-08,
+        "temperature_critical": 0.0006922253858819882,
+        "deviation_from_equilibrium": -0.000692178636280465,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 3.90809887929182e-05,
+        "gibbs_free_energy": 70.70103906159112,
+        "is_stable": "False"
+      },
+      "phase_classification": "Critical Point (Phase Transition)"
+    },
+    "strassen_multiscale.pt": {
+      "effective_temperature": 6.497224425139336e-10,
+      "specific_heat": 9.058842260856181e-05,
+      "is_crystallizing": false,
+      "hbar_algorithmic": 49.461171126624315,
+      "mutual_information": 0.00014611233200412244,
+      "ricci_curvature": 23012882.0,
+      "carnot_efficiency": {
+        "efficiency": 74472000.60850853,
+        "work_done": 0.6937811576688654,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.9985606978701679,
+        "relative_efficiency": 74579342.80799562
+      },
+      "equation_of_state": {
+        "temperature_effective": 6.497224425139336e-10,
+        "temperature_critical": 0.000706882671952038,
+        "deviation_from_equilibrium": -0.0007068820222295955,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 2.46414284962126e-07,
+        "gibbs_free_energy": 66.61701816649776,
+        "is_stable": "False"
+      },
+      "phase_classification": "Unknown Phase"
+    },
+    "strassen_grokkit.pt": {
+      "effective_temperature": 2.9787205315442034e-16,
+      "specific_heat": 9.26262126121977e-18,
+      "is_crystallizing": false,
+      "hbar_algorithmic": 2.0545174678509124,
+      "mutual_information": 0.003517844481393695,
+      "ricci_curvature": 0.0,
+      "carnot_efficiency": {
+        "efficiency": 74478038.00729273,
+        "work_done": 0.693837402075939,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.9985608143761227,
+        "relative_efficiency": 74585380.20677921
+      },
+      "equation_of_state": {
+        "temperature_effective": 2.9787205315442034e-16,
+        "temperature_critical": 0.0007068627931331802,
+        "deviation_from_equilibrium": -0.0007068627931328823,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 7.334144829085303e-14,
+        "gibbs_free_energy": 66.94610366950401,
+        "is_stable": "False"
+      },
+      "phase_classification": "Unknown Phase"
+    },
+    "strassen_grokked_weights.pt": {
+      "effective_temperature": 6.902562146170429e-17,
+      "specific_heat": 1.2079399135221587e-18,
+      "is_crystallizing": false,
+      "hbar_algorithmic": 198.11659309812612,
+      "mutual_information": 0.0012106639333069324,
+      "ricci_curvature": 0.0,
+      "carnot_efficiency": {
+        "efficiency": 2146844139.1155005,
+        "work_done": 20.0,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.999950002499875,
+        "relative_efficiency": 2146951481.1077504
+      },
+      "equation_of_state": {
+        "temperature_effective": 6.902562146170429e-17,
+        "temperature_critical": 4.5399929762484855e-08,
+        "deviation_from_equilibrium": -4.5399929693459233e-08,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 2.3655647487383632e-14,
+        "gibbs_free_energy": 1920.1162237375975,
+        "is_stable": "False"
+      },
+      "phase_classification": "Crystalline (Low T, High Order)"
+    },
+    "strassen_exact.pt": {
+      "effective_temperature": 1.0496704921105187e-16,
+      "specific_heat": 5.425073870198806e-19,
+      "is_crystallizing": false,
+      "hbar_algorithmic": 49.65293297277851,
+      "mutual_information": 0.004830582998692989,
+      "ricci_curvature": 0.0,
+      "carnot_efficiency": {
+        "efficiency": 2146844139.1155005,
+        "work_done": 20.0,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.999950002499875,
+        "relative_efficiency": 2146951481.1077504
+      },
+      "equation_of_state": {
+        "temperature_effective": 1.0496704921105187e-16,
+        "temperature_critical": 4.5399929762484855e-08,
+        "deviation_from_equilibrium": -4.5399929657517806e-08,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 2.263227004674432e-14,
+        "gibbs_free_energy": 1920.4637359678745,
+        "is_stable": "False"
+      },
+      "phase_classification": "Crystalline (Low T, High Order)"
+    },
+    "strassen_discovered.pt": {
+      "effective_temperature": 8.32668665680103e-05,
+      "specific_heat": 45086.82421875,
+      "is_crystallizing": true,
+      "hbar_algorithmic": 0.18351113323871487,
+      "mutual_information": 0.03989745303988457,
+      "ricci_curvature": 49289482240.0,
+      "carnot_efficiency": {
+        "efficiency": 75448279.83984174,
+        "work_done": 0.7028761749879655,
+        "heat_dissipated": 9.216e-09,
+        "carnot_limit": 0.9985792955699672,
+        "relative_efficiency": 75555622.0392312
+      },
+      "equation_of_state": {
+        "temperature_effective": 8.32668665680103e-05,
+        "temperature_critical": 0.0007036754149217366,
+        "deviation_from_equilibrium": -0.0006204085483537263,
+        "phase_classification": "subcritical_crystal",
+        "algorithmic_pressure": Infinity,
+        "equation_form": "T_c(\u03b1) = 0.001 * exp(-0.5 * \u03b1)",
+        "is_equilibrium": "False"
+      },
+      "thermodynamic_potential": {
+        "helmholtz_free_energy": 0.03538351322761313,
+        "gibbs_free_energy": 71.34165180390123,
+        "is_stable": "False"
+      },
+      "phase_classification": "Critical Point (Phase Transition)"
+    }
+  },
+  "critical_exponents": {
+    "alpha_exponent": 0.0,
+    "nu_exponent": 0.0,
+    "z_exponent": 0.0,
+    "critical_temperature": 1.0014446871764449e-07
+  },
+  "extensivity_analysis": {
+    "is_extensive": false,
+    "linearity_score": 0.31662094255841344,
+    "slope": -1.7180504177740965,
+    "intercept": 2.835087368997142
+  },
+  "phase_transition_detected": true,
+  "mean_effective_temperature": 8.341585365133783e-06,
+  "critical_temperature_estimate": 1.0014446871764449e-07
+}

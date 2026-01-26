@@ -1,0 +1,121 @@
+{
+  "individual_results": {
+    "strassen_robust.pt": {
+      "magnitude": 0.129425048828125,
+      "is_radiating": false,
+      "energy_distribution": {
+        "U_flow": 0.31137120723724365,
+        "V_flow": 0.23587311804294586,
+        "W_flow": 0.23650123178958893
+      },
+      "field_orthogonality": 2.834284543991089,
+      "alpha_correlation": 1.8876112681165098
+    },
+    "strassen_result.pt": {
+      "magnitude": 3.545478105545044,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.6795706748962402,
+        "V_flow": 3.56864857673645,
+        "W_flow": 3.64475417137146
+      },
+      "field_orthogonality": 5.637073040008545,
+      "alpha_correlation": 0.7066183964361124
+    },
+    "strassen_discrete_final.pt": {
+      "magnitude": 4.569464206695557,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.464101552963257,
+        "V_flow": 3.464101552963257,
+        "W_flow": 3.464101552963257
+      },
+      "field_orthogonality": 7.6157732009887695,
+      "alpha_correlation": 20.0
+    },
+    "strassen_float64.pt": {
+      "magnitude": 3.838172197341919,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.391530990600586,
+        "V_flow": 3.516974925994873,
+        "W_flow": 3.0935583114624023
+      },
+      "field_orthogonality": 6.637129306793213,
+      "alpha_correlation": 0.7214875398139765
+    },
+    "strassen_coefficients.pt": {
+      "magnitude": 5.246987819671631,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.666783571243286,
+        "V_flow": 3.847480058670044,
+        "W_flow": 4.4818434715271
+      },
+      "field_orthogonality": 7.547059059143066,
+      "alpha_correlation": 0.7356873485045885
+    },
+    "strassen_multiscale.pt": {
+      "magnitude": 3.2701611518859863,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.299896717071533,
+        "V_flow": 3.3425917625427246,
+        "W_flow": 3.1877522468566895
+      },
+      "field_orthogonality": 5.760754585266113,
+      "alpha_correlation": 0.6937811576688654
+    },
+    "strassen_grokkit.pt": {
+      "magnitude": 4.776890754699707,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.8826160430908203,
+        "V_flow": 3.7204182147979736,
+        "W_flow": 3.0413949489593506
+      },
+      "field_orthogonality": 7.73223876953125,
+      "alpha_correlation": 0.693837402075939
+    },
+    "strassen_grokked_weights.pt": {
+      "magnitude": 4.569464206695557,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.464101552963257,
+        "V_flow": 3.464101552963257,
+        "W_flow": 3.464101552963257
+      },
+      "field_orthogonality": 7.6157732009887695,
+      "alpha_correlation": 20.0
+    },
+    "strassen_exact.pt": {
+      "magnitude": 4.569464206695557,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.464101552963257,
+        "V_flow": 3.464101552963257,
+        "W_flow": 3.464101552963257
+      },
+      "field_orthogonality": 7.6157732009887695,
+      "alpha_correlation": 20.0
+    },
+    "strassen_discovered.pt": {
+      "magnitude": 3.3901031017303467,
+      "is_radiating": true,
+      "energy_distribution": {
+        "U_flow": 3.5103790760040283,
+        "V_flow": 3.324521064758301,
+        "W_flow": 3.2153942584991455
+      },
+      "field_orthogonality": 5.838590621948242,
+      "alpha_correlation": 0.7028761749879655
+    }
+  },
+  "statistics": {
+    "mean_magnitude": 3.790561079978943,
+    "std_magnitude": 1.3715512209429213,
+    "radiating_percentage": 90.0,
+    "max_magnitude": 5.246987819671631,
+    "min_magnitude": 0.129425048828125
+  }
+}
