@@ -6,8 +6,6 @@
 
 ---
 
----
-
 ## Abstract
 
 This paper presents what I learned from attempting to induce Strassen matrix multiplication structure in neural networks, and why I now view this work as materials engineering rather than theory.
