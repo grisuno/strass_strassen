@@ -1425,6 +1425,19 @@ Extensivity errors grow like log(N) with exponent 0.97–2.41 depending on which
 I saved the plots, the json files, and the terminal log. Nothing here is fitted post-hoc; every curve is the first run of the script. If you rerun it you will get the same numbers except for the last digit that floats with torch version.
 These measurements are not “laws of nature”; they are constants of this algorithm under these training conditions. They tell you how long to train, how close the weights must end up, and how far the structure will stretch without retraining. That is all I claim.
 
+## Appendix K: What the Superposition Analysis Actually Measured
+
+I ran the sparse autoencoder analysis on eighty checkpoints to see whether the crystal states look different on the inside, not just at the weight level. I wanted to know if learning Strassen changes how the network compresses information, or if the discretization is only skin deep.
+The numbers show that crystallization reduces superposition, not increases it. My certified crystal checkpoint strassen_exact.pt has ψ = 1.817 and F = 12.7 effective features. The glass checkpoints average ψ ≈ 1.92 and F ≈ 15.4. The robust model that survived 50% pruning shows ψ = 1.071 and F = 8.6, approaching the theoretical floor of seven slots plus bias.
+This contradicts my initial intuition. I expected the crystal to be more complex, densely packed with algorithmic structure. Instead, the data shows that when the network finds the Strassen solution, it exits the lossy compression regime described in Bereska et al. [3]. The glass states remain in a high entropy soup where features overlap heavily to minimize loss. The crystal state abandons this compression in favor of a factorized representation where each slot maps to one Strassen product with minimal interference.
+
+The transition is binary. There are no checkpoints with ψ = 1.85 or F = 14. You are either glass (high superposition, high entropy) or crystal (low superposition, zero entropy). This mirrors the kappa transition I reported in the main text, but viewed from the geometry of internal representations rather than gradient covariance.
+The pruned robust model is the smoking gun. At ψ = 1.071, it sits just above the theoretical minimum, suggesting that pruning removes the superposed dimensions while leaving the algorithmic core intact. The network does not need those extra dimensions to compute Strassen; it only needed them during training to search the space.
+I do not know why the crystal phase has lower SAE entropy. I cannot prove that low superposition causes discretization, or that discretization causes low superposition. I only know that when δ hits zero, ψ drops to 1.8 and F collapses to 12.7. The correlation is perfect in my dataset, but that does not imply causation.
+What I can say is this: the Strassen algorithm occupies a state in weight space where information is not compressed lossily. It is a low entropy attractor that the network finds only when kappa equals one and the training noise geometry is exactly right. Once there, the representation is rigid enough to survive pruning up to 50% sparsity, as measured by the psi metric dropping toward unity.
+The glass states generalize on the test set but remain in the superposed regime. They have not found the algorithm; they have found a compressed approximation that works until you try to expand it or prune it. The SAE metrics distinguish these two outcomes with the same sharp threshold that delta provides.
+
+I once mistook the glass for the crystal, believing that partial order and moderate complexity marked the path to algorithmic understanding; I now measure the truth in the collapse knowing that genuine grokking is not the accumulation of structure, but its annihilation into an exact, fragile, zero-entropy state where local complexity vanishes and only the irreducible algorithm remains.
 
 ---
 
