@@ -3,7 +3,7 @@
 <a herf="https://doi.org/10.5281/zenodo.18072858" target="_blank"><img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/8cb513de-461d-4122-827c-e3f9528df058" /></a> [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 
-**Author:** grisun0
+**Author:** Iscomeback, Gris ( grisun0 )
 
 ---
 
@@ -1212,7 +1212,9 @@ The expansion operator T is unique for a given coefficient ordering because Stra
 
 Repository: https://github.com/grisuno/strass_strassen
 
-DOI: https://doi.org/10.5281/zenodo.18072858
+DOI: https://zenodo.org/records/18407905
+
+DOI: https://zenodo.org/records/18407921
 
 Reproduction:
 
