@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "checkpoint": "checkpoints/bs32_seed2.pt",
+    "checkpoint_name": "bs32_seed2.pt",
+    "timestamp": "2026-01-29T13:28:40.564960",
+    "device": "cpu",
+    "config": {
+      "hidden_slots": 8,
+      "target_slots": 7,
+      "matrix_size": 2
+    }
+  },
+  "crystallography": {
+    "metrics": {
+      "kappa": 58607095808.0,
+      "delta": 0.4837152361869812,
+      "lc": 0.9895833134651184,
+      "lambda_effective": 0.011913810585755738
+    },
+    "diffraction": {
+      "invariance_ratio": 0.0,
+      "mean_error": 2.418854296207428,
+      "max_error": 4.927175998687744,
+      "is_genuine": false,
+      "invariant_count": 0,
+      "total_samples": 50
+    },
+    "resilience": {
+      "sigma_1e-05": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4835681438446045,
+        "final_margin_std": 2.013548297271196e-05,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_5e-05": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.48359882831573486,
+        "final_margin_std": 4.421527027330358e-05,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.0001": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.48354817628860475,
+        "final_margin_std": 0.00010849263180504252,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.0005": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.48344831466674804,
+        "final_margin_std": 0.00031076365437789376,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.001": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.48382065296173093,
+        "final_margin_std": 0.0010106960282039203,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.005": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.47997639179229734,
+        "final_margin_std": 0.0028928640959210777,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.01": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4867940306663513,
+        "final_margin_std": 0.002210147557830282,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "critical_sigma": 0.01
+    },
+    "purity": {
+      "index": 0.312506976723671,
+      "grade": "Amorphous Glass",
+      "component_scores": {
+        "kappa_score": 0.0,
+        "delta_score": 0.0325695276260376,
+        "resilience_score": 1.0,
+        "invariance_score": 1.0,
+        "lc_score": 0.9895833134651184
+      },
+      "weights": {
+        "kappa": 0.3,
+        "delta": 0.4,
+        "resilience": 0.15,
+        "invariance": 0.1,
+        "lc": 0.05
+      }
+    }
+  },
+  "planck_physics": {
+    "h_bar": {
+      "value": 17.2653265662767,
+      "dimensionless": 0.29993025340777796,
+      "regime": "UNCONSTRAINED",
+      "methods": {
+        "uncertainty": 0.0055751970409019715,
+        "action": 57.40400500404791,
+        "conductance": 0.0,
+        "information": 11.651726064017977
+      },
+      "weights": {
+        "uncertainty": 0.25,
+        "action": 0.25,
+        "conductance": 0.25,
+        "information": 0.25
+      }
+    },
+    "derived_constants": {
+      "c_effective_m_s": 4.908167093068438e+43,
+      "m_planck_kg": 3.5632328742170684e+27,
+      "l_planck_m": 9.872138767701741e-71,
+      "t_planck_s": 2.011369739559942e-114,
+      "T_planck_K": 6.2172682033439785e+137
+    },
+    "universe_comparison": {
+      "h_bar_ratio": 1.6371883154807178e+35,
+      "orders_of_magnitude": 35.214098636449435,
+      "m_planck_vs_solar_mass": 0.0017919470116305844
+    },
+    "inputs": {
+      "lambda": 0.011913810585755738,
+      "delta": 0.4837152361869812,
+      "alpha": 0.0,
+      "mse": 1.0,
+      "val_acc": 0.0,
+      "kappa": 58607095808.0,
+      "lc": 0.9895833134651184
+    }
+  },
+  "training_info": {
+    "mse": 1.0,
+    "val_acc": 0.0,
+    "alpha": 0.0,
+    "epoch": 0
+  }
+}

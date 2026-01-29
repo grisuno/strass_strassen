@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "checkpoint": "checkpoints/bs32_seed5.pt",
+    "checkpoint_name": "bs32_seed5.pt",
+    "timestamp": "2026-01-29T13:28:42.203143",
+    "device": "cpu",
+    "config": {
+      "hidden_slots": 8,
+      "target_slots": 7,
+      "matrix_size": 2
+    }
+  },
+  "crystallography": {
+    "metrics": {
+      "kappa": 185627295744.0,
+      "delta": 0.4988066852092743,
+      "lc": 1.0,
+      "lambda_effective": 0.01198203232123681
+    },
+    "diffraction": {
+      "invariance_ratio": 0.0,
+      "mean_error": 2.700531404018402,
+      "max_error": 11.225500106811523,
+      "is_genuine": false,
+      "invariant_count": 0,
+      "total_samples": 50
+    },
+    "resilience": {
+      "sigma_1e-05": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.49882141351699827,
+        "final_margin_std": 7.040839983551449e-05,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_5e-05": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4988045573234558,
+        "final_margin_std": 6.02672894274886e-05,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.0001": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.49875659942626954,
+        "final_margin_std": 0.00010853893150088425,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.0005": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.49864051938056947,
+        "final_margin_std": 0.0004562244100719943,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.001": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4984487771987915,
+        "final_margin_std": 0.0009021035970273196,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.005": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4972467064857483,
+        "final_margin_std": 0.0020482269054133383,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.01": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4966362059116364,
+        "final_margin_std": 0.0027250784541983683,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "critical_sigma": 0.01
+    },
+    "purity": {
+      "index": 0.3009546518325806,
+      "grade": "Amorphous Glass",
+      "component_scores": {
+        "kappa_score": 0.0,
+        "delta_score": 0.002386629581451416,
+        "resilience_score": 1.0,
+        "invariance_score": 1.0,
+        "lc_score": 1.0
+      },
+      "weights": {
+        "kappa": 0.3,
+        "delta": 0.4,
+        "resilience": 0.15,
+        "invariance": 0.1,
+        "lc": 0.05
+      }
+    }
+  },
+  "planck_physics": {
+    "h_bar": {
+      "value": 17.21398792793208,
+      "dimensionless": 0.29989337313210357,
+      "regime": "UNCONSTRAINED",
+      "methods": {
+        "uncertainty": 0.005962453612667232,
+        "action": 57.22923766680646,
+        "conductance": 0.0,
+        "information": 11.620751591309192
+      },
+      "weights": {
+        "uncertainty": 0.25,
+        "action": 0.25,
+        "conductance": 0.25,
+        "information": 0.25
+      }
+    },
+    "derived_constants": {
+      "c_effective_m_s": 4.893572604261134e+43,
+      "m_planck_kg": 3.5526375620945406e+27,
+      "l_planck_m": 9.901581228333451e-71,
+      "t_planck_s": 2.0233849641285667e-114,
+      "T_planck_K": 6.161971608757933e+137
+    },
+    "universe_comparison": {
+      "h_bar_ratio": 1.6323201180268295e+35,
+      "orders_of_magnitude": 35.21280533325327,
+      "m_planck_vs_solar_mass": 0.0017866186374924141
+    },
+    "inputs": {
+      "lambda": 0.01198203232123681,
+      "delta": 0.4988066852092743,
+      "alpha": 0.0,
+      "mse": 1.0,
+      "val_acc": 0.0,
+      "kappa": 185627295744.0,
+      "lc": 1.0
+    }
+  },
+  "training_info": {
+    "mse": 1.0,
+    "val_acc": 0.0,
+    "alpha": 0.0,
+    "epoch": 0
+  }
+}

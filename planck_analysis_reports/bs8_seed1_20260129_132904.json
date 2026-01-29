@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "checkpoint": "checkpoints/bs8_seed1.pt",
+    "checkpoint_name": "bs8_seed1.pt",
+    "timestamp": "2026-01-29T13:28:56.242621",
+    "device": "cpu",
+    "config": {
+      "hidden_slots": 8,
+      "target_slots": 7,
+      "matrix_size": 2
+    }
+  },
+  "crystallography": {
+    "metrics": {
+      "kappa": 229148655616.0,
+      "delta": 0.4987724721431732,
+      "lc": 0.96875,
+      "lambda_effective": 0.01227320384860292
+    },
+    "diffraction": {
+      "invariance_ratio": 0.0,
+      "mean_error": 2.3570960760116577,
+      "max_error": 4.898417949676514,
+      "is_genuine": false,
+      "invariant_count": 0,
+      "total_samples": 50
+    },
+    "resilience": {
+      "sigma_1e-05": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.49863027930259707,
+        "final_margin_std": 3.2799832169355196e-05,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_5e-05": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4985842168331146,
+        "final_margin_std": 5.8228376331094595e-05,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.0001": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.4986873149871826,
+        "final_margin_std": 0.00016533466341044466,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.0005": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.49832159876823423,
+        "final_margin_std": 0.0004490339677225223,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.001": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.49845444560050967,
+        "final_margin_std": 0.00020661749012437655,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.005": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.498282390832901,
+        "final_margin_std": 0.001072117245606982,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "sigma_0.01": {
+        "success_rate": 0.0,
+        "final_margin_mean": 0.49738473892211915,
+        "final_margin_std": 0.00308153441097205,
+        "recovery_epochs_mean": 30.0,
+        "recovery_epochs_std": 0.0
+      },
+      "critical_sigma": 0.01
+    },
+    "purity": {
+      "index": 0.2994195222854614,
+      "grade": "Amorphous Glass",
+      "component_scores": {
+        "kappa_score": 0.0,
+        "delta_score": 0.0024550557136535645,
+        "resilience_score": 1.0,
+        "invariance_score": 1.0,
+        "lc_score": 0.96875
+      },
+      "weights": {
+        "kappa": 0.3,
+        "delta": 0.4,
+        "resilience": 0.15,
+        "invariance": 0.1,
+        "lc": 0.05
+      }
+    }
+  },
+  "planck_physics": {
+    "h_bar": {
+      "value": 17.00780719135221,
+      "dimensionless": 0.2998799496588593,
+      "regime": "UNCONSTRAINED",
+      "methods": {
+        "uncertainty": 0.0061065075122000365,
+        "action": 56.54221984314404,
+        "conductance": 0.0,
+        "information": 11.482902414752598
+      },
+      "weights": {
+        "uncertainty": 0.25,
+        "action": 0.25,
+        "conductance": 0.25,
+        "information": 0.25
+      }
+    },
+    "derived_constants": {
+      "c_effective_m_s": 4.834959782625743e+43,
+      "m_planck_kg": 3.510085805208188e+27,
+      "l_planck_m": 1.0021615239067137e-70,
+      "t_planck_s": 2.072740144619084e-114,
+      "T_planck_K": 5.943197768869111e+137
+    },
+    "universe_comparison": {
+      "h_bar_ratio": 1.6127689852110102e+35,
+      "orders_of_magnitude": 35.20757216302856,
+      "m_planck_vs_solar_mass": 0.0017652193924012874
+    },
+    "inputs": {
+      "lambda": 0.01227320384860292,
+      "delta": 0.4987724721431732,
+      "alpha": 0.0,
+      "mse": 1.0,
+      "val_acc": 0.0,
+      "kappa": 229148655616.0,
+      "lc": 0.96875
+    }
+  },
+  "training_info": {
+    "mse": 1.0,
+    "val_acc": 0.0,
+    "alpha": 0.0,
+    "epoch": 0
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "timestamp": "2026-01-29T13:29:04.632464",
+  "total_checkpoints": 79,
+  "summary_statistics": {
+    "purity_index": {
+      "mean": 0.33621379567098003,
+      "std": 0.11883277877027836,
+      "min": 0.2985815197229385,
+      "max": 0.86875
+    },
+    "delta": {
+      "mean": 0.47076156584522394,
+      "std": 0.10122521354178088,
+      "min": 0.0,
+      "max": 0.4998216927051544
+    },
+    "h_bar": {
+      "mean": 17.67696151172941,
+      "std": 2.1359438584800756,
+      "min": 1.4615848693344136,
+      "max": 22.623773219370772
+    },
+    "grade_distribution": {
+      "Amorphous Glass": 75,
+      "Optimal Crystal": 3,
+      "Polycrystalline": 1
+    }
+  },
+  "individual_results": [
+    {
+      "checkpoint": "bs128_seed0.pt",
+      "purity_index": 0.301024866104126,
+      "grade": "Amorphous Glass",
+      "delta": 0.49676579236984253,
+      "kappa": 309342830592.0,
+      "h_bar": 17.331228163465397,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed1.pt",
+      "purity_index": 0.30663272440433503,
+      "grade": "Amorphous Glass",
+      "delta": 0.4910580515861511,
+      "kappa": 50175934464.0,
+      "h_bar": 17.345942445164468,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed2.pt",
+      "purity_index": 0.3004030615091324,
+      "grade": "Amorphous Glass",
+      "delta": 0.4968920052051544,
+      "kappa": 31853391872.0,
+      "h_bar": 17.33256585497196,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed3.pt",
+      "purity_index": 0.30886308252811434,
+      "grade": "Amorphous Glass",
+      "delta": 0.486316978931427,
+      "kappa": 24736413696.0,
+      "h_bar": 18.90064760772536,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed4.pt",
+      "purity_index": 0.2996218115091324,
+      "grade": "Amorphous Glass",
+      "delta": 0.4998216927051544,
+      "kappa": 111026782208.0,
+      "h_bar": 20.120261752943215,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed5.pt",
+      "purity_index": 0.30172454416751865,
+      "grade": "Amorphous Glass",
+      "delta": 0.49719327688217163,
+      "kappa": 33562077184.0,
+      "h_bar": 18.266155026287738,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed6.pt",
+      "purity_index": 0.3132112979888916,
+      "grade": "Amorphous Glass",
+      "delta": 0.4834858775138855,
+      "kappa": 42493841408.0,
+      "h_bar": 17.100071944797403,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed7.pt",
+      "purity_index": 0.31313363611698153,
+      "grade": "Amorphous Glass",
+      "delta": 0.482931911945343,
+      "kappa": 20165941248.0,
+      "h_bar": 17.331251616932825,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed8.pt",
+      "purity_index": 0.30063309669494626,
+      "grade": "Amorphous Glass",
+      "delta": 0.49920862913131714,
+      "kappa": 8006366208.0,
+      "h_bar": 17.628005624039034,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs128_seed9.pt",
+      "purity_index": 0.3008424907922745,
+      "grade": "Amorphous Glass",
+      "delta": 0.4982958436012268,
+      "kappa": 90148331520.0,
+      "h_bar": 17.639376324437276,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed0.pt",
+      "purity_index": 0.3015465974807739,
+      "grade": "Amorphous Glass",
+      "delta": 0.4980667531490326,
+      "kappa": 101729763328.0,
+      "h_bar": 17.073028507200213,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed1.pt",
+      "purity_index": 0.31212286949157714,
+      "grade": "Amorphous Glass",
+      "delta": 0.48484641313552856,
+      "kappa": 87588683776.0,
+      "h_bar": 16.945405889917055,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed2.pt",
+      "purity_index": 0.3033334821462631,
+      "grade": "Amorphous Glass",
+      "delta": 0.4945310652256012,
+      "kappa": 25520715776.0,
+      "h_bar": 17.76300690123086,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed3.pt",
+      "purity_index": 0.30083322525024414,
+      "grade": "Amorphous Glass",
+      "delta": 0.4989584684371948,
+      "kappa": 108311945216.0,
+      "h_bar": 17.40255197869366,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed4.pt",
+      "purity_index": 0.30595793724060055,
+      "grade": "Amorphous Glass",
+      "delta": 0.49255257844924927,
+      "kappa": 36936024064.0,
+      "h_bar": 17.854762680835027,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed5.pt",
+      "purity_index": 0.30293065011501313,
+      "grade": "Amorphous Glass",
+      "delta": 0.4950346052646637,
+      "kappa": 1097660104704.0,
+      "h_bar": 17.087834423872057,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed6.pt",
+      "purity_index": 0.3013703733682633,
+      "grade": "Amorphous Glass",
+      "delta": 0.49763599038124084,
+      "kappa": 110845288448.0,
+      "h_bar": 17.171721902706487,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed7.pt",
+      "purity_index": 0.2996679157018661,
+      "grade": "Amorphous Glass",
+      "delta": 0.4991130232810974,
+      "kappa": 34146496512.0,
+      "h_bar": 16.877383546737875,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed8.pt",
+      "purity_index": 0.30174261629581456,
+      "grade": "Amorphous Glass",
+      "delta": 0.49717068672180176,
+      "kappa": 76467462144.0,
+      "h_bar": 17.435015242553938,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs16_seed9.pt",
+      "purity_index": 0.3001636028289795,
+      "grade": "Amorphous Glass",
+      "delta": 0.49784237146377563,
+      "kappa": 35684261888.0,
+      "h_bar": 17.538348156793653,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed0.pt",
+      "purity_index": 0.301022544503212,
+      "grade": "Amorphous Glass",
+      "delta": 0.49807077646255493,
+      "kappa": 63134605312.0,
+      "h_bar": 17.460233773614615,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed1.pt",
+      "purity_index": 0.30776282846927644,
+      "grade": "Amorphous Glass",
+      "delta": 0.48964542150497437,
+      "kappa": 80999317504.0,
+      "h_bar": 17.306211945682875,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed2.pt",
+      "purity_index": 0.31322570741176603,
+      "grade": "Amorphous Glass",
+      "delta": 0.48216578364372253,
+      "kappa": 23122180096.0,
+      "h_bar": 17.45110548301203,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed3.pt",
+      "purity_index": 0.3039393752813339,
+      "grade": "Amorphous Glass",
+      "delta": 0.4937736988067627,
+      "kappa": 182781018112.0,
+      "h_bar": 18.609549283702577,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed4.pt",
+      "purity_index": 0.306424418091774,
+      "grade": "Amorphous Glass",
+      "delta": 0.4893653094768524,
+      "kappa": 180399423488.0,
+      "h_bar": 20.82013814022787,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed5.pt",
+      "purity_index": 0.3027582973241806,
+      "grade": "Amorphous Glass",
+      "delta": 0.49525004625320435,
+      "kappa": 155956264960.0,
+      "h_bar": 18.52495543664291,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed6.pt",
+      "purity_index": 0.3016545534133911,
+      "grade": "Amorphous Glass",
+      "delta": 0.4979318082332611,
+      "kappa": 9062456320.0,
+      "h_bar": 17.16925768572376,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed7.pt",
+      "purity_index": 0.3055733352899552,
+      "grade": "Amorphous Glass",
+      "delta": 0.492382287979126,
+      "kappa": 57212743680.0,
+      "h_bar": 17.301550947893308,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed8.pt",
+      "purity_index": 0.3070585399866104,
+      "grade": "Amorphous Glass",
+      "delta": 0.4905257821083069,
+      "kappa": 1159024476160.0,
+      "h_bar": 17.7979528159484,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs256_seed9.pt",
+      "purity_index": 0.3031820774078369,
+      "grade": "Amorphous Glass",
+      "delta": 0.49602240324020386,
+      "kappa": 13459442688.0,
+      "h_bar": 17.785636181057825,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed0.pt",
+      "purity_index": 0.300874724984169,
+      "grade": "Amorphous Glass",
+      "delta": 0.49825555086135864,
+      "kappa": 202261250048.0,
+      "h_bar": 17.08305518948409,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed1.pt",
+      "purity_index": 0.2992159366607666,
+      "grade": "Amorphous Glass",
+      "delta": 0.49902695417404175,
+      "kappa": 43282784256.0,
+      "h_bar": 17.468216927098744,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed2.pt",
+      "purity_index": 0.312506976723671,
+      "grade": "Amorphous Glass",
+      "delta": 0.4837152361869812,
+      "kappa": 58607095808.0,
+      "h_bar": 17.2653265662767,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed3.pt",
+      "purity_index": 0.3002827644348145,
+      "grade": "Amorphous Glass",
+      "delta": 0.49769341945648193,
+      "kappa": 653180141568.0,
+      "h_bar": 18.11997078776106,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed4.pt",
+      "purity_index": 0.30021238327026367,
+      "grade": "Amorphous Glass",
+      "delta": 0.4997345209121704,
+      "kappa": 182209839104.0,
+      "h_bar": 18.48450795256758,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed5.pt",
+      "purity_index": 0.3009546518325806,
+      "grade": "Amorphous Glass",
+      "delta": 0.4988066852092743,
+      "kappa": 185627295744.0,
+      "h_bar": 17.21398792793208,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed6.pt",
+      "purity_index": 0.301236566901207,
+      "grade": "Amorphous Glass",
+      "delta": 0.4971522092819214,
+      "kappa": 130374262784.0,
+      "h_bar": 16.901296518529954,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed7.pt",
+      "purity_index": 0.2998900324106217,
+      "grade": "Amorphous Glass",
+      "delta": 0.49948641657829285,
+      "kappa": 27686610944.0,
+      "h_bar": 16.93776433348258,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed8.pt",
+      "purity_index": 0.29954002797603607,
+      "grade": "Amorphous Glass",
+      "delta": 0.499272882938385,
+      "kappa": 120856625152.0,
+      "h_bar": 18.08891974186613,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs32_seed9.pt",
+      "purity_index": 0.3062706232070923,
+      "grade": "Amorphous Glass",
+      "delta": 0.49020859599113464,
+      "kappa": 30365261824.0,
+      "h_bar": 17.56341993515025,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed0.pt",
+      "purity_index": 0.3040604442358017,
+      "grade": "Amorphous Glass",
+      "delta": 0.493622362613678,
+      "kappa": 27671672832.0,
+      "h_bar": 17.668296517865738,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed1.pt",
+      "purity_index": 0.3025047451257706,
+      "grade": "Amorphous Glass",
+      "delta": 0.4962180256843567,
+      "kappa": 52849983488.0,
+      "h_bar": 17.33799804368832,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed2.pt",
+      "purity_index": 0.30409131050109867,
+      "grade": "Amorphous Glass",
+      "delta": 0.4929327368736267,
+      "kappa": 118883082240.0,
+      "h_bar": 17.467265287191832,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed3.pt",
+      "purity_index": 0.30679893493652344,
+      "grade": "Amorphous Glass",
+      "delta": 0.4915013313293457,
+      "kappa": 82804178944.0,
+      "h_bar": 18.809294981331913,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed4.pt",
+      "purity_index": 0.3000408411026001,
+      "grade": "Amorphous Glass",
+      "delta": 0.4979958236217499,
+      "kappa": 182726492160.0,
+      "h_bar": 20.594932369226086,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed5.pt",
+      "purity_index": 0.3027672916650772,
+      "grade": "Amorphous Glass",
+      "delta": 0.4958898425102234,
+      "kappa": 34384068608.0,
+      "h_bar": 18.53869393554414,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed6.pt",
+      "purity_index": 0.30580543577671054,
+      "grade": "Amorphous Glass",
+      "delta": 0.49209216237068176,
+      "kappa": 36406599680.0,
+      "h_bar": 17.30156886765019,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed7.pt",
+      "purity_index": 0.30026132166385655,
+      "grade": "Amorphous Glass",
+      "delta": 0.49902230501174927,
+      "kappa": 271540781056.0,
+      "h_bar": 17.576141176774296,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed8.pt",
+      "purity_index": 0.30324573516845704,
+      "grade": "Amorphous Glass",
+      "delta": 0.4959428310394287,
+      "kappa": 44104597504.0,
+      "h_bar": 18.04702475309179,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs512_seed9.pt",
+      "purity_index": 0.3011010646820068,
+      "grade": "Amorphous Glass",
+      "delta": 0.49862366914749146,
+      "kappa": 43843272704.0,
+      "h_bar": 18.051553457307943,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed0.pt",
+      "purity_index": 0.2997999042272568,
+      "grade": "Amorphous Glass",
+      "delta": 0.49894803762435913,
+      "kappa": 41286373376.0,
+      "h_bar": 17.222166589621814,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed1.pt",
+      "purity_index": 0.3092524528503418,
+      "grade": "Amorphous Glass",
+      "delta": 0.48843443393707275,
+      "kappa": 26843762688.0,
+      "h_bar": 17.479986898351136,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed2.pt",
+      "purity_index": 0.32378951013088225,
+      "grade": "Amorphous Glass",
+      "delta": 0.46896103024482727,
+      "kappa": 512133758976.0,
+      "h_bar": 17.427655482282024,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed3.pt",
+      "purity_index": 0.2993203729391098,
+      "grade": "Amorphous Glass",
+      "delta": 0.49954745173454285,
+      "kappa": 153977208832.0,
+      "h_bar": 18.155351957067115,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed4.pt",
+      "purity_index": 0.30998973846435546,
+      "grade": "Amorphous Glass",
+      "delta": 0.48751282691955566,
+      "kappa": 589946748928.0,
+      "h_bar": 19.28639575129116,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed5.pt",
+      "purity_index": 0.30404434204101566,
+      "grade": "Amorphous Glass",
+      "delta": 0.49299144744873047,
+      "kappa": 75198087168.0,
+      "h_bar": 17.37487927844361,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed6.pt",
+      "purity_index": 0.3010940164327621,
+      "grade": "Amorphous Glass",
+      "delta": 0.4973303973674774,
+      "kappa": 32203368448.0,
+      "h_bar": 16.964550321081074,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed7.pt",
+      "purity_index": 0.3040891170501709,
+      "grade": "Amorphous Glass",
+      "delta": 0.4948886036872864,
+      "kappa": 483216162816.0,
+      "h_bar": 17.197364630199612,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed8.pt",
+      "purity_index": 0.30082314014434813,
+      "grade": "Amorphous Glass",
+      "delta": 0.4989710748195648,
+      "kappa": 266187030528.0,
+      "h_bar": 17.64949017614958,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs64_seed9.pt",
+      "purity_index": 0.3069728225469589,
+      "grade": "Amorphous Glass",
+      "delta": 0.48998188972473145,
+      "kappa": 42157465600.0,
+      "h_bar": 17.57248776275054,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed0.pt",
+      "purity_index": 0.3022900581359863,
+      "grade": "Amorphous Glass",
+      "delta": 0.4971374273300171,
+      "kappa": 57688821760.0,
+      "h_bar": 16.975694014251847,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed1.pt",
+      "purity_index": 0.2994195222854614,
+      "grade": "Amorphous Glass",
+      "delta": 0.4987724721431732,
+      "kappa": 229148655616.0,
+      "h_bar": 17.00780719135221,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed2.pt",
+      "purity_index": 0.3028616577386856,
+      "grade": "Amorphous Glass",
+      "delta": 0.4957718849182129,
+      "kappa": 106950344704.0,
+      "h_bar": 17.07929762572117,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed3.pt",
+      "purity_index": 0.30200413763523104,
+      "grade": "Amorphous Glass",
+      "delta": 0.49684378504753113,
+      "kappa": 106915864576.0,
+      "h_bar": 17.12555773830243,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed4.pt",
+      "purity_index": 0.30724684298038485,
+      "grade": "Amorphous Glass",
+      "delta": 0.49029040336608887,
+      "kappa": 37860528128.0,
+      "h_bar": 17.17400129180452,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed5.pt",
+      "purity_index": 0.30820054113864903,
+      "grade": "Amorphous Glass",
+      "delta": 0.48909828066825867,
+      "kappa": 20663799808.0,
+      "h_bar": 16.874493264191564,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed6.pt",
+      "purity_index": 0.315547513961792,
+      "grade": "Amorphous Glass",
+      "delta": 0.48056560754776,
+      "kappa": 36234674176.0,
+      "h_bar": 16.78800310559954,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed7.pt",
+      "purity_index": 0.30357511937618253,
+      "grade": "Amorphous Glass",
+      "delta": 0.4942290186882019,
+      "kappa": 19085651968.0,
+      "h_bar": 16.84775050538825,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed8.pt",
+      "purity_index": 0.29979468882083893,
+      "grade": "Amorphous Glass",
+      "delta": 0.49960559606552124,
+      "kappa": 48635924480.0,
+      "h_bar": 16.93084363083539,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "bs8_seed9.pt",
+      "purity_index": 0.30672105848789216,
+      "grade": "Amorphous Glass",
+      "delta": 0.4909476339817047,
+      "kappa": 67688226816.0,
+      "h_bar": 17.52682576540623,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_coefficients.pt",
+      "purity_index": 0.30572171211242677,
+      "grade": "Amorphous Glass",
+      "delta": 0.47917598485946655,
+      "kappa": 3.1434144724014243e+26,
+      "h_bar": 22.623773219370772,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_discrete_final.pt",
+      "purity_index": 0.86875,
+      "grade": "Optimal Crystal",
+      "delta": 0.0,
+      "kappa": Infinity,
+      "h_bar": 19.619217630211608,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_exact.pt",
+      "purity_index": 0.86875,
+      "grade": "Optimal Crystal",
+      "delta": 0.0,
+      "kappa": Infinity,
+      "h_bar": 19.619217630211608,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_float64.pt",
+      "purity_index": 0.30492701530456545,
+      "grade": "Amorphous Glass",
+      "delta": 0.4860287308692932,
+      "kappa": 3.3362435455259713e+24,
+      "h_bar": 18.854068861837984,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_grokked_weights.pt",
+      "purity_index": 0.86875,
+      "grade": "Optimal Crystal",
+      "delta": 0.0,
+      "kappa": Infinity,
+      "h_bar": 19.619217630211608,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_grokkit.pt",
+      "purity_index": 0.592984327673912,
+      "grade": "Amorphous Glass",
+      "delta": 0.49965500831604004,
+      "kappa": Infinity,
+      "h_bar": 20.066890095055673,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_multiscale.pt",
+      "purity_index": 0.5934826761484147,
+      "grade": "Amorphous Glass",
+      "delta": 0.49968311190605164,
+      "kappa": Infinity,
+      "h_bar": 18.527567266869376,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_result.pt",
+      "purity_index": 0.2985815197229385,
+      "grade": "Amorphous Glass",
+      "delta": 0.49330955743789673,
+      "kappa": 3.824140039062164e+30,
+      "h_bar": 20.537426688796327,
+      "regime": "UNCONSTRAINED"
+    },
+    {
+      "checkpoint": "strassen_robust.pt",
+      "purity_index": 0.5720826774835587,
+      "grade": "Polycrystalline",
+      "delta": 0.15143311023712158,
+      "kappa": 5.842427565588271e+29,
+      "h_bar": 1.4615848693344136,
+      "regime": "WEAK CONFINEMENT"
+    }
+  ]
+}
