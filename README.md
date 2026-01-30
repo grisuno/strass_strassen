@@ -3,7 +3,7 @@
 <a herf="https://doi.org/10.5281/zenodo.18072858" target="_blank"><img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/8cb513de-461d-4122-827c-e3f9528df058" /></a> [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 
-**Author:** Iscomeback, Gris ( grisun0 )
+**Author:**  Iscomeback, Gris ( grisun0 )
 
 ---
 
@@ -1529,6 +1529,7 @@ Ultimately, the goal of selecting a batch size is not just to reduce loss, but t
 Manuscript prepared: January 2026
 Author: grisun0
 License: AGPL v3
+
 
 
 ## Post Script
