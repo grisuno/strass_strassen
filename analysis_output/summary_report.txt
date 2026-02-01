@@ -1,0 +1,609 @@
+================================================================================
+AGGREGATE ANALYSIS REPORT
+================================================================================
+
+Total checkpoints analyzed: 80
+Timestamp: 2026-01-31T20:14:06.232687
+
+--------------------------------------------------------------------------------
+DELTA STRENGTH STATISTICS
+--------------------------------------------------------------------------------
+  Mean: 0.000000
+  Std:  0.000000
+  Min:  0.000000
+  Max:  0.000000
+  Mean (stable systems):   0.000000
+  Mean (unstable systems): 0.000000
+
+--------------------------------------------------------------------------------
+STABILITY STATISTICS
+--------------------------------------------------------------------------------
+  Stable systems:   0
+  Unstable systems: 80
+  Stability rate:   0.00%
+
+--------------------------------------------------------------------------------
+UNSTABLE POLES STATISTICS
+--------------------------------------------------------------------------------
+  Mean per system: 14.07
+  Max in any system: 16
+
+--------------------------------------------------------------------------------
+STABILITY MARGIN STATISTICS
+--------------------------------------------------------------------------------
+  Mean: -0.933490
+  Min:  -1.542467
+
+--------------------------------------------------------------------------------
+FREQUENCY MARGIN STATISTICS
+--------------------------------------------------------------------------------
+  Mean gain margin:  inf dB
+  Mean phase margin: inf deg
+
+================================================================================
+INDIVIDUAL CHECKPOINT SUMMARIES
+================================================================================
+
+[1] checkpoints/bs8_seed9.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[2] checkpoints/bs8_seed8.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[3] checkpoints/bs8_seed7.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[4] checkpoints/bs8_seed6.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[5] checkpoints/bs8_seed5.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[6] checkpoints/bs8_seed4.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[7] checkpoints/bs8_seed3.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[8] checkpoints/bs8_seed2.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[9] checkpoints/bs8_seed1.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[10] checkpoints/bs8_seed0.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[11] checkpoints/bs64_seed9.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[12] checkpoints/bs64_seed8.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[13] checkpoints/bs64_seed7.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: marginally_stable
+    Unstable poles: 12
+
+[14] checkpoints/bs64_seed6.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[15] checkpoints/bs64_seed5.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[16] checkpoints/bs64_seed4.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[17] checkpoints/bs64_seed3.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[18] checkpoints/bs64_seed2.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[19] checkpoints/bs64_seed1.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[20] checkpoints/bs64_seed0.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[21] checkpoints/bs512_seed9.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[22] checkpoints/bs512_seed8.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[23] checkpoints/bs512_seed7.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[24] checkpoints/bs512_seed6.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[25] checkpoints/bs512_seed5.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[26] checkpoints/bs512_seed4.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[27] checkpoints/bs512_seed3.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[28] checkpoints/bs512_seed2.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[29] checkpoints/bs512_seed1.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[30] checkpoints/bs512_seed0.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[31] checkpoints/bs32_seed9.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[32] checkpoints/bs32_seed8.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[33] checkpoints/bs32_seed7.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: marginally_stable
+    Unstable poles: 12
+
+[34] checkpoints/bs32_seed6.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[35] checkpoints/bs32_seed5.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[36] checkpoints/bs32_seed4.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[37] checkpoints/bs32_seed3.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[38] checkpoints/bs32_seed2.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[39] checkpoints/bs32_seed1.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[40] checkpoints/bs32_seed0.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[41] checkpoints/bs256_seed9.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[42] checkpoints/bs256_seed8.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[43] checkpoints/bs256_seed7.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[44] checkpoints/bs256_seed6.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[45] checkpoints/bs256_seed5.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[46] checkpoints/bs256_seed4.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[47] checkpoints/bs256_seed3.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[48] checkpoints/bs256_seed2.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[49] checkpoints/bs256_seed1.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[50] checkpoints/bs256_seed0.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[51] checkpoints/bs16_seed9.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[52] checkpoints/bs16_seed8.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[53] checkpoints/bs16_seed7.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[54] checkpoints/bs16_seed6.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[55] checkpoints/bs16_seed5.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[56] checkpoints/bs16_seed4.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[57] checkpoints/bs16_seed3.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[58] checkpoints/bs16_seed2.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[59] checkpoints/bs16_seed1.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[60] checkpoints/bs16_seed0.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[61] checkpoints/bs128_seed9.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[62] checkpoints/bs128_seed8.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[63] checkpoints/bs128_seed7.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: marginally_stable
+    Unstable poles: 12
+
+[64] checkpoints/bs128_seed6.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[65] checkpoints/bs128_seed5.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[66] checkpoints/bs128_seed4.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[67] checkpoints/bs128_seed3.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[68] checkpoints/bs128_seed2.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 13
+
+[69] checkpoints/bs128_seed1.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[70] checkpoints/bs128_seed0.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 14
+
+[71] checkpoints/strassen_exact.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[72] checkpoints/strassen_robust.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[73] checkpoints/strassen_result.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[74] checkpoints/strassen_discrete_final.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[75] checkpoints/strassen_float64.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[76] checkpoints/strassen_coefficients.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[77] checkpoints/strassen_multiscale.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[78] checkpoints/strassen_grokkit.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+[79] checkpoints/strassen_grokked_weights.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 16
+
+[80] checkpoints/strassen_discovered.pt
+    Epoch: unknown
+    Delta strength: 0.000000
+    Stable: False
+    Stability type: unstable
+    Unstable poles: 15
+
+================================================================================
+END OF REPORT
+================================================================================

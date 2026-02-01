@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "checkpoint_path": "checkpoints/strassen_discovered.pt",
+    "epoch": "unknown",
+    "timestamp": "2026-01-31T20:14:03.112290"
+  },
+  "dirac_distribution": {
+    "num_point_charges": 0,
+    "delta_strength": 0.0,
+    "discrete_mass": 0.0,
+    "continuous_mass": 31.871625900268555,
+    "total_mass": 31.871625900268555
+  },
+  "electric_field": {
+    "max_magnitude": 2.7988990129426914e+29,
+    "mean_magnitude": 2.7988990129426916e+27,
+    "std_magnitude": 2.7848693556080963e+28
+  },
+  "electric_flux": {
+    "flux_outward": 1.5532628756510793e+30,
+    "flux_inward": 445684337244074.0,
+    "flux_net": 1.5532628756510787e+30,
+    "enclosed_charge": 1.3752881230188167e+19
+  },
+  "gauss_law": {
+    "total_charge_direct": 31.871625900268555,
+    "enclosed_charge_flux": 1.3752881230188167e+19,
+    "relative_error": 4.3150861751389766e+17,
+    "is_consistent": false
+  },
+  "divergence": {
+    "max": 20641473989143.508,
+    "min": -2.7988990129426914e+29,
+    "mean": -4.198348519414037e+27,
+    "std": 3.1009729606866616e+28
+  },
+  "state_space": {
+    "A_shape": [
+      16,
+      16
+    ],
+    "B_shape": [
+      16,
+      1
+    ],
+    "C_shape": [
+      1,
+      16
+    ],
+    "D_shape": [
+      1,
+      1
+    ],
+    "num_states": 16
+  },
+  "transfer_function": {
+    "numerator": [
+      1.0,
+      -0.15970277786254838,
+      0.22536074555347274,
+      1.1764021891253411,
+      -1.9440711258226342,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "denominator": [
+      1.0,
+      -0.15970277786254838,
+      0.22536074555347274,
+      1.1764021891253411,
+      -1.9440711258226342,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "order": 16
+  },
+  "poles_zeros": {
+    "poles": [
+      "(-1.2870935244237107+0j)",
+      "(0.2543981734428903+1.2432029263352058j)",
+      "(0.2543981734428903-1.2432029263352058j)",
+      "(0.9379999554004796+0j)",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j"
+    ],
+    "zeros": [
+      "(-1.2870935244237107+0j)",
+      "(0.2543981734428903+1.2432029263352058j)",
+      "(0.2543981734428903-1.2432029263352058j)",
+      "(0.9379999554004796+0j)",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j"
+    ],
+    "num_poles": 16,
+    "num_zeros": 16
+  },
+  "stability": {
+    "is_stable": false,
+    "stability_type": "unstable",
+    "dominant_pole": "(0.9379999554004796+0j)",
+    "stability_margin": -0.9379999554004796,
+    "unstable_poles": [
+      "(0.2543981734428903+1.2432029263352058j)",
+      "(0.2543981734428903-1.2432029263352058j)",
+      "(0.9379999554004796+0j)",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j"
+    ],
+    "num_unstable": 15
+  },
+  "pole_classification": {
+    "real_poles": [
+      "(-1.2870935244237107+0j)",
+      "(0.9379999554004796+0j)",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j",
+      "0j"
+    ],
+    "complex_conjugate_pairs": [
+      "(0.2543981734428903+1.2432029263352058j)"
+    ],
+    "total_real": 14,
+    "total_complex": 1
+  },
+  "damping": [
+    {
+      "pole": "(-1.2870935244237107+0j)",
+      "natural_frequency": 1.2870935244237107,
+      "damping_ratio": 1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "(0.2543981734428903+1.2432029263352058j)",
+      "natural_frequency": 1.268964911532032,
+      "damping_ratio": -0.20047691715585203,
+      "damped_frequency": 1.2432029263352058,
+      "type": "undamped"
+    },
+    {
+      "pole": "(0.2543981734428903-1.2432029263352058j)",
+      "natural_frequency": 1.268964911532032,
+      "damping_ratio": -0.20047691715585203,
+      "damped_frequency": 1.2432029263352058,
+      "type": "undamped"
+    },
+    {
+      "pole": "(0.9379999554004796+0j)",
+      "natural_frequency": 0.9379999554004796,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    },
+    {
+      "pole": "0j",
+      "natural_frequency": 0.0,
+      "damping_ratio": -1.0,
+      "damped_frequency": 0.0,
+      "type": "overdamped"
+    }
+  ],
+  "time_constants": [
+    {
+      "pole": "(-1.2870935244237107+0j)",
+      "time_constant": 0.7769443175838715,
+      "settling_time_4tau": 3.107777270335486,
+      "bandwidth": 1.2870935244237107
+    }
+  ],
+  "frequency_margins": {
+    "gain_margin_db": Infinity,
+    "phase_margin_deg": Infinity,
+    "gain_crossover_freq": 0.0,
+    "phase_crossover_freq": 0.0
+  },
+  "nyquist_stability": {
+    "encirclements": 0,
+    "is_stable": true,
+    "distance_to_critical": 2.0,
+    "stability_robustness": 2.0
+  },
+  "step_response_characteristics": {
+    "rise_time": 0.0,
+    "settling_time": 10.0,
+    "overshoot_percent": 0.0,
+    "peak_time": 0.0,
+    "steady_state_value": 1.0,
+    "steady_state_error": 0.0
+  }
+}
