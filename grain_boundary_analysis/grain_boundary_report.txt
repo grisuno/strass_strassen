@@ -1,0 +1,576 @@
+================================================================================
+GRAIN BOUNDARY ANALYSIS SUMMARY
+================================================================================
+
+Total checkpoints analyzed: 80
+Fragmented checkpoints: 0
+Fragmentation rate: 0.00%
+Timestamp: 2026-02-01T01:26:45.942381
+
+--------------------------------------------------------------------------------
+INDIVIDUAL CHECKPOINT ANALYSIS
+--------------------------------------------------------------------------------
+
+[1] checkpoints/bs8_seed9.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.246495e-04
+    Dislocation sharpness: 0.003461
+
+[2] checkpoints/bs8_seed8.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.919551e-04
+    Dislocation sharpness: 0.001408
+
+[3] checkpoints/bs8_seed7.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -8.822223e-04
+    Dislocation sharpness: 0.003801
+
+[4] checkpoints/bs8_seed6.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.447736e-05
+    Dislocation sharpness: 0.000097
+
+[5] checkpoints/bs8_seed5.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.722006e-04
+    Dislocation sharpness: 0.003002
+
+[6] checkpoints/bs8_seed4.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.724469e-04
+    Dislocation sharpness: 0.001131
+
+[7] checkpoints/bs8_seed3.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.610634e-04
+    Dislocation sharpness: 0.000713
+
+[8] checkpoints/bs8_seed2.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.803235e-04
+    Dislocation sharpness: 0.001575
+
+[9] checkpoints/bs8_seed1.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -9.339969e-05
+    Dislocation sharpness: 0.000388
+
+[10] checkpoints/bs8_seed0.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.313883e-04
+    Dislocation sharpness: 0.001210
+
+[11] checkpoints/bs64_seed9.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.043688e-04
+    Dislocation sharpness: 0.001401
+
+[12] checkpoints/bs64_seed8.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -9.433174e-04
+    Dislocation sharpness: 0.004247
+
+[13] checkpoints/bs64_seed7.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.264821e-03
+    Dislocation sharpness: 0.005210
+
+[14] checkpoints/bs64_seed6.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -5.521538e-04
+    Dislocation sharpness: 0.002199
+
+[15] checkpoints/bs64_seed5.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.122872e-03
+    Dislocation sharpness: 0.005014
+
+[16] checkpoints/bs64_seed4.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.902850e-04
+    Dislocation sharpness: 0.001214
+
+[17] checkpoints/bs64_seed3.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -8.509449e-04
+    Dislocation sharpness: 0.004176
+
+[18] checkpoints/bs64_seed2.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.830734e-04
+    Dislocation sharpness: 0.003878
+
+[19] checkpoints/bs64_seed1.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.058324e-04
+    Dislocation sharpness: 0.000879
+
+[20] checkpoints/bs64_seed0.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -6.120149e-04
+    Dislocation sharpness: 0.002236
+
+[21] checkpoints/bs512_seed9.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -4.476139e-05
+    Dislocation sharpness: 0.000214
+
+[22] checkpoints/bs512_seed8.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -4.602005e-04
+    Dislocation sharpness: 0.002504
+
+[23] checkpoints/bs512_seed7.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.176020e-04
+    Dislocation sharpness: 0.000522
+
+[24] checkpoints/bs512_seed6.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -8.086245e-05
+    Dislocation sharpness: 0.000310
+
+[25] checkpoints/bs512_seed5.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.337994e-04
+    Dislocation sharpness: 0.001317
+
+[26] checkpoints/bs512_seed4.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.060982e-03
+    Dislocation sharpness: 0.009994
+
+[27] checkpoints/bs512_seed3.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.205679e-05
+    Dislocation sharpness: 0.000333
+
+[28] checkpoints/bs512_seed2.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.794017e-04
+    Dislocation sharpness: 0.001652
+
+[29] checkpoints/bs512_seed1.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -8.582359e-04
+    Dislocation sharpness: 0.003266
+
+[30] checkpoints/bs512_seed0.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.551595e-04
+    Dislocation sharpness: 0.001317
+
+[31] checkpoints/bs32_seed9.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.306499e-04
+    Dislocation sharpness: 0.001504
+
+[32] checkpoints/bs32_seed8.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.689817e-04
+    Dislocation sharpness: 0.000757
+
+[33] checkpoints/bs32_seed7.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.532569e-03
+    Dislocation sharpness: 0.007093
+
+[34] checkpoints/bs32_seed6.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -9.032486e-04
+    Dislocation sharpness: 0.003630
+
+[35] checkpoints/bs32_seed5.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.048908e-03
+    Dislocation sharpness: 0.004474
+
+[36] checkpoints/bs32_seed4.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: 1.017750e-05
+    Dislocation sharpness: -0.000041
+
+[37] checkpoints/bs32_seed3.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.165557e-04
+    Dislocation sharpness: 0.003519
+
+[38] checkpoints/bs32_seed2.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.332175e-03
+    Dislocation sharpness: 0.006910
+
+[39] checkpoints/bs32_seed1.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.400818e-04
+    Dislocation sharpness: 0.000606
+
+[40] checkpoints/bs32_seed0.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -6.366249e-04
+    Dislocation sharpness: 0.002328
+
+[41] checkpoints/bs256_seed9.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.065553e-04
+    Dislocation sharpness: 0.000497
+
+[42] checkpoints/bs256_seed8.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -4.802390e-04
+    Dislocation sharpness: 0.002697
+
+[43] checkpoints/bs256_seed7.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -4.589238e-04
+    Dislocation sharpness: 0.002061
+
+[44] checkpoints/bs256_seed6.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.049727e-04
+    Dislocation sharpness: 0.000774
+
+[45] checkpoints/bs256_seed5.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.410440e-04
+    Dislocation sharpness: 0.001380
+
+[46] checkpoints/bs256_seed4.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.916995e-03
+    Dislocation sharpness: 0.013671
+
+[47] checkpoints/bs256_seed3.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -5.827516e-04
+    Dislocation sharpness: 0.002641
+
+[48] checkpoints/bs256_seed2.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -5.696198e-04
+    Dislocation sharpness: 0.002584
+
+[49] checkpoints/bs256_seed1.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -5.806104e-04
+    Dislocation sharpness: 0.002651
+
+[50] checkpoints/bs256_seed0.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -4.674498e-04
+    Dislocation sharpness: 0.001729
+
+[51] checkpoints/bs16_seed9.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.758901e-04
+    Dislocation sharpness: 0.001764
+
+[52] checkpoints/bs16_seed8.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.267670e-04
+    Dislocation sharpness: 0.001109
+
+[53] checkpoints/bs16_seed7.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.716134e-03
+    Dislocation sharpness: 0.007440
+
+[54] checkpoints/bs16_seed6.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -2.558504e-04
+    Dislocation sharpness: 0.000984
+
+[55] checkpoints/bs16_seed5.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -9.915866e-04
+    Dislocation sharpness: 0.004153
+
+[56] checkpoints/bs16_seed4.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: 1.907823e-05
+    Dislocation sharpness: -0.000079
+
+[57] checkpoints/bs16_seed3.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.180752e-03
+    Dislocation sharpness: 0.005547
+
+[58] checkpoints/bs16_seed2.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -3.664378e-06
+    Dislocation sharpness: 0.000015
+
+[59] checkpoints/bs16_seed1.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -4.639514e-05
+    Dislocation sharpness: 0.000197
+
+[60] checkpoints/bs16_seed0.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -5.986917e-04
+    Dislocation sharpness: 0.002235
+
+[61] checkpoints/bs128_seed9.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.905986e-04
+    Dislocation sharpness: 0.000874
+
+[62] checkpoints/bs128_seed8.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -6.979001e-04
+    Dislocation sharpness: 0.003072
+
+[63] checkpoints/bs128_seed7.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -9.435989e-04
+    Dislocation sharpness: 0.004415
+
+[64] checkpoints/bs128_seed6.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -8.803167e-05
+    Dislocation sharpness: 0.000331
+
+[65] checkpoints/bs128_seed5.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -6.755542e-04
+    Dislocation sharpness: 0.002732
+
+[66] checkpoints/bs128_seed4.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.170508e-04
+    Dislocation sharpness: 0.002922
+
+[67] checkpoints/bs128_seed3.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.492754e-04
+    Dislocation sharpness: 0.000723
+
+[68] checkpoints/bs128_seed2.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.208185e-03
+    Dislocation sharpness: 0.006253
+
+[69] checkpoints/bs128_seed1.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -4.194276e-04
+    Dislocation sharpness: 0.001851
+
+[70] checkpoints/bs128_seed0.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -5.191495e-04
+    Dislocation sharpness: 0.001887
+
+[71] checkpoints/strassen_exact.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: 0.000000e+00
+    Dislocation sharpness: inf
+
+[72] checkpoints/strassen_robust.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.309315e-05
+    Dislocation sharpness: 0.000721
+
+[73] checkpoints/strassen_result.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.758048e-04
+    Dislocation sharpness: 0.004300
+
+[74] checkpoints/strassen_discrete_final.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: 0.000000e+00
+    Dislocation sharpness: inf
+
+[75] checkpoints/strassen_float64.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -7.697108e-04
+    Dislocation sharpness: 0.003981
+
+[76] checkpoints/strassen_coefficients.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.358021e-04
+    Dislocation sharpness: 0.001051
+
+[77] checkpoints/strassen_multiscale.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -1.212506e-05
+    Dislocation sharpness: 0.000072
+
+[78] checkpoints/strassen_grokkit.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: 1.381962e-05
+    Dislocation sharpness: -0.000078
+
+[79] checkpoints/strassen_grokked_weights.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: 0.000000e+00
+    Dislocation sharpness: inf
+
+[80] checkpoints/strassen_discovered.pt
+    Epoch: unknown
+    Grain boundary detected: False
+    Critical pruning level: None
+    Variance increase: -5.804089e-05
+    Dislocation sharpness: 0.000296
+
+================================================================================
+END OF REPORT
+================================================================================

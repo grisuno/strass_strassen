@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "checkpoint_path": "checkpoints/bs64_seed8.pt",
+    "epoch": "unknown",
+    "timestamp": "2026-02-01T01:26:45.631045"
+  },
+  "pruning_analysis": {
+    "0.0": {
+      "pruning_level": 0.0,
+      "layer_analysis": {
+        "U": {
+          "layer_name": "U",
+          "delta_max": 0.4989710748195648,
+          "delta_mean": 0.26913002133369446,
+          "delta_std": 0.15543881058692932,
+          "delta_var": 0.02416122332215309,
+          "integer_ratio": 0.1875,
+          "num_parameters": 32
+        },
+        "V": {
+          "layer_name": "V",
+          "delta_max": 0.45991355180740356,
+          "delta_mean": 0.2415132224559784,
+          "delta_std": 0.14845775067806244,
+          "delta_var": 0.022039705887436867,
+          "integer_ratio": 0.21875,
+          "num_parameters": 32
+        },
+        "W": {
+          "layer_name": "W",
+          "delta_max": 0.4963737726211548,
+          "delta_mean": 0.19417287409305573,
+          "delta_std": 0.15224526822566986,
+          "delta_var": 0.023178622126579285,
+          "integer_ratio": 0.34375,
+          "num_parameters": 32
+        }
+      },
+      "dislocation": {
+        "mean_delta": 0.23493870596090952,
+        "variance_across_layers": 0.0009580411206477655,
+        "std_across_layers": 0.030952239347868928,
+        "max_delta": 0.26913002133369446,
+        "min_delta": 0.19417287409305573,
+        "delta_range": 0.07495714724063873,
+        "grain_boundary_metric": 0.004077834328411542
+      },
+      "fragmentation": {
+        "coefficient_of_variation": 0.03748464001121571,
+        "fragmentation_score": 0.13174601949090645,
+        "layer_variances": {
+          "U": 0.02416122332215309,
+          "V": 0.022039705887436867,
+          "W": 0.023178622126579285
+        },
+        "layer_means": {
+          "U": 0.26913002133369446,
+          "V": 0.2415132224559784,
+          "W": 0.19417287409305573
+        }
+      },
+      "is_fragmented": false,
+      "grain_boundary_severity": 0.004077834328411542
+    },
+    "0.3": {
+      "pruning_level": 0.3,
+      "layer_analysis": {
+        "U": {
+          "layer_name": "U",
+          "delta_max": 0.4989710748195648,
+          "delta_mean": 0.236524760723114,
+          "delta_std": 0.18618693947792053,
+          "delta_var": 0.03466557338833809,
+          "integer_ratio": 0.34375,
+          "num_parameters": 32
+        },
+        "V": {
+          "layer_name": "V",
+          "delta_max": 0.45991355180740356,
+          "delta_mean": 0.21206526458263397,
+          "delta_std": 0.17616339027881622,
+          "delta_var": 0.03103354014456272,
+          "integer_ratio": 0.375,
+          "num_parameters": 32
+        },
+        "W": {
+          "layer_name": "W",
+          "delta_max": 0.4963737726211548,
+          "delta_mean": 0.1848042756319046,
+          "delta_std": 0.16236595809459686,
+          "delta_var": 0.026362702250480652,
+          "integer_ratio": 0.34375,
+          "num_parameters": 32
+        }
+      },
+      "dislocation": {
+        "mean_delta": 0.2111314336458842,
+        "variance_across_layers": 0.0004462707831208846,
+        "std_across_layers": 0.021125122085348634,
+        "max_delta": 0.236524760723114,
+        "min_delta": 0.1848042756319046,
+        "delta_range": 0.05172048509120941,
+        "grain_boundary_metric": 0.0021137107592326208
+      },
+      "fragmentation": {
+        "coefficient_of_variation": 0.11074509012618025,
+        "fragmentation_score": 0.10005673579981762,
+        "layer_variances": {
+          "U": 0.03466557338833809,
+          "V": 0.03103354014456272,
+          "W": 0.026362702250480652
+        },
+        "layer_means": {
+          "U": 0.236524760723114,
+          "V": 0.21206526458263397,
+          "W": 0.1848042756319046
+        }
+      },
+      "is_fragmented": false,
+      "grain_boundary_severity": 0.0021137107592326208
+    },
+    "0.5": {
+      "pruning_level": 0.5,
+      "layer_analysis": {
+        "U": {
+          "layer_name": "U",
+          "delta_max": 0.4989710748195648,
+          "delta_mean": 0.16379442811012268,
+          "delta_std": 0.19712460041046143,
+          "delta_var": 0.03885810449719429,
+          "integer_ratio": 0.5625,
+          "num_parameters": 32
+        },
+        "V": {
+          "layer_name": "V",
+          "delta_max": 0.45991355180740356,
+          "delta_mean": 0.1453809291124344,
+          "delta_std": 0.1856355518102646,
+          "delta_var": 0.034460555762052536,
+          "integer_ratio": 0.59375,
+          "num_parameters": 32
+        },
+        "W": {
+          "layer_name": "W",
+          "delta_max": 0.4963737726211548,
+          "delta_mean": 0.1479988396167755,
+          "delta_std": 0.17964720726013184,
+          "delta_var": 0.03227311745285988,
+          "integer_ratio": 0.5625,
+          "num_parameters": 32
+        }
+      },
+      "dislocation": {
+        "mean_delta": 0.15239139894644418,
+        "variance_across_layers": 6.615677962197431e-05,
+        "std_across_layers": 0.008133681799896915,
+        "max_delta": 0.16379442811012268,
+        "min_delta": 0.1453809291124344,
+        "delta_range": 0.018413498997688293,
+        "grain_boundary_metric": 0.00043412410435192454
+      },
+      "fragmentation": {
+        "coefficient_of_variation": 0.07779912846340127,
+        "fragmentation_score": 0.053373627716469876,
+        "layer_variances": {
+          "U": 0.03885810449719429,
+          "V": 0.034460555762052536,
+          "W": 0.03227311745285988
+        },
+        "layer_means": {
+          "U": 0.16379442811012268,
+          "V": 0.1453809291124344,
+          "W": 0.1479988396167755
+        }
+      },
+      "is_fragmented": false,
+      "grain_boundary_severity": 0.00043412410435192454
+    },
+    "0.7": {
+      "pruning_level": 0.7,
+      "layer_analysis": {
+        "U": {
+          "layer_name": "U",
+          "delta_max": 0.39977580308914185,
+          "delta_mean": 0.07673650234937668,
+          "delta_std": 0.13620272278785706,
+          "delta_var": 0.018551182001829147,
+          "integer_ratio": 0.75,
+          "num_parameters": 32
+        },
+        "V": {
+          "layer_name": "V",
+          "delta_max": 0.4244474172592163,
+          "delta_mean": 0.06503361463546753,
+          "delta_std": 0.1276785433292389,
+          "delta_var": 0.01630181260406971,
+          "integer_ratio": 0.78125,
+          "num_parameters": 32
+        },
+        "W": {
+          "layer_name": "W",
+          "delta_max": 0.43624579906463623,
+          "delta_mean": 0.07394707202911377,
+          "delta_std": 0.1323607861995697,
+          "delta_var": 0.017519379034638405,
+          "integer_ratio": 0.75,
+          "num_parameters": 32
+        }
+      },
+      "dislocation": {
+        "mean_delta": 0.07190572967131932,
+        "variance_across_layers": 2.490980278492384e-05,
+        "std_across_layers": 0.004990972128245542,
+        "max_delta": 0.07673650234937668,
+        "min_delta": 0.06503361463546753,
+        "delta_range": 0.01170288771390915,
+        "grain_boundary_metric": 0.00034642305785845024
+      },
+      "fragmentation": {
+        "coefficient_of_variation": 0.052661988779658046,
+        "fragmentation_score": 0.06940993637250124,
+        "layer_variances": {
+          "U": 0.018551182001829147,
+          "V": 0.01630181260406971,
+          "W": 0.017519379034638405
+        },
+        "layer_means": {
+          "U": 0.07673650234937668,
+          "V": 0.06503361463546753,
+          "W": 0.07394707202911377
+        }
+      },
+      "is_fragmented": false,
+      "grain_boundary_severity": 0.00034642305785845024
+    },
+    "0.9": {
+      "pruning_level": 0.9,
+      "layer_analysis": {
+        "U": {
+          "layer_name": "U",
+          "delta_max": 0.2555661201477051,
+          "delta_mean": 0.016030581668019295,
+          "delta_std": 0.05062054842710495,
+          "delta_var": 0.0025624397676438093,
+          "integer_ratio": 0.9375,
+          "num_parameters": 32
+        },
+        "V": {
+          "layer_name": "V",
+          "delta_max": 0.13410943746566772,
+          "delta_mean": 0.007438985630869865,
+          "delta_std": 0.026012036949396133,
+          "delta_var": 0.0006766260485164821,
+          "integer_ratio": 0.96875,
+          "num_parameters": 32
+        },
+        "W": {
+          "layer_name": "W",
+          "delta_max": 0.14739066362380981,
+          "delta_mean": 0.015035556629300117,
+          "delta_std": 0.03839514032006264,
+          "delta_var": 0.0014741867780685425,
+          "integer_ratio": 0.9375,
+          "num_parameters": 32
+        }
+      },
+      "dislocation": {
+        "mean_delta": 0.012835041309396425,
+        "variance_across_layers": 1.4723720914159052e-05,
+        "std_across_layers": 0.0038371501031571665,
+        "max_delta": 0.016030581668019295,
+        "min_delta": 0.007438985630869865,
+        "delta_range": 0.00859159603714943,
+        "grain_boundary_metric": 0.0011471502463077322
+      },
+      "fragmentation": {
+        "coefficient_of_variation": 0.4919679365272825,
+        "fragmentation_score": 0.29895891885070364,
+        "layer_variances": {
+          "U": 0.0025624397676438093,
+          "V": 0.0006766260485164821,
+          "W": 0.0014741867780685425
+        },
+        "layer_means": {
+          "U": 0.016030581668019295,
+          "V": 0.007438985630869865,
+          "W": 0.015035556629300117
+        }
+      },
+      "is_fragmented": false,
+      "grain_boundary_severity": 0.0011471502463077322
+    }
+  },
+  "fragmentation_at_50": {
+    "pruning_level": 0.5,
+    "grain_boundary": {
+      "pruning_level": 0.5,
+      "layer_analysis": {
+        "U": {
+          "layer_name": "U",
+          "delta_max": 0.4989710748195648,
+          "delta_mean": 0.16379442811012268,
+          "delta_std": 0.19712460041046143,
+          "delta_var": 0.03885810449719429,
+          "integer_ratio": 0.5625,
+          "num_parameters": 32
+        },
+        "V": {
+          "layer_name": "V",
+          "delta_max": 0.45991355180740356,
+          "delta_mean": 0.1453809291124344,
+          "delta_std": 0.1856355518102646,
+          "delta_var": 0.034460555762052536,
+          "integer_ratio": 0.59375,
+          "num_parameters": 32
+        },
+        "W": {
+          "layer_name": "W",
+          "delta_max": 0.4963737726211548,
+          "delta_mean": 0.1479988396167755,
+          "delta_std": 0.17964720726013184,
+          "delta_var": 0.03227311745285988,
+          "integer_ratio": 0.5625,
+          "num_parameters": 32
+        }
+      },
+      "dislocation": {
+        "mean_delta": 0.15239139894644418,
+        "variance_across_layers": 6.615677962197431e-05,
+        "std_across_layers": 0.008133681799896915,
+        "max_delta": 0.16379442811012268,
+        "min_delta": 0.1453809291124344,
+        "delta_range": 0.018413498997688293,
+        "grain_boundary_metric": 0.00043412410435192454
+      },
+      "fragmentation": {
+        "coefficient_of_variation": 0.07779912846340127,
+        "fragmentation_score": 0.053373627716469876,
+        "layer_variances": {
+          "U": 0.03885810449719429,
+          "V": 0.034460555762052536,
+          "W": 0.03227311745285988
+        },
+        "layer_means": {
+          "U": 0.16379442811012268,
+          "V": 0.1453809291124344,
+          "W": 0.1479988396167755
+        }
+      },
+      "is_fragmented": false,
+      "grain_boundary_severity": 0.00043412410435192454
+    },
+    "coordination_loss": 0.03125,
+    "estimated_domains": 1,
+    "coherence_length": 86.83132593357452,
+    "is_policrystal": false,
+    "global_order_destroyed": false
+  },
+  "dislocation_evolution": {
+    "variance_increase": -0.0009433173997336065,
+    "mean_change": -0.2221036646515131,
+    "variance_trajectory": [
+      [
+        0.0,
+        0.0009580411206477655
+      ],
+      [
+        0.3,
+        0.0004462707831208846
+      ],
+      [
+        0.5,
+        6.615677962197431e-05
+      ],
+      [
+        0.7,
+        2.490980278492384e-05
+      ],
+      [
+        0.9,
+        1.4723720914159052e-05
+      ]
+    ],
+    "mean_trajectory": [
+      [
+        0.0,
+        0.23493870596090952
+      ],
+      [
+        0.3,
+        0.2111314336458842
+      ],
+      [
+        0.5,
+        0.15239139894644418
+      ],
+      [
+        0.7,
+        0.07190572967131932
+      ],
+      [
+        0.9,
+        0.012835041309396425
+      ]
+    ],
+    "critical_pruning_point": null,
+    "dislocation_sharpness": 0.004247194217341787
+  },
+  "grain_boundary_detected": false,
+  "critical_pruning_level": null
+}
