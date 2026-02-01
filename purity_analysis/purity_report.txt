@@ -1,0 +1,739 @@
+================================================================================
+PURITY INDEX ANALYSIS SUMMARY
+================================================================================
+
+Total checkpoints analyzed: 80
+Intermediate phase count: 80
+Phase transition count: 68
+Intermediate phase rate: 100.00%
+Mean alpha retention: 100.01%
+Mean temperature ratio: 0.00x
+Timestamp: 2026-02-01T02:08:52.380977
+
+--------------------------------------------------------------------------------
+INDIVIDUAL CHECKPOINT ANALYSIS
+--------------------------------------------------------------------------------
+
+[1] checkpoints/bs8_seed9.pt
+    Epoch: unknown
+    Original alpha: 0.711418
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[2] checkpoints/bs8_seed8.pt
+    Epoch: unknown
+    Original alpha: 0.693936
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[3] checkpoints/bs8_seed7.pt
+    Epoch: unknown
+    Original alpha: 0.704756
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[4] checkpoints/bs8_seed6.pt
+    Epoch: unknown
+    Original alpha: 0.732792
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[5] checkpoints/bs8_seed5.pt
+    Epoch: unknown
+    Original alpha: 0.715192
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[6] checkpoints/bs8_seed4.pt
+    Epoch: unknown
+    Original alpha: 0.712757
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[7] checkpoints/bs8_seed3.pt
+    Epoch: unknown
+    Original alpha: 0.699480
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[8] checkpoints/bs8_seed2.pt
+    Epoch: unknown
+    Original alpha: 0.701639
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[9] checkpoints/bs8_seed1.pt
+    Epoch: unknown
+    Original alpha: 0.695605
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[10] checkpoints/bs8_seed0.pt
+    Epoch: unknown
+    Original alpha: 0.698889
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[11] checkpoints/bs64_seed9.pt
+    Epoch: unknown
+    Original alpha: 0.713387
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[12] checkpoints/bs64_seed8.pt
+    Epoch: unknown
+    Original alpha: 0.695207
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[13] checkpoints/bs64_seed7.pt
+    Epoch: unknown
+    Original alpha: 0.703423
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[14] checkpoints/bs64_seed6.pt
+    Epoch: unknown
+    Original alpha: 0.698501
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[15] checkpoints/bs64_seed5.pt
+    Epoch: unknown
+    Original alpha: 0.707263
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[16] checkpoints/bs64_seed4.pt
+    Epoch: unknown
+    Original alpha: 0.718439
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[17] checkpoints/bs64_seed3.pt
+    Epoch: unknown
+    Original alpha: 0.694053
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[18] checkpoints/bs64_seed2.pt
+    Epoch: unknown
+    Original alpha: 0.757236
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[19] checkpoints/bs64_seed1.pt
+    Epoch: unknown
+    Original alpha: 0.716550
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[20] checkpoints/bs64_seed0.pt
+    Epoch: unknown
+    Original alpha: 0.695253
+    Original phase: cold_glass
+    Alpha retention: 100.43%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[21] checkpoints/bs512_seed9.pt
+    Epoch: unknown
+    Original alpha: 0.695904
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[22] checkpoints/bs512_seed8.pt
+    Epoch: unknown
+    Original alpha: 0.701295
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[23] checkpoints/bs512_seed7.pt
+    Epoch: unknown
+    Original alpha: 0.695104
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[24] checkpoints/bs512_seed6.pt
+    Epoch: unknown
+    Original alpha: 0.709089
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[25] checkpoints/bs512_seed5.pt
+    Epoch: unknown
+    Original alpha: 0.701401
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[26] checkpoints/bs512_seed4.pt
+    Epoch: unknown
+    Original alpha: 0.697164
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[27] checkpoints/bs512_seed3.pt
+    Epoch: unknown
+    Original alpha: 0.710291
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[28] checkpoints/bs512_seed2.pt
+    Epoch: unknown
+    Original alpha: 0.707383
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[29] checkpoints/bs512_seed1.pt
+    Epoch: unknown
+    Original alpha: 0.700740
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[30] checkpoints/bs512_seed0.pt
+    Epoch: unknown
+    Original alpha: 0.705985
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[31] checkpoints/bs32_seed9.pt
+    Epoch: unknown
+    Original alpha: 0.712924
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[32] checkpoints/bs32_seed8.pt
+    Epoch: unknown
+    Original alpha: 0.694602
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[33] checkpoints/bs32_seed7.pt
+    Epoch: unknown
+    Original alpha: 0.694175
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[34] checkpoints/bs32_seed6.pt
+    Epoch: unknown
+    Original alpha: 0.698859
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[35] checkpoints/bs32_seed5.pt
+    Epoch: unknown
+    Original alpha: 0.695537
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[36] checkpoints/bs32_seed4.pt
+    Epoch: unknown
+    Original alpha: 0.693678
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[37] checkpoints/bs32_seed3.pt
+    Epoch: unknown
+    Original alpha: 0.697771
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[38] checkpoints/bs32_seed2.pt
+    Epoch: unknown
+    Original alpha: 0.726259
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[39] checkpoints/bs32_seed1.pt
+    Epoch: unknown
+    Original alpha: 0.695095
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[40] checkpoints/bs32_seed0.pt
+    Epoch: unknown
+    Original alpha: 0.696642
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[41] checkpoints/bs256_seed9.pt
+    Epoch: unknown
+    Original alpha: 0.701134
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[42] checkpoints/bs256_seed8.pt
+    Epoch: unknown
+    Original alpha: 0.712277
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[43] checkpoints/bs256_seed7.pt
+    Epoch: unknown
+    Original alpha: 0.708500
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[44] checkpoints/bs256_seed6.pt
+    Epoch: unknown
+    Original alpha: 0.697292
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[45] checkpoints/bs256_seed5.pt
+    Epoch: unknown
+    Original alpha: 0.702693
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[46] checkpoints/bs256_seed4.pt
+    Epoch: unknown
+    Original alpha: 0.714646
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[47] checkpoints/bs256_seed3.pt
+    Epoch: unknown
+    Original alpha: 0.705678
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[48] checkpoints/bs256_seed2.pt
+    Epoch: unknown
+    Original alpha: 0.729467
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[49] checkpoints/bs256_seed1.pt
+    Epoch: unknown
+    Original alpha: 0.714074
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[50] checkpoints/bs256_seed0.pt
+    Epoch: unknown
+    Original alpha: 0.697013
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[51] checkpoints/bs16_seed9.pt
+    Epoch: unknown
+    Original alpha: 0.697472
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[52] checkpoints/bs16_seed8.pt
+    Epoch: unknown
+    Original alpha: 0.698822
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[53] checkpoints/bs16_seed7.pt
+    Epoch: unknown
+    Original alpha: 0.694923
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[54] checkpoints/bs16_seed6.pt
+    Epoch: unknown
+    Original alpha: 0.697886
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[55] checkpoints/bs16_seed5.pt
+    Epoch: unknown
+    Original alpha: 0.703128
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[56] checkpoints/bs16_seed4.pt
+    Epoch: unknown
+    Original alpha: 0.708154
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[57] checkpoints/bs16_seed3.pt
+    Epoch: unknown
+    Original alpha: 0.695232
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[58] checkpoints/bs16_seed2.pt
+    Epoch: unknown
+    Original alpha: 0.704145
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[59] checkpoints/bs16_seed1.pt
+    Epoch: unknown
+    Original alpha: 0.723923
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[60] checkpoints/bs16_seed0.pt
+    Epoch: unknown
+    Original alpha: 0.697021
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[61] checkpoints/bs128_seed9.pt
+    Epoch: unknown
+    Original alpha: 0.696561
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[62] checkpoints/bs128_seed8.pt
+    Epoch: unknown
+    Original alpha: 0.694731
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[63] checkpoints/bs128_seed7.pt
+    Epoch: unknown
+    Original alpha: 0.727880
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[64] checkpoints/bs128_seed6.pt
+    Epoch: unknown
+    Original alpha: 0.726733
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[65] checkpoints/bs128_seed5.pt
+    Epoch: unknown
+    Original alpha: 0.698776
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[66] checkpoints/bs128_seed4.pt
+    Epoch: unknown
+    Original alpha: 0.693504
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[67] checkpoints/bs128_seed3.pt
+    Epoch: unknown
+    Original alpha: 0.720895
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[68] checkpoints/bs128_seed2.pt
+    Epoch: unknown
+    Original alpha: 0.699383
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[69] checkpoints/bs128_seed1.pt
+    Epoch: unknown
+    Original alpha: 0.711193
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[70] checkpoints/bs128_seed0.pt
+    Epoch: unknown
+    Original alpha: 0.699637
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[71] checkpoints/strassen_exact.pt
+    Epoch: unknown
+    Original alpha: 20.000000
+    Original phase: perfect_crystal
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[72] checkpoints/strassen_robust.pt
+    Epoch: unknown
+    Original alpha: 1.887611
+    Original phase: cold_polycrystal
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[73] checkpoints/strassen_result.pt
+    Epoch: unknown
+    Original alpha: 0.706618
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[74] checkpoints/strassen_discrete_final.pt
+    Epoch: unknown
+    Original alpha: 20.000000
+    Original phase: perfect_crystal
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[75] checkpoints/strassen_float64.pt
+    Epoch: unknown
+    Original alpha: 0.721488
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[76] checkpoints/strassen_coefficients.pt
+    Epoch: unknown
+    Original alpha: 0.735687
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[77] checkpoints/strassen_multiscale.pt
+    Epoch: unknown
+    Original alpha: 0.693781
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[78] checkpoints/strassen_grokkit.pt
+    Epoch: unknown
+    Original alpha: 0.693837
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[79] checkpoints/strassen_grokked_weights.pt
+    Epoch: unknown
+    Original alpha: 20.000000
+    Original phase: perfect_crystal
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+[80] checkpoints/strassen_discovered.pt
+    Epoch: unknown
+    Original alpha: 0.702876
+    Original phase: cold_glass
+    Alpha retention: 100.00%
+    Temperature ratio: 0.00x
+    Intermediate phase: True
+    Phase type: polycrystal_with_residual_heat
+
+================================================================================
+END OF REPORT
+================================================================================

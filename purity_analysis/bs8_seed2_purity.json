@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "checkpoint_path": "checkpoints/bs8_seed2.pt",
+    "epoch": "unknown",
+    "timestamp": "2026-02-01T02:08:52.192469"
+  },
+  "original": {
+    "purity": {
+      "global_alpha": 0.7016393674870779,
+      "global_delta": 0.4957718849182129,
+      "layer_alphas": {
+        "U": 0.709197368013557,
+        "V": 0.7016393674870779,
+        "W": 0.7594347431966074
+      },
+      "alpha_variance": 0.0006579136322940556,
+      "alpha_mean": 0.7234238262324141,
+      "purity_quality": "low_purity_glass",
+      "is_homogeneous": "True"
+    },
+    "temperature": {
+      "temperature": 0.0,
+      "specific_heat": 0.0,
+      "thermal_energy": 0.0,
+      "entropy_production": 0.0,
+      "is_equilibrated": false
+    },
+    "phase": "cold_glass"
+  },
+  "polycrystal_analysis": {
+    "0.0": {
+      "pruning_level": 0.0,
+      "purity": {
+        "global_alpha": 0.7016393674870779,
+        "global_delta": 0.4957718849182129,
+        "layer_alphas": {
+          "U": 0.709197368013557,
+          "V": 0.7016393674870779,
+          "W": 0.7594347431966074
+        },
+        "alpha_variance": 0.0006579136322940556,
+        "alpha_mean": 0.7234238262324141,
+        "purity_quality": "low_purity_glass",
+        "is_homogeneous": "True"
+      },
+      "temperature": {
+        "temperature": 0.0,
+        "specific_heat": 0.0,
+        "thermal_energy": 0.0,
+        "entropy_production": 0.0,
+        "is_equilibrated": false
+      },
+      "phase": "cold_glass",
+      "is_polycrystal": false
+    },
+    "0.3": {
+      "pruning_level": 0.3,
+      "purity": {
+        "global_alpha": 0.7016393674870779,
+        "global_delta": 0.4957718849182129,
+        "layer_alphas": {
+          "U": 0.709197368013557,
+          "V": 0.7016393674870779,
+          "W": 0.7594347431966074
+        },
+        "alpha_variance": 0.0006579136322940556,
+        "alpha_mean": 0.7234238262324141,
+        "purity_quality": "low_purity_glass",
+        "is_homogeneous": "True"
+      },
+      "temperature": {
+        "temperature": 0.0,
+        "specific_heat": 0.0,
+        "thermal_energy": 0.0,
+        "entropy_production": 0.0,
+        "is_equilibrated": false
+      },
+      "phase": "cold_glass",
+      "is_polycrystal": false
+    },
+    "0.5": {
+      "pruning_level": 0.5,
+      "purity": {
+        "global_alpha": 0.7016393674870779,
+        "global_delta": 0.4957718849182129,
+        "layer_alphas": {
+          "U": 0.709197368013557,
+          "V": 0.7016393674870779,
+          "W": 0.7594347431966074
+        },
+        "alpha_variance": 0.0006579136322940556,
+        "alpha_mean": 0.7234238262324141,
+        "purity_quality": "low_purity_glass",
+        "is_homogeneous": "True"
+      },
+      "temperature": {
+        "temperature": 0.0,
+        "specific_heat": 0.0,
+        "thermal_energy": 0.0,
+        "entropy_production": 0.0,
+        "is_equilibrated": false
+      },
+      "phase": "cold_glass",
+      "is_polycrystal": false
+    },
+    "0.7": {
+      "pruning_level": 0.7,
+      "purity": {
+        "global_alpha": 0.8493712100932942,
+        "global_delta": 0.4276837706565857,
+        "layer_alphas": {
+          "U": 0.8493712100932942,
+          "V": 0.9628327759253882,
+          "W": 0.9554096931547706
+        },
+        "alpha_variance": 0.002685865440985452,
+        "alpha_mean": 0.9225378930578177,
+        "purity_quality": "low_purity_glass",
+        "is_homogeneous": "True"
+      },
+      "temperature": {
+        "temperature": 0.0,
+        "specific_heat": 0.0,
+        "thermal_energy": 0.0,
+        "entropy_production": 0.0,
+        "is_equilibrated": false
+      },
+      "phase": "cold_glass",
+      "is_polycrystal": false
+    },
+    "0.9": {
+      "pruning_level": 0.9,
+      "purity": {
+        "global_alpha": 1.19010969657116,
+        "global_delta": 0.3041878938674927,
+        "layer_alphas": {
+          "U": 1.2386323703516204,
+          "V": 1.4576610525388451,
+          "W": 1.19010969657116
+        },
+        "alpha_variance": 0.013545749063513808,
+        "alpha_mean": 1.2954677064872084,
+        "purity_quality": "transitional_phase",
+        "is_homogeneous": "True"
+      },
+      "temperature": {
+        "temperature": 0.0,
+        "specific_heat": 0.0,
+        "thermal_energy": 0.0,
+        "entropy_production": 0.0,
+        "is_equilibrated": false
+      },
+      "phase": "cold_polycrystal",
+      "is_polycrystal": true
+    }
+  },
+  "comparison": {
+    "alpha_ratio": 1.0,
+    "alpha_retention": 1.0,
+    "temperature_ratio": 0.0,
+    "thermal_excess": 0.0,
+    "intermediate_phase_detected": true,
+    "intermediate_phase_type": "polycrystal_with_residual_heat",
+    "structural_memory_preserved": "True",
+    "thermal_damage": false
+  },
+  "phase_transition_detected": true,
+  "intermediate_phase_exists": true
+}
