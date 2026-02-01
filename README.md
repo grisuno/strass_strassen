@@ -2,9 +2,6 @@
 
 <a herf="https://doi.org/10.5281/zenodo.18072858" target="_blank"><img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/8cb513de-461d-4122-827c-e3f9528df058" /></a> [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
-# Engineering Algorithmic Structure in Neural Networks: From a Materials Science Perspective to Algorithmic Thermodynamics of Deep Learning
-
-
 **Author:**  Iscomeback, Gris ( grisun0 )
 
 ---
