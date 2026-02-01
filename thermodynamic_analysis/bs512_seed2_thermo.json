@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "checkpoint_path": "checkpoints/bs512_seed2.pt",
+    "epoch": "unknown",
+    "timestamp": "2026-01-31T21:56:49.361423"
+  },
+  "order_parameter": {
+    "delta": 0.4929327368736267,
+    "is_crystallized": false,
+    "crystal_quality": 0.5070672631263733
+  },
+  "configuration_entropy": {
+    "s_conf": 3.6518646255173914,
+    "entropy_drop": 0.0
+  },
+  "specific_heat": {
+    "c_heat": 0.0,
+    "temperature_effective": 0.001
+  },
+  "gravitational_constant": {
+    "g_alg": 0.026343955705890175,
+    "avg_distance": 0.24476134777069092,
+    "gradient_magnitude": 0.0015782167902216315,
+    "force": 0.026343955705890175,
+    "crystallization_pressure": 0.0
+  },
+  "landauer_constant": {
+    "k_b_eff": 0.0,
+    "information_dissipation": 0.0,
+    "measurable": false,
+    "reason": "no_transition_or_not_in_window"
+  },
+  "heisenberg_uncertainty": {
+    "hbar_eff": 0.00036373996849098746,
+    "position_uncertainty": 0.5497490429542472,
+    "momentum_uncertainty": 0.0006616472973492009,
+    "thermal_uncertainty": 0.0004554270207881928,
+    "structure_noise_product": 0.00036373996849098746,
+    "uncertainty_principle_satisfied": "True"
+  },
+  "local_complexity": {
+    "lc": 3074.255615234375,
+    "lc_history_available": false,
+    "lc_final": 3074.255615234375
+  },
+  "basin_stability": {
+    "sparsity_0.0": {
+      "mse": 1.6827659692353336e-06,
+      "accurate": true
+    },
+    "sparsity_0.1": {
+      "mse": 0.007913709618151188,
+      "accurate": true
+    },
+    "sparsity_0.2": {
+      "mse": 0.021045222878456116,
+      "accurate": false
+    },
+    "sparsity_0.3": {
+      "mse": 0.048506010323762894,
+      "accurate": false
+    },
+    "sparsity_0.4": {
+      "mse": 0.23591305315494537,
+      "accurate": false
+    },
+    "sparsity_0.5": {
+      "mse": 0.47114095091819763,
+      "accurate": false
+    },
+    "sparsity_0.6": {
+      "mse": 0.923815906047821,
+      "accurate": false
+    },
+    "sparsity_0.7": {
+      "mse": 1.3646676540374756,
+      "accurate": false
+    },
+    "sparsity_0.8": {
+      "mse": 1.7111666202545166,
+      "accurate": false
+    },
+    "sparsity_0.9": {
+      "mse": 2.1038880348205566,
+      "accurate": false
+    }
+  },
+  "zero_shot_transfer": {
+    "4x4": 863.110595703125,
+    "8x8": 744950.375,
+    "16x16": 0.0,
+    "32x32": 0.0,
+    "64x64": 0.0
+  },
+  "condition_number": {
+    "kappa": 1.000001245485869,
+    "log_kappa": 5.409073033949836e-07,
+    "effective_rank": 96.0,
+    "predicts_success": "True"
+  },
+  "phase_transition": {
+    "has_transition": false,
+    "transition_epoch": null,
+    "transition_sharpness": 0.0,
+    "heat_peak": 0.0,
+    "entropy_drop_rate": 0.0
+  },
+  "static_computation": {
+    "loss": 2.140328206223785e-06,
+    "gradient_computed": true,
+    "gradient_norm": 0.0015782167902216315
+  },
+  "success_criteria": {
+    "is_success": false,
+    "success_rate_estimate": 0.0,
+    "failure_mode": "no_phase_transition",
+    "kappa_prediction_accuracy": "True"
+  }
+}

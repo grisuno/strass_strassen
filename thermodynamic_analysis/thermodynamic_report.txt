@@ -1,0 +1,1016 @@
+================================================================================
+THERMODYNAMIC ANALYSIS OF ALGORITHMIC MATTER
+================================================================================
+
+Total checkpoints analyzed: 80
+Timestamp: 2026-01-31T22:11:03.614473
+
+--------------------------------------------------------------------------------
+EMERGENT UNIVERSAL CONSTANTS
+--------------------------------------------------------------------------------
+
+[GRAVITATIONAL CONSTANT G_alg]
+  Successful runs mean: 0.000000e+00
+  Failed runs mean:     1.690480e+00
+  Universal estimate:   0.000000e+00
+  Pressure (success):   0.000000e+00
+  Pressure (failed):    0.000000e+00
+
+[LANDAUER CONSTANT k_B_eff]
+  Successful runs mean: 0.000000e+00
+  Failed runs mean:     0.000000e+00
+  Universal estimate:   0.000000e+00
+
+[HEISENBERG CONSTANT hbar_eff]
+  Successful runs mean: 6.624781e-08
+  Failed runs mean:     2.432784e-02
+  Universal estimate:   5.856955e-08
+
+[CONDITION NUMBER KAPPA]
+  Successful runs mean: 1.000000
+  Failed runs mean:     1.019013
+  Log kappa (success):  0.000000
+  Predictive threshold: 1.001000
+
+[KAPPA PREDICTIVE POWER]
+  AUC: 1.0000
+  Correlation: -0.0497
+  Predictive power: strong
+  Samples: 80
+
+--------------------------------------------------------------------------------
+UNIVERSAL LAWS VERIFICATION
+--------------------------------------------------------------------------------
+
+Gravitational Law: CV=0.0000, Constant=True, N=3
+Landauer Principle: CV=0.0000, Constant=True, N=3
+Heisenberg Uncertainty: CV=0.1680, Constant=False, N=3
+Universality Confidence: 83.20%
+
+================================================================================
+INDIVIDUAL CHECKPOINT ANALYSIS
+================================================================================
+
+[1] checkpoints/bs8_seed9.pt
+    Epoch: unknown
+    Delta: 0.490948
+    G_alg: 1.001121e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.416994e-02
+    Kappa: 1.001259
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[2] checkpoints/bs8_seed8.pt
+    Epoch: unknown
+    Delta: 0.499606
+    G_alg: 1.619839e+01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.483467e-01
+    Kappa: 1.328041
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[3] checkpoints/bs8_seed7.pt
+    Epoch: unknown
+    Delta: 0.494229
+    G_alg: 7.182317e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 8.973341e-03
+    Kappa: 1.001025
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[4] checkpoints/bs8_seed6.pt
+    Epoch: unknown
+    Delta: 0.480566
+    G_alg: 3.807761e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 8.212909e-02
+    Kappa: 1.045554
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[5] checkpoints/bs8_seed5.pt
+    Epoch: unknown
+    Delta: 0.489098
+    G_alg: 7.717203e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.594671e-02
+    Kappa: 1.001907
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[6] checkpoints/bs8_seed4.pt
+    Epoch: unknown
+    Delta: 0.490290
+    G_alg: 3.249689e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 5.633934e-02
+    Kappa: 1.026487
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[7] checkpoints/bs8_seed3.pt
+    Epoch: unknown
+    Delta: 0.496844
+    G_alg: 1.663569e+01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.644131e-01
+    Kappa: 1.518459
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[8] checkpoints/bs8_seed2.pt
+    Epoch: unknown
+    Delta: 0.495772
+    G_alg: 9.517167e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.559164e-01
+    Kappa: 1.223911
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[9] checkpoints/bs8_seed1.pt
+    Epoch: unknown
+    Delta: 0.498772
+    G_alg: 2.357150e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.955318e-02
+    Kappa: 1.012963
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[10] checkpoints/bs8_seed0.pt
+    Epoch: unknown
+    Delta: 0.497137
+    G_alg: 7.595573e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.725097e-02
+    Kappa: 1.002564
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[11] checkpoints/bs64_seed9.pt
+    Epoch: unknown
+    Delta: 0.489982
+    G_alg: 1.226551e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.042768e-03
+    Kappa: 1.000023
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[12] checkpoints/bs64_seed8.pt
+    Epoch: unknown
+    Delta: 0.498971
+    G_alg: 8.014158e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.204447e-02
+    Kappa: 1.000978
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[13] checkpoints/bs64_seed7.pt
+    Epoch: unknown
+    Delta: 0.494889
+    G_alg: 6.601245e-02
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.128812e-03
+    Kappa: 1.000010
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[14] checkpoints/bs64_seed6.pt
+    Epoch: unknown
+    Delta: 0.497330
+    G_alg: 3.231898e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 5.650521e-03
+    Kappa: 1.000293
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[15] checkpoints/bs64_seed5.pt
+    Epoch: unknown
+    Delta: 0.492991
+    G_alg: 5.566462e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 8.165117e-03
+    Kappa: 1.000520
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[16] checkpoints/bs64_seed4.pt
+    Epoch: unknown
+    Delta: 0.487513
+    G_alg: 9.141766e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.736149e-02
+    Kappa: 1.001888
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[17] checkpoints/bs64_seed3.pt
+    Epoch: unknown
+    Delta: 0.499547
+    G_alg: 6.365651e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 9.317581e-03
+    Kappa: 1.000478
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[18] checkpoints/bs64_seed2.pt
+    Epoch: unknown
+    Delta: 0.468961
+    G_alg: 9.227915e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.041797e-02
+    Kappa: 1.001009
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[19] checkpoints/bs64_seed1.pt
+    Epoch: unknown
+    Delta: 0.488434
+    G_alg: 5.755745e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 9.979264e-03
+    Kappa: 1.000658
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[20] checkpoints/bs64_seed0.pt
+    Epoch: unknown
+    Delta: 0.498948
+    G_alg: 3.927089e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.001108e-02
+    Kappa: 1.000637
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[21] checkpoints/bs512_seed9.pt
+    Epoch: unknown
+    Delta: 0.498624
+    G_alg: 4.272337e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.713288e-03
+    Kappa: 1.000237
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[22] checkpoints/bs512_seed8.pt
+    Epoch: unknown
+    Delta: 0.495943
+    G_alg: 4.637711e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.788308e-03
+    Kappa: 1.000176
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[23] checkpoints/bs512_seed7.pt
+    Epoch: unknown
+    Delta: 0.499022
+    G_alg: 2.422730e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.596944e-03
+    Kappa: 1.000107
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[24] checkpoints/bs512_seed6.pt
+    Epoch: unknown
+    Delta: 0.492092
+    G_alg: 4.664926e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.139427e-02
+    Kappa: 1.000697
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[25] checkpoints/bs512_seed5.pt
+    Epoch: unknown
+    Delta: 0.495890
+    G_alg: 3.050510e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.485474e-03
+    Kappa: 1.000248
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[26] checkpoints/bs512_seed4.pt
+    Epoch: unknown
+    Delta: 0.497996
+    G_alg: 7.676255e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.358644e-02
+    Kappa: 1.000847
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[27] checkpoints/bs512_seed3.pt
+    Epoch: unknown
+    Delta: 0.491501
+    G_alg: 2.962898e-02
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.049493e-04
+    Kappa: 1.000001
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[28] checkpoints/bs512_seed2.pt
+    Epoch: unknown
+    Delta: 0.492933
+    G_alg: 2.634396e-02
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.637400e-04
+    Kappa: 1.000001
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[29] checkpoints/bs512_seed1.pt
+    Epoch: unknown
+    Delta: 0.496218
+    G_alg: 8.138369e-02
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.929453e-03
+    Kappa: 1.000023
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[30] checkpoints/bs512_seed0.pt
+    Epoch: unknown
+    Delta: 0.493622
+    G_alg: 1.604610e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.459461e-03
+    Kappa: 1.000087
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[31] checkpoints/bs32_seed9.pt
+    Epoch: unknown
+    Delta: 0.490209
+    G_alg: 1.667734e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.516886e-03
+    Kappa: 1.000042
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[32] checkpoints/bs32_seed8.pt
+    Epoch: unknown
+    Delta: 0.499273
+    G_alg: 2.255855e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.026040e-02
+    Kappa: 1.008274
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[33] checkpoints/bs32_seed7.pt
+    Epoch: unknown
+    Delta: 0.499486
+    G_alg: 1.372593e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.818306e-03
+    Kappa: 1.000027
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[34] checkpoints/bs32_seed6.pt
+    Epoch: unknown
+    Delta: 0.497152
+    G_alg: 3.337668e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.092352e-03
+    Kappa: 1.000304
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[35] checkpoints/bs32_seed5.pt
+    Epoch: unknown
+    Delta: 0.498807
+    G_alg: 4.729293e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 7.126397e-03
+    Kappa: 1.000473
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[36] checkpoints/bs32_seed4.pt
+    Epoch: unknown
+    Delta: 0.499735
+    G_alg: 1.319583e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.782748e-02
+    Kappa: 1.004187
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[37] checkpoints/bs32_seed3.pt
+    Epoch: unknown
+    Delta: 0.497693
+    G_alg: 2.143570e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.713104e-02
+    Kappa: 1.005624
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[38] checkpoints/bs32_seed2.pt
+    Epoch: unknown
+    Delta: 0.483715
+    G_alg: 1.033514e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.294222e-02
+    Kappa: 1.001156
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[39] checkpoints/bs32_seed1.pt
+    Epoch: unknown
+    Delta: 0.499027
+    G_alg: 1.229082e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.899433e-02
+    Kappa: 1.002798
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[40] checkpoints/bs32_seed0.pt
+    Epoch: unknown
+    Delta: 0.498256
+    G_alg: 5.430807e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.368137e-02
+    Kappa: 1.001252
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[41] checkpoints/bs256_seed9.pt
+    Epoch: unknown
+    Delta: 0.496022
+    G_alg: 3.336284e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.496265e-03
+    Kappa: 1.000163
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[42] checkpoints/bs256_seed8.pt
+    Epoch: unknown
+    Delta: 0.490526
+    G_alg: 4.005714e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.638677e-03
+    Kappa: 1.000114
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[43] checkpoints/bs256_seed7.pt
+    Epoch: unknown
+    Delta: 0.492382
+    G_alg: 2.952751e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.997619e-03
+    Kappa: 1.000155
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[44] checkpoints/bs256_seed6.pt
+    Epoch: unknown
+    Delta: 0.497932
+    G_alg: 1.861437e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.230719e-03
+    Kappa: 1.000119
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[45] checkpoints/bs256_seed5.pt
+    Epoch: unknown
+    Delta: 0.495250
+    G_alg: 4.876964e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 8.587696e-03
+    Kappa: 1.000558
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[46] checkpoints/bs256_seed4.pt
+    Epoch: unknown
+    Delta: 0.489365
+    G_alg: 1.817781e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.386391e-02
+    Kappa: 1.005250
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[47] checkpoints/bs256_seed3.pt
+    Epoch: unknown
+    Delta: 0.493774
+    G_alg: 4.173864e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.998596e-03
+    Kappa: 1.000270
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[48] checkpoints/bs256_seed2.pt
+    Epoch: unknown
+    Delta: 0.482166
+    G_alg: 1.676542e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.464415e-03
+    Kappa: 1.000044
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[49] checkpoints/bs256_seed1.pt
+    Epoch: unknown
+    Delta: 0.489645
+    G_alg: 4.733546e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 7.111132e-03
+    Kappa: 1.000360
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[50] checkpoints/bs256_seed0.pt
+    Epoch: unknown
+    Delta: 0.498071
+    G_alg: 1.738157e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.662949e-03
+    Kappa: 1.000107
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[51] checkpoints/bs16_seed9.pt
+    Epoch: unknown
+    Delta: 0.497842
+    G_alg: 5.022203e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.807868e-03
+    Kappa: 1.000344
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[52] checkpoints/bs16_seed8.pt
+    Epoch: unknown
+    Delta: 0.497171
+    G_alg: 4.681156e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.830856e-02
+    Kappa: 1.025190
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[53] checkpoints/bs16_seed7.pt
+    Epoch: unknown
+    Delta: 0.499113
+    G_alg: 2.081402e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.071504e-03
+    Kappa: 1.000082
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[54] checkpoints/bs16_seed6.pt
+    Epoch: unknown
+    Delta: 0.497636
+    G_alg: 6.874218e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.240548e-02
+    Kappa: 1.001586
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[55] checkpoints/bs16_seed5.pt
+    Epoch: unknown
+    Delta: 0.495035
+    G_alg: 1.215972e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.873479e-02
+    Kappa: 1.003460
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[56] checkpoints/bs16_seed4.pt
+    Epoch: unknown
+    Delta: 0.492553
+    G_alg: 3.343792e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.019603e-02
+    Kappa: 1.026470
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[57] checkpoints/bs16_seed3.pt
+    Epoch: unknown
+    Delta: 0.498958
+    G_alg: 3.940388e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 5.752942e-02
+    Kappa: 1.023790
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[58] checkpoints/bs16_seed2.pt
+    Epoch: unknown
+    Delta: 0.494531
+    G_alg: 4.370734e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 8.946521e-02
+    Kappa: 1.040853
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[59] checkpoints/bs16_seed1.pt
+    Epoch: unknown
+    Delta: 0.484846
+    G_alg: 1.233622e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.953655e-02
+    Kappa: 1.003226
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[60] checkpoints/bs16_seed0.pt
+    Epoch: unknown
+    Delta: 0.498067
+    G_alg: 5.726804e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.090793e-02
+    Kappa: 1.001323
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[61] checkpoints/bs128_seed9.pt
+    Epoch: unknown
+    Delta: 0.498296
+    G_alg: 1.887342e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.463028e-03
+    Kappa: 1.000055
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[62] checkpoints/bs128_seed8.pt
+    Epoch: unknown
+    Delta: 0.499209
+    G_alg: 4.824419e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 7.820308e-03
+    Kappa: 1.000385
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[63] checkpoints/bs128_seed7.pt
+    Epoch: unknown
+    Delta: 0.482932
+    G_alg: 3.408370e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.879201e-03
+    Kappa: 1.000182
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[64] checkpoints/bs128_seed6.pt
+    Epoch: unknown
+    Delta: 0.483486
+    G_alg: 1.267456e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.859892e-03
+    Kappa: 1.000056
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[65] checkpoints/bs128_seed5.pt
+    Epoch: unknown
+    Delta: 0.497193
+    G_alg: 5.689894e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.108425e-02
+    Kappa: 1.000745
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[66] checkpoints/bs128_seed4.pt
+    Epoch: unknown
+    Delta: 0.499822
+    G_alg: 1.438851e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.968661e-02
+    Kappa: 1.005569
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[67] checkpoints/bs128_seed3.pt
+    Epoch: unknown
+    Delta: 0.486317
+    G_alg: 1.465053e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 2.092870e-02
+    Kappa: 1.002911
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[68] checkpoints/bs128_seed2.pt
+    Epoch: unknown
+    Delta: 0.496892
+    G_alg: 5.232943e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.731646e-03
+    Kappa: 1.000276
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[69] checkpoints/bs128_seed1.pt
+    Epoch: unknown
+    Delta: 0.491058
+    G_alg: 6.785674e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 9.907027e-03
+    Kappa: 1.000822
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[70] checkpoints/bs128_seed0.pt
+    Epoch: unknown
+    Delta: 0.496766
+    G_alg: 2.071714e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 5.855533e-03
+    Kappa: 1.000170
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[71] checkpoints/strassen_exact.pt
+    Epoch: unknown
+    Delta: 0.000000
+    G_alg: 0.000000e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 5.816193e-08
+    Kappa: 1.000000
+    Phase transition: False
+    Success: True
+    Failure mode: no_phase_transition
+
+[72] checkpoints/strassen_robust.pt
+    Epoch: unknown
+    Delta: 0.151433
+    G_alg: 1.395274e+01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.088782e-04
+    Kappa: 1.000191
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[73] checkpoints/strassen_result.pt
+    Epoch: unknown
+    Delta: 0.493310
+    G_alg: 2.523460e-04
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.620208e-06
+    Kappa: 1.000000
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[74] checkpoints/strassen_discrete_final.pt
+    Epoch: unknown
+    Delta: 0.000000
+    G_alg: 0.000000e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 5.856955e-08
+    Kappa: 1.000000
+    Phase transition: False
+    Success: True
+    Failure mode: no_phase_transition
+
+[75] checkpoints/strassen_float64.pt
+    Epoch: unknown
+    Delta: 0.486029
+    G_alg: 3.852327e-02
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 6.730395e-04
+    Kappa: 1.000003
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[76] checkpoints/strassen_coefficients.pt
+    Epoch: unknown
+    Delta: 0.479176
+    G_alg: 3.840058e-01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 4.331471e-03
+    Kappa: 1.000091
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[77] checkpoints/strassen_multiscale.pt
+    Epoch: unknown
+    Delta: 0.499683
+    G_alg: 2.734596e-02
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 3.696566e-04
+    Kappa: 1.000001
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[78] checkpoints/strassen_grokkit.pt
+    Epoch: unknown
+    Delta: 0.499655
+    G_alg: 1.131299e-05
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.908392e-07
+    Kappa: 1.000000
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+[79] checkpoints/strassen_grokked_weights.pt
+    Epoch: unknown
+    Delta: 0.000000
+    G_alg: 0.000000e+00
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 8.201197e-08
+    Kappa: 1.000000
+    Phase transition: False
+    Success: True
+    Failure mode: no_phase_transition
+
+[80] checkpoints/strassen_discovered.pt
+    Epoch: unknown
+    Delta: 0.495159
+    G_alg: 1.130006e+01
+    Pressure: 0.000000e+00
+    k_B_eff: 0.000000e+00
+    hbar_eff: 1.479534e-01
+    Kappa: 1.123876
+    Phase transition: False
+    Success: False
+    Failure mode: no_phase_transition
+
+================================================================================
+END OF REPORT
+================================================================================
