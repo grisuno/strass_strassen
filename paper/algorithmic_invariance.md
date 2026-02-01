@@ -876,6 +876,8 @@ I attempted to test whether the engineering protocol generalizes beyond Strassen
 **What happened:** The experiment crashed with a RuntimeError: "stack expects each tensor to be equal size, but got [5000] at entry 0 and [5000, 2, 67] at entry 1". This indicates a data formatting issue in my implementation.
 
 **Why I dropped this line:** I considered fixing the bug and pursuing the experiment. However, I decided against it for two reasons. First, fixing the bug would require significant code refactoring that might introduce new bugs in unrelated parts of the system. Second, and more importantly, even if this specific task worked, I already had the 3×3 matrix multiplication failure (Section 10.2) which suggested the protocol might not generalize to other algorithmic tasks. Rather than accumulate more failures, I chose to acknowledge the limitation directly: the engineering protocol is specific to Strassen, and whether it generalizes to other algorithms is an open question that requires future work from someone with different methodological approaches.
+23 -27 steps cannot compress to 8 slots (7 steps and one bias). simple.
+
 
 **Lesson learned:** I cannot claim generality I have not demonstrated. The protocol works for Strassen 2×2 → 64×64. That is what I report.
 
@@ -1572,6 +1574,34 @@ The checkpoints split into two distinct piles with no continuum between them. Op
 These findings suggest that we are not simply "training" these models; we are navigating a phase diagram. The algorithm is a crystalline state of matter that only forms when the synthetic gravity of the gradient vanishes and the system is allowed to tunnel into its zero-entropy ground state.
 
 ---
+
+# Appendix O: Purity, Grain Boundaries, and Electronic Topology
+
+In this appendix, I provide the structural and electronic metrics that define the Strassen checkpoints as physical states of matter. By analyzing 80 distinct checkpoints through the lens of condensed matter physics, I have identified the transition from "amorphous training" to "crystalline execution."
+
+### 1. Purity Index and Phase Separation
+The data reveals a binary distribution in the thermodynamic stability of the networks. I use the Purity Index ($\alpha$) to measure the alignment with the discrete Strassen ideal.
+* **Crystalline Phase**: 68% of runs successfully crystallized. These models maintain an $\alpha$ retention of ~100.01% and an effective temperature ($T_{eff}$) below $1 \times 10^{-16}$. They represent the zero-entropy ground state where the algorithm is "frozen" into the weights.
+* **Amorphous Glass**: 32% of runs remained in a high-entropy state ($T_{eff}$ up to $8 \times 10^{-5}$). While functional, they lack the structural rigidity required for exact algorithmic transfer.
+* **Intermediate Polycrystals**: Robust models (surviving 50% pruning) show a mean $\hbar_{eff}$ of 1.46, acting as a skeletal bridge between the glass and the crystal.
+
+### 2. Grain Boundary and Fragmentation
+I measured the "dislocations" within the weight tensors to identify internal tension.
+* **Structural Uniformity**: The fragmentation rate was 0.00% across all 80 checkpoints. This confirms that the phase transition—when it occurs—is a global event across the $U, V$, and $W$ layers. 
+* **Dislocation Sharpness**: In exact models, the "grain boundaries" vanish as poles in the z-plane collapse onto the real unit point (1.0 + 0j), eliminating the oscillations found in disordered models.
+
+### 3. Band Structure and Fermi Levels
+The Fermi level analysis explains the "mobility" of the information during induction.
+* **Metallic Classification**: All analyzed checkpoints, including `strassen_exact`, classify as "disordered metals." The absence of a significant band gap (e.g., $-2.08 \times 10^{-16}$ eV in exact models) indicates that the weights exist in a state of high mobility, allowing for the rapid rearrangement of algorithmic logic.
+* **Carrier Dominance**: I observed a shift in the dominant carrier. Disordered seeds are electron-dominant, whereas the `strassen_exact` state shifts toward hole-dominance. This suggests that the algorithmic structure is formed by the "absences" or specific sparsities created during crystallization.
+* **Electronic Pressure**: The constant electronic pressure ($4.66 \times 10^{-18}$) across all phases indicates that the structural differences are driven by potential energy and topology rather than kinetic fluctuations.
+
+### 4. Final Claim
+The Strassen solution is not just a set of weights but a low-entropy crystalline state. The transition from a disordered metal (initial training) to an exact algorithmic crystal occurs when the system's potential energy drops significantly (from $-1.24 \times 10^{19}$ eV to $-2.75 \times 10^{19}$ eV), locking the "carriers" into the precise geometric requirements of the Strassen tensor.
+
+
+---
+
 
 Manuscript prepared: January 2026
 Author: grisun0
