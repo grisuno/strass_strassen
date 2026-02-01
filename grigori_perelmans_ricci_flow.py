@@ -427,10 +427,6 @@ class GeometricPlanckCalculator:
 # MAIN PIPELINE
 # ============================================================================
 
-# ============================================================================
-# MAIN PIPELINE
-# ============================================================================
-
 class RicciFlowAnalyzerPipeline:
     """
     Complete analysis pipeline for Ricci Flow and Planck Estimation.
