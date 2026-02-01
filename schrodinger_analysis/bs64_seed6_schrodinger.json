@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "checkpoint_path": "checkpoints/bs64_seed6.pt",
+    "epoch": "unknown",
+    "timestamp": "2026-01-31T23:24:08.746592"
+  },
+  "wave_function": {
+    "dimension": 96,
+    "norm": 5.198718070983887,
+    "mean": 0.4565598666667938,
+    "std": 0.2717539370059967
+  },
+  "potential": {
+    "mean": 0.04794800281524658,
+    "max": 0.12366876006126404,
+    "min": 5.316449005476898e-06,
+    "barrier_height": 10.0
+  },
+  "hamiltonian": {
+    "dimension": 96,
+    "trace": 884740.625,
+    "norm": 110400.21875
+  },
+  "eigenvalues": {
+    "ground_state": 4.885483741760254,
+    "first_excited": 19.37423324584961,
+    "energy_gap": 14.488749504089355,
+    "all_eigenvalues": [
+      4.885483741760254,
+      19.37423324584961,
+      43.514888763427734,
+      77.27925872802734,
+      120.62269592285156,
+      173.5078887939453,
+      235.876953125,
+      307.669921875,
+      388.80859375,
+      479.189453125
+    ]
+  },
+  "eigenvectors": {
+    "ground_state_shape": [
+      96
+    ],
+    "ground_state_norm": 0.9999999403953552
+  },
+  "time_evolution": {
+    "time_steps": 1001,
+    "dt": 0.01,
+    "final_state_norm": 1.0
+  },
+  "expectation_values": {
+    "position": 0.49997788667678833,
+    "ground_state_energy": 4.885483741760254
+  },
+  "uncertainty": {
+    "position_expectation": 0.4999779164791107,
+    "position_uncertainty": 0.18459251523017883,
+    "momentum_expectation": 0.0,
+    "momentum_uncertainty": 3.04430890083313,
+    "heisenberg_product": 0.5619566440582275,
+    "heisenberg_satisfied": "True"
+  },
+  "tunneling": {
+    "probability": 0.435991495847702,
+    "barrier_penetration": true
+  },
+  "quantum_numbers": {
+    "principal_quantum_number": 0,
+    "energy_level": 4.885483741760254,
+    "degeneracy": 1
+  }
+}

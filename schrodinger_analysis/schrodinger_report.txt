@@ -1,0 +1,599 @@
+================================================================================
+SCHRODINGER ANALYSIS OF NEURAL NETWORKS
+================================================================================
+
+Total checkpoints analyzed: 80
+Timestamp: 2026-01-31T23:24:35.086800
+
+--------------------------------------------------------------------------------
+QUANTUM STATISTICS
+--------------------------------------------------------------------------------
+
+[ENERGY GAP]
+  Mean: 1.449163e+01
+  Std:  3.570853e-03
+  Min:  1.448378e+01
+  Max:  1.449899e+01
+
+[HEISENBERG UNCERTAINTY]
+  Mean: 5.619098e-01
+  Std:  5.545233e-05
+  Min:  5.617930e-01
+  Max:  5.620315e-01
+  Principle satisfied rate: 100.00%
+
+[TUNNELING]
+  Mean probability: 4.068037e-01
+  Penetration rate: 96.25%
+
+[GROUND STATE ENERGY]
+  Mean: 4.873702
+  Std:  0.011866
+
+================================================================================
+INDIVIDUAL CHECKPOINT ANALYSIS
+================================================================================
+
+[1] checkpoints/bs8_seed9.pt
+    Epoch: unknown
+    Ground state energy: 4.867948
+    Energy gap: 14.493805885314941
+    Heisenberg product: 5.618755e-01
+    Tunneling probability: 4.249481e-01
+
+[2] checkpoints/bs8_seed8.pt
+    Epoch: unknown
+    Ground state energy: 4.870118
+    Energy gap: 14.490458488464355
+    Heisenberg product: 5.619282e-01
+    Tunneling probability: 3.468648e-01
+
+[3] checkpoints/bs8_seed7.pt
+    Epoch: unknown
+    Ground state energy: 4.882397
+    Energy gap: 14.488067626953125
+    Heisenberg product: 5.619689e-01
+    Tunneling probability: 5.110842e-01
+
+[4] checkpoints/bs8_seed6.pt
+    Epoch: unknown
+    Ground state energy: 4.882416
+    Energy gap: 14.4932861328125
+    Heisenberg product: 5.618848e-01
+    Tunneling probability: 4.598506e-01
+
+[5] checkpoints/bs8_seed5.pt
+    Epoch: unknown
+    Ground state energy: 4.880452
+    Energy gap: 14.497563362121582
+    Heisenberg product: 5.618165e-01
+    Tunneling probability: 4.475481e-01
+
+[6] checkpoints/bs8_seed4.pt
+    Epoch: unknown
+    Ground state energy: 4.877238
+    Energy gap: 14.497798919677734
+    Heisenberg product: 5.618146e-01
+    Tunneling probability: 4.571062e-01
+
+[7] checkpoints/bs8_seed3.pt
+    Epoch: unknown
+    Ground state energy: 4.875358
+    Energy gap: 14.48754596710205
+    Heisenberg product: 5.619729e-01
+    Tunneling probability: 4.326756e-01
+
+[8] checkpoints/bs8_seed2.pt
+    Epoch: unknown
+    Ground state energy: 4.877397
+    Energy gap: 14.495798110961914
+    Heisenberg product: 5.618501e-01
+    Tunneling probability: 3.870296e-01
+
+[9] checkpoints/bs8_seed1.pt
+    Epoch: unknown
+    Ground state energy: 4.880381
+    Energy gap: 14.492279052734375
+    Heisenberg product: 5.619019e-01
+    Tunneling probability: 4.498723e-01
+
+[10] checkpoints/bs8_seed0.pt
+    Epoch: unknown
+    Ground state energy: 4.890565
+    Energy gap: 14.48841381072998
+    Heisenberg product: 5.619580e-01
+    Tunneling probability: 5.370126e-01
+
+[11] checkpoints/bs64_seed9.pt
+    Epoch: unknown
+    Ground state energy: 4.870698
+    Energy gap: 14.494058609008789
+    Heisenberg product: 5.618709e-01
+    Tunneling probability: 4.111242e-01
+
+[12] checkpoints/bs64_seed8.pt
+    Epoch: unknown
+    Ground state energy: 4.872481
+    Energy gap: 14.49255657196045
+    Heisenberg product: 5.618920e-01
+    Tunneling probability: 3.967923e-01
+
+[13] checkpoints/bs64_seed7.pt
+    Epoch: unknown
+    Ground state energy: 4.883090
+    Energy gap: 14.491151809692383
+    Heisenberg product: 5.619190e-01
+    Tunneling probability: 4.614223e-01
+
+[14] checkpoints/bs64_seed6.pt
+    Epoch: unknown
+    Ground state energy: 4.885484
+    Energy gap: 14.488749504089355
+    Heisenberg product: 5.619566e-01
+    Tunneling probability: 4.359915e-01
+
+[15] checkpoints/bs64_seed5.pt
+    Epoch: unknown
+    Ground state energy: 4.868732
+    Energy gap: 14.49777603149414
+    Heisenberg product: 5.618129e-01
+    Tunneling probability: 3.944934e-01
+
+[16] checkpoints/bs64_seed4.pt
+    Epoch: unknown
+    Ground state energy: 4.881281
+    Energy gap: 14.489782333374023
+    Heisenberg product: 5.619414e-01
+    Tunneling probability: 4.649995e-01
+
+[17] checkpoints/bs64_seed3.pt
+    Epoch: unknown
+    Ground state energy: 4.870847
+    Energy gap: 14.48655891418457
+    Heisenberg product: 5.619858e-01
+    Tunneling probability: 3.909950e-01
+
+[18] checkpoints/bs64_seed2.pt
+    Epoch: unknown
+    Ground state energy: 4.863831
+    Energy gap: 14.495500564575195
+    Heisenberg product: 5.618500e-01
+    Tunneling probability: 3.490467e-01
+
+[19] checkpoints/bs64_seed1.pt
+    Epoch: unknown
+    Ground state energy: 4.876529
+    Energy gap: 14.490931510925293
+    Heisenberg product: 5.619220e-01
+    Tunneling probability: 3.851476e-01
+
+[20] checkpoints/bs64_seed0.pt
+    Epoch: unknown
+    Ground state energy: 4.890471
+    Energy gap: 14.485447883605957
+    Heisenberg product: 5.620031e-01
+    Tunneling probability: 5.276426e-01
+
+[21] checkpoints/bs512_seed9.pt
+    Epoch: unknown
+    Ground state energy: 4.872893
+    Energy gap: 14.491196632385254
+    Heisenberg product: 5.619144e-01
+    Tunneling probability: 3.872628e-01
+
+[22] checkpoints/bs512_seed8.pt
+    Epoch: unknown
+    Ground state energy: 4.864515
+    Energy gap: 14.490793228149414
+    Heisenberg product: 5.619224e-01
+    Tunneling probability: 4.010143e-01
+
+[23] checkpoints/bs512_seed7.pt
+    Epoch: unknown
+    Ground state energy: 4.879240
+    Energy gap: 14.49006462097168
+    Heisenberg product: 5.619363e-01
+    Tunneling probability: 4.907639e-01
+
+[24] checkpoints/bs512_seed6.pt
+    Epoch: unknown
+    Ground state energy: 4.882987
+    Energy gap: 14.49447250366211
+    Heisenberg product: 5.618671e-01
+    Tunneling probability: 4.857840e-01
+
+[25] checkpoints/bs512_seed5.pt
+    Epoch: unknown
+    Ground state energy: 4.884660
+    Energy gap: 14.487028121948242
+    Heisenberg product: 5.619801e-01
+    Tunneling probability: 4.975718e-01
+
+[26] checkpoints/bs512_seed4.pt
+    Epoch: unknown
+    Ground state energy: 4.872049
+    Energy gap: 14.494888305664062
+    Heisenberg product: 5.618602e-01
+    Tunneling probability: 4.444167e-01
+
+[27] checkpoints/bs512_seed3.pt
+    Epoch: unknown
+    Ground state energy: 4.869633
+    Energy gap: 14.491168975830078
+    Heisenberg product: 5.619158e-01
+    Tunneling probability: 3.845173e-01
+
+[28] checkpoints/bs512_seed2.pt
+    Epoch: unknown
+    Ground state energy: 4.868683
+    Energy gap: 14.497112274169922
+    Heisenberg product: 5.618225e-01
+    Tunneling probability: 3.102333e-01
+
+[29] checkpoints/bs512_seed1.pt
+    Epoch: unknown
+    Ground state energy: 4.884541
+    Energy gap: 14.494239807128906
+    Heisenberg product: 5.618684e-01
+    Tunneling probability: 4.964914e-01
+
+[30] checkpoints/bs512_seed0.pt
+    Epoch: unknown
+    Ground state energy: 4.885374
+    Energy gap: 14.487504959106445
+    Heisenberg product: 5.619698e-01
+    Tunneling probability: 4.919269e-01
+
+[31] checkpoints/bs32_seed9.pt
+    Epoch: unknown
+    Ground state energy: 4.871399
+    Energy gap: 14.494365692138672
+    Heisenberg product: 5.618673e-01
+    Tunneling probability: 4.198639e-01
+
+[32] checkpoints/bs32_seed8.pt
+    Epoch: unknown
+    Ground state energy: 4.874965
+    Energy gap: 14.490010261535645
+    Heisenberg product: 5.619357e-01
+    Tunneling probability: 4.089369e-01
+
+[33] checkpoints/bs32_seed7.pt
+    Epoch: unknown
+    Ground state energy: 4.878722
+    Energy gap: 14.488720893859863
+    Heisenberg product: 5.619583e-01
+    Tunneling probability: 4.777710e-01
+
+[34] checkpoints/bs32_seed6.pt
+    Epoch: unknown
+    Ground state energy: 4.885470
+    Energy gap: 14.487166404724121
+    Heisenberg product: 5.619819e-01
+    Tunneling probability: 4.402781e-01
+
+[35] checkpoints/bs32_seed5.pt
+    Epoch: unknown
+    Ground state energy: 4.870461
+    Energy gap: 14.498188018798828
+    Heisenberg product: 5.618052e-01
+    Tunneling probability: 3.318650e-01
+
+[36] checkpoints/bs32_seed4.pt
+    Epoch: unknown
+    Ground state energy: 4.878026
+    Energy gap: 14.491621017456055
+    Heisenberg product: 5.619113e-01
+    Tunneling probability: 4.130892e-01
+
+[37] checkpoints/bs32_seed3.pt
+    Epoch: unknown
+    Ground state energy: 4.870479
+    Energy gap: 14.48794937133789
+    Heisenberg product: 5.619643e-01
+    Tunneling probability: 3.983548e-01
+
+[38] checkpoints/bs32_seed2.pt
+    Epoch: unknown
+    Ground state energy: 4.860003
+    Energy gap: 14.496828079223633
+    Heisenberg product: 5.618294e-01
+    Tunneling probability: 2.908620e-01
+
+[39] checkpoints/bs32_seed1.pt
+    Epoch: unknown
+    Ground state energy: 4.876422
+    Energy gap: 14.492801666259766
+    Heisenberg product: 5.618932e-01
+    Tunneling probability: 4.414361e-01
+
+[40] checkpoints/bs32_seed0.pt
+    Epoch: unknown
+    Ground state energy: 4.891868
+    Energy gap: 14.485672950744629
+    Heisenberg product: 5.619996e-01
+    Tunneling probability: 5.149003e-01
+
+[41] checkpoints/bs256_seed9.pt
+    Epoch: unknown
+    Ground state energy: 4.871508
+    Energy gap: 14.493162155151367
+    Heisenberg product: 5.618846e-01
+    Tunneling probability: 3.894237e-01
+
+[42] checkpoints/bs256_seed8.pt
+    Epoch: unknown
+    Ground state energy: 4.863090
+    Energy gap: 14.4907808303833
+    Heisenberg product: 5.619225e-01
+    Tunneling probability: 3.715569e-01
+
+[43] checkpoints/bs256_seed7.pt
+    Epoch: unknown
+    Ground state energy: 4.879548
+    Energy gap: 14.488201141357422
+    Heisenberg product: 5.619656e-01
+    Tunneling probability: 5.022106e-01
+
+[44] checkpoints/bs256_seed6.pt
+    Epoch: unknown
+    Ground state energy: 4.886341
+    Energy gap: 14.492685317993164
+    Heisenberg product: 5.618951e-01
+    Tunneling probability: 4.612442e-01
+
+[45] checkpoints/bs256_seed5.pt
+    Epoch: unknown
+    Ground state energy: 4.882016
+    Energy gap: 14.488475799560547
+    Heisenberg product: 5.619581e-01
+    Tunneling probability: 4.894938e-01
+
+[46] checkpoints/bs256_seed4.pt
+    Epoch: unknown
+    Ground state energy: 4.874236
+    Energy gap: 14.492847442626953
+    Heisenberg product: 5.618920e-01
+    Tunneling probability: 4.280536e-01
+
+[47] checkpoints/bs256_seed3.pt
+    Epoch: unknown
+    Ground state energy: 4.875669
+    Energy gap: 14.485175132751465
+    Heisenberg product: 5.620083e-01
+    Tunneling probability: 4.338695e-01
+
+[48] checkpoints/bs256_seed2.pt
+    Epoch: unknown
+    Ground state energy: 4.868309
+    Energy gap: 14.496360778808594
+    Heisenberg product: 5.618366e-01
+    Tunneling probability: 3.139857e-01
+
+[49] checkpoints/bs256_seed1.pt
+    Epoch: unknown
+    Ground state energy: 4.871808
+    Energy gap: 14.49087142944336
+    Heisenberg product: 5.619234e-01
+    Tunneling probability: 4.065498e-01
+
+[50] checkpoints/bs256_seed0.pt
+    Epoch: unknown
+    Ground state energy: 4.887227
+    Energy gap: 14.486468315124512
+    Heisenberg product: 5.619860e-01
+    Tunneling probability: 5.123634e-01
+
+[51] checkpoints/bs16_seed9.pt
+    Epoch: unknown
+    Ground state energy: 4.868624
+    Energy gap: 14.49472427368164
+    Heisenberg product: 5.618611e-01
+    Tunneling probability: 3.992513e-01
+
+[52] checkpoints/bs16_seed8.pt
+    Epoch: unknown
+    Ground state energy: 4.869171
+    Energy gap: 14.492208480834961
+    Heisenberg product: 5.619004e-01
+    Tunneling probability: 3.885559e-01
+
+[53] checkpoints/bs16_seed7.pt
+    Epoch: unknown
+    Ground state energy: 4.883408
+    Energy gap: 14.484067916870117
+    Heisenberg product: 5.620313e-01
+    Tunneling probability: 5.085596e-01
+
+[54] checkpoints/bs16_seed6.pt
+    Epoch: unknown
+    Ground state energy: 4.884550
+    Energy gap: 14.491950988769531
+    Heisenberg product: 5.619072e-01
+    Tunneling probability: 4.578662e-01
+
+[55] checkpoints/bs16_seed5.pt
+    Epoch: unknown
+    Ground state energy: 4.872556
+    Energy gap: 14.498994827270508
+    Heisenberg product: 5.617930e-01
+    Tunneling probability: 3.190335e-01
+
+[56] checkpoints/bs16_seed4.pt
+    Epoch: unknown
+    Ground state energy: 4.876597
+    Energy gap: 14.493942260742188
+    Heisenberg product: 5.618747e-01
+    Tunneling probability: 4.741316e-01
+
+[57] checkpoints/bs16_seed3.pt
+    Epoch: unknown
+    Ground state energy: 4.873471
+    Energy gap: 14.483783721923828
+    Heisenberg product: 5.620315e-01
+    Tunneling probability: 4.616399e-01
+
+[58] checkpoints/bs16_seed2.pt
+    Epoch: unknown
+    Ground state energy: 4.877989
+    Energy gap: 14.492910385131836
+    Heisenberg product: 5.618954e-01
+    Tunneling probability: 4.455490e-01
+
+[59] checkpoints/bs16_seed1.pt
+    Epoch: unknown
+    Ground state energy: 4.876935
+    Energy gap: 14.494884490966797
+    Heisenberg product: 5.618606e-01
+    Tunneling probability: 4.265597e-01
+
+[60] checkpoints/bs16_seed0.pt
+    Epoch: unknown
+    Ground state energy: 4.889898
+    Energy gap: 14.486154556274414
+    Heisenberg product: 5.619921e-01
+    Tunneling probability: 5.271487e-01
+
+[61] checkpoints/bs128_seed9.pt
+    Epoch: unknown
+    Ground state energy: 4.871680
+    Energy gap: 14.493602752685547
+    Heisenberg product: 5.618780e-01
+    Tunneling probability: 4.172361e-01
+
+[62] checkpoints/bs128_seed8.pt
+    Epoch: unknown
+    Ground state energy: 4.874916
+    Energy gap: 14.491535186767578
+    Heisenberg product: 5.619078e-01
+    Tunneling probability: 4.210324e-01
+
+[63] checkpoints/bs128_seed7.pt
+    Epoch: unknown
+    Ground state energy: 4.876714
+    Energy gap: 14.486936569213867
+    Heisenberg product: 5.619852e-01
+    Tunneling probability: 4.687998e-01
+
+[64] checkpoints/bs128_seed6.pt
+    Epoch: unknown
+    Ground state energy: 4.884090
+    Energy gap: 14.493888854980469
+    Heisenberg product: 5.618758e-01
+    Tunneling probability: 4.358447e-01
+
+[65] checkpoints/bs128_seed5.pt
+    Epoch: unknown
+    Ground state energy: 4.879914
+    Energy gap: 14.492691993713379
+    Heisenberg product: 5.618927e-01
+    Tunneling probability: 4.531878e-01
+
+[66] checkpoints/bs128_seed4.pt
+    Epoch: unknown
+    Ground state energy: 4.884298
+    Energy gap: 14.487876892089844
+    Heisenberg product: 5.619706e-01
+    Tunneling probability: 4.958631e-01
+
+[67] checkpoints/bs128_seed3.pt
+    Epoch: unknown
+    Ground state energy: 4.870095
+    Energy gap: 14.48929500579834
+    Heisenberg product: 5.619434e-01
+    Tunneling probability: 4.067805e-01
+
+[68] checkpoints/bs128_seed2.pt
+    Epoch: unknown
+    Ground state energy: 4.861186
+    Energy gap: 14.49587345123291
+    Heisenberg product: 5.618438e-01
+    Tunneling probability: 3.432332e-01
+
+[69] checkpoints/bs128_seed1.pt
+    Epoch: unknown
+    Ground state energy: 4.874623
+    Energy gap: 14.490104675292969
+    Heisenberg product: 5.619346e-01
+    Tunneling probability: 4.186527e-01
+
+[70] checkpoints/bs128_seed0.pt
+    Epoch: unknown
+    Ground state energy: 4.889923
+    Energy gap: 14.48609733581543
+    Heisenberg product: 5.619913e-01
+    Tunneling probability: 5.325072e-01
+
+[71] checkpoints/strassen_exact.pt
+    Epoch: unknown
+    Ground state energy: 4.834540
+    Energy gap: 14.493012428283691
+    Heisenberg product: 5.618878e-01
+    Tunneling probability: 0.000000e+00
+
+[72] checkpoints/strassen_robust.pt
+    Epoch: unknown
+    Ground state energy: 4.835491
+    Energy gap: 14.492828369140625
+    Heisenberg product: 5.618906e-01
+    Tunneling probability: 2.316600e-01
+
+[73] checkpoints/strassen_result.pt
+    Epoch: unknown
+    Ground state energy: 4.867071
+    Energy gap: 14.493818283081055
+    Heisenberg product: 5.618763e-01
+    Tunneling probability: 3.871449e-01
+
+[74] checkpoints/strassen_discrete_final.pt
+    Epoch: unknown
+    Ground state energy: 4.834540
+    Energy gap: 14.493012428283691
+    Heisenberg product: 5.618878e-01
+    Tunneling probability: 0.000000e+00
+
+[75] checkpoints/strassen_float64.pt
+    Epoch: unknown
+    Ground state energy: 4.868301
+    Energy gap: 14.494277954101562
+    Heisenberg product: 5.618700e-01
+    Tunneling probability: 3.906353e-01
+
+[76] checkpoints/strassen_coefficients.pt
+    Epoch: unknown
+    Ground state energy: 4.854855
+    Energy gap: 14.494888305664062
+    Heisenberg product: 5.618559e-01
+    Tunneling probability: 2.727625e-01
+
+[77] checkpoints/strassen_multiscale.pt
+    Epoch: unknown
+    Ground state energy: 4.863508
+    Energy gap: 14.493391036987305
+    Heisenberg product: 5.618796e-01
+    Tunneling probability: 3.006216e-01
+
+[78] checkpoints/strassen_grokkit.pt
+    Epoch: unknown
+    Ground state energy: 4.862738
+    Energy gap: 14.493183135986328
+    Heisenberg product: 5.618834e-01
+    Tunneling probability: 2.704212e-01
+
+[79] checkpoints/strassen_grokked_weights.pt
+    Epoch: unknown
+    Ground state energy: 4.834540
+    Energy gap: 14.493012428283691
+    Heisenberg product: 5.618878e-01
+    Tunneling probability: 0.000000e+00
+
+[80] checkpoints/strassen_discovered.pt
+    Epoch: unknown
+    Ground state energy: 4.870113
+    Energy gap: 14.492820739746094
+    Heisenberg product: 5.618902e-01
+    Tunneling probability: 3.818798e-01
+
+================================================================================
+END OF REPORT
+================================================================================
