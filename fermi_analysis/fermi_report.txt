@@ -1,0 +1,741 @@
+================================================================================
+FERMI LEVEL ANALYSIS SUMMARY
+================================================================================
+
+Total checkpoints analyzed: 80
+Metals: 80
+Insulators: 0
+Semiconductors/Semimetals: 0
+Mean band gap: -0.005429 eV
+Mean Fermi level: -1814052439223575040.000000 eV
+Mean DOS at Fermi: 9.551306e-03
+Band gap range: [-0.061650, 0.028753] eV
+Timestamp: 2026-02-01T03:25:13.273383
+
+--------------------------------------------------------------------------------
+INDIVIDUAL CHECKPOINT ANALYSIS
+--------------------------------------------------------------------------------
+
+[1] checkpoints/bs8_seed9.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.582034e-02 eV
+    Fermi level: -2165546519356017152.000000 eV
+    DOS at Fermi: 4.650238e-03
+    Is metal: True
+    Conduction type: metallic
+
+[2] checkpoints/bs8_seed8.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -9.891115e-03 eV
+    Fermi level: -2290234054288384512.000000 eV
+    DOS at Fermi: 4.712173e-03
+    Is metal: True
+    Conduction type: metallic
+
+[3] checkpoints/bs8_seed7.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.804527e-02 eV
+    Fermi level: -1250370605829327616.000000 eV
+    DOS at Fermi: 6.602573e-03
+    Is metal: True
+    Conduction type: metallic
+
+[4] checkpoints/bs8_seed6.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.496941e-02 eV
+    Fermi level: -1355333550179704064.000000 eV
+    DOS at Fermi: 1.615727e-02
+    Is metal: True
+    Conduction type: metallic
+
+[5] checkpoints/bs8_seed5.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.728582e-02 eV
+    Fermi level: -1490375607551841792.000000 eV
+    DOS at Fermi: 9.356251e-03
+    Is metal: True
+    Conduction type: metallic
+
+[6] checkpoints/bs8_seed4.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -7.343144e-03 eV
+    Fermi level: -1657055665374438144.000000 eV
+    DOS at Fermi: 1.452702e-02
+    Is metal: True
+    Conduction type: metallic
+
+[7] checkpoints/bs8_seed3.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.358254e-02 eV
+    Fermi level: -1776216936133495552.000000 eV
+    DOS at Fermi: 5.455117e-03
+    Is metal: True
+    Conduction type: metallic
+
+[8] checkpoints/bs8_seed2.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -4.572426e-02 eV
+    Fermi level: -1026554998483544192.000000 eV
+    DOS at Fermi: 1.294212e-02
+    Is metal: True
+    Conduction type: metallic
+
+[9] checkpoints/bs8_seed1.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -5.191817e-03 eV
+    Fermi level: -1474613184554257152.000000 eV
+    DOS at Fermi: 6.762081e-03
+    Is metal: True
+    Conduction type: metallic
+
+[10] checkpoints/bs8_seed0.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.738985e-02 eV
+    Fermi level: -1558634257920195840.000000 eV
+    DOS at Fermi: 9.494262e-03
+    Is metal: True
+    Conduction type: metallic
+
+[11] checkpoints/bs64_seed9.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 2.449300e-02 eV
+    Fermi level: -1928293649315482880.000000 eV
+    DOS at Fermi: 5.325951e-03
+    Is metal: True
+    Conduction type: metallic
+
+[12] checkpoints/bs64_seed8.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.813299e-02 eV
+    Fermi level: -2598504803468679680.000000 eV
+    DOS at Fermi: 4.496594e-03
+    Is metal: True
+    Conduction type: metallic
+
+[13] checkpoints/bs64_seed7.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.702161e-02 eV
+    Fermi level: -1738997366166722816.000000 eV
+    DOS at Fermi: 4.554525e-03
+    Is metal: True
+    Conduction type: metallic
+
+[14] checkpoints/bs64_seed6.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 9.799642e-03 eV
+    Fermi level: -1246005090470223360.000000 eV
+    DOS at Fermi: 1.138317e-02
+    Is metal: True
+    Conduction type: metallic
+
+[15] checkpoints/bs64_seed5.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.255392e-02 eV
+    Fermi level: -1891087834778885888.000000 eV
+    DOS at Fermi: 6.071927e-03
+    Is metal: True
+    Conduction type: metallic
+
+[16] checkpoints/bs64_seed4.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 6.636964e-03 eV
+    Fermi level: -1573669250560328960.000000 eV
+    DOS at Fermi: 8.654729e-03
+    Is metal: True
+    Conduction type: metallic
+
+[17] checkpoints/bs64_seed3.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 4.260787e-03 eV
+    Fermi level: -1974080193733293824.000000 eV
+    DOS at Fermi: 4.612375e-03
+    Is metal: True
+    Conduction type: metallic
+
+[18] checkpoints/bs64_seed2.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -3.993255e-02 eV
+    Fermi level: -1118123126205568896.000000 eV
+    DOS at Fermi: 2.679592e-02
+    Is metal: True
+    Conduction type: metallic
+
+[19] checkpoints/bs64_seed1.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -5.877195e-03 eV
+    Fermi level: -1656018167777373696.000000 eV
+    DOS at Fermi: 4.307820e-03
+    Is metal: True
+    Conduction type: metallic
+
+[20] checkpoints/bs64_seed0.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.507240e-02 eV
+    Fermi level: -1441337478507028992.000000 eV
+    DOS at Fermi: 9.050344e-03
+    Is metal: True
+    Conduction type: metallic
+
+[21] checkpoints/bs512_seed9.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 2.510440e-02 eV
+    Fermi level: -1919936837834557440.000000 eV
+    DOS at Fermi: 4.366075e-03
+    Is metal: True
+    Conduction type: metallic
+
+[22] checkpoints/bs512_seed8.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.782468e-02 eV
+    Fermi level: -1493312747491164672.000000 eV
+    DOS at Fermi: 2.312934e-02
+    Is metal: True
+    Conduction type: metallic
+
+[23] checkpoints/bs512_seed7.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -9.604130e-03 eV
+    Fermi level: -1600196751909727744.000000 eV
+    DOS at Fermi: 1.288853e-02
+    Is metal: True
+    Conduction type: metallic
+
+[24] checkpoints/bs512_seed6.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -4.569608e-03 eV
+    Fermi level: -1150182915543496064.000000 eV
+    DOS at Fermi: 2.009870e-02
+    Is metal: True
+    Conduction type: metallic
+
+[25] checkpoints/bs512_seed5.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -3.741960e-03 eV
+    Fermi level: -1955100747381881344.000000 eV
+    DOS at Fermi: 8.071135e-03
+    Is metal: True
+    Conduction type: metallic
+
+[26] checkpoints/bs512_seed4.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.338119e-02 eV
+    Fermi level: -1982238195690081280.000000 eV
+    DOS at Fermi: 1.851119e-02
+    Is metal: True
+    Conduction type: metallic
+
+[27] checkpoints/bs512_seed3.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -3.607557e-02 eV
+    Fermi level: -2025110950751764224.000000 eV
+    DOS at Fermi: 5.715011e-03
+    Is metal: True
+    Conduction type: metallic
+
+[28] checkpoints/bs512_seed2.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -7.924249e-03 eV
+    Fermi level: -1199577395093680896.000000 eV
+    DOS at Fermi: 9.622494e-03
+    Is metal: True
+    Conduction type: metallic
+
+[29] checkpoints/bs512_seed1.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 6.040454e-03 eV
+    Fermi level: -1654892929715948288.000000 eV
+    DOS at Fermi: 7.861929e-03
+    Is metal: True
+    Conduction type: metallic
+
+[30] checkpoints/bs512_seed0.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -4.502092e-02 eV
+    Fermi level: -1539646508201992960.000000 eV
+    DOS at Fermi: 8.965389e-03
+    Is metal: True
+    Conduction type: metallic
+
+[31] checkpoints/bs32_seed9.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 2.420884e-02 eV
+    Fermi level: -1856632486557803776.000000 eV
+    DOS at Fermi: 5.365778e-03
+    Is metal: True
+    Conduction type: metallic
+
+[32] checkpoints/bs32_seed8.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.122155e-02 eV
+    Fermi level: -2425113228984735232.000000 eV
+    DOS at Fermi: 4.744547e-03
+    Is metal: True
+    Conduction type: metallic
+
+[33] checkpoints/bs32_seed7.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.005176e-02 eV
+    Fermi level: -1502902569252199168.000000 eV
+    DOS at Fermi: 6.681119e-03
+    Is metal: True
+    Conduction type: metallic
+
+[34] checkpoints/bs32_seed6.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 9.545141e-03 eV
+    Fermi level: -1266000797145730560.000000 eV
+    DOS at Fermi: 1.133991e-02
+    Is metal: True
+    Conduction type: metallic
+
+[35] checkpoints/bs32_seed5.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.026863e-02 eV
+    Fermi level: -1766097083224904448.000000 eV
+    DOS at Fermi: 6.886677e-03
+    Is metal: True
+    Conduction type: metallic
+
+[36] checkpoints/bs32_seed4.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.560038e-02 eV
+    Fermi level: -1380300662977437440.000000 eV
+    DOS at Fermi: 1.275029e-02
+    Is metal: True
+    Conduction type: metallic
+
+[37] checkpoints/bs32_seed3.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 4.240627e-03 eV
+    Fermi level: -2144606590091866112.000000 eV
+    DOS at Fermi: 4.515189e-03
+    Is metal: True
+    Conduction type: metallic
+
+[38] checkpoints/bs32_seed2.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -4.886108e-02 eV
+    Fermi level: -943701379484846848.000000 eV
+    DOS at Fermi: 2.330632e-02
+    Is metal: True
+    Conduction type: metallic
+
+[39] checkpoints/bs32_seed1.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.688781e-03 eV
+    Fermi level: -1753442450131710464.000000 eV
+    DOS at Fermi: 4.397138e-03
+    Is metal: True
+    Conduction type: metallic
+
+[40] checkpoints/bs32_seed0.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.095858e-02 eV
+    Fermi level: -1448272387450269696.000000 eV
+    DOS at Fermi: 1.054237e-02
+    Is metal: True
+    Conduction type: metallic
+
+[41] checkpoints/bs256_seed9.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 2.871071e-02 eV
+    Fermi level: -1878263015068324352.000000 eV
+    DOS at Fermi: 5.163480e-03
+    Is metal: True
+    Conduction type: metallic
+
+[42] checkpoints/bs256_seed8.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.611923e-02 eV
+    Fermi level: -1564290358021615104.000000 eV
+    DOS at Fermi: 1.532518e-02
+    Is metal: True
+    Conduction type: metallic
+
+[43] checkpoints/bs256_seed7.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 2.212070e-04 eV
+    Fermi level: -1810177296207825664.000000 eV
+    DOS at Fermi: 4.606958e-03
+    Is metal: True
+    Conduction type: metallic
+
+[44] checkpoints/bs256_seed6.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 6.287610e-03 eV
+    Fermi level: -1177349622247908608.000000 eV
+    DOS at Fermi: 1.737769e-02
+    Is metal: True
+    Conduction type: metallic
+
+[45] checkpoints/bs256_seed5.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.161719e-03 eV
+    Fermi level: -1967035610603631104.000000 eV
+    DOS at Fermi: 1.060156e-02
+    Is metal: True
+    Conduction type: metallic
+
+[46] checkpoints/bs256_seed4.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.566693e-03 eV
+    Fermi level: -1922670352709402880.000000 eV
+    DOS at Fermi: 1.312588e-02
+    Is metal: True
+    Conduction type: metallic
+
+[47] checkpoints/bs256_seed3.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 4.129728e-03 eV
+    Fermi level: -1929203197575494144.000000 eV
+    DOS at Fermi: 5.724012e-03
+    Is metal: True
+    Conduction type: metallic
+
+[48] checkpoints/bs256_seed2.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.585892e-02 eV
+    Fermi level: -1270691931263189504.000000 eV
+    DOS at Fermi: 1.318971e-02
+    Is metal: True
+    Conduction type: metallic
+
+[49] checkpoints/bs256_seed1.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -5.335361e-03 eV
+    Fermi level: -1539936422361617664.000000 eV
+    DOS at Fermi: 1.096844e-02
+    Is metal: True
+    Conduction type: metallic
+
+[50] checkpoints/bs256_seed0.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -4.125138e-02 eV
+    Fermi level: -1479155903801118464.000000 eV
+    DOS at Fermi: 8.664572e-03
+    Is metal: True
+    Conduction type: metallic
+
+[51] checkpoints/bs16_seed9.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.793517e-02 eV
+    Fermi level: -1922217667352709888.000000 eV
+    DOS at Fermi: 5.027780e-03
+    Is metal: True
+    Conduction type: metallic
+
+[52] checkpoints/bs16_seed8.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.501580e-02 eV
+    Fermi level: -2220310149140167680.000000 eV
+    DOS at Fermi: 5.185208e-03
+    Is metal: True
+    Conduction type: metallic
+
+[53] checkpoints/bs16_seed7.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.254148e-02 eV
+    Fermi level: -1397769664909812736.000000 eV
+    DOS at Fermi: 8.115473e-03
+    Is metal: True
+    Conduction type: metallic
+
+[54] checkpoints/bs16_seed6.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.077482e-02 eV
+    Fermi level: -1236434647397380352.000000 eV
+    DOS at Fermi: 2.217106e-02
+    Is metal: True
+    Conduction type: metallic
+
+[55] checkpoints/bs16_seed5.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -4.339957e-03 eV
+    Fermi level: -1908835068980660992.000000 eV
+    DOS at Fermi: 6.635257e-03
+    Is metal: True
+    Conduction type: metallic
+
+[56] checkpoints/bs16_seed4.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 8.033643e-03 eV
+    Fermi level: -1424034343269419008.000000 eV
+    DOS at Fermi: 1.371514e-02
+    Is metal: True
+    Conduction type: metallic
+
+[57] checkpoints/bs16_seed3.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.169830e-02 eV
+    Fermi level: -1788892776643858688.000000 eV
+    DOS at Fermi: 5.614662e-03
+    Is metal: True
+    Conduction type: metallic
+
+[58] checkpoints/bs16_seed2.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -6.164968e-02 eV
+    Fermi level: -1329919775289419776.000000 eV
+    DOS at Fermi: 1.069163e-02
+    Is metal: True
+    Conduction type: metallic
+
+[59] checkpoints/bs16_seed1.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -7.506291e-03 eV
+    Fermi level: -1322169027470536960.000000 eV
+    DOS at Fermi: 7.086726e-03
+    Is metal: True
+    Conduction type: metallic
+
+[60] checkpoints/bs16_seed0.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.608953e-02 eV
+    Fermi level: -1480141958096131072.000000 eV
+    DOS at Fermi: 9.900195e-03
+    Is metal: True
+    Conduction type: metallic
+
+[61] checkpoints/bs128_seed9.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 2.875298e-02 eV
+    Fermi level: -1818117055752804096.000000 eV
+    DOS at Fermi: 5.635350e-03
+    Is metal: True
+    Conduction type: metallic
+
+[62] checkpoints/bs128_seed8.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.066397e-02 eV
+    Fermi level: -2379245866455096832.000000 eV
+    DOS at Fermi: 4.464831e-03
+    Is metal: True
+    Conduction type: metallic
+
+[63] checkpoints/bs128_seed7.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.065180e-02 eV
+    Fermi level: -1864506589450205952.000000 eV
+    DOS at Fermi: 4.287076e-03
+    Is metal: True
+    Conduction type: metallic
+
+[64] checkpoints/bs128_seed6.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 7.352726e-03 eV
+    Fermi level: -1191486102294650624.000000 eV
+    DOS at Fermi: 1.729842e-02
+    Is metal: True
+    Conduction type: metallic
+
+[65] checkpoints/bs128_seed5.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.133298e-03 eV
+    Fermi level: -1864011028147481600.000000 eV
+    DOS at Fermi: 9.841785e-03
+    Is metal: True
+    Conduction type: metallic
+
+[66] checkpoints/bs128_seed4.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.160901e-02 eV
+    Fermi level: -1691987403333704448.000000 eV
+    DOS at Fermi: 8.005640e-03
+    Is metal: True
+    Conduction type: metallic
+
+[67] checkpoints/bs128_seed3.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 8.751269e-04 eV
+    Fermi level: -2142819598663436032.000000 eV
+    DOS at Fermi: 5.145694e-03
+    Is metal: True
+    Conduction type: metallic
+
+[68] checkpoints/bs128_seed2.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.814733e-02 eV
+    Fermi level: -1107661077206345088.000000 eV
+    DOS at Fermi: 1.957820e-02
+    Is metal: True
+    Conduction type: metallic
+
+[69] checkpoints/bs128_seed1.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -6.439440e-03 eV
+    Fermi level: -1609168826958102784.000000 eV
+    DOS at Fermi: 4.406213e-03
+    Is metal: True
+    Conduction type: metallic
+
+[70] checkpoints/bs128_seed0.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -3.604173e-02 eV
+    Fermi level: -1483021074086270464.000000 eV
+    DOS at Fermi: 9.200704e-03
+    Is metal: True
+    Conduction type: metallic
+
+[71] checkpoints/strassen_exact.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.084134e-16 eV
+    Fermi level: -3356860644944733696.000000 eV
+    DOS at Fermi: 1.248623e-02
+    Is metal: True
+    Conduction type: metallic
+
+[72] checkpoints/strassen_robust.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.308128e-04 eV
+    Fermi level: -44855994489571728.000000 eV
+    DOS at Fermi: 4.898163e-03
+    Is metal: True
+    Conduction type: metallic
+
+[73] checkpoints/strassen_result.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -4.099463e-02 eV
+    Fermi level: -3908742335988374016.000000 eV
+    DOS at Fermi: 5.158914e-03
+    Is metal: True
+    Conduction type: metallic
+
+[74] checkpoints/strassen_discrete_final.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.084134e-16 eV
+    Fermi level: -3356860644944733696.000000 eV
+    DOS at Fermi: 1.248623e-02
+    Is metal: True
+    Conduction type: metallic
+
+[75] checkpoints/strassen_float64.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 3.795908e-04 eV
+    Fermi level: -1931074620070931456.000000 eV
+    DOS at Fermi: 1.785175e-02
+    Is metal: True
+    Conduction type: metallic
+
+[76] checkpoints/strassen_coefficients.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: 1.305218e-02 eV
+    Fermi level: -2563443580947148288.000000 eV
+    DOS at Fermi: 1.096011e-02
+    Is metal: True
+    Conduction type: metallic
+
+[77] checkpoints/strassen_multiscale.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.591599e-02 eV
+    Fermi level: -1707655214767209472.000000 eV
+    DOS at Fermi: 4.464927e-03
+    Is metal: True
+    Conduction type: metallic
+
+[78] checkpoints/strassen_grokkit.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -1.782013e-02 eV
+    Fermi level: -4904811433308441600.000000 eV
+    DOS at Fermi: 5.948604e-03
+    Is metal: True
+    Conduction type: metallic
+
+[79] checkpoints/strassen_grokked_weights.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.084134e-16 eV
+    Fermi level: -3356860644944733696.000000 eV
+    DOS at Fermi: 1.248623e-02
+    Is metal: True
+    Conduction type: metallic
+
+[80] checkpoints/strassen_discovered.pt
+    Epoch: unknown
+    Material type: disordered_metal
+    Band gap: -2.413883e-02 eV
+    Fermi level: -4053188657151216640.000000 eV
+    DOS at Fermi: 4.937196e-03
+    Is metal: True
+    Conduction type: metallic
+
+================================================================================
+END OF REPORT
+================================================================================
