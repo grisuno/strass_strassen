@@ -1,0 +1,55 @@
+{
+  "checkpoint": "checkpoints/strassen_exact.pt",
+  "grade": "Cristal \u00d3ptico (\u03ba\u22481, \u03b4<0.01, resiliencia >1e-3)",
+  "purity_index": 2.75,
+  "component_scores": {
+    "kappa_score": 0,
+    "delta_score": 1.0,
+    "resilience_score": 10.0,
+    "invariance_score": 0
+  },
+  "diffraction": {
+    "invariance_ratio": 1.0,
+    "mean_error": 3.093158716183098e-07,
+    "is_genuine": false
+  },
+  "resilience": {
+    "sigma_1e-05": {
+      "success_rate": 1.0,
+      "final_margin_mean": 2.8997941990382968e-05
+    },
+    "sigma_5e-05": {
+      "success_rate": 1.0,
+      "final_margin_mean": 0.00014430165756493807
+    },
+    "sigma_0.0001": {
+      "success_rate": 1.0,
+      "final_margin_mean": 0.00026884367980528623
+    },
+    "sigma_0.0005": {
+      "success_rate": 1.0,
+      "final_margin_mean": 0.0013440744718536735
+    },
+    "sigma_0.001": {
+      "success_rate": 1.0,
+      "final_margin_mean": 0.0028704455588012935
+    },
+    "sigma_0.005": {
+      "success_rate": 1.0,
+      "final_margin_mean": 0.015168964862823486
+    },
+    "sigma_0.01": {
+      "success_rate": 1.0,
+      "final_margin_mean": 0.024950761720538138
+    },
+    "critical_sigma": 0.01
+  },
+  "expansion": {
+    "pass": true,
+    "max_error": 0.0
+  },
+  "metrics": {
+    "kappa": Infinity,
+    "delta": 0.0
+  }
+}

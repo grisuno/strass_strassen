@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints/strassen_discovered.pt",
+  "grade": "Vidrio Amorfo (\u03b4<0.5, m\u00ednimo local)",
+  "purity_index": 0.3014425754547119,
+  "component_scores": {
+    "kappa_score": 0,
+    "delta_score": 0.003606438636779785,
+    "resilience_score": 1.0,
+    "invariance_score": 1.0
+  },
+  "metrics": {
+    "kappa": 273609670656.0,
+    "delta": 0.4981967806816101,
+    "lc": 1.0
+  },
+  "expansion": {
+    "pass": false,
+    "max_error": 0.4981967806816101
+  }
+}
