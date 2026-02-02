@@ -22,6 +22,7 @@ import threading
 import time
 from collections import deque
 
+
 @dataclass
 class Config:
     BATCH_SIZE: int = 32
@@ -53,6 +54,12 @@ class Config:
     
     LOG_LEVEL: str = 'INFO'
     RESULTS_DIR: str = 'boltzmann_results'
+
+UnifiedConfig = Config
+
+
+import sys
+sys.modules['__main__'].UnifiedConfig = Config
 
 def set_seed(seed: int = Config.RANDOM_SEED):
     torch.manual_seed(seed)
@@ -1363,15 +1370,51 @@ class GreenCowExperiment:
 
 class CheckpointLoader:
     def load_checkpoint(self, path: str, device: str) -> Any:
+        """
+        Load checkpoint with robust deserialization handling.
+        Injects Config as UnifiedConfig alias to handle cross-script compatibility.
+        """
+        import sys
+        
+        original_main_dict = sys.modules['__main__'].__dict__.copy()
+        
         try:
-            return torch.load(path, map_location=device, weights_only=False)
+            sys.modules['__main__'].UnifiedConfig = Config
+            sys.modules['__main__'].Config = Config
+            
+            checkpoint_data = torch.load(path, map_location=device, weights_only=False)
+            
+            return checkpoint_data
+            
+        except AttributeError as e:
+            if 'UnifiedConfig' in str(e):
+                raise CheckpointLoadingError(
+                    f"Checkpoint contains UnifiedConfig class not available in current namespace. "
+                    f"Original error: {e}"
+                )
+            raise CheckpointLoadingError(f"Failed to load checkpoint: {e}")
+            
         except Exception as e:
             raise CheckpointLoadingError(f"Failed to load checkpoint: {e}")
+            
+        finally:
+            for key in list(sys.modules['__main__'].__dict__.keys()):
+                if key not in original_main_dict:
+                    del sys.modules['__main__'].__dict__[key]
 
 class CheckpointMigrator:
     @staticmethod
     def migrate_checkpoint(raw_data: Any) -> Optional[Dict[str, torch.Tensor]]:
+        """
+        Migrate checkpoint to standard format, extracting config if present.
+        Returns migrated state_dict compatible with BilinearStrassenModel.
+        """
         if isinstance(raw_data, dict):
+            if 'config' in raw_data:
+                config_data = raw_data['config']
+                if hasattr(config_data, '__dict__'):
+                    pass
+            
             if 'state_dict' in raw_data:
                 return CheckpointMigrator._migrate_dict(raw_data['state_dict'])
             elif 'model_state_dict' in raw_data:
