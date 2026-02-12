@@ -1,94 +1,604 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template Page</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ingeniería de Estructuras Algorítmicas en Redes Neuronales</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
     <style>
-        /* Custom CSS */
-        body {
-            padding-top: 56px;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .footer {
-            background-color: #f8f9fa;
-            padding: 20px 0;
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .poster-container {
+            width: 720px;
+            min-height: 1280px;
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
+            padding: 40px 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://sfile.chatglm.cn/images-ppt/34246ecafe07.png') center/cover;
+            opacity: 0.1;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 38px;
+            font-weight: 900;
+            color: #ffffff;
+            line-height: 1.2;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            font-weight: 300;
+            color: #e8eef7;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+        
+        .author {
+            font-size: 14px;
+            font-weight: 500;
+            color: #ffd700;
+            margin-top: 10px;
+        }
+        
+        /* Main Content */
+        .content {
+            padding: 30px;
+        }
+        
+        /* Central Question Box */
+        .question-box {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+            color: white;
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .question-box::before {
+            content: '?';
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 120px;
+            opacity: 0.15;
+            font-weight: 900;
+        }
+        
+        .question-text {
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            z-index: 1;
+        }
+        
+        /* Phase Protocol Section */
+        .protocol-section {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .phase-card {
+            flex: 1;
+            padding: 20px;
+            border-radius: 10px;
+            position: relative;
+        }
+        
+        .phase-1 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .phase-2 {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        
+        .phase-number {
+            font-size: 48px;
+            font-weight: 900;
+            opacity: 0.3;
+            position: absolute;
+            top: 5px;
+            right: 10px;
+        }
+        
+        .phase-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .phase-content {
+            font-size: 13px;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .phase-highlight {
+            font-weight: 700;
+            font-size: 15px;
+            margin-top: 8px;
+            display: block;
+        }
+        
+        /* Results Section */
+        .results-section {
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+        
+        .results-title {
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 20px;
             text-align: center;
+            border-bottom: 2px solid rgba(255,255,255,0.2);
+            padding-bottom: 10px;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .metric-card {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        
+        .metric-value {
+            font-size: 32px;
+            font-weight: 900;
+            color: #ffd700;
+            margin-bottom: 5px;
+        }
+        
+        .metric-label {
+            font-size: 12px;
+            font-weight: 400;
+            color: #e0e0e0;
+        }
+        
+        .auc-highlight {
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #000;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        
+        .auc-value {
+            font-size: 36px;
+            font-weight: 900;
+        }
+        
+        .auc-label {
+            font-size: 13px;
+            margin-top: 5px;
+        }
+        
+        /* Phase Transition */
+        .transition-section {
+            margin-bottom: 25px;
+        }
+        
+        .transition-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e3c72;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .transition-visual {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .state-card {
+            flex: 1;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .glass-state {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+        }
+        
+        .crystal-state {
+            background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+        }
+        
+        .state-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        
+        .state-name {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .state-value {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .transition-arrow {
+            font-size: 30px;
+            color: #666;
+        }
+        
+        .transition-description {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.6;
+            border-left: 4px solid #667eea;
+        }
+        
+        /* Thermodynamic Metrics */
+        .thermo-section {
+            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+        }
+        
+        .thermo-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1e3c72;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .thermo-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        
+        .thermo-item {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .thermo-symbol {
+            font-size: 24px;
+            font-weight: 900;
+            color: #667eea;
+        }
+        
+        .thermo-name {
+            font-size: 11px;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        /* Implications */
+        .implications-section {
+            background: #fff3e0;
+            border-left: 5px solid #ff9800;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        
+        .implications-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #e65100;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .implications-text {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #424242;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #1e3c72;
+            color: white;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 11px;
+        }
+        
+        .footer-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        /* Image placeholders */
+        .image-section {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .image-card {
+            flex: 1;
+            height: 120px;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .image-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 5px 10px;
+            font-size: 10px;
+        }
+        
+        .key-point {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        
+        .warning-box {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">My Template</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <div class="poster-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-content">
+                <div class="title">Ingeniería de Estructuras Algorítmicas en Redes Neuronales</div>
+                <div class="subtitle">De Ciencia de Materiales a Termodinámica Algorítmica del Aprendizaje Profundo</div>
+                <div class="author">Iscomeback, Gris (grisun0)</div>
             </div>
         </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="bg-primary text-white text-center py-5 mb-4">
-        <div class="container">
-            <h1 class="font-weight-light">Welcome to My Template Website</h1>
-        </div>
-    </header>
-
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3">
-                <h2 class="my-4">Sidebar</h2>
-                <div class="list-group">
-                    <a href="#" class="list-group-item">Item 1</a>
-                    <a href="#" class="list-group-item">Item 2</a>
-                    <a href="#" class="list-group-item">Item 3</a>
+        
+        <div class="content">
+            <!-- Central Question -->
+            <div class="question-box">
+                <div class="question-text">
+                    ¿Las redes neuronales aprenden <strong>algoritmos genuinos</strong> o solo encuentran <strong>mínimos locales que se generalizan</strong>?
                 </div>
             </div>
-            <!-- /.col-lg-3 -->
-            <div class="col-lg-9">
-                <h2 class="my-4">Main Template Content</h2>
-                <p>This is a simple example Template page</p>
-                <article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto">template</h1><a id="user-content-template" class="anchor" aria-label="Permalink: template" href="#template"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
-                <p dir="auto">template for the  future proyects ;)</p>
-                <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/0562f16a4ae7e35dae6087bf8b7805fb7e664a9e7e20ae6d163d94e56b94f32d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534"><img src="https://camo.githubusercontent.com/0562f16a4ae7e35dae6087bf8b7805fb7e664a9e7e20ae6d163d94e56b94f32d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d3336373041303f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d666664643534" alt="Python" data-canonical-src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/814a8cc2dad24b3fbc5a7d203cad5cf605d6f2299c02468ebd4b556e1a538c20/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7368656c6c5f7363726970742d2532333132313031312e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676e752d62617368266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/814a8cc2dad24b3fbc5a7d203cad5cf605d6f2299c02468ebd4b556e1a538c20/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7368656c6c5f7363726970742d2532333132313031312e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d676e752d62617368266c6f676f436f6c6f723d7768697465" alt="Shell Script" data-canonical-src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&amp;logo=gnu-bash&amp;logoColor=white" style="max-width: 100%;"></a> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9ed458fea6ba5324c019bbc32f837fbceaca74f3862454a77d7e94150b97fc48/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666c61736b2d2532333030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d666c61736b266c6f676f436f6c6f723d7768697465"><img src="https://camo.githubusercontent.com/9ed458fea6ba5324c019bbc32f837fbceaca74f3862454a77d7e94150b97fc48/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666c61736b2d2532333030302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d666c61736b266c6f676f436f6c6f723d7768697465" alt="Flask" data-canonical-src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&amp;logo=flask&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://www.gnu.org/licenses/gpl-3.0" rel="nofollow"><img src="https://camo.githubusercontent.com/6be00b1b55f8b9b6f6d85fa810b501a37e0d48bf99e98bb4381e92caeff02619/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d47504c76332d626c75652e737667" alt="License: GPL v3" data-canonical-src="https://img.shields.io/badge/License-GPLv3-blue.svg" style="max-width: 100%;"></a></p>
-                <p dir="auto"><a href="https://ko-fi.com/Y8Y2Z73AV" rel="nofollow"><img src="https://camo.githubusercontent.com/ce32b4940b9ebf361cfd346ba0582815846406854cd2f701c11a85cb21eaa939/68747470733a2f2f6b6f2d66692e636f6d2f696d672f676974687562627574746f6e5f736d2e737667" alt="ko-fi" data-canonical-src="https://ko-fi.com/img/githubbutton_sm.svg" style="max-width: 100%;"></a></p>
-                </article>
+            
+            <!-- Two-Phase Protocol -->
+            <div class="protocol-section">
+                <div class="phase-card phase-1">
+                    <div class="phase-number">1</div>
+                    <div class="phase-title">FASE 1: Entrenamiento</div>
+                    <div class="phase-content">
+                        • Modelo bilineal 8 ranuras<br>
+                        • Batch size: 24-128<br>
+                        • >1000 épocas<br>
+                        • Weight decay ≥1e-4<br>
+                        <span class="phase-highlight">→ Asimilación observada</span>
+                    </div>
+                </div>
+                
+                <div class="phase-card phase-2">
+                    <div class="phase-number">2</div>
+                    <div class="phase-title">FASE 2: Discretización</div>
+                    <div class="phase-content">
+                        • Podar a 7 ranuras<br>
+                        • Redondear a {-1, 0, 1}<br>
+                        • Verificar estructura<br>
+                        <span class="phase-highlight">→ Cristalización algorítmica</span>
+                    </div>
+                </div>
             </div>
-            <!-- /.col-lg-9 -->
+            
+            <!-- Results Section -->
+            <div class="results-section">
+                <div class="results-title">RESULTADOS PRINCIPALES</div>
+                
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">68%</div>
+                        <div class="metric-label">Tasa de Éxito<br>(133/195 ejecuciones)</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">0%</div>
+                        <div class="metric-label">Sin protocolo<br>de dos fases</div>
+                    </div>
+                </div>
+                
+                <div class="auc-highlight">
+                    <div class="auc-value">κ: AUC = 1.000</div>
+                    <div class="auc-label">Predictor Perfecto • Separación Vidrio-Cristal</div>
+                </div>
+            </div>
+            
+            <!-- Phase Transition -->
+            <div class="transition-section">
+                <div class="transition-title">
+                    <i class="material-icons">transform</i>
+                    Transición de Fase de Primer Orden
+                </div>
+                
+                <div class="transition-visual">
+                    <div class="state-card glass-state">
+                        <div class="state-icon">🔵</div>
+                        <div class="state-name">VIDRIO</div>
+                        <div class="state-value">κ = 999999<br>δ ≈ 0.49<br>Alta entropía</div>
+                    </div>
+                    
+                    <div class="transition-arrow">→</div>
+                    
+                    <div class="state-card crystal-state">
+                        <div class="state-icon">💎</div>
+                        <div class="state-name">CRISTAL</div>
+                        <div class="state-value">κ = 1.000<br>δ = 0<br>Entropía cero</div>
+                    </div>
+                </div>
+                
+                <div class="transition-description">
+                    <strong>Transición brusca sin estados intermedios.</strong> La complejidad local cae de 442 a 0 en la época de transición. κ actúa como parámetro de orden y temperatura efectiva.
+                </div>
+            </div>
+            
+            <!-- Thermodynamic Metrics -->
+            <div class="thermo-section">
+                <div class="thermo-title">MÉTRICAS TERMODINÁMICAS</div>
+                <div class="thermo-grid">
+                    <div class="thermo-item">
+                        <div class="thermo-symbol">κ</div>
+                        <div class="thermo-name">Número de<br>Condición</div>
+                    </div>
+                    <div class="thermo-item">
+                        <div class="thermo-symbol">δ</div>
+                        <div class="thermo-name">Margen de<br>Discretización</div>
+                    </div>
+                    <div class="thermo-item">
+                        <div class="thermo-symbol">T<sub>eff</sub></div>
+                        <div class="thermo-name">Temperatura<br>Efectiva</div>
+                    </div>
+                    <div class="thermo-item">
+                        <div class="thermo-symbol">ħ<sub>eff</sub></div>
+                        <div class="thermo-name">Constante<br>Efectiva</div>
+                    </div>
+                    <div class="thermo-item">
+                        <div class="thermo-symbol">LC</div>
+                        <div class="thermo-name">Complejidad<br>Local</div>
+                    </div>
+                    <div class="thermo-item">
+                        <div class="thermo-symbol">Φ</div>
+                        <div class="thermo-name">Parámetro<br>de Orden</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Key Findings -->
+            <div class="key-point">
+                <i class="material-icons" style="font-size: 16px; vertical-align: middle;">check_circle</i>
+                <strong>Estabilidad estructural:</strong> La cuenca cristalina permanece estable bajo poda hasta 50% de escasez
+            </div>
+            
+            <div class="warning-box">
+                <i class="material-icons" style="font-size: 16px; vertical-align: middle;">warning</i>
+                <strong>Fragilidad extrema:</strong> Ruido σ≥0.001 causa 100% de fallo. Cuencas de atracción estrechas.
+            </div>
+            
+            <!-- Implications -->
+            <div class="implications-section">
+                <div class="implications-title">
+                    <i class="material-icons">lightbulb</i>
+                    IMPLICACIONES PARA EL APRENDIZAJE PROFUNDO
+                </div>
+                <div class="implications-text">
+                    Las soluciones algorítmicas discretas ocupan cuencas estrechas de atracción. La reproducibilidad en aprendizaje profundo puede depender de alcanzar estas regiones específicas del espacio de pesos. Una termodinámica funcional del entrenamiento, no solo una metáfora.
+                </div>
+            </div>
         </div>
-        <!-- /.row -->
+        
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-item">
+                <i class="material-icons" style="font-size: 14px;">github</i>
+                github.com/grisuno/strass_strassen
+            </div>
+            <div class="footer-item">
+                <i class="material-icons" style="font-size: 14px;">link</i>
+                doi.org/10.5281/zenodo.18072858
+            </div>
+        </div>
     </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p class="m-0 text-center text-black">Copyright &copy; My Template 2024</p>
-        </div>
-    </footer>
-
-    <!-- Bootstrap and jQuery JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
