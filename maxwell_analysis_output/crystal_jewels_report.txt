@@ -1,0 +1,11 @@
+CRYSTAL JEWELS REPORT
+============================================================
+Total Crystals: 6
+
+                                   checkpoint  alpha_val  anisotropy_val  peaks_val  entropy_val
+72     checkpoints/strassen_discrete_final.pt  34.538776         0.27421       47.0     8.396005
+73              checkpoints/strassen_exact.pt  34.538776         0.27421       47.0     8.396005
+75    checkpoints/strassen_grokked_weights.pt  34.538776         0.27421       47.0     8.396005
+6079   checkpoints/strassen_discrete_final.pt  34.538776         0.27421       47.0     8.396005
+6080            checkpoints/strassen_exact.pt  34.538776         0.27421       47.0     8.396005
+6082  checkpoints/strassen_grokked_weights.pt  34.538776         0.27421       47.0     8.396005
