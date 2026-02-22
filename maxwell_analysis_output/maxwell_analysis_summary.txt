@@ -1,0 +1,644 @@
+================================================================================
+MAXWELLIAN ANALYSIS REPORT: STRASSEN CRYSTALLIZATION
+================================================================================
+
+Checkpoint: checkpoints/bs128_seed0.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6996
+  Anisotropy Ratio: 0.2742
+  Bragg Peaks: 64
+  Photonic Entropy: 8.3402
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed1.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7112
+  Anisotropy Ratio: 0.3185
+  Bragg Peaks: 272
+  Photonic Entropy: 8.2937
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed2.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6994
+  Anisotropy Ratio: 0.2374
+  Bragg Peaks: 240
+  Photonic Entropy: 8.3321
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed3.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7209
+  Anisotropy Ratio: 0.3334
+  Bragg Peaks: 96
+  Photonic Entropy: 8.4995
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed4.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6935
+  Anisotropy Ratio: 0.2167
+  Bragg Peaks: 400
+  Photonic Entropy: 8.2569
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed5.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6988
+  Anisotropy Ratio: 0.2567
+  Bragg Peaks: 256
+  Photonic Entropy: 8.3507
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed6.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7267
+  Anisotropy Ratio: 0.2911
+  Bragg Peaks: 256
+  Photonic Entropy: 8.4408
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed7.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7279
+  Anisotropy Ratio: 0.2555
+  Bragg Peaks: 288
+  Photonic Entropy: 8.2856
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed8.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6947
+  Anisotropy Ratio: 0.2981
+  Bragg Peaks: 448
+  Photonic Entropy: 8.4560
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs128_seed9.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6966
+  Anisotropy Ratio: 0.2826
+  Bragg Peaks: 336
+  Photonic Entropy: 8.2873
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed0.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6970
+  Anisotropy Ratio: 0.2848
+  Bragg Peaks: 64
+  Photonic Entropy: 8.3428
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed1.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7239
+  Anisotropy Ratio: 0.3028
+  Bragg Peaks: 336
+  Photonic Entropy: 8.3140
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed2.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7041
+  Anisotropy Ratio: 0.2402
+  Bragg Peaks: 160
+  Photonic Entropy: 8.2575
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed3.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6952
+  Anisotropy Ratio: 0.3359
+  Bragg Peaks: 96
+  Photonic Entropy: 8.3462
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed4.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7082
+  Anisotropy Ratio: 0.2325
+  Bragg Peaks: 464
+  Photonic Entropy: 8.2701
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed5.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7031
+  Anisotropy Ratio: 0.2753
+  Bragg Peaks: 256
+  Photonic Entropy: 8.5081
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed6.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6979
+  Anisotropy Ratio: 0.3000
+  Bragg Peaks: 192
+  Photonic Entropy: 8.4079
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed7.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6949
+  Anisotropy Ratio: 0.2533
+  Bragg Peaks: 575
+  Photonic Entropy: 8.3162
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed8.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6988
+  Anisotropy Ratio: 0.2841
+  Bragg Peaks: 448
+  Photonic Entropy: 8.4464
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs16_seed9.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6975
+  Anisotropy Ratio: 0.2946
+  Bragg Peaks: 320
+  Photonic Entropy: 8.2407
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed0.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6970
+  Anisotropy Ratio: 0.2681
+  Bragg Peaks: 96
+  Photonic Entropy: 8.3529
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed1.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7141
+  Anisotropy Ratio: 0.3183
+  Bragg Peaks: 224
+  Photonic Entropy: 8.1756
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed2.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7295
+  Anisotropy Ratio: 0.2307
+  Bragg Peaks: 432
+  Photonic Entropy: 8.3155
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed3.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7057
+  Anisotropy Ratio: 0.3394
+  Bragg Peaks: 96
+  Photonic Entropy: 8.4319
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed4.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7146
+  Anisotropy Ratio: 0.2294
+  Bragg Peaks: 368
+  Photonic Entropy: 8.4267
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed5.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7027
+  Anisotropy Ratio: 0.2478
+  Bragg Peaks: 384
+  Photonic Entropy: 8.3470
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed6.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6973
+  Anisotropy Ratio: 0.2845
+  Bragg Peaks: 352
+  Photonic Entropy: 8.4408
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed7.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7085
+  Anisotropy Ratio: 0.2463
+  Bragg Peaks: 320
+  Photonic Entropy: 8.2759
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed8.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7123
+  Anisotropy Ratio: 0.2674
+  Bragg Peaks: 416
+  Photonic Entropy: 8.4010
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs256_seed9.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7011
+  Anisotropy Ratio: 0.2819
+  Bragg Peaks: 336
+  Photonic Entropy: 8.3063
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed0.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6966
+  Anisotropy Ratio: 0.2830
+  Bragg Peaks: 64
+  Photonic Entropy: 8.3434
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed1.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6951
+  Anisotropy Ratio: 0.3168
+  Bragg Peaks: 272
+  Photonic Entropy: 8.3639
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed2.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7263
+  Anisotropy Ratio: 0.2412
+  Bragg Peaks: 160
+  Photonic Entropy: 8.3323
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed3.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6978
+  Anisotropy Ratio: 0.3288
+  Bragg Peaks: 96
+  Photonic Entropy: 8.4232
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed4.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6937
+  Anisotropy Ratio: 0.2303
+  Bragg Peaks: 464
+  Photonic Entropy: 8.2479
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed5.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6955
+  Anisotropy Ratio: 0.2726
+  Bragg Peaks: 256
+  Photonic Entropy: 8.4928
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed6.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6989
+  Anisotropy Ratio: 0.2958
+  Bragg Peaks: 352
+  Photonic Entropy: 8.4982
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed7.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6942
+  Anisotropy Ratio: 0.2527
+  Bragg Peaks: 671
+  Photonic Entropy: 8.3315
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed8.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6946
+  Anisotropy Ratio: 0.2948
+  Bragg Peaks: 544
+  Photonic Entropy: 8.4431
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs32_seed9.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7129
+  Anisotropy Ratio: 0.2883
+  Bragg Peaks: 320
+  Photonic Entropy: 8.2372
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed0.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7060
+  Anisotropy Ratio: 0.2695
+  Bragg Peaks: 96
+  Photonic Entropy: 8.3320
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed1.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7007
+  Anisotropy Ratio: 0.2761
+  Bragg Peaks: 703
+  Photonic Entropy: 8.4076
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed2.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7074
+  Anisotropy Ratio: 0.2282
+  Bragg Peaks: 688
+  Photonic Entropy: 8.3157
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed3.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7103
+  Anisotropy Ratio: 0.3366
+  Bragg Peaks: 64
+  Photonic Entropy: 8.4569
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed4.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6972
+  Anisotropy Ratio: 0.2395
+  Bragg Peaks: 272
+  Photonic Entropy: 8.5422
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed5.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7014
+  Anisotropy Ratio: 0.2460
+  Bragg Peaks: 320
+  Photonic Entropy: 8.3635
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed6.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7091
+  Anisotropy Ratio: 0.2810
+  Bragg Peaks: 352
+  Photonic Entropy: 8.4117
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed7.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6951
+  Anisotropy Ratio: 0.2412
+  Bragg Peaks: 384
+  Photonic Entropy: 8.2984
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed8.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7013
+  Anisotropy Ratio: 0.2700
+  Bragg Peaks: 288
+  Photonic Entropy: 8.3951
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs512_seed9.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6959
+  Anisotropy Ratio: 0.2808
+  Bragg Peaks: 336
+  Photonic Entropy: 8.2874
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed0.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6953
+  Anisotropy Ratio: 0.2760
+  Bragg Peaks: 64
+  Photonic Entropy: 8.3638
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed1.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7166
+  Anisotropy Ratio: 0.3179
+  Bragg Peaks: 240
+  Photonic Entropy: 8.3158
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed2.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7572
+  Anisotropy Ratio: 0.2393
+  Bragg Peaks: 192
+  Photonic Entropy: 8.3101
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed3.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6941
+  Anisotropy Ratio: 0.3280
+  Bragg Peaks: 96
+  Photonic Entropy: 8.4096
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed4.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7184
+  Anisotropy Ratio: 0.2175
+  Bragg Peaks: 368
+  Photonic Entropy: 8.2349
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed5.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7073
+  Anisotropy Ratio: 0.2678
+  Bragg Peaks: 256
+  Photonic Entropy: 8.4766
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed6.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6985
+  Anisotropy Ratio: 0.2923
+  Bragg Peaks: 320
+  Photonic Entropy: 8.4811
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed7.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7034
+  Anisotropy Ratio: 0.2570
+  Bragg Peaks: 655
+  Photonic Entropy: 8.3080
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed8.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6952
+  Anisotropy Ratio: 0.3026
+  Bragg Peaks: 352
+  Photonic Entropy: 8.4835
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs64_seed9.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7134
+  Anisotropy Ratio: 0.2863
+  Bragg Peaks: 336
+  Photonic Entropy: 8.2609
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed0.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6989
+  Anisotropy Ratio: 0.2887
+  Bragg Peaks: 96
+  Photonic Entropy: 8.3468
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed1.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6956
+  Anisotropy Ratio: 0.3110
+  Bragg Peaks: 272
+  Photonic Entropy: 8.2698
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed2.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7016
+  Anisotropy Ratio: 0.2260
+  Bragg Peaks: 144
+  Photonic Entropy: 8.2747
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed3.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6995
+  Anisotropy Ratio: 0.3347
+  Bragg Peaks: 96
+  Photonic Entropy: 8.3888
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed4.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7128
+  Anisotropy Ratio: 0.2426
+  Bragg Peaks: 240
+  Photonic Entropy: 8.3385
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed5.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7152
+  Anisotropy Ratio: 0.2742
+  Bragg Peaks: 288
+  Photonic Entropy: 8.5176
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed6.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7328
+  Anisotropy Ratio: 0.3057
+  Bragg Peaks: 224
+  Photonic Entropy: 8.4072
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed7.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7048
+  Anisotropy Ratio: 0.2429
+  Bragg Peaks: 415
+  Photonic Entropy: 8.2999
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed8.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6939
+  Anisotropy Ratio: 0.2936
+  Bragg Peaks: 544
+  Photonic Entropy: 8.4379
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/bs8_seed9.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7114
+  Anisotropy Ratio: 0.3056
+  Bragg Peaks: 288
+  Photonic Entropy: 8.2134
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_coefficients.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7357
+  Anisotropy Ratio: 0.3367
+  Bragg Peaks: 79
+  Photonic Entropy: 8.2924
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_discovered.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7029
+  Anisotropy Ratio: 0.2906
+  Bragg Peaks: 352
+  Photonic Entropy: 8.2680
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_discrete_final.pt
+  Phase: Strassen_Crystal
+  Confidence: 0.6000
+  Purity Alpha: 34.5388
+  Anisotropy Ratio: 0.2742
+  Bragg Peaks: 47
+  Photonic Entropy: 8.3960
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_exact.pt
+  Phase: Strassen_Crystal
+  Confidence: 0.6000
+  Purity Alpha: 34.5388
+  Anisotropy Ratio: 0.2742
+  Bragg Peaks: 47
+  Photonic Entropy: 8.3960
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_float64.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7215
+  Anisotropy Ratio: 0.2160
+  Bragg Peaks: 544
+  Photonic Entropy: 8.2438
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_grokked_weights.pt
+  Phase: Strassen_Crystal
+  Confidence: 0.6000
+  Purity Alpha: 34.5388
+  Anisotropy Ratio: 0.2742
+  Bragg Peaks: 47
+  Photonic Entropy: 8.3960
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_grokkit.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6938
+  Anisotropy Ratio: 0.3175
+  Bragg Peaks: 320
+  Photonic Entropy: 8.2754
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_multiscale.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.6938
+  Anisotropy Ratio: 0.3077
+  Bragg Peaks: 160
+  Photonic Entropy: 8.1917
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_result.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 0.7066
+  Anisotropy Ratio: 0.2841
+  Bragg Peaks: 832
+  Photonic Entropy: 8.4399
+--------------------------------------------------------------------------------
+Checkpoint: checkpoints/strassen_robust.pt
+  Phase: Amorphous_Glass
+  Confidence: 0.6000
+  Purity Alpha: 1.8876
+  Anisotropy Ratio: 0.2976
+  Bragg Peaks: 496
+  Photonic Entropy: 8.2505
+--------------------------------------------------------------------------------

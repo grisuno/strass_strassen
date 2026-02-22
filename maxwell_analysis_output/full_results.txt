@@ -1,0 +1,5122 @@
+[
+  {
+    "checkpoint": "checkpoints/bs128_seed0.pt",
+    "timestamp": "2026-02-21T19:42:21.718542",
+    "purity_metrics": {
+      "delta": 0.49676579236984253,
+      "alpha": 0.6996365785598755,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.580584065057238,
+        21.412046425886352,
+        37.20158337624388
+      ],
+      "anisotropy_ratio": 0.2742365170225556,
+      "mean_permittivity": 0.9986422061920166,
+      "variance_permittivity": 0.006882652640342712,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35655122941.78114,
+      "scattering_peaks": 64,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.44915425424388783,
+        "mode_entropy": 7.891046524047852,
+        "total_photonic_entropy": 8.34020077829174
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.019169187406078e-08,
+          29.37798624772292,
+          28.33719166842374,
+          37.99547566567795,
+          27.667633143245663,
+          25.202946519851686,
+          27.30114151416941,
+          27.549931082258702,
+          29.36842054750392,
+          26.3712866033117,
+          29.262266236308374,
+          29.19418009359445,
+          30.725400001771987,
+          57.0412198134831
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6633144098930617
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed1.pt",
+    "timestamp": "2026-02-21T19:42:23.588403",
+    "purity_metrics": {
+      "delta": 0.4910580515861511,
+      "alpha": 0.7111929059028625,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.615325366744278,
+        20.822242911814648,
+        36.07216301416568
+      ],
+      "anisotropy_ratio": 0.3184927418626904,
+      "mean_permittivity": 1.001915454864502,
+      "variance_permittivity": 0.006908619310706854,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 33045375652.866825,
+      "scattering_peaks": 272,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5102788806865042,
+        "mode_entropy": 7.783427715301514,
+        "total_photonic_entropy": 8.293706595988018
+      },
+      "bandgap": {
+        "radial_profile": [
+          9.695418157207314e-08,
+          23.098441930917595,
+          7.905888792240258,
+          35.118760766862316,
+          22.055032656742977,
+          26.88703366198191,
+          24.869309203675453,
+          28.6273408977966,
+          33.160920012643835,
+          30.103395749743168,
+          30.134323296107745,
+          25.774480873079444,
+          14.529259345223826,
+          10.916797501700264
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.22511867217358242
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed2.pt",
+    "timestamp": "2026-02-21T19:42:25.071076",
+    "purity_metrics": {
+      "delta": 0.4968920052051544,
+      "alpha": 0.6993825435638428,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.25975117431337,
+        22.395285273207296,
+        36.5961880703016
+      ],
+      "anisotropy_ratio": 0.23736111641515686,
+      "mean_permittivity": 1.0004770755767822,
+      "variance_permittivity": 0.006896404083818197,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 36724931888.75236,
+      "scattering_peaks": 240,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.40131780943410594,
+        "mode_entropy": 7.930765151977539,
+        "total_photonic_entropy": 8.332082961411645
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.106937012693379e-12,
+          29.902461703007038,
+          41.03492869752826,
+          35.25507451914534,
+          28.77597200564849,
+          24.761689291640025,
+          22.263622154073513,
+          23.438121123365594,
+          28.19109392099818,
+          29.595018497835365,
+          32.58318161587966,
+          39.67339836542879,
+          40.36393339403214,
+          57.725708280290874
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5425529630653485
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed3.pt",
+    "timestamp": "2026-02-21T19:42:26.506778",
+    "purity_metrics": {
+      "delta": 0.486316978931427,
+      "alpha": 0.7208946347236633,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.193651873057625,
+        20.59395250417161,
+        42.69392867330789
+      ],
+      "anisotropy_ratio": 0.3334142634541342,
+      "mean_permittivity": 0.9996461868286133,
+      "variance_permittivity": 0.008202796801924706,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 39252987415.594666,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.6117317129799635,
+        "mode_entropy": 7.887784481048584,
+        "total_photonic_entropy": 8.499516194028548
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.81167469704269e-09,
+          60.83454236617455,
+          50.30081623973268,
+          37.09184672259077,
+          28.361188054084778,
+          47.44872612953186,
+          37.312047978094284,
+          32.64067343006612,
+          29.577899744679765,
+          28.6470064493135,
+          28.71968692141144,
+          33.34111737611875,
+          34.6772866787449,
+          33.53779901776995
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4662020449389893
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed4.pt",
+    "timestamp": "2026-02-21T19:42:27.892210",
+    "purity_metrics": {
+      "delta": 0.4998216927051544,
+      "alpha": 0.6935038566589355,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        27.02063954187377,
+        32.46541205539541,
+        50.956340751974
+      ],
+      "anisotropy_ratio": 0.2167256675716537,
+      "mean_permittivity": 0.999315619468689,
+      "variance_permittivity": 0.00928387138992548,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 38065075843.32894,
+      "scattering_peaks": 400,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3294351502588559,
+        "mode_entropy": 7.927480220794678,
+        "total_photonic_entropy": 8.256915371053534
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.859825715655461e-08,
+          17.299187880295975,
+          19.803581940405298,
+          25.193019682848,
+          29.835954400209282,
+          30.74590158288072,
+          42.44203411822623,
+          41.562590238847704,
+          39.919587001183764,
+          43.52511446445416,
+          39.40939699285909,
+          35.45809438127783,
+          29.017423185610003,
+          6.889592724187033
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.40759563578095054
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed5.pt",
+    "timestamp": "2026-02-21T19:42:29.383152",
+    "purity_metrics": {
+      "delta": 0.49719327688217163,
+      "alpha": 0.6987764239311218,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.47773569140091,
+        26.13053384505493,
+        40.26017681364183
+      ],
+      "anisotropy_ratio": 0.256661245245193,
+      "mean_permittivity": 0.9987717270851135,
+      "variance_permittivity": 0.007658700924366713,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 31634715102.54511,
+      "scattering_peaks": 256,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5000532966596195,
+        "mode_entropy": 7.850691318511963,
+        "total_photonic_entropy": 8.350744615171582
+      },
+      "bandgap": {
+        "radial_profile": [
+          6.227821813808987e-09,
+          17.47964050219609,
+          22.380291158502754,
+          40.15418787394898,
+          40.2499846128317,
+          41.28760763842885,
+          33.481852372656476,
+          33.31459709452743,
+          30.21168311871394,
+          28.792375615393468,
+          22.889133843470756,
+          20.529610429535996,
+          15.823728538328602,
+          7.524131911141532
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4233628805822211
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed6.pt",
+    "timestamp": "2026-02-21T19:42:31.008437",
+    "purity_metrics": {
+      "delta": 0.4834858775138855,
+      "alpha": 0.7267331480979919,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        14.16523865313678,
+        22.517225173541917,
+        35.041229067303235
+      ],
+      "anisotropy_ratio": 0.29106128772572,
+      "mean_permittivity": 1.0009839534759521,
+      "variance_permittivity": 0.006701376289129257,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 39139623116.407776,
+      "scattering_peaks": 256,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5675246143222686,
+        "mode_entropy": 7.873231410980225,
+        "total_photonic_entropy": 8.440756025302493
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.2532413974404335e-09,
+          56.2155274611253,
+          35.390420545231215,
+          41.03942252261729,
+          29.381541126813644,
+          33.30473009100774,
+          25.848195314153713,
+          25.367592162071528,
+          26.936614518868573,
+          26.131272633774923,
+          23.57498978972435,
+          24.715760131380453,
+          17.290414210288755,
+          10.994648115975517
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4598052616687182
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed7.pt",
+    "timestamp": "2026-02-21T19:42:32.595623",
+    "purity_metrics": {
+      "delta": 0.482931911945343,
+      "alpha": 0.7278795838356018,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.06846472986777,
+        22.22977787584135,
+        36.417486154056505
+      ],
+      "anisotropy_ratio": 0.25554824263238896,
+      "mean_permittivity": 0.998014509677887,
+      "variance_permittivity": 0.006885684560984373,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 55577475343.4707,
+      "scattering_peaks": 288,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4139829827544344,
+        "mode_entropy": 7.871647834777832,
+        "total_photonic_entropy": 8.285630817532267
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.132974933985679e-09,
+          65.47026736919696,
+          42.87476798982331,
+          33.32536581950852,
+          42.174521381019524,
+          35.56977991825197,
+          32.88586508821934,
+          29.69248340688747,
+          25.80361326876121,
+          21.336775791711915,
+          18.987477435406884,
+          17.139592397494695,
+          19.412087948091568,
+          24.65531131199428
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5023022878877312
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed8.pt",
+    "timestamp": "2026-02-21T19:42:33.921517",
+    "purity_metrics": {
+      "delta": 0.49920862913131714,
+      "alpha": 0.6947311758995056,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.322422162867568,
+        21.97402165391836,
+        37.66540921055782
+      ],
+      "anisotropy_ratio": 0.29805809415543966,
+      "mean_permittivity": 1.0014843940734863,
+      "variance_permittivity": 0.007126610726118088,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 46368335108.41251,
+      "scattering_peaks": 448,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5132308716185252,
+        "mode_entropy": 7.942757606506348,
+        "total_photonic_entropy": 8.455988478124873
+      },
+      "bandgap": {
+        "radial_profile": [
+          8.846292587350035e-08,
+          61.776054235605095,
+          39.38890944466446,
+          28.921665961229348,
+          20.693029787805344,
+          21.177547837612106,
+          26.51226698743536,
+          27.98289600226695,
+          29.854854916120065,
+          32.708674316688516,
+          33.01068674702393,
+          35.896237457254486,
+          35.87834172095022,
+          41.79862758091518
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.3349684605761898
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs128_seed9.pt",
+    "timestamp": "2026-02-21T19:42:35.316206",
+    "purity_metrics": {
+      "delta": 0.4982958436012268,
+      "alpha": 0.696561336517334,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.708488487555094,
+        19.638994105038048,
+        37.60469636248499
+      ],
+      "anisotropy_ratio": 0.2825637887914457,
+      "mean_permittivity": 1.0008001327514648,
+      "variance_permittivity": 0.007143475115299225,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 36635514441.33617,
+      "scattering_peaks": 336,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3802185859636735,
+        "mode_entropy": 7.907100677490234,
+        "total_photonic_entropy": 8.287319263453908
+      },
+      "bandgap": {
+        "radial_profile": [
+          8.117382321870537e-08,
+          20.034456473130447,
+          19.559951529358372,
+          27.31036844736413,
+          23.54803494332183,
+          22.02532349214321,
+          30.80495379579828,
+          32.291438806832325,
+          31.133674952018907,
+          31.250661978641382,
+          31.467295127165944,
+          27.117620017398057,
+          23.391270829785256,
+          18.09876278468541
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6349612357465313
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed0.pt",
+    "timestamp": "2026-02-21T19:42:36.649938",
+    "purity_metrics": {
+      "delta": 0.4980667531490326,
+      "alpha": 0.6970211863517761,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.610198263136368,
+        20.409048371252922,
+        36.17305606946814
+      ],
+      "anisotropy_ratio": 0.2848344911601364,
+      "mean_permittivity": 0.9987386465072632,
+      "variance_permittivity": 0.00668266462162137,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 34669840010.28768,
+      "scattering_peaks": 64,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.44611740129291294,
+        "mode_entropy": 7.896723747253418,
+        "total_photonic_entropy": 8.34284114854633
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.90333446173463e-09,
+          27.820105919471153,
+          28.99441236438173,
+          36.32475406610513,
+          28.42428674045791,
+          24.6960524692768,
+          26.0141455680766,
+          26.195870225749363,
+          27.8439924776637,
+          25.571321800733223,
+          28.643004062771798,
+          30.099338493536955,
+          33.14488966618815,
+          62.67795991897583
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6798684011532748
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed1.pt",
+    "timestamp": "2026-02-21T19:42:37.977223",
+    "purity_metrics": {
+      "delta": 0.48484641313552856,
+      "alpha": 0.7239230871200562,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.965547427207689,
+        19.801119927481047,
+        34.69921971501341
+      ],
+      "anisotropy_ratio": 0.3028321573734621,
+      "mean_permittivity": 1.0018775463104248,
+      "variance_permittivity": 0.006585786119103432,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 31659351584.331406,
+      "scattering_peaks": 336,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4863297137869756,
+        "mode_entropy": 7.827669143676758,
+        "total_photonic_entropy": 8.313998857463734
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.3206090443418361e-08,
+          18.777816479022686,
+          6.818088923439835,
+          34.78673331948775,
+          22.732467719632336,
+          26.300109198616774,
+          23.4899466829097,
+          28.106121329918786,
+          30.64185186503494,
+          27.99654223387822,
+          28.48922332619366,
+          24.07076360455793,
+          14.984885160000093,
+          11.00906617300851
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.19599681467074398
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed2.pt",
+    "timestamp": "2026-02-21T19:42:39.346803",
+    "purity_metrics": {
+      "delta": 0.4945310652256012,
+      "alpha": 0.7041453123092651,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.861847904957088,
+        24.059364877121965,
+        38.38870466787211
+      ],
+      "anisotropy_ratio": 0.24015344468815164,
+      "mean_permittivity": 1.0003604888916016,
+      "variance_permittivity": 0.007240523584187031,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 38341068785.211044,
+      "scattering_peaks": 160,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.38213900500008413,
+        "mode_entropy": 7.875314235687256,
+        "total_photonic_entropy": 8.25745324068734
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.9467628337442875e-10,
+          33.10156693366858,
+          41.8065316026861,
+          34.48716413069375,
+          26.262535167555523,
+          27.054271767779095,
+          22.351734675942584,
+          25.15145665899848,
+          28.5843868679231,
+          31.321797748215687,
+          35.75852021990638,
+          44.07409016647149,
+          49.74424522922885,
+          67.70606340680804
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5346469515412516
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed3.pt",
+    "timestamp": "2026-02-21T19:42:40.800159",
+    "purity_metrics": {
+      "delta": 0.4989584684371948,
+      "alpha": 0.6952323913574219,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.647409081435462,
+        17.23626343961623,
+        36.166176035466854
+      ],
+      "anisotropy_ratio": 0.3358511232885123,
+      "mean_permittivity": 0.9993118047714233,
+      "variance_permittivity": 0.006943197455257177,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 37809905062.206924,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5291109558067499,
+        "mode_entropy": 7.817090034484863,
+        "total_photonic_entropy": 8.346200990291614
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.0954757928848267e-09,
+          40.602231355813835,
+          49.464338504906856,
+          31.214175955404208,
+          22.44183279510237,
+          40.39003694697124,
+          32.04122079674234,
+          26.745824775560116,
+          25.016570011498366,
+          23.22041759124169,
+          24.62740659854914,
+          30.385699559800067,
+          37.09847111086692,
+          54.82324818202427
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4536972185088612
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed4.pt",
+    "timestamp": "2026-02-21T19:42:41.914345",
+    "purity_metrics": {
+      "delta": 0.49255257844924927,
+      "alpha": 0.7081540822982788,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        20.163013062454624,
+        24.72569713993998,
+        39.87289601403606
+      ],
+      "anisotropy_ratio": 0.23253314597713182,
+      "mean_permittivity": 0.999869704246521,
+      "variance_permittivity": 0.007314867805689573,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 31878653697.725094,
+      "scattering_peaks": 464,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3384876001780086,
+        "mode_entropy": 7.931633949279785,
+        "total_photonic_entropy": 8.270121549457794
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.0090737962163985e-09,
+          11.68747220818813,
+          18.114160563909646,
+          20.1183978081504,
+          23.1679483185976,
+          24.950305762087428,
+          31.80761522397082,
+          32.759809343876235,
+          32.254503294431785,
+          33.28312877546518,
+          31.761936488914255,
+          28.559303255520057,
+          23.49103622474978,
+          5.956743555941752
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.3674425802077575
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed5.pt",
+    "timestamp": "2026-02-21T19:42:43.111382",
+    "purity_metrics": {
+      "delta": 0.4950346052646637,
+      "alpha": 0.7031276226043701,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        14.885509922968474,
+        23.546524695214668,
+        35.13754164524458
+      ],
+      "anisotropy_ratio": 0.275277264745422,
+      "mean_permittivity": 0.9979963302612305,
+      "variance_permittivity": 0.006693344563245773,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 29994890058.280685,
+      "scattering_peaks": 256,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.6239053176191485,
+        "mode_entropy": 7.8842058181762695,
+        "total_photonic_entropy": 8.508111135795417
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.4324768926599063e-08,
+          21.546974154619072,
+          19.6302861661622,
+          32.024365557145465,
+          34.54265327535124,
+          32.37400216416615,
+          29.538912586709287,
+          29.33516762330926,
+          27.56496887512101,
+          25.781245752022816,
+          20.538298259283366,
+          18.502601259976476,
+          15.088608857124083,
+          17.896103177751815
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5682912082527558
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed6.pt",
+    "timestamp": "2026-02-21T19:42:44.637864",
+    "purity_metrics": {
+      "delta": 0.49763599038124084,
+      "alpha": 0.6978864073753357,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.853521342110298,
+        22.664137578749365,
+        35.43728378238741
+      ],
+      "anisotropy_ratio": 0.29996219341445063,
+      "mean_permittivity": 1.0010161399841309,
+      "variance_permittivity": 0.006757549475878477,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 40245445127.741776,
+      "scattering_peaks": 192,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5596001814330818,
+        "mode_entropy": 7.848349571228027,
+        "total_photonic_entropy": 8.407949752661109
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.489459743377665e-08,
+          59.33556908827562,
+          37.47846645297426,
+          44.691309712732895,
+          31.358038974623394,
+          35.22195756253673,
+          26.651113218322713,
+          24.86352488923525,
+          26.632488065866834,
+          25.694385825298152,
+          22.144327113816612,
+          24.60376547580928,
+          16.26495868928971,
+          12.93804155077253
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4491591405928541
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed7.pt",
+    "timestamp": "2026-02-21T19:42:45.944922",
+    "purity_metrics": {
+      "delta": 0.4991130232810974,
+      "alpha": 0.694922685623169,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.023635981948132,
+        23.54829640991947,
+        34.88219396616463
+      ],
+      "anisotropy_ratio": 0.2532909713228004,
+      "mean_permittivity": 0.9976022243499756,
+      "variance_permittivity": 0.006526015233248472,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 49119028738.286156,
+      "scattering_peaks": 575,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.42166815260081897,
+        "mode_entropy": 7.894516944885254,
+        "total_photonic_entropy": 8.316185097486073
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.6407145864150152e-08,
+          41.00913913433369,
+          30.770833593426328,
+          29.803345143040524,
+          32.98239849979042,
+          28.711522351532448,
+          33.687853424853465,
+          28.266461020158882,
+          24.548963806808242,
+          22.660838597478012,
+          18.89192571185137,
+          22.30820201196481,
+          26.52571883509236,
+          57.175869532993865
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.7001249711049058
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed8.pt",
+    "timestamp": "2026-02-21T19:42:47.356195",
+    "purity_metrics": {
+      "delta": 0.49717068672180176,
+      "alpha": 0.6988219022750854,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.730665537895849,
+        22.374636427290937,
+        37.09880722670774
+      ],
+      "anisotropy_ratio": 0.28413529418037364,
+      "mean_permittivity": 1.000795841217041,
+      "variance_permittivity": 0.006989652756601572,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 43758900059.66461,
+      "scattering_peaks": 448,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.6010082099243312,
+        "mode_entropy": 7.845348358154297,
+        "total_photonic_entropy": 8.446356568078627
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.7298995064484188e-08,
+          74.55481815338135,
+          43.45455808350534,
+          27.42666283664824,
+          22.260509670290173,
+          21.570870991450985,
+          28.447522015774503,
+          26.874757321526204,
+          31.315894736285337,
+          31.26898801016311,
+          30.13784611958422,
+          30.428717450716007,
+          19.371553160490528,
+          10.369217123304095
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.2893290001330884
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs16_seed9.pt",
+    "timestamp": "2026-02-21T19:42:49.410355",
+    "purity_metrics": {
+      "delta": 0.49784237146377563,
+      "alpha": 0.6974717974662781,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.630024040991174,
+        19.525721279223035,
+        36.84461326132877
+      ],
+      "anisotropy_ratio": 0.2946456050814152,
+      "mean_permittivity": 1.000724196434021,
+      "variance_permittivity": 0.007054573390632868,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35610650478.42163,
+      "scattering_peaks": 320,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3378674701149206,
+        "mode_entropy": 7.902839660644531,
+        "total_photonic_entropy": 8.240707130759452
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.007016857736744e-09,
+          15.689812733576847,
+          18.736358834035467,
+          26.617814984502672,
+          22.279247302259517,
+          21.760842799177258,
+          31.039396154975638,
+          31.586311994236578,
+          30.778948005646342,
+          30.876762290622512,
+          31.717465502337404,
+          27.00735524637782,
+          23.849708230264724,
+          16.354684148515975
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5054806045578052
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed0.pt",
+    "timestamp": "2026-02-21T19:42:51.818540",
+    "purity_metrics": {
+      "delta": 0.49807077646255493,
+      "alpha": 0.6970130801200867,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.129432457720828,
+        21.841939050556775,
+        37.674357556663814
+      ],
+      "anisotropy_ratio": 0.26805048826054495,
+      "mean_permittivity": 0.9986269474029541,
+      "variance_permittivity": 0.006985034793615341,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 34997492238.560104,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.46268940399125635,
+        "mode_entropy": 7.890215873718262,
+        "total_photonic_entropy": 8.352905277709517
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.9467985263618175e-09,
+          29.548181753892166,
+          26.747915080099396,
+          36.95646109498,
+          26.734157976941166,
+          25.63292352164664,
+          28.04483723716533,
+          28.094025696357736,
+          30.0731329877287,
+          27.264275417304955,
+          29.736997144786937,
+          29.512443699053865,
+          30.381089172055646,
+          55.10891675949097
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6935978922792242
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed1.pt",
+    "timestamp": "2026-02-21T19:42:53.913697",
+    "purity_metrics": {
+      "delta": 0.48964542150497437,
+      "alpha": 0.7140737771987915,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.49226452843192,
+        21.156932165875087,
+        35.97240631777795
+      ],
+      "anisotropy_ratio": 0.31831820336192557,
+      "mean_permittivity": 1.0016813278198242,
+      "variance_permittivity": 0.006888684816658497,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 34329205105.927277,
+      "scattering_peaks": 224,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4563489993954454,
+        "mode_entropy": 7.719282627105713,
+        "total_photonic_entropy": 8.175631626501158
+      },
+      "bandgap": {
+        "radial_profile": [
+          9.784707799553871e-08,
+          22.32500597146841,
+          7.751251282113971,
+          36.421274684652495,
+          22.65554351888151,
+          26.88179728817649,
+          23.837084276244994,
+          27.47311560078688,
+          33.58111551573943,
+          30.21435646602932,
+          30.6344341199649,
+          26.674778766893034,
+          13.886714965105057,
+          8.93677568435669
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.21282207581161283
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed2.pt",
+    "timestamp": "2026-02-21T19:42:55.321713",
+    "purity_metrics": {
+      "delta": 0.48216578364372253,
+      "alpha": 0.7294672727584839,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        19.027924009420623,
+        22.34206045764006,
+        37.145167510478366
+      ],
+      "anisotropy_ratio": 0.23074837206251056,
+      "mean_permittivity": 1.0002528429031372,
+      "variance_permittivity": 0.006993311922997236,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 40187649035.63562,
+      "scattering_peaks": 432,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4060390030360973,
+        "mode_entropy": 7.909510612487793,
+        "total_photonic_entropy": 8.31554961552389
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.2469529287482146e-09,
+          36.354955253621135,
+          44.10134191726419,
+          35.410687213292036,
+          31.925277532563886,
+          26.058055995086708,
+          23.03543968524863,
+          23.0130410741631,
+          28.412722497341715,
+          29.52457305139456,
+          31.85368096922573,
+          39.90307378294456,
+          40.538707917736424,
+          60.358127049037385
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5223296771425179
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed3.pt",
+    "timestamp": "2026-02-21T19:42:56.655319",
+    "purity_metrics": {
+      "delta": 0.4937736988067627,
+      "alpha": 0.7056779861450195,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.253274521186508,
+        20.457469841591767,
+        41.43182994752447
+      ],
+      "anisotropy_ratio": 0.3393528886012519,
+      "mean_permittivity": 0.9993529319763184,
+      "variance_permittivity": 0.007952086627483368,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 38108909638.00107,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.6155732577798672,
+        "mode_entropy": 7.816362380981445,
+        "total_photonic_entropy": 8.431935638761313
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.725290298461914e-09,
+          53.52014758036687,
+          49.06926454919757,
+          32.78983223890956,
+          23.956864359032394,
+          46.171347434346266,
+          35.74932643859945,
+          31.251980207719132,
+          29.0491419884691,
+          28.062268067915472,
+          28.957352261951094,
+          35.161951355376644,
+          38.88616475751323,
+          45.884849548339844
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4476232865952686
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed4.pt",
+    "timestamp": "2026-02-21T19:42:58.329621",
+    "purity_metrics": {
+      "delta": 0.4893653094768524,
+      "alpha": 0.71464604139328,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        27.121121871348137,
+        35.51771668344816,
+        53.841820930066994
+      ],
+      "anisotropy_ratio": 0.22940030711442894,
+      "mean_permittivity": 1.0005167722702026,
+      "variance_permittivity": 0.009941056370735168,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35075754490.72464,
+      "scattering_peaks": 368,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.496683393891761,
+        "mode_entropy": 7.929986953735352,
+        "total_photonic_entropy": 8.426670347627113
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.114131009671837e-09,
+          26.551234538738544,
+          27.461225032806396,
+          31.926914456524425,
+          37.52960803773668,
+          38.88905985064623,
+          47.26951217651367,
+          45.53721638585171,
+          40.983636957879526,
+          43.73425411643126,
+          36.388666068880184,
+          32.58974560428022,
+          24.425306902777763,
+          5.201428387846265
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5616989326975669
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed5.pt",
+    "timestamp": "2026-02-21T19:42:59.816701",
+    "purity_metrics": {
+      "delta": 0.49525004625320435,
+      "alpha": 0.7026925086975098,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        19.99257001058959,
+        25.5680825251623,
+        41.58850784937995
+      ],
+      "anisotropy_ratio": 0.24780431324126398,
+      "mean_permittivity": 0.999191164970398,
+      "variance_permittivity": 0.007884393446147442,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 32087833240.477196,
+      "scattering_peaks": 384,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4384422722777078,
+        "mode_entropy": 7.908511638641357,
+        "total_photonic_entropy": 8.346953910919066
+      },
+      "bandgap": {
+        "radial_profile": [
+          6.386926543200389e-10,
+          15.866259849988497,
+          21.656049858440053,
+          41.99894244157815,
+          40.34249112952469,
+          41.92573821370195,
+          34.0223412156105,
+          33.372311246427415,
+          30.32703267672405,
+          29.559897339343877,
+          25.971823985764363,
+          24.687281175283715,
+          22.754592372765465,
+          8.400013413812433
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.3777776040913693
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed6.pt",
+    "timestamp": "2026-02-21T19:43:00.991322",
+    "purity_metrics": {
+      "delta": 0.4979318082332611,
+      "alpha": 0.697292149066925,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        14.638298038515938,
+        22.786830563675267,
+        35.34157881815791
+      ],
+      "anisotropy_ratio": 0.28451583854201334,
+      "mean_permittivity": 1.0009777545928955,
+      "variance_permittivity": 0.0067579601891338825,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 39007509641.375595,
+      "scattering_peaks": 352,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5419361172135257,
+        "mode_entropy": 7.8989105224609375,
+        "total_photonic_entropy": 8.440846639674463
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.802590408165997e-09,
+          53.018176739032455,
+          35.31920319163438,
+          40.071902733814866,
+          29.89107224205111,
+          32.80809483935193,
+          25.751904855129567,
+          26.003035518373576,
+          27.670245369385942,
+          26.622877630333488,
+          24.02493742437739,
+          24.285550839865387,
+          16.38253214282374,
+          9.315194249153137
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4857184165694293
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed7.pt",
+    "timestamp": "2026-02-21T19:43:02.298668",
+    "purity_metrics": {
+      "delta": 0.492382287979126,
+      "alpha": 0.7084998488426208,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.755710655707787,
+        21.17310242308755,
+        36.275584122742735
+      ],
+      "anisotropy_ratio": 0.24626051342987404,
+      "mean_permittivity": 0.9982731938362122,
+      "variance_permittivity": 0.0068626427091658115,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 54913807006.18503,
+      "scattering_peaks": 320,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4058255773982748,
+        "mode_entropy": 7.870087623596191,
+        "total_photonic_entropy": 8.275913200994466
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.412026217120001e-09,
+          71.70158063448392,
+          45.00754872957865,
+          35.73331345787531,
+          41.82863929129054,
+          35.0020701142346,
+          31.42469347842196,
+          28.674202167729376,
+          25.857550671383716,
+          21.19011860204717,
+          20.120336908651026,
+          17.836801973852648,
+          21.765216490914746,
+          27.276401111057826
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4382705820471808
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed8.pt",
+    "timestamp": "2026-02-21T19:43:03.797468",
+    "purity_metrics": {
+      "delta": 0.4905257821083069,
+      "alpha": 0.7122774124145508,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.150045910838845,
+        19.28598526587311,
+        38.43785874638375
+      ],
+      "anisotropy_ratio": 0.26738859515583346,
+      "mean_permittivity": 1.0012333393096924,
+      "variance_permittivity": 0.007258743047714233,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 52496298191.40378,
+      "scattering_peaks": 416,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4940684727791911,
+        "mode_entropy": 7.906942844390869,
+        "total_photonic_entropy": 8.40101131717006
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.8695928361012193e-08,
+          83.95388852632962,
+          33.65580531322595,
+          33.720380909835235,
+          28.026130103657387,
+          21.00540557009418,
+          27.255390752249575,
+          26.364202370003955,
+          28.543854711616156,
+          33.304128213093065,
+          34.39352780266812,
+          38.39156763767129,
+          36.31353653630903,
+          38.5651479107993
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.25020169927544744
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs256_seed9.pt",
+    "timestamp": "2026-02-21T19:43:05.529793",
+    "purity_metrics": {
+      "delta": 0.49602240324020386,
+      "alpha": 0.701134204864502,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.15815800181599,
+        19.662286085728546,
+        38.35175706907165
+      ],
+      "anisotropy_ratio": 0.2819339960938517,
+      "mean_permittivity": 1.0008126497268677,
+      "variance_permittivity": 0.007261738181114197,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 36935826131.9557,
+      "scattering_peaks": 336,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4012612502445616,
+        "mode_entropy": 7.904989242553711,
+        "total_photonic_entropy": 8.306250492798272
+      },
+      "bandgap": {
+        "radial_profile": [
+          6.30330987405614e-09,
+          21.581649633554314,
+          20.153567837946344,
+          27.523100463649893,
+          24.09833856576528,
+          22.87001844208415,
+          31.407958084978954,
+          32.87424090383499,
+          31.646540618489947,
+          31.581947261324295,
+          31.62562484051052,
+          27.175055144141563,
+          23.766601262554044,
+          19.819964732442582
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6416707441901721
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed0.pt",
+    "timestamp": "2026-02-21T19:43:07.033784",
+    "purity_metrics": {
+      "delta": 0.49825555086135864,
+      "alpha": 0.6966421604156494,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.745679120763963,
+        20.800650709589625,
+        36.38177266293254
+      ],
+      "anisotropy_ratio": 0.28296490429143367,
+      "mean_permittivity": 0.9987676739692688,
+      "variance_permittivity": 0.0066891321912407875,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 34925288205.03082,
+      "scattering_peaks": 64,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4344209898489203,
+        "mode_entropy": 7.908938884735107,
+        "total_photonic_entropy": 8.343359874584028
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.1004885891452432e-10,
+          26.61057971074031,
+          30.07768824606231,
+          37.553345903565614,
+          28.45616406457037,
+          24.727366710290678,
+          26.12650336306146,
+          26.29892415938985,
+          27.964098787771977,
+          25.474484604902756,
+          28.56357268691063,
+          29.326084012415873,
+          31.76434866843685,
+          58.45785536084856
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6584597487990282
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed1.pt",
+    "timestamp": "2026-02-21T19:43:08.339107",
+    "purity_metrics": {
+      "delta": 0.49902695417404175,
+      "alpha": 0.6950951814651489,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.973987623850027,
+        21.057014655270883,
+        36.70238757531025
+      ],
+      "anisotropy_ratio": 0.3168454745772234,
+      "mean_permittivity": 1.0020568370819092,
+      "variance_permittivity": 0.00699849845841527,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 30572952713.079193,
+      "scattering_peaks": 272,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5579337755965047,
+        "mode_entropy": 7.805917739868164,
+        "total_photonic_entropy": 8.363851515464669
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.783725333050825e-09,
+          22.288548689622147,
+          8.147150196812369,
+          35.04782688089564,
+          21.02643260589013,
+          27.40719856256392,
+          25.52431100378645,
+          29.129585061616044,
+          32.89365277336768,
+          30.65420830842012,
+          30.903908079548884,
+          27.018349324885886,
+          17.170347217590578,
+          13.119676453726631
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.2324580700673937
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed2.pt",
+    "timestamp": "2026-02-21T19:43:09.618282",
+    "purity_metrics": {
+      "delta": 0.4837152361869812,
+      "alpha": 0.7262588739395142,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.844879969084605,
+        22.488850910878316,
+        36.336715515911116
+      ],
+      "anisotropy_ratio": 0.24118596429381994,
+      "mean_permittivity": 1.0006985664367676,
+      "variance_permittivity": 0.006845203693956137,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35193763322.65425,
+      "scattering_peaks": 160,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.39522764387332604,
+        "mode_entropy": 7.937073707580566,
+        "total_photonic_entropy": 8.332301351453893
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.4648571184116008e-08,
+          24.425217114962063,
+          36.585840196320504,
+          35.76808264889294,
+          26.906160295519054,
+          25.158854232328693,
+          21.45359930713126,
+          24.101739866946772,
+          28.27846372790728,
+          29.69065686210226,
+          32.722328494097056,
+          38.18774692217509,
+          37.692846498181744,
+          50.65385219029018
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5863907782888704
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed3.pt",
+    "timestamp": "2026-02-21T19:43:10.775793",
+    "purity_metrics": {
+      "delta": 0.49769341945648193,
+      "alpha": 0.6977710127830505,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.258292375523101,
+        18.391351296352177,
+        39.21378253662084
+      ],
+      "anisotropy_ratio": 0.32877249132575714,
+      "mean_permittivity": 0.9997764825820923,
+      "variance_permittivity": 0.007527870591729879,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 37605990545.39276,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5436459463559005,
+        "mode_entropy": 7.879535675048828,
+        "total_photonic_entropy": 8.423181621404728
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.1725696797147975e-09,
+          44.691097241181595,
+          45.63840047518412,
+          33.18977624856973,
+          25.154903528527317,
+          42.010918951616055,
+          33.51799047272256,
+          28.9949095869452,
+          27.28941059212028,
+          26.492225292210396,
+          28.224915339131105,
+          34.35062708427657,
+          40.0009875336001,
+          50.56585202898298
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5511784652082664
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed4.pt",
+    "timestamp": "2026-02-21T19:43:11.931415",
+    "purity_metrics": {
+      "delta": 0.4997345209121704,
+      "alpha": 0.6936782598495483,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        21.888505397281588,
+        26.608114312383975,
+        42.94511841899656
+      ],
+      "anisotropy_ratio": 0.23027354305194295,
+      "mean_permittivity": 0.9994996190071106,
+      "variance_permittivity": 0.007841064594686031,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 34938391455.44696,
+      "scattering_peaks": 464,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3127317392112138,
+        "mode_entropy": 7.935132026672363,
+        "total_photonic_entropy": 8.247863765883578
+      },
+      "bandgap": {
+        "radial_profile": [
+          7.914877642178908e-10,
+          12.884835541248322,
+          16.773468142206017,
+          20.590911005871206,
+          24.664153419498703,
+          26.316513709614917,
+          34.64313524657108,
+          35.01048130475409,
+          34.06744983962248,
+          36.21433372528125,
+          34.26828549361151,
+          31.495463991009476,
+          27.062528472994604,
+          7.4217595000352174
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.371930411306709
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed5.pt",
+    "timestamp": "2026-02-21T19:43:13.359471",
+    "purity_metrics": {
+      "delta": 0.4988066852092743,
+      "alpha": 0.6955366730690002,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.230376738036384,
+        24.01801736500808,
+        35.64316359043699
+      ],
+      "anisotropy_ratio": 0.27256459180548376,
+      "mean_permittivity": 0.9978233575820923,
+      "variance_permittivity": 0.006793212611228228,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 32130289474.78066,
+      "scattering_peaks": 256,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.6067018797771151,
+        "mode_entropy": 7.886072158813477,
+        "total_photonic_entropy": 8.492774038590591
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.3065297227731207e-08,
+          23.508267503518326,
+          20.61241471044945,
+          33.136055421602876,
+          35.522482161847954,
+          32.62873047473954,
+          29.86517596320903,
+          29.651226701129097,
+          28.087610964897777,
+          26.09930897102906,
+          20.920083162659093,
+          18.52199919306817,
+          14.330209170618366,
+          16.11162212916783
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.580263918959179
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed6.pt",
+    "timestamp": "2026-02-21T19:43:14.686197",
+    "purity_metrics": {
+      "delta": 0.4971522092819214,
+      "alpha": 0.6988590359687805,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.51920189211027,
+        22.444584733977617,
+        34.30880496479346
+      ],
+      "anisotropy_ratio": 0.2958422708204328,
+      "mean_permittivity": 1.0011612176895142,
+      "variance_permittivity": 0.006547912489622831,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 39161458320.24025,
+      "scattering_peaks": 352,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5781799338518505,
+        "mode_entropy": 7.9199934005737305,
+        "total_photonic_entropy": 8.49817333442558
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.3046843605479808e-09,
+          59.12194428077111,
+          35.842274355165884,
+          38.52743059057224,
+          29.584305895699394,
+          32.151837923759366,
+          25.795307911964173,
+          24.545357680094597,
+          26.322154397841786,
+          25.702757413188618,
+          22.742543814370507,
+          23.821853046986593,
+          16.965226950183993,
+          10.860829148973737
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4363068269442931
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed7.pt",
+    "timestamp": "2026-02-21T19:43:16.183379",
+    "purity_metrics": {
+      "delta": 0.49948641657829285,
+      "alpha": 0.6941748857498169,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.1272585153549,
+        24.184071641930334,
+        35.207392376894454
+      ],
+      "anisotropy_ratio": 0.252654351414696,
+      "mean_permittivity": 0.9975053668022156,
+      "variance_permittivity": 0.006571985315531492,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 50233654962.58037,
+      "scattering_peaks": 671,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4272898539565962,
+        "mode_entropy": 7.9042181968688965,
+        "total_photonic_entropy": 8.331508050825493
+      },
+      "bandgap": {
+        "radial_profile": [
+          8.66990035319759e-10,
+          44.050976533156174,
+          32.07480179179799,
+          29.004855264591264,
+          34.21559496313079,
+          29.026815757228107,
+          32.99301609992981,
+          28.942841148634912,
+          25.303457592392498,
+          22.774733323508347,
+          19.215595047724875,
+          20.733419221432055,
+          23.177357519826582,
+          47.09219142368862
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6584384171981776
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed8.pt",
+    "timestamp": "2026-02-21T19:43:17.601454",
+    "purity_metrics": {
+      "delta": 0.499272882938385,
+      "alpha": 0.6946024894714355,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.387505002215725,
+        22.76837610124048,
+        39.609534088194174
+      ],
+      "anisotropy_ratio": 0.29482519744833546,
+      "mean_permittivity": 1.0007028579711914,
+      "variance_permittivity": 0.007510724011808634,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 43438259626.220566,
+      "scattering_peaks": 544,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.614292527296382,
+        "mode_entropy": 7.828812599182129,
+        "total_photonic_entropy": 8.44310512647851
+      },
+      "bandgap": {
+        "radial_profile": [
+          8.891461789062305e-09,
+          75.67586733744695,
+          44.2460530201594,
+          28.180823686756664,
+          22.97577707278423,
+          21.725705322405187,
+          29.26189434376169,
+          29.792451822095448,
+          34.403490414042466,
+          33.68970906887299,
+          33.78212858014985,
+          32.706678136664245,
+          22.15493317381028,
+          14.504488945007324
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.28708895037171084
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs32_seed9.pt",
+    "timestamp": "2026-02-21T19:43:18.732802",
+    "purity_metrics": {
+      "delta": 0.49020859599113464,
+      "alpha": 0.7129243016242981,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.012118500865732,
+        19.823672149548603,
+        37.01394270224681
+      ],
+      "anisotropy_ratio": 0.288289650968419,
+      "mean_permittivity": 1.0007121562957764,
+      "variance_permittivity": 0.007073791231960058,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35368579384.91878,
+      "scattering_peaks": 320,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.34241597929104683,
+        "mode_entropy": 7.8948259353637695,
+        "total_photonic_entropy": 8.237241914654817
+      },
+      "bandgap": {
+        "radial_profile": [
+          8.881784197001252e-08,
+          15.88333063859206,
+          18.401374957778238,
+          26.640148878097534,
+          22.152150234732872,
+          21.501348462192023,
+          30.93334547230538,
+          32.03617324682109,
+          30.80209174051736,
+          31.005735952932483,
+          31.783097545724168,
+          27.185738565909922,
+          24.178777794684134,
+          18.01633698599679
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5134695389724677
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed0.pt",
+    "timestamp": "2026-02-21T19:43:20.250990",
+    "purity_metrics": {
+      "delta": 0.493622362613678,
+      "alpha": 0.7059845328330994,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.50032715662526,
+        22.594258774714547,
+        38.74597116704887
+      ],
+      "anisotropy_ratio": 0.2694760766836061,
+      "mean_permittivity": 0.9985874891281128,
+      "variance_permittivity": 0.0071517848409712315,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35476581468.81359,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4611988034521062,
+        "mode_entropy": 7.870828628540039,
+        "total_photonic_entropy": 8.332027431992145
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.2364831642771605e-09,
+          29.892296350919285,
+          27.009397000977486,
+          38.093456352058844,
+          27.524824709973785,
+          26.135438477120747,
+          28.914668886204982,
+          29.005589968880745,
+          30.896421854411447,
+          27.699977052469666,
+          30.298845362957373,
+          29.681344260030716,
+          30.402149323494204,
+          56.04949133736746
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6860873488482908
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed1.pt",
+    "timestamp": "2026-02-21T19:43:21.538097",
+    "purity_metrics": {
+      "delta": 0.4962180256843567,
+      "alpha": 0.700739860534668,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.105438242253605,
+        21.785960155101645,
+        36.69800666245921
+      ],
+      "anisotropy_ratio": 0.2760790008137495,
+      "mean_permittivity": 1.0021328926086426,
+      "variance_permittivity": 0.006911039352416992,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 45110104013.72897,
+      "scattering_peaks": 703,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.44180382749249025,
+        "mode_entropy": 7.96577787399292,
+        "total_photonic_entropy": 8.40758170148541
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.384229785297066e-09,
+          36.229595331045296,
+          17.948631079373598,
+          27.905487504964576,
+          33.87566036395092,
+          27.737261367502917,
+          24.63096931672239,
+          31.091527653098368,
+          31.623248807703803,
+          26.901846163595717,
+          27.028815495732584,
+          22.51204149877254,
+          18.088361609366633,
+          21.406368255615234
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4954135124977175
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed2.pt",
+    "timestamp": "2026-02-21T19:43:22.633823",
+    "purity_metrics": {
+      "delta": 0.4929327368736267,
+      "alpha": 0.7073825597763062,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        19.232335481393587,
+        22.15517644859604,
+        37.15197209405823
+      ],
+      "anisotropy_ratio": 0.2281608650138046,
+      "mean_permittivity": 1.0001180171966553,
+      "variance_permittivity": 0.007010170724242926,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 41510998344.239136,
+      "scattering_peaks": 688,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4190947598558453,
+        "mode_entropy": 7.896634578704834,
+        "total_photonic_entropy": 8.31572933856068
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.132974933985679e-09,
+          43.84022747094814,
+          43.18672038208354,
+          35.31060729147513,
+          34.221682102252274,
+          27.176198134843897,
+          22.797153148498943,
+          23.08294682071461,
+          28.723885819005037,
+          29.03879779868592,
+          31.238190281704853,
+          38.28956574898454,
+          38.47943932010281,
+          59.539272853306365
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5200053572612976
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed3.pt",
+    "timestamp": "2026-02-21T19:43:23.744742",
+    "purity_metrics": {
+      "delta": 0.4915013313293457,
+      "alpha": 0.7102906107902527,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.753716200241435,
+        20.95327833963071,
+        42.37713288627532
+      ],
+      "anisotropy_ratio": 0.3366467779630761,
+      "mean_permittivity": 0.9994091987609863,
+      "variance_permittivity": 0.008136623539030552,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 40586817592.008484,
+      "scattering_peaks": 64,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.535665220045349,
+        "mode_entropy": 7.921240329742432,
+        "total_photonic_entropy": 8.45690554978778
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.8776980798284058e-11,
+          58.2934130521921,
+          48.48255514376091,
+          34.07049250904518,
+          25.10630600880354,
+          46.2576980032572,
+          34.17881898119094,
+          32.5416259268112,
+          31.523576923802764,
+          29.726495834497307,
+          30.89122900398154,
+          32.30558256842011,
+          30.52713882154034,
+          21.629084723336355
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.430688558007093
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed4.pt",
+    "timestamp": "2026-02-21T19:43:25.148084",
+    "purity_metrics": {
+      "delta": 0.4979958236217499,
+      "alpha": 0.6971635818481445,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        25.592606138724662,
+        34.38739025933574,
+        52.536275193126116
+      ],
+      "anisotropy_ratio": 0.23946464518747856,
+      "mean_permittivity": 1.0009663105010986,
+      "variance_permittivity": 0.009729300625622272,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 33570534603.410698,
+      "scattering_peaks": 272,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.6046774195319065,
+        "mode_entropy": 7.937514305114746,
+        "total_photonic_entropy": 8.542191724646653
+      },
+      "bandgap": {
+        "radial_profile": [
+          7.697963155806065e-09,
+          31.28698128920335,
+          30.990232048612654,
+          33.89250142664849,
+          40.383987711026116,
+          40.22714064012214,
+          47.38618168095325,
+          44.84946130349384,
+          39.25427538305728,
+          41.16105208608011,
+          33.065006259240604,
+          29.452506551991647,
+          20.765899698580466,
+          3.2682218296187266
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6539930196782177
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed5.pt",
+    "timestamp": "2026-02-21T19:43:26.547146",
+    "purity_metrics": {
+      "delta": 0.4958898425102234,
+      "alpha": 0.7014014720916748,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        20.16078227211838,
+        25.64815621622741,
+        41.68329860271868
+      ],
+      "anisotropy_ratio": 0.2459934394887976,
+      "mean_permittivity": 0.9991821050643921,
+      "variance_permittivity": 0.007901475764811039,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 31365465947.024345,
+      "scattering_peaks": 320,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4535654700469892,
+        "mode_entropy": 7.9098920822143555,
+        "total_photonic_entropy": 8.363457552261345
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.076259412817308e-10,
+          15.725959557753344,
+          22.249954975012578,
+          41.00009350837031,
+          40.822584580152466,
+          41.839408044117256,
+          33.7834510164058,
+          33.388101126362635,
+          30.63916909263595,
+          29.620548197474236,
+          26.197675131967195,
+          25.021030342845773,
+          22.941785296124795,
+          9.2246233352593
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.3758647718231012
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed6.pt",
+    "timestamp": "2026-02-21T19:43:27.750986",
+    "purity_metrics": {
+      "delta": 0.49209216237068176,
+      "alpha": 0.7090892791748047,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.156058290384859,
+        22.670747636372926,
+        35.8660708890381
+      ],
+      "anisotropy_ratio": 0.2810314034885676,
+      "mean_permittivity": 1.0009191036224365,
+      "variance_permittivity": 0.006866443902254105,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 39696158778.41081,
+      "scattering_peaks": 352,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5253141155328781,
+        "mode_entropy": 7.886427879333496,
+        "total_photonic_entropy": 8.411741994866373
+      },
+      "bandgap": {
+        "radial_profile": [
+          8.453640987227118e-08,
+          51.75644170320951,
+          34.833233107671596,
+          40.505082099498075,
+          29.662401603582577,
+          32.39570415877714,
+          25.798062017623415,
+          26.73890836137097,
+          28.543690267416633,
+          27.386861784526936,
+          24.815055135206173,
+          24.788434178674994,
+          15.882254096769518,
+          9.209054487092155
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4984512298103713
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed7.pt",
+    "timestamp": "2026-02-21T19:43:29.238113",
+    "purity_metrics": {
+      "delta": 0.49902230501174927,
+      "alpha": 0.6951044797897339,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.916672283571994,
+        21.018247026801,
+        37.626014756399464
+      ],
+      "anisotropy_ratio": 0.24122121139903416,
+      "mean_permittivity": 0.9983268976211548,
+      "variance_permittivity": 0.00708343181759119,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 53094216378.67545,
+      "scattering_peaks": 384,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.42241250731778274,
+        "mode_entropy": 7.875967025756836,
+        "total_photonic_entropy": 8.298379533074618
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.6207146675005788e-08,
+          71.94603465153621,
+          45.93170819138036,
+          37.451359920863865,
+          42.70111676464733,
+          34.461802353073914,
+          31.447366372955607,
+          28.663318087899587,
+          26.963976571235357,
+          22.46894185572194,
+          22.98708398349975,
+          20.176136745482832,
+          25.274656538040407,
+          28.63087749481201
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4370965894816056
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed8.pt",
+    "timestamp": "2026-02-21T19:43:30.402150",
+    "purity_metrics": {
+      "delta": 0.4959428310394287,
+      "alpha": 0.7012946009635925,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.485678467646462,
+        19.377438944377673,
+        39.328637882775666
+      ],
+      "anisotropy_ratio": 0.27001535767037205,
+      "mean_permittivity": 1.0012273788452148,
+      "variance_permittivity": 0.007461555767804384,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 54207879907.794815,
+      "scattering_peaks": 288,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.49577418750468777,
+        "mode_entropy": 7.89930534362793,
+        "total_photonic_entropy": 8.395079531132618
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.954645132533187e-08,
+          92.16265561030461,
+          36.29817542162809,
+          35.770099576515484,
+          29.372948667941948,
+          21.664627693538986,
+          28.13806680765875,
+          27.068874193582595,
+          29.009539045238032,
+          34.02852708599172,
+          34.92595178298652,
+          39.22012829573,
+          36.69491626370338,
+          37.31467764718192
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.23506948177709822
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs512_seed9.pt",
+    "timestamp": "2026-02-21T19:43:31.507794",
+    "purity_metrics": {
+      "delta": 0.49862366914749146,
+      "alpha": 0.6959036588668823,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.859580867943606,
+        19.838364526603254,
+        39.55558510777249
+      ],
+      "anisotropy_ratio": 0.28084158871130827,
+      "mean_permittivity": 1.0008283853530884,
+      "variance_permittivity": 0.00748205604031682,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 37731153025.25354,
+      "scattering_peaks": 336,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.39357656425394044,
+        "mode_entropy": 7.893825531005859,
+        "total_photonic_entropy": 8.2874020952598
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.066877868855954e-08,
+          21.81626349229079,
+          20.574242154757183,
+          28.013125495065616,
+          24.994801273203304,
+          24.739279725493454,
+          32.91119607661633,
+          33.514885806970725,
+          32.468142476321425,
+          32.15210355660663,
+          32.27782791919614,
+          27.888443256677384,
+          25.028661139549747,
+          21.75940204518182
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6251441639130471
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed0.pt",
+    "timestamp": "2026-02-21T19:43:32.705687",
+    "purity_metrics": {
+      "delta": 0.49894803762435913,
+      "alpha": 0.695253312587738,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.289118650981006,
+        20.72396672478883,
+        36.60700701619794
+      ],
+      "anisotropy_ratio": 0.2759829240235196,
+      "mean_permittivity": 0.9985713362693787,
+      "variance_permittivity": 0.006797491107136011,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35328581486.353226,
+      "scattering_peaks": 64,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4645246409652262,
+        "mode_entropy": 7.899237632751465,
+        "total_photonic_entropy": 8.363762273716691
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.1393589122453704e-09,
+          30.63375502366286,
+          28.757918993632,
+          37.31890428518947,
+          27.5184710046165,
+          25.30675724483118,
+          26.96440351973189,
+          26.90014439167046,
+          28.658354106135096,
+          25.97678164106149,
+          28.859767188210235,
+          29.54367452444722,
+          31.857017517089844,
+          59.48755918230329
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.6781216578967648
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed1.pt",
+    "timestamp": "2026-02-21T19:43:33.965040",
+    "purity_metrics": {
+      "delta": 0.48843443393707275,
+      "alpha": 0.7165500521659851,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.878418536804507,
+        21.078911854279426,
+        36.63764317306401
+      ],
+      "anisotropy_ratio": 0.31788858216237215,
+      "mean_permittivity": 1.0020453929901123,
+      "variance_permittivity": 0.007009644992649555,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 32258074583.12814,
+      "scattering_peaks": 240,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.530490868264631,
+        "mode_entropy": 7.785268783569336,
+        "total_photonic_entropy": 8.315759651833966
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.3527612686157227e-08,
+          23.163456256573017,
+          8.386723632162267,
+          35.025259496290474,
+          20.82488442180503,
+          27.428636806185654,
+          25.432735173752967,
+          28.75561273905643,
+          33.33057795744778,
+          30.753949799598793,
+          31.175235145342977,
+          27.272149253247388,
+          16.84226821891723,
+          13.011312484741211
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.23944786570465124
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed2.pt",
+    "timestamp": "2026-02-21T19:43:35.293362",
+    "purity_metrics": {
+      "delta": 0.46896103024482727,
+      "alpha": 0.757235586643219,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.319630662191358,
+        22.703387311084736,
+        36.99263945165067
+      ],
+      "anisotropy_ratio": 0.23934950246914286,
+      "mean_permittivity": 1.0005743503570557,
+      "variance_permittivity": 0.006968987639993429,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 36811060253.85814,
+      "scattering_peaks": 192,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.38354737149395407,
+        "mode_entropy": 7.926525115966797,
+        "total_photonic_entropy": 8.31007248746075
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.4911287255235948e-08,
+          27.761161290682278,
+          41.79577161326553,
+          36.27651063701774,
+          28.161739410498203,
+          24.91885800419784,
+          22.334094030552723,
+          23.791088664515556,
+          28.239280278891616,
+          30.201566204046593,
+          33.25967587938434,
+          40.52799066145029,
+          40.95383131888605,
+          53.289666584559846
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5343625244475851
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed3.pt",
+    "timestamp": "2026-02-21T19:43:36.564434",
+    "purity_metrics": {
+      "delta": 0.49954745173454285,
+      "alpha": 0.6940526962280273,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.3248673401418,
+        18.62227889141135,
+        39.3717796259908
+      ],
+      "anisotropy_ratio": 0.3279768764284857,
+      "mean_permittivity": 0.9996737241744995,
+      "variance_permittivity": 0.007561177480965853,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 38082605489.969315,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5389327297223045,
+        "mode_entropy": 7.870639324188232,
+        "total_photonic_entropy": 8.409572053910537
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.784443146694684e-09,
+          44.61263930797577,
+          45.796917247049734,
+          32.94952725609647,
+          25.139516061951973,
+          42.15803633928299,
+          33.74299544790324,
+          28.81821168882414,
+          27.250526286796337,
+          26.772790344527518,
+          28.67433616232715,
+          35.29231081050427,
+          40.96395764043254,
+          49.05131203787668
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5489346788623983
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed4.pt",
+    "timestamp": "2026-02-21T19:43:37.786998",
+    "purity_metrics": {
+      "delta": 0.48751282691955566,
+      "alpha": 0.7184386849403381,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        24.759133308462918,
+        29.906016591856652,
+        46.836826112864046
+      ],
+      "anisotropy_ratio": 0.21750998031342325,
+      "mean_permittivity": 0.9994284510612488,
+      "variance_permittivity": 0.00853183213621378,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 36175059973.90021,
+      "scattering_peaks": 368,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3250175931516102,
+        "mode_entropy": 7.909913539886475,
+        "total_photonic_entropy": 8.234931133038085
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.143885234952904e-09,
+          16.19001144170761,
+          17.524468405680224,
+          21.887520099742503,
+          25.49111240185224,
+          27.793529024647505,
+          39.12273356077519,
+          38.61453857589866,
+          37.168025273109514,
+          39.888606377519096,
+          36.67648113016039,
+          32.68754997073825,
+          27.189712522070735,
+          7.399359259222235
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.41382618156054624
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed5.pt",
+    "timestamp": "2026-02-21T19:43:38.998982",
+    "purity_metrics": {
+      "delta": 0.49299144744873047,
+      "alpha": 0.7072634696960449,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.880693635855469,
+        24.2581834629849,
+        36.36646919937742
+      ],
+      "anisotropy_ratio": 0.26776920247728064,
+      "mean_permittivity": 0.9978125095367432,
+      "variance_permittivity": 0.006922195665538311,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 32595815544.205093,
+      "scattering_peaks": 256,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5998526616909208,
+        "mode_entropy": 7.876724720001221,
+        "total_photonic_entropy": 8.476577381692142
+      },
+      "bandgap": {
+        "radial_profile": [
+          7.847944516470307e-10,
+          24.457351785439712,
+          20.93218767642975,
+          34.90652386749847,
+          35.86324291147737,
+          33.2778229286031,
+          30.154013919830323,
+          30.656947358836973,
+          28.515871243947736,
+          26.755164733108803,
+          20.996893482459217,
+          18.20148549981378,
+          13.404245484259821,
+          14.698882239205497
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5836668961599236
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed6.pt",
+    "timestamp": "2026-02-21T19:43:40.147212",
+    "purity_metrics": {
+      "delta": 0.4973303973674774,
+      "alpha": 0.6985006928443909,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.785118221866885,
+        22.648517442056647,
+        34.52247242933818
+      ],
+      "anisotropy_ratio": 0.292256082876121,
+      "mean_permittivity": 1.0011553764343262,
+      "variance_permittivity": 0.0065969740971922874,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 39203978918.106926,
+      "scattering_peaks": 320,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5662791343173258,
+        "mode_entropy": 7.914798736572266,
+        "total_photonic_entropy": 8.48107787088959
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.730171892537328e-09,
+          57.31360303438627,
+          35.576106058828756,
+          39.24612085955052,
+          29.925491465462578,
+          32.549445441292555,
+          25.910221601039805,
+          24.791929479213913,
+          26.579247620739096,
+          25.810478939077793,
+          22.9066766789085,
+          23.914774853198683,
+          16.490884315583013,
+          9.660948651177543
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4520780448133634
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed7.pt",
+    "timestamp": "2026-02-21T19:43:41.343859",
+    "purity_metrics": {
+      "delta": 0.4948886036872864,
+      "alpha": 0.7034226059913635,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.353399095594355,
+        24.543838528985813,
+        36.152889404838774
+      ],
+      "anisotropy_ratio": 0.25696895089718236,
+      "mean_permittivity": 0.9973888397216797,
+      "variance_permittivity": 0.0067744473926723,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 53843960335.602295,
+      "scattering_peaks": 655,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4235560929228924,
+        "mode_entropy": 7.884451389312744,
+        "total_photonic_entropy": 8.308007482235636
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.817797112835251e-08,
+          54.63670877309946,
+          36.56986460541234,
+          31.06505903413024,
+          37.17800950596475,
+          33.10563605660346,
+          34.13017805554765,
+          29.86367781738925,
+          25.72041400326144,
+          22.04294159731422,
+          19.354680560999796,
+          17.730760638393573,
+          19.423560791438625,
+          27.09554672241211
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5685748598636006
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed8.pt",
+    "timestamp": "2026-02-21T19:43:42.830849",
+    "purity_metrics": {
+      "delta": 0.4989710748195648,
+      "alpha": 0.6952071785926819,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.057464407920504,
+        22.265023231171845,
+        37.78208084235296
+      ],
+      "anisotropy_ratio": 0.30257302443654416,
+      "mean_permittivity": 1.001305341720581,
+      "variance_permittivity": 0.007147681433707476,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 45373476439.345436,
+      "scattering_peaks": 352,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5550337683564116,
+        "mode_entropy": 7.928502082824707,
+        "total_photonic_entropy": 8.483535851181118
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.211440168295667e-08,
+          67.12177438002367,
+          43.10563978281888,
+          28.481853681274607,
+          20.31778245807713,
+          21.011572521670562,
+          27.68087646263711,
+          28.427793229614615,
+          30.168268161666514,
+          32.13072982991602,
+          32.28671459901563,
+          34.82219675053502,
+          34.617524885362194,
+          44.859143938337056
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.30270031812647824
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs64_seed9.pt",
+    "timestamp": "2026-02-21T19:43:44.402239",
+    "purity_metrics": {
+      "delta": 0.48998188972473145,
+      "alpha": 0.7133868336677551,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.313015508176324,
+        19.46216907119919,
+        37.211029104706505
+      ],
+      "anisotropy_ratio": 0.28632823298638854,
+      "mean_permittivity": 1.0007760524749756,
+      "variance_permittivity": 0.007087524514645338,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35796345389.77879,
+      "scattering_peaks": 336,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3602372146595938,
+        "mode_entropy": 7.9006147384643555,
+        "total_photonic_entropy": 8.26085195312395
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.032743395830039e-08,
+          17.213075619477493,
+          18.894202944004174,
+          27.140474123290822,
+          22.930554669000145,
+          22.099539129763116,
+          31.032981491849778,
+          31.645754135317272,
+          30.807190531566842,
+          31.025086208557088,
+          31.55465221906963,
+          27.259211703912534,
+          23.577122980548488,
+          16.838105610438756
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5546703794459038
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed0.pt",
+    "timestamp": "2026-02-21T19:43:46.244654",
+    "purity_metrics": {
+      "delta": 0.4971374273300171,
+      "alpha": 0.6988887786865234,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.274359723179362,
+        20.098787305615982,
+        35.83038423646343
+      ],
+      "anisotropy_ratio": 0.2886938912721264,
+      "mean_permittivity": 0.9987761378288269,
+      "variance_permittivity": 0.006606142967939377,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 34065100938.751694,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4500117303301406,
+        "mode_entropy": 7.896829605102539,
+        "total_photonic_entropy": 8.34684133543268
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.609784471336752e-09,
+          26.36559794499324,
+          28.593658302769516,
+          36.268328195885765,
+          28.368206044547577,
+          24.250516885082895,
+          25.491090838452603,
+          26.100238603628103,
+          27.796316967885915,
+          25.368072769962826,
+          28.155560499586556,
+          29.19909891441687,
+          30.85541802164047,
+          58.507812295641216
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.668641707278004
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed1.pt",
+    "timestamp": "2026-02-21T19:43:48.207909",
+    "purity_metrics": {
+      "delta": 0.4987724721431732,
+      "alpha": 0.6956052780151367,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.58976320339598,
+        20.351562329104194,
+        35.04863704531965
+      ],
+      "anisotropy_ratio": 0.3110434190730039,
+      "mean_permittivity": 1.0017454624176025,
+      "variance_permittivity": 0.00663602352142334,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 30711387343.611534,
+      "scattering_peaks": 272,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.46533548463675106,
+        "mode_entropy": 7.804491996765137,
+        "total_photonic_entropy": 8.269827481401888
+      },
+      "bandgap": {
+        "radial_profile": [
+          9.342352313979063e-08,
+          16.574822609241192,
+          6.250266987265962,
+          37.57627071081838,
+          23.160841043178852,
+          26.284732019465142,
+          22.808685856677116,
+          27.65742769861609,
+          30.727042299152583,
+          28.677703581845915,
+          28.978180506354885,
+          25.781649959621145,
+          15.663003175489363,
+          10.468869481767927
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.1663354789875369
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed2.pt",
+    "timestamp": "2026-02-21T19:43:49.851338",
+    "purity_metrics": {
+      "delta": 0.4957718849182129,
+      "alpha": 0.7016393542289734,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        18.216813715352608,
+        23.27678955927816,
+        35.656564190579196
+      ],
+      "anisotropy_ratio": 0.22604941827366554,
+      "mean_permittivity": 1.0005614757537842,
+      "variance_permittivity": 0.006694895215332508,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 37761547666.78973,
+      "scattering_peaks": 144,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.39455285245498917,
+        "mode_entropy": 7.880125999450684,
+        "total_photonic_entropy": 8.274678851905673
+      },
+      "bandgap": {
+        "radial_profile": [
+          9.672262990534364e-09,
+          35.26523415858929,
+          34.073478333877794,
+          29.021040171007566,
+          22.6079797683618,
+          25.42863467379314,
+          20.207112411615697,
+          22.97747797936928,
+          26.65266521285406,
+          28.827312853473885,
+          33.800630651492824,
+          42.8998932055573,
+          51.51833166614656,
+          83.87620053972516
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5730037781880629
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed3.pt",
+    "timestamp": "2026-02-21T19:43:51.600062",
+    "purity_metrics": {
+      "delta": 0.49684378504753113,
+      "alpha": 0.6994796395301819,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.468105397789047,
+        15.905358096836347,
+        35.02558912530868
+      ],
+      "anisotropy_ratio": 0.3347484605828927,
+      "mean_permittivity": 0.9990767240524292,
+      "variance_permittivity": 0.006724121514707804,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 40045240865.04913,
+      "scattering_peaks": 96,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5477598589861069,
+        "mode_entropy": 7.841022491455078,
+        "total_photonic_entropy": 8.388782350441184
+      },
+      "bandgap": {
+        "radial_profile": [
+          3.991829089500243e-11,
+          53.3524992282574,
+          56.0939546064897,
+          36.11437348927124,
+          23.941268666177734,
+          38.288879494259994,
+          31.628475409112077,
+          26.30965858776637,
+          23.51905893757214,
+          21.776073461207442,
+          22.910508119236482,
+          25.95772545966343,
+          29.08021075494828,
+          29.861503056117467
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.42680657539814826
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed4.pt",
+    "timestamp": "2026-02-21T19:43:53.200276",
+    "purity_metrics": {
+      "delta": 0.49029040336608887,
+      "alpha": 0.712757408618927,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        17.895921655599842,
+        22.708679051272792,
+        36.63347836417229
+      ],
+      "anisotropy_ratio": 0.24259480471202965,
+      "mean_permittivity": 1.0003912448883057,
+      "variance_permittivity": 0.006771327927708626,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 30039371075.142006,
+      "scattering_peaks": 240,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.38501296901393156,
+        "mode_entropy": 7.953469753265381,
+        "total_photonic_entropy": 8.338482722279313
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.1991809262544848e-08,
+          13.049505123725304,
+          20.984212109536834,
+          19.557485526121116,
+          21.884201577585987,
+          23.456732256819564,
+          27.631906986236572,
+          30.421878488042815,
+          30.460821416513976,
+          30.106626313657333,
+          29.96183227096733,
+          25.87930935398856,
+          20.906361349167362,
+          5.9856389079775125
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4722621978344826
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed5.pt",
+    "timestamp": "2026-02-21T19:43:55.106960",
+    "purity_metrics": {
+      "delta": 0.48909828066825867,
+      "alpha": 0.7151918411254883,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        14.60923586160353,
+        22.662302000769127,
+        34.20560065691444
+      ],
+      "anisotropy_ratio": 0.27416269315290387,
+      "mean_permittivity": 0.9980497360229492,
+      "variance_permittivity": 0.0065256403759121895,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 29497709882.747597,
+      "scattering_peaks": 288,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.6310659371170645,
+        "mode_entropy": 7.886516571044922,
+        "total_photonic_entropy": 8.517582508161986
+      },
+      "bandgap": {
+        "radial_profile": [
+          7.043126970529556e-09,
+          22.264697056550247,
+          20.150191162571762,
+          29.405811557286903,
+          33.80286552559616,
+          31.940043807611232,
+          29.71890249182569,
+          28.32380583155446,
+          26.931921511287484,
+          24.916041505212586,
+          20.044713018677736,
+          17.688793552826294,
+          14.088912663921233,
+          13.342775072370257
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5961089644087733
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed6.pt",
+    "timestamp": "2026-02-21T19:43:56.936788",
+    "purity_metrics": {
+      "delta": 0.48056560754776,
+      "alpha": 0.732791543006897,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        13.103290975802231,
+        21.06449530534787,
+        33.919848759133096
+      ],
+      "anisotropy_ratio": 0.30573183766795553,
+      "mean_permittivity": 1.000941514968872,
+      "variance_permittivity": 0.006458383984863758,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 38715174482.71217,
+      "scattering_peaks": 224,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5581411644256342,
+        "mode_entropy": 7.849062919616699,
+        "total_photonic_entropy": 8.407204084042334
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.2789769243681803e-09,
+          54.105226076566254,
+          35.257884256767504,
+          42.944564658063875,
+          30.62916658887974,
+          32.226660459315994,
+          25.091992441184342,
+          24.018551165712516,
+          26.028499676155572,
+          25.043943811002045,
+          21.11719822773808,
+          23.0483590714374,
+          13.739159737863849,
+          12.08745002746582
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.463762824050109
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed7.pt",
+    "timestamp": "2026-02-21T19:43:58.552765",
+    "purity_metrics": {
+      "delta": 0.4942290186882019,
+      "alpha": 0.7047562599182129,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.72636498726851,
+        22.997009410229914,
+        34.8402890851676
+      ],
+      "anisotropy_ratio": 0.2429323245646329,
+      "mean_permittivity": 0.9978788495063782,
+      "variance_permittivity": 0.006503403186798096,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 45913589053.905136,
+      "scattering_peaks": 415,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.4024865981195734,
+        "mode_entropy": 7.897418975830078,
+        "total_photonic_entropy": 8.299905573949651
+      },
+      "bandgap": {
+        "radial_profile": [
+          5.184347173781134e-09,
+          34.40208948575533,
+          25.562302098129734,
+          28.46473220632046,
+          31.271145567934738,
+          27.330253689899678,
+          34.223213679486136,
+          28.3271072545268,
+          23.88475432507603,
+          22.95922594163746,
+          19.937499794594356,
+          24.55931198563362,
+          32.6505900044595,
+          68.58978816441127
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.7430450440703568
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed8.pt",
+    "timestamp": "2026-02-21T19:44:00.123389",
+    "purity_metrics": {
+      "delta": 0.49960559606552124,
+      "alpha": 0.693936288356781,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        14.275524453778123,
+        21.014119792961495,
+        34.8787727301891
+      ],
+      "anisotropy_ratio": 0.2936256675590287,
+      "mean_permittivity": 1.000985860824585,
+      "variance_permittivity": 0.0065948087722063065,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 44257146273.38278,
+      "scattering_peaks": 544,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.5671674527436651,
+        "mode_entropy": 7.8707685470581055,
+        "total_photonic_entropy": 8.43793599980177
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.025208966140781e-08,
+          68.98707609910231,
+          40.212316917650625,
+          26.754889545561394,
+          21.360120164023506,
+          19.89098727586793,
+          27.77390439763982,
+          26.314908261625423,
+          28.868761995239947,
+          28.781085236141315,
+          28.32224465796822,
+          27.5712968665569,
+          19.958383231393753,
+          11.732488359723773
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.28832918280613906
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/bs8_seed9.pt",
+    "timestamp": "2026-02-21T19:44:01.767492",
+    "purity_metrics": {
+      "delta": 0.4909476339817047,
+      "alpha": 0.7114177942276001,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        15.003937385425823,
+        19.312449528122016,
+        36.704756046046874
+      ],
+      "anisotropy_ratio": 0.3055543427816568,
+      "mean_permittivity": 1.0006695985794067,
+      "variance_permittivity": 0.007043409161269665,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 35367720252.62306,
+      "scattering_peaks": 288,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3315560007601691,
+        "mode_entropy": 7.881808757781982,
+        "total_photonic_entropy": 8.213364758542152
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.178018121412606e-08,
+          14.920119780760546,
+          18.35239722150745,
+          26.078407993799523,
+          21.65354320094881,
+          22.33734538798652,
+          31.350041248633506,
+          31.24193009184951,
+          30.871660125106366,
+          30.77566132035393,
+          31.799478190196186,
+          26.78065288659945,
+          23.58048671387857,
+          14.78215081351144
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.47592025995701986
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_coefficients.pt",
+    "timestamp": "2026-02-21T19:44:03.358435",
+    "purity_metrics": {
+      "delta": 0.47917598485946655,
+      "alpha": 0.7356873750686646,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        23.822899612169124,
+        29.761418985247307,
+        63.121207754512284
+      ],
+      "anisotropy_ratio": 0.33673048201537636,
+      "mean_permittivity": 1.0044176578521729,
+      "variance_permittivity": 0.011781101115047932,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 84035706499.52255,
+      "scattering_peaks": 79,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.39861117420252085,
+        "mode_entropy": 7.893802642822266,
+        "total_photonic_entropy": 8.292413817024787
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.800773467650288e-08,
+          87.77903057978703,
+          51.394559889128715,
+          85.12387823756737,
+          57.65623447732029,
+          52.45401166183193,
+          46.982620434050865,
+          45.72173796743559,
+          42.905915945478206,
+          40.84317723661661,
+          47.392510824768166,
+          47.776509864709865,
+          55.986773287096334,
+          41.30101263523102
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5352374037816735
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_discovered.pt",
+    "timestamp": "2026-02-21T19:44:04.882888",
+    "purity_metrics": {
+      "delta": 0.4951590895652771,
+      "alpha": 0.7028761506080627,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        19.586993971495303,
+        24.661241935863433,
+        45.73775270958464
+      ],
+      "anisotropy_ratio": 0.2906092286145694,
+      "mean_permittivity": 0.9995507001876831,
+      "variance_permittivity": 0.008230745792388916,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 42409141017.00904,
+      "scattering_peaks": 352,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.34770630918216605,
+        "mode_entropy": 7.9202880859375,
+        "total_photonic_entropy": 8.267994395119667
+      },
+      "bandgap": {
+        "radial_profile": [
+          9.60204715738655e-09,
+          31.707726441896877,
+          37.89517999417854,
+          34.434024819844886,
+          36.01743825607829,
+          30.121012290803396,
+          31.362390501194813,
+          30.51674040368579,
+          37.573674392799674,
+          36.68796647731693,
+          35.229589878257954,
+          33.96981445473818,
+          17.885914617969142,
+          7.242816720690046
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.794850751344923
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_discrete_final.pt",
+    "timestamp": "2026-02-21T19:44:06.338354",
+    "purity_metrics": {
+      "delta": 0.0,
+      "alpha": 34.53877639770508,
+      "discretized": true
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        20.58501001792998,
+        26.14702889714718,
+        46.01796108492284
+      ],
+      "anisotropy_ratio": 0.2742097150080092,
+      "mean_permittivity": 1.005859375,
+      "variance_permittivity": 0.008754730224609375,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 73137926063.77335,
+      "scattering_peaks": 47,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.651126702250907,
+        "mode_entropy": 7.744878768920898,
+        "total_photonic_entropy": 8.396005471171806
+      },
+      "bandgap": {
+        "radial_profile": [
+          0.0,
+          145.8425951737624,
+          95.37593711506237,
+          49.911336815432655,
+          41.42906497176896,
+          42.90809034516172,
+          37.06912424589725,
+          33.1422147277571,
+          31.94935723820051,
+          28.47455459145399,
+          27.419622325583507,
+          30.934528144141336,
+          32.71159318954714,
+          47.714028767177034
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.25417213813088196
+      }
+    },
+    "phase_classification": {
+      "phase": "Strassen_Crystal",
+      "is_crystal": true,
+      "is_glass": false,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": true,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_exact.pt",
+    "timestamp": "2026-02-21T19:44:08.036007",
+    "purity_metrics": {
+      "delta": 0.0,
+      "alpha": 34.53877639770508,
+      "discretized": true
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        20.58501001792998,
+        26.14702889714718,
+        46.01796108492284
+      ],
+      "anisotropy_ratio": 0.2742097150080092,
+      "mean_permittivity": 1.005859375,
+      "variance_permittivity": 0.008754730224609375,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 73137926063.77335,
+      "scattering_peaks": 47,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.651126702250907,
+        "mode_entropy": 7.744878768920898,
+        "total_photonic_entropy": 8.396005471171806
+      },
+      "bandgap": {
+        "radial_profile": [
+          0.0,
+          145.8425951737624,
+          95.37593711506237,
+          49.911336815432655,
+          41.42906497176896,
+          42.90809034516172,
+          37.06912424589725,
+          33.1422147277571,
+          31.94935723820051,
+          28.47455459145399,
+          27.419622325583507,
+          30.934528144141336,
+          32.71159318954714,
+          47.714028767177034
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.25417213813088196
+      }
+    },
+    "phase_classification": {
+      "phase": "Strassen_Crystal",
+      "is_crystal": true,
+      "is_glass": false,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": true,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_float64.pt",
+    "timestamp": "2026-02-21T19:44:09.666433",
+    "purity_metrics": {
+      "delta": 0.4860287048423084,
+      "alpha": 0.7214875933642788,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        23.158129496979807,
+        31.51982671758631,
+        44.600356468539346
+      ],
+      "anisotropy_ratio": 0.21598097703375288,
+      "mean_permittivity": 0.9991103410720825,
+      "variance_permittivity": 0.008163685910403728,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 37045100609.909775,
+      "scattering_peaks": 544,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.303555172475328,
+        "mode_entropy": 7.940291404724121,
+        "total_photonic_entropy": 8.243846577199449
+      },
+      "bandgap": {
+        "radial_profile": [
+          2.0463630789890885e-12,
+          14.315216064453125,
+          15.557190996227842,
+          23.486501346660567,
+          22.93885240188012,
+          33.68109331305434,
+          41.40070017449399,
+          38.22896998943029,
+          35.288578484709966,
+          33.973368209715076,
+          30.317715911175075,
+          26.349638858393057,
+          24.036392781042284,
+          18.098575319562638
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.34577231795798996
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_grokked_weights.pt",
+    "timestamp": "2026-02-21T19:44:11.446404",
+    "purity_metrics": {
+      "delta": 0.0,
+      "alpha": 34.53877639770508,
+      "discretized": true
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        20.58501001792998,
+        26.14702889714718,
+        46.01796108492284
+      ],
+      "anisotropy_ratio": 0.2742097150080092,
+      "mean_permittivity": 1.005859375,
+      "variance_permittivity": 0.008754730224609375,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 73137926063.77335,
+      "scattering_peaks": 47,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.651126702250907,
+        "mode_entropy": 7.744878768920898,
+        "total_photonic_entropy": 8.396005471171806
+      },
+      "bandgap": {
+        "radial_profile": [
+          0.0,
+          145.8425951737624,
+          95.37593711506237,
+          49.911336815432655,
+          41.42906497176896,
+          42.90809034516172,
+          37.06912424589725,
+          33.1422147277571,
+          31.94935723820051,
+          28.47455459145399,
+          27.419622325583507,
+          30.934528144141336,
+          32.71159318954714,
+          47.714028767177034
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.25417213813088196
+      }
+    },
+    "phase_classification": {
+      "phase": "Strassen_Crystal",
+      "is_crystal": true,
+      "is_glass": false,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": true,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_grokkit.pt",
+    "timestamp": "2026-02-21T19:44:13.042061",
+    "purity_metrics": {
+      "delta": 0.49965500831604004,
+      "alpha": 0.6938374042510986,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        20.866604327149957,
+        28.957472373486436,
+        53.755078267625336
+      ],
+      "anisotropy_ratio": 0.3175201994122555,
+      "mean_permittivity": 1.0009377002716064,
+      "variance_permittivity": 0.0093170665204525,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 44902480772.83595,
+      "scattering_peaks": 320,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.45094714714518025,
+        "mode_entropy": 7.824433326721191,
+        "total_photonic_entropy": 8.275380473866372
+      },
+      "bandgap": {
+        "radial_profile": [
+          1.566746732351021e-10,
+          61.08516348325289,
+          39.627730734420545,
+          28.081132394603536,
+          29.712498027035313,
+          34.01056698735167,
+          36.902190931807176,
+          41.28816794539451,
+          41.253275921203,
+          40.216366396834836,
+          40.56318386993126,
+          34.549765930395225,
+          27.19324323438829,
+          23.083340917314803
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4597046286412295
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_multiscale.pt",
+    "timestamp": "2026-02-21T19:44:14.392515",
+    "purity_metrics": {
+      "delta": 0.49968311190605164,
+      "alpha": 0.6937811374664307,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        16.78606501380837,
+        20.498250045525648,
+        40.81867985948924
+      ],
+      "anisotropy_ratio": 0.30770413952319353,
+      "mean_permittivity": 0.9999431371688843,
+      "variance_permittivity": 0.007867184467613697,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 40349898539.73721,
+      "scattering_peaks": 160,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.3919392381034016,
+        "mode_entropy": 7.799796104431152,
+        "total_photonic_entropy": 8.191735342534553
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.604316927725449e-10,
+          28.711288964232573,
+          36.44855132913499,
+          31.25604316681812,
+          47.67807529099349,
+          52.83524721619196,
+          33.40876947760265,
+          29.18216939810613,
+          29.15754893058924,
+          25.583197296620945,
+          24.246781410982734,
+          28.269114028829247,
+          30.518810524575173,
+          17.855522626212665
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.5434116518220687
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_result.pt",
+    "timestamp": "2026-02-21T19:44:15.968470",
+    "purity_metrics": {
+      "delta": 0.49330955743789673,
+      "alpha": 0.7066184282302856,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        23.52893833895731,
+        25.327971833222534,
+        52.258284148498845
+      ],
+      "anisotropy_ratio": 0.2841249131997782,
+      "mean_permittivity": 1.0011999607086182,
+      "variance_permittivity": 0.009656451642513275,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 47328426139.29035,
+      "scattering_peaks": 832,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.49348648805536827,
+        "mode_entropy": 7.946376800537109,
+        "total_photonic_entropy": 8.439863288592477
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.396953556806693e-08,
+          76.1108311873216,
+          46.10079783743078,
+          35.81306167192097,
+          29.04199059600504,
+          28.33487473813499,
+          34.74982725914489,
+          38.683718927184415,
+          41.81304127989293,
+          45.992831274293934,
+          46.72175575432024,
+          45.69566579155661,
+          35.916901796094834,
+          15.02902088846479
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.3722843949550472
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  },
+  {
+    "checkpoint": "checkpoints/strassen_robust.pt",
+    "timestamp": "2026-02-21T19:44:17.577516",
+    "purity_metrics": {
+      "delta": 0.15143311023712158,
+      "alpha": 1.8876112699508667,
+      "discretized": false
+    },
+    "dielectric_properties": {
+      "dielectric_tensor_eigenvalues": [
+        0.1308239211761,
+        0.138243503311408,
+        0.3002400070911281
+      ],
+      "anisotropy_ratio": 0.2975827760499335,
+      "mean_permittivity": 0.9999157786369324,
+      "variance_permittivity": 5.090135891805403e-05,
+      "is_isotropic": "False"
+    },
+    "electromagnetic_results": {
+      "max_potential": 3721250356.729771,
+      "scattering_peaks": 496,
+      "is_bragg_pattern": true
+    },
+    "thermodynamics": {
+      "entropy": {
+        "field_entropy": 0.38055795829054767,
+        "mode_entropy": 7.869930267333984,
+        "total_photonic_entropy": 8.250488225624531
+      },
+      "bandgap": {
+        "radial_profile": [
+          4.0523104871681426e-09,
+          0.1513763116314434,
+          0.31729003682619694,
+          0.24835740359311428,
+          0.2120468635032447,
+          0.18085509872109426,
+          0.18956792108476797,
+          0.21108285601687463,
+          0.23923303129900148,
+          0.20366577326692492,
+          0.2090671224537992,
+          0.17178357469696384,
+          0.11383655071521419,
+          0.15600452944636345
+        ],
+        "estimated_bandgap": false,
+        "gap_depth": 0.4770912856197064
+      }
+    },
+    "phase_classification": {
+      "phase": "Amorphous_Glass",
+      "is_crystal": false,
+      "is_glass": true,
+      "confidence": 0.6,
+      "scoring": {
+        "high_alpha": false,
+        "high_anisotropy": false,
+        "bragg_peaks": true,
+        "low_entropy": false
+      }
+    }
+  }
+]
