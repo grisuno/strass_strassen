@@ -1,0 +1,608 @@
+{
+  "timestamp": "2026-03-08T03:07:52.352266",
+  "total_checkpoints": 83,
+  "successful_analyses": 80,
+  "failed_analyses": 3,
+  "errors": [
+    {
+      "checkpoint": "final_training.pt",
+      "error": "Failed to load checkpoint: All loading strategies failed for checkpoints/final_training.pt"
+    },
+    {
+      "checkpoint": "latest.pt",
+      "error": "Failed to load checkpoint: All loading strategies failed for checkpoints/latest.pt"
+    },
+    {
+      "checkpoint": "strassen_weights.pt",
+      "error": "Failed to load checkpoint: All loading strategies failed for checkpoints/strassen_weights.pt"
+    }
+  ],
+  "aggregate_statistics": {
+    "G_alg": {
+      "mean": 1.3087318101451264,
+      "std": 1.974847058578301,
+      "min": 2.408305098536347e-05,
+      "max": 9.259654442303026
+    },
+    "h_bar": {
+      "mean": 11.892161559926443,
+      "std": 1.422521929073582
+    },
+    "k_B": {
+      "mean": 1.8578078361208377,
+      "std": 0.25990742719095306
+    },
+    "delta": {
+      "mean": 0.47106653489172456,
+      "std": 0.10062708155262408,
+      "min": 0.0,
+      "max": 0.4998216927051544
+    }
+  },
+  "crystallization_states": {
+    "glass": 77,
+    "hot_crystal": 3
+  },
+  "individual_results": [
+    {
+      "checkpoint": "bs128_seed0.pt",
+      "delta": 0.49676579236984253,
+      "state": "glass",
+      "entropy": 5.590215674110969e+131,
+      "temperature": 9.057487574924855e+107
+    },
+    {
+      "checkpoint": "bs128_seed1.pt",
+      "delta": 0.4910580515861511,
+      "state": "glass",
+      "entropy": 2.314296456602382e+131,
+      "temperature": 5.8392782950815825e+107
+    },
+    {
+      "checkpoint": "bs128_seed2.pt",
+      "delta": 0.4968920052051544,
+      "state": "glass",
+      "entropy": 3.476905036277589e+131,
+      "temperature": 7.45470034584813e+107
+    },
+    {
+      "checkpoint": "bs128_seed3.pt",
+      "delta": 0.486316978931427,
+      "state": "glass",
+      "entropy": 2.5227512578397267e+131,
+      "temperature": 7.160196474820599e+107
+    },
+    {
+      "checkpoint": "bs128_seed4.pt",
+      "delta": 0.4998216927051544,
+      "state": "glass",
+      "entropy": 1.0591755390322279e+131,
+      "temperature": 5.3602248660363695e+107
+    },
+    {
+      "checkpoint": "bs128_seed5.pt",
+      "delta": 0.49719327688217163,
+      "state": "glass",
+      "entropy": 1.8341242369803206e+131,
+      "temperature": 5.624159243258156e+107
+    },
+    {
+      "checkpoint": "bs128_seed6.pt",
+      "delta": 0.4834858775138855,
+      "state": "glass",
+      "entropy": 6.4750297934154595e+131,
+      "temperature": 9.499016597632142e+107
+    },
+    {
+      "checkpoint": "bs128_seed7.pt",
+      "delta": 0.482931911945343,
+      "state": "glass",
+      "entropy": 3.928559990149938e+131,
+      "temperature": 7.932537655128251e+107
+    },
+    {
+      "checkpoint": "bs128_seed8.pt",
+      "delta": 0.49920862913131714,
+      "state": "glass",
+      "entropy": 2.996827221963739e+131,
+      "temperature": 6.715802472428836e+107
+    },
+    {
+      "checkpoint": "bs128_seed9.pt",
+      "delta": 0.4982958436012268,
+      "state": "glass",
+      "entropy": 7.56192872948193e+131,
+      "temperature": 1.0953799420420815e+108
+    },
+    {
+      "checkpoint": "bs16_seed0.pt",
+      "delta": 0.4980667531490326,
+      "state": "glass",
+      "entropy": 3.358065094111494e+131,
+      "temperature": 7.115737290288578e+107
+    },
+    {
+      "checkpoint": "bs16_seed1.pt",
+      "delta": 0.48484641313552856,
+      "state": "glass",
+      "entropy": 7.489620030930562e+130,
+      "temperature": 3.1857466334813825e+107
+    },
+    {
+      "checkpoint": "bs16_seed2.pt",
+      "delta": 0.4945310652256012,
+      "state": "glass",
+      "entropy": 6.601974882351433e+130,
+      "temperature": 3.2377538698117647e+107
+    },
+    {
+      "checkpoint": "bs16_seed3.pt",
+      "delta": 0.4989584684371948,
+      "state": "glass",
+      "entropy": 2.480013463236153e+130,
+      "temperature": 1.997697646168711e+107
+    },
+    {
+      "checkpoint": "bs16_seed4.pt",
+      "delta": 0.49255257844924927,
+      "state": "glass",
+      "entropy": 4.867589962175614e+130,
+      "temperature": 2.8121736548090798e+107
+    },
+    {
+      "checkpoint": "bs16_seed5.pt",
+      "delta": 0.4950346052646637,
+      "state": "glass",
+      "entropy": 1.2932395216380327e+131,
+      "temperature": 4.293538390855478e+107
+    },
+    {
+      "checkpoint": "bs16_seed6.pt",
+      "delta": 0.49763599038124084,
+      "state": "glass",
+      "entropy": 2.6589616700030986e+131,
+      "temperature": 6.036825836617535e+107
+    },
+    {
+      "checkpoint": "bs16_seed7.pt",
+      "delta": 0.4991130232810974,
+      "state": "glass",
+      "entropy": 4.2241862972092984e+131,
+      "temperature": 7.368318625027064e+107
+    },
+    {
+      "checkpoint": "bs16_seed8.pt",
+      "delta": 0.49717068672180176,
+      "state": "glass",
+      "entropy": 2.9437900655659593e+130,
+      "temperature": 2.1071274599910863e+107
+    },
+    {
+      "checkpoint": "bs16_seed9.pt",
+      "delta": 0.49784237146377563,
+      "state": "glass",
+      "entropy": 2.0721514540811918e+131,
+      "temperature": 5.6175990397283615e+107
+    },
+    {
+      "checkpoint": "bs256_seed0.pt",
+      "delta": 0.49807077646255493,
+      "state": "glass",
+      "entropy": 9.744297577851378e+131,
+      "temperature": 1.257292555942249e+108
+    },
+    {
+      "checkpoint": "bs256_seed1.pt",
+      "delta": 0.48964542150497437,
+      "state": "glass",
+      "entropy": 2.1554715234948614e+131,
+      "temperature": 5.649044006970776e+107
+    },
+    {
+      "checkpoint": "bs256_seed2.pt",
+      "delta": 0.48216578364372253,
+      "state": "glass",
+      "entropy": 5.5914580629301374e+131,
+      "temperature": 9.095811553091942e+107
+    },
+    {
+      "checkpoint": "bs256_seed3.pt",
+      "delta": 0.4937736988067627,
+      "state": "glass",
+      "entropy": 2.6217622226916683e+131,
+      "temperature": 7.084872229821529e+107
+    },
+    {
+      "checkpoint": "bs256_seed4.pt",
+      "delta": 0.4893653094768524,
+      "state": "glass",
+      "entropy": 1.6539924192377461e+131,
+      "temperature": 7.201995707701957e+107
+    },
+    {
+      "checkpoint": "bs256_seed5.pt",
+      "delta": 0.49525004625320435,
+      "state": "glass",
+      "entropy": 3.3417952386167946e+131,
+      "temperature": 7.689862237124181e+107
+    },
+    {
+      "checkpoint": "bs256_seed6.pt",
+      "delta": 0.4979318082332611,
+      "state": "glass",
+      "entropy": 6.8560031787306306e+131,
+      "temperature": 9.807333007329281e+107
+    },
+    {
+      "checkpoint": "bs256_seed7.pt",
+      "delta": 0.492382287979126,
+      "state": "glass",
+      "entropy": 3.1807023015147127e+131,
+      "temperature": 6.822397973372624e+107
+    },
+    {
+      "checkpoint": "bs256_seed8.pt",
+      "delta": 0.4905257821083069,
+      "state": "glass",
+      "entropy": 5.610544037888973e+131,
+      "temperature": 9.623369954861154e+107
+    },
+    {
+      "checkpoint": "bs256_seed9.pt",
+      "delta": 0.49602240324020386,
+      "state": "glass",
+      "entropy": 2.5789155365564898e+131,
+      "temperature": 6.45345125641868e+107
+    },
+    {
+      "checkpoint": "bs32_seed0.pt",
+      "delta": 0.49825555086135864,
+      "state": "glass",
+      "entropy": 2.326792785844979e+131,
+      "temperature": 5.730491431142825e+107
+    },
+    {
+      "checkpoint": "bs32_seed1.pt",
+      "delta": 0.49902695417404175,
+      "state": "glass",
+      "entropy": 1.7688519438867167e+131,
+      "temperature": 5.215944383029576e+107
+    },
+    {
+      "checkpoint": "bs32_seed2.pt",
+      "delta": 0.4837152361869812,
+      "state": "glass",
+      "entropy": 1.179842274797623e+131,
+      "temperature": 4.365750691105683e+107
+    },
+    {
+      "checkpoint": "bs32_seed3.pt",
+      "delta": 0.49769341945648193,
+      "state": "glass",
+      "entropy": 1.246521044491134e+131,
+      "temperature": 4.624726268951981e+107
+    },
+    {
+      "checkpoint": "bs32_seed4.pt",
+      "delta": 0.4997345209121704,
+      "state": "glass",
+      "entropy": 1.6792090733950805e+131,
+      "temperature": 5.4743024208850134e+107
+    },
+    {
+      "checkpoint": "bs32_seed5.pt",
+      "delta": 0.4988066852092743,
+      "state": "glass",
+      "entropy": 3.3706488831951637e+131,
+      "temperature": 6.736689813466675e+107
+    },
+    {
+      "checkpoint": "bs32_seed6.pt",
+      "delta": 0.4971522092819214,
+      "state": "glass",
+      "entropy": 4.8717596162581156e+131,
+      "temperature": 7.917384623440515e+107
+    },
+    {
+      "checkpoint": "bs32_seed7.pt",
+      "delta": 0.49948641657829285,
+      "state": "glass",
+      "entropy": 1.1692932429646374e+132,
+      "temperature": 1.291903609527337e+108
+    },
+    {
+      "checkpoint": "bs32_seed8.pt",
+      "delta": 0.499272882938385,
+      "state": "glass",
+      "entropy": 4.852154397203018e+130,
+      "temperature": 2.8603160737359658e+107
+    },
+    {
+      "checkpoint": "bs32_seed9.pt",
+      "delta": 0.49020859599113464,
+      "state": "glass",
+      "entropy": 1.5818693851822125e+132,
+      "temperature": 1.5553371958872132e+108
+    },
+    {
+      "checkpoint": "bs512_seed0.pt",
+      "delta": 0.493622362613678,
+      "state": "glass",
+      "entropy": 6.8148523652499445e+131,
+      "temperature": 1.0508213451499712e+108
+    },
+    {
+      "checkpoint": "bs512_seed1.pt",
+      "delta": 0.4962180256843567,
+      "state": "glass",
+      "entropy": 3.138714344145456e+132,
+      "temperature": 2.1759633969985977e+108
+    },
+    {
+      "checkpoint": "bs512_seed2.pt",
+      "delta": 0.4929327368736267,
+      "state": "glass",
+      "entropy": 7.331538086698678e+132,
+      "temperature": 3.2214525607457574e+108
+    },
+    {
+      "checkpoint": "bs512_seed3.pt",
+      "delta": 0.4915013313293457,
+      "state": "glass",
+      "entropy": 6.331307470102486e+132,
+      "temperature": 3.4535129236802375e+108
+    },
+    {
+      "checkpoint": "bs512_seed4.pt",
+      "delta": 0.4979958236217499,
+      "state": "glass",
+      "entropy": 3.0809633362283315e+131,
+      "temperature": 9.485622602772573e+107
+    },
+    {
+      "checkpoint": "bs512_seed5.pt",
+      "delta": 0.4958898425102234,
+      "state": "glass",
+      "entropy": 3.811113497116504e+131,
+      "temperature": 8.28673016031522e+107
+    },
+    {
+      "checkpoint": "bs512_seed6.pt",
+      "delta": 0.49209216237068176,
+      "state": "glass",
+      "entropy": 6.971279360762808e+131,
+      "temperature": 1.0051406871807612e+108
+    },
+    {
+      "checkpoint": "bs512_seed7.pt",
+      "delta": 0.49902230501174927,
+      "state": "glass",
+      "entropy": 3.574444717686168e+131,
+      "temperature": 7.891473473406303e+107
+    },
+    {
+      "checkpoint": "bs512_seed8.pt",
+      "delta": 0.4959428310394287,
+      "state": "glass",
+      "entropy": 6.616900371515089e+131,
+      "temperature": 1.0534890140351521e+108
+    },
+    {
+      "checkpoint": "bs512_seed9.pt",
+      "delta": 0.49862366914749146,
+      "state": "glass",
+      "entropy": 6.173105917668369e+131,
+      "temperature": 1.0297387179188772e+108
+    },
+    {
+      "checkpoint": "bs64_seed0.pt",
+      "delta": 0.49894803762435913,
+      "state": "glass",
+      "entropy": 4.73465586920235e+131,
+      "temperature": 8.301172982255828e+107
+    },
+    {
+      "checkpoint": "bs64_seed1.pt",
+      "delta": 0.48843443393707275,
+      "state": "glass",
+      "entropy": 1.840594601765167e+131,
+      "temperature": 5.0365554846872116e+107
+    },
+    {
+      "checkpoint": "bs64_seed2.pt",
+      "delta": 0.46896103024482727,
+      "state": "glass",
+      "entropy": 3.665400064317565e+131,
+      "temperature": 7.417899197133371e+107
+    },
+    {
+      "checkpoint": "bs64_seed3.pt",
+      "delta": 0.49954745173454285,
+      "state": "glass",
+      "entropy": 1.4537452918400964e+131,
+      "temperature": 4.987731108934301e+107
+    },
+    {
+      "checkpoint": "bs64_seed4.pt",
+      "delta": 0.48751282691955566,
+      "state": "glass",
+      "entropy": 1.8302589898007096e+131,
+      "temperature": 6.228403521805501e+107
+    },
+    {
+      "checkpoint": "bs64_seed5.pt",
+      "delta": 0.49299144744873047,
+      "state": "glass",
+      "entropy": 2.5253433178283913e+131,
+      "temperature": 6.287111740009978e+107
+    },
+    {
+      "checkpoint": "bs64_seed6.pt",
+      "delta": 0.4973303973674774,
+      "state": "glass",
+      "entropy": 6.001119256945428e+131,
+      "temperature": 9.043225111267289e+107
+    },
+    {
+      "checkpoint": "bs64_seed7.pt",
+      "delta": 0.4948886036872864,
+      "state": "glass",
+      "entropy": 1.6061418045651823e+132,
+      "temperature": 1.5481511850147438e+108
+    },
+    {
+      "checkpoint": "bs64_seed8.pt",
+      "delta": 0.4989710748195648,
+      "state": "glass",
+      "entropy": 1.2219282583959992e+131,
+      "temperature": 4.502735251014703e+107
+    },
+    {
+      "checkpoint": "bs64_seed9.pt",
+      "delta": 0.48998188972473145,
+      "state": "glass",
+      "entropy": 7.960787773145701e+131,
+      "temperature": 1.0843040203185008e+108
+    },
+    {
+      "checkpoint": "bs8_seed0.pt",
+      "delta": 0.4971374273300171,
+      "state": "glass",
+      "entropy": 3.0328551710856022e+131,
+      "temperature": 6.697687245898966e+107
+    },
+    {
+      "checkpoint": "bs8_seed1.pt",
+      "delta": 0.4987724721431732,
+      "state": "glass",
+      "entropy": 2.9729882995690426e+130,
+      "temperature": 1.988265772779052e+107
+    },
+    {
+      "checkpoint": "bs8_seed2.pt",
+      "delta": 0.4957718849182129,
+      "state": "glass",
+      "entropy": 1.5312257458504686e+130,
+      "temperature": 1.445526798936509e+107
+    },
+    {
+      "checkpoint": "bs8_seed3.pt",
+      "delta": 0.49684378504753113,
+      "state": "glass",
+      "entropy": 2.869527142567072e+130,
+      "temperature": 2.0019420871481654e+107
+    },
+    {
+      "checkpoint": "bs8_seed4.pt",
+      "delta": 0.49029040336608887,
+      "state": "glass",
+      "entropy": 3.012134264388064e+130,
+      "temperature": 2.0821610514471954e+107
+    },
+    {
+      "checkpoint": "bs8_seed5.pt",
+      "delta": 0.48909828066825867,
+      "state": "glass",
+      "entropy": 1.262856770971359e+131,
+      "temperature": 3.949608238278236e+107
+    },
+    {
+      "checkpoint": "bs8_seed6.pt",
+      "delta": 0.48056560754776,
+      "state": "glass",
+      "entropy": 4.4308719715425397e+130,
+      "temperature": 2.4021484083802062e+107
+    },
+    {
+      "checkpoint": "bs8_seed7.pt",
+      "delta": 0.4942290186882019,
+      "state": "glass",
+      "entropy": 2.113356957106392e+131,
+      "temperature": 5.1743695134344786e+107
+    },
+    {
+      "checkpoint": "bs8_seed8.pt",
+      "delta": 0.49960559606552124,
+      "state": "glass",
+      "entropy": 1.9463481883657478e+130,
+      "temperature": 1.5943523520781466e+107
+    },
+    {
+      "checkpoint": "bs8_seed9.pt",
+      "delta": 0.4909476339817047,
+      "state": "glass",
+      "entropy": 1.4089577740159396e+131,
+      "temperature": 4.6772542924229277e+107
+    },
+    {
+      "checkpoint": "strassen_coefficients.pt",
+      "delta": 0.47917598485946655,
+      "state": "glass",
+      "entropy": 3.5813425589670485e+131,
+      "temperature": 1.590765345564374e+108
+    },
+    {
+      "checkpoint": "strassen_discovered.pt",
+      "delta": 0.4951590895652771,
+      "state": "glass",
+      "entropy": 3.653521365970643e+130,
+      "temperature": 2.8143271181788313e+107
+    },
+    {
+      "checkpoint": "strassen_discrete_final.pt",
+      "delta": 0.0,
+      "state": "hot_crystal",
+      "entropy": 1.2285107416173082e+130,
+      "temperature": 5.781892215630584e+128
+    },
+    {
+      "checkpoint": "strassen_exact.pt",
+      "delta": 0.0,
+      "state": "hot_crystal",
+      "entropy": 1.2285107416173082e+130,
+      "temperature": 5.781892215630584e+128
+    },
+    {
+      "checkpoint": "strassen_float64.pt",
+      "delta": 0.4860287308692932,
+      "state": "glass",
+      "entropy": 4.380694513644376e+132,
+      "temperature": 3.221290694985099e+108
+    },
+    {
+      "checkpoint": "strassen_grokked_weights.pt",
+      "delta": 0.0,
+      "state": "hot_crystal",
+      "entropy": 1.2285107416173082e+130,
+      "temperature": 5.781892215630584e+128
+    },
+    {
+      "checkpoint": "strassen_grokkit.pt",
+      "delta": 0.49965500831604004,
+      "state": "glass",
+      "entropy": 6.720697214888722e+135,
+      "temperature": 1.508295472405581e+110
+    },
+    {
+      "checkpoint": "strassen_multiscale.pt",
+      "delta": 0.49968311190605164,
+      "state": "glass",
+      "entropy": 2.8184508897615777e+132,
+      "temperature": 2.614271342674433e+108
+    },
+    {
+      "checkpoint": "strassen_result.pt",
+      "delta": 0.49330955743789673,
+      "state": "glass",
+      "entropy": 1.2331104856391881e+135,
+      "temperature": 6.670260782962317e+109
+    },
+    {
+      "checkpoint": "strassen_robust.pt",
+      "delta": 0.15143311023712158,
+      "state": "glass",
+      "entropy": 1.0201638864967587e+128,
+      "temperature": 2.3954172154317597e+104
+    }
+  ]
+}

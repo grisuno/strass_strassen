@@ -1,0 +1,129 @@
+{
+  "constants": {
+    "G_alg": {
+      "G_alg": 4.637114833846867,
+      "avg_distance": 0.2661261260509491,
+      "gradient_magnitude": 0.3284149169921875,
+      "force": 4.637114833846867,
+      "crystallization_pressure": 0.6698375384679591,
+      "delta": 0.49029040336608887,
+      "is_crystallized": false
+    },
+    "h_bar": {
+      "h_bar_uncertainty": 0.01733377501078533,
+      "h_bar_action": 32.80358387131514,
+      "h_bar_conductance": 1.9619014566410653,
+      "h_bar_information": 11.889186049956038,
+      "h_bar_unified": 11.668001288230757,
+      "delta": 0.49029040336608887,
+      "lambda_eff": 0.03605424238611554,
+      "weight_variance": 0.2916761040687561,
+      "weight_std": 0.5400704741477966,
+      "ratio_to_si_planck": 1.1064207387433679e+35,
+      "orders_of_magnitude": 35.04392030759058,
+      "is_quantum_regime": "False"
+    },
+    "k_B": {
+      "k_b_entropy": 3.5528782384401687,
+      "k_b_thermal": 0.28863781690597534,
+      "k_b_unified": 1.920758027673072,
+      "config_entropy": 3.5528782384401687,
+      "energy_proxy": 1.0,
+      "weight_variance": 0.28863781690597534,
+      "ratio_to_si_boltzmann": 1.391199376288305e+23,
+      "is_thermal_regime": "True"
+    },
+    "c_eff": {
+      "c_from_planck": 3.316965928500501e+43,
+      "c_spectral": 1.935401201248169,
+      "c_from_geometry": 10000000000.0,
+      "c_unified": 3.316965928500501e+43,
+      "ratio_to_si_c": 1.1064207387433679e+35,
+      "orders_of_magnitude": 35.04392030759058,
+      "is_superluminal": true
+    },
+    "M_eff": {
+      "m_planck_eff": 9.135762777346296e+21,
+      "m_from_info": 330.4176761749357,
+      "m_from_energy": 2.6510555586790144e-88,
+      "m_unified": 9.135762777346296e+21,
+      "n_active_params": 93,
+      "n_total_params": 96,
+      "sparsity": 0.03125,
+      "information_content": 3.5528782384401687,
+      "ratio_to_solar_mass": 4.594367919730394e-09
+    },
+    "A_eff": {
+      "a_unified": 93.0,
+      "a_encoding": 63.0,
+      "a_decoding": 30.0,
+      "a_from_entropy": 1.5921788215637207,
+      "active_slots": 8,
+      "effective_dimension": 8,
+      "hidden_dim": 8,
+      "input_dim": 4,
+      "u_active": 32,
+      "v_active": 31,
+      "w_active": 30,
+      "is_strassen_rank": false
+    }
+  },
+  "hawking_radiation": {
+    "bekenstein_hawking_entropy": {
+      "S_BH": 3.012134264388064e+130,
+      "formula": "S = A*k_B*c\u00b3 / (4*G*\u210f)",
+      "units": "synthetic (information units)"
+    },
+    "hawking_temperature": {
+      "T_H": 2.0821610514471954e+107,
+      "formula": "T_H = \u210f*c\u00b3 / (8*\u03c0*G*M*k_B)",
+      "units": "synthetic (energy units)"
+    },
+    "schwarzschild_radius": {
+      "r_s": 7.700885028042628e-65,
+      "formula": "r_s = 2*G*M / c\u00b2",
+      "units": "parameter space units"
+    },
+    "radiation_power": {
+      "P_rad": 1.7943869961593154e+212,
+      "formula": "P = \u210f*c\u2076 / (15360*\u03c0*G\u00b2*M\u00b2)",
+      "units": "information per epoch"
+    },
+    "evaporation_time": {
+      "tau_evap": 1.867194102696398e-104,
+      "formula": "\u03c4 = 5120*\u03c0*G\u00b2*M\u00b3 / (\u210f*c\u2074)",
+      "units": "epochs to full crystallization"
+    },
+    "surface_gravity": {
+      "kappa_s": 7.1435055391482e+150,
+      "formula": "\u03ba_s = c\u2074 / (4*G*M)",
+      "units": "gradient strength at horizon"
+    },
+    "tidal_forces": {
+      "F_tidal": 2.1896670407829266e+192,
+      "formula": "~ 1 / r_s\u00b3",
+      "units": "parameter distortion rate"
+    },
+    "information_escape_rate": {
+      "dI_dt": 4.4867217593900894e+104,
+      "formula": "dI/dt = P / (T_H * k_B)",
+      "units": "bits per epoch"
+    }
+  },
+  "phase_diagnostics": {
+    "is_black_hole": true,
+    "is_evaporating": true,
+    "is_hot": true,
+    "crystallization_state": "glass",
+    "entropy_content": "high",
+    "temperature_regime": "hot"
+  },
+  "metadata": {
+    "checkpoint_path": "checkpoints/bs8_seed4.pt",
+    "checkpoint_name": "bs8_seed4.pt",
+    "epoch": 3000,
+    "timestamp": "2026-03-08T03:07:52.032446",
+    "current_loss": 1.0,
+    "precomputed_delta": null
+  }
+}
