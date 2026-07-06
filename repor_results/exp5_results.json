@@ -1,0 +1,58 @@
+{
+  "base_accuracy": 1.0,
+  "phase2_ok": false,
+  "random": {
+    "0.05": {
+      "mean_accuracy": 0.0,
+      "std_accuracy": 0.0,
+      "degradation": 1.0
+    },
+    "0.1": {
+      "mean_accuracy": 0.0,
+      "std_accuracy": 0.0,
+      "degradation": 1.0
+    },
+    "0.15": {
+      "mean_accuracy": 0.0,
+      "std_accuracy": 0.0,
+      "degradation": 1.0
+    },
+    "0.2": {
+      "mean_accuracy": 0.0,
+      "std_accuracy": 0.0,
+      "degradation": 1.0
+    },
+    "0.25": {
+      "mean_accuracy": 0.0,
+      "std_accuracy": 0.0,
+      "degradation": 1.0
+    }
+  },
+  "boundary": {
+    "0.05": {
+      "mean_accuracy": 0.007600000314414501,
+      "std_accuracy": 0.003773592676482666,
+      "degradation": 0.9923999996855855
+    },
+    "0.1": {
+      "mean_accuracy": 0.008000000286847353,
+      "std_accuracy": 0.005059644496589617,
+      "degradation": 0.9919999997131527
+    },
+    "0.15": {
+      "mean_accuracy": 0.005000000167638063,
+      "std_accuracy": 0.0037148352317030505,
+      "degradation": 0.994999999832362
+    },
+    "0.2": {
+      "mean_accuracy": 0.005800000228919089,
+      "std_accuracy": 0.002891366625282151,
+      "degradation": 0.9941999997710809
+    },
+    "0.25": {
+      "mean_accuracy": 0.00020000000949949026,
+      "std_accuracy": 0.0006000000284984708,
+      "degradation": 0.9997999999905005
+    }
+  }
+}

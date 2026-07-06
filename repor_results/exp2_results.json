@@ -1,0 +1,92 @@
+{
+  "results": [
+    {
+      "gamma": 0.0,
+      "delta": 0.4989171028137207,
+      "alpha": 0.6953153236569849,
+      "kappa": 222329712.0,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.1,
+      "delta": 0.4880902171134949,
+      "alpha": 0.7172550190813414,
+      "kappa": 46.920501708984375,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.2,
+      "delta": 0.4975701570510864,
+      "alpha": 0.6980187131275983,
+      "kappa": 138827008.0,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.3,
+      "delta": 0.4968529939651489,
+      "alpha": 0.6994610834294939,
+      "kappa": 429808608.0,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.4,
+      "delta": 0.4999715983867645,
+      "alpha": 0.6932039853997807,
+      "kappa": 192.57772827148438,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.5,
+      "delta": 0.49936968088150024,
+      "alpha": 0.694408614069765,
+      "kappa": 40.398311614990234,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.6,
+      "delta": 0.4919573664665222,
+      "alpha": 0.7093632197677913,
+      "kappa": 105.70854949951172,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.7,
+      "delta": 0.48838645219802856,
+      "alpha": 0.7166482762826005,
+      "kappa": 494442400.0,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.8,
+      "delta": 0.498937726020813,
+      "alpha": 0.695273988571962,
+      "kappa": 65.72666931152344,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 0.9,
+      "delta": 0.4979434311389923,
+      "alpha": 0.6972688004999311,
+      "kappa": 489048000.0,
+      "phase": "glass",
+      "phase2_success": false
+    },
+    {
+      "gamma": 1.0,
+      "delta": 0.496590793132782,
+      "alpha": 0.6999889458850459,
+      "kappa": 61.560298919677734,
+      "phase": "glass",
+      "phase2_success": false
+    }
+  ]
+}
