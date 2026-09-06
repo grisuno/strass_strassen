@@ -1,0 +1,302 @@
+# Subsystem: extended_experiments
+
+## experiments/extended_experiments/all_test_extended.py
+- Layer: testing
+- Language: py
+- Symbols:
+  - `Configuration` (class, line 41) `class Configuration`
+  - `Narrator` (class, line 95) `class Narrator`
+  - `SystemFingerprint` (class, line 152) `class SystemFingerprint`
+  - `ArithmeticDataset` (class, line 190) `class ArithmeticDataset(Dataset)`
+  - `BilinearModel` (class, line 238) `class BilinearModel(Module)`
+  - `Task` (class, line 293) `class Task(ABC)`
+  - `MatrixMultiplicationTask` (class, line 311) `class MatrixMultiplicationTask(Task)`
+  - `ParityDataset` (class, line 354) `class ParityDataset(Dataset)`
+  - `ParityTask` (class, line 375) `class ParityTask(Task)`
+  - `GradientCovarianceProbe` (class, line 402) `class GradientCovarianceProbe`
+  - `SpectralInterventionProbe` (class, line 465) `class SpectralInterventionProbe`
+  - `AttractorLandscapeProbe` (class, line 488) `class AttractorLandscapeProbe`
+  - `VolumeEstimator` (class, line 510) `class VolumeEstimator`
+  - `RobustnessTest` (class, line 524) `class RobustnessTest`
+  - `CheckpointManager` (class, line 581) `class CheckpointManager`
+  - `TrainingMetrics` (class, line 627) `class TrainingMetrics`
+  - `ExperimentRunner` (class, line 700) `class ExperimentRunner`
+  - `DiscretizationAnalyzer` (class, line 809) `class DiscretizationAnalyzer`
+  - `ExpansionVerifier` (class, line 851) `class ExpansionVerifier`
+  - `ExperimentPipeline` (class, line 879) `class ExperimentPipeline`
+  - `main` (method, line 1403) `def main()`
+  - `__init__` (method, line 89) `def __init__(self)`
+  - `__init__` (method, line 96) `def __init__(self, config)`
+  - `begin` (method, line 101) `def begin(self, experiment_name)`
+  - `progress` (method, line 109) `def progress(self, current, total, metrics)`
+  - `checkpoint` (method, line 116) `def checkpoint(self, epoch, loss, accuracy)`
+  - `result` (method, line 121) `def result(self, name, value, context)`
+  - `verdict` (method, line 126) `def verdict(self, hypothesis, evidence, conclusion)`
+  - `failure` (method, line 131) `def failure(self, reason, details)`
+  - `complete` (method, line 136) `def complete(self, summary)`
+  - `claim` (method, line 144) `def claim(self, statement, confidence)`
+  - `note` (method, line 148) `def note(self, observation)`
+  - `__init__` (method, line 153) `def __init__(self, config)`
+  - `capture` (method, line 156) `def capture(self)`
+  - `report` (method, line 174) `def report(self)`
+  - `__init__` (method, line 202) `def __init__(self, size, modulus)`
+  - `_generate_data` (method, line 207) `def _generate_data(self)`
+  - `__len__` (method, line 231) `def __len__(self)`
+  - `__getitem__` (method, line 234) `def __getitem__(self, idx)`
+  - `__init__` (method, line 253) `def __init__(self, d_vocab, rank, scale)`
+  - `forward` (method, line 265) `def forward(self, x)`
+  - `get_weights` (method, line 277) `def get_weights(self)`
+  - `get_U_weights` (method, line 283) `def get_U_weights(self)`
+  - `get_V_weights` (method, line 286) `def get_V_weights(self)`
+  - `get_W_weights` (method, line 289) `def get_W_weights(self)`
+  - `name` (method, line 295) `def name(self)`
+  - `d_vocab` (method, line 299) `def d_vocab(self)`
+  - `generate_dataset` (method, line 303) `def generate_dataset(self, size)`
+  - `verify` (method, line 307) `def verify(self, model, x, y)`
+  - `__init__` (method, line 312) `def __init__(self, modulus)`
+  - `name` (method, line 316) `def name(self)`
+  - `d_vocab` (method, line 319) `def d_vocab(self)`
+  - `generate_dataset` (method, line 322) `def generate_dataset(self, size)`
+  - `verify` (method, line 344) `def verify(self, model, x, y)`
+  - `__init__` (method, line 357) `def __init__(self, size, bit_length)`
+  - `_generate_data` (method, line 362) `def _generate_data(self)`
+  - `__len__` (method, line 368) `def __len__(self)`
+  - `__getitem__` (method, line 371) `def __getitem__(self, idx)`
+  - `__init__` (method, line 376) `def __init__(self, bit_length, modulus)`
+  - `name` (method, line 381) `def name(self)`
+  - `d_vocab` (method, line 384) `def d_vocab(self)`
+  - `generate_dataset` (method, line 387) `def generate_dataset(self, size)`
+  - `verify` (method, line 391) `def verify(self, model, x, y)`
+  - `__init__` (method, line 405) `def __init__(self, model)`
+  - `capture_gradients` (method, line 409) `def capture_gradients(self, dataloader, n_batches)`
+  - `compute_covariance` (method, line 429) `def compute_covariance(self)`
+  - `compute_condition_number` (method, line 436) `def compute_condition_number(self)`
+  - `compute_gradient_noise_scale` (method, line 442) `def compute_gradient_noise_scale(self, batch_size, learning_rate)`
+  - `analyze` (method, line 450) `def analyze(self, dataloader, batch_size, learning_rate)`
+  - `__init__` (method, line 468) `def __init__(self, model, target_kappa)`
+  - `spectral_regularizer` (method, line 472) `def spectral_regularizer(self)`
+  - `__init__` (method, line 491) `def __init__(self, model)`
+  - `count_local_minima` (method, line 494) `def count_local_minima(self, directions, losses)`
+  - `measure_basin_width` (method, line 501) `def measure_basin_width(self, weights, direction, n_points)`
+  - `classify_failure_mode` (method, line 505) `def classify_failure_mode(self, final_weights, initial_weights)`
+  - `__init__` (method, line 513) `def __init__(self, success_radius)`
+  - `estimate_volume_monte_carlo` (method, line 516) `def estimate_volume_monte_carlo(self, model_class, n_samples, success_checker)`
+  - `compute_fractal_dimension` (method, line 520) `def compute_fractal_dimension(self, trajectory)`
+  - `__init__` (method, line 527) `def __init__(self, model)`
+  - `add_gaussian_noise` (method, line 530) `def add_gaussian_noise(self, sigma)`
+  - `fgsm_attack` (method, line 536) `def fgsm_attack(self, x, y, epsilon)`
+  - `quantize_weights` (method, line 544) `def quantize_weights(self, bits)`
+  - `test_discretization_with_noise` (method, line 550) `def test_discretization_with_noise(self, sigma, checker)`
+  - `run_fragility_analysis` (method, line 560) `def run_fragility_analysis(self, sigma_values, checker)`
+  - `__init__` (method, line 584) `def __init__(self, config, experiment_name)`
+  - `save_checkpoint` (method, line 593) `def save_checkpoint(self, model, optimizer, epoch, metrics)`
+  - `load_checkpoint` (method, line 619) `def load_checkpoint(self, path, model, optimizer)`
+  - `__init__` (method, line 630) `def __init__(self)`
+  - `update` (method, line 642) `def update(self, train_loss, train_acc, test_loss, test_acc, kappa, grad_norm, weight_norm, disc_margin)`
+  - `detect_grokking` (method, line 660) `def detect_grokking(self, loss_threshold, test_loss_threshold, min_duration)`
+  - `progress_bar_string` (method, line 679) `def progress_bar_string(self, epoch, total_epochs)`
+  - `__init__` (method, line 703) `def __init__(self, config)`
+  - `train_epoch` (method, line 708) `def train_epoch(self, model, dataloader, optimizer)`
+  - `evaluate` (method, line 730) `def evaluate(self, model, dataloader)`
+  - `run_training` (method, line 748) `def run_training(self, model, train_loader, test_loader, experiment_name, epochs, batch_size, lr, wd, verbose)`
+  - `__init__` (method, line 812) `def __init__(self, config)`
+  - `compute_discretization_margin` (method, line 815) `def compute_discretization_margin(self, model)`
+  - `discretize_weights` (method, line 827) `def discretize_weights(self, model)`
+  - `check_strassen_structure` (method, line 832) `def check_strassen_structure(self, model, modulus)`
+  - `count_discretized_parameters` (method, line 839) `def count_discretized_parameters(self, model)`
+  - `__init__` (method, line 854) `def __init__(self, config)`
+  - `verify_expansion` (method, line 857) `def verify_expansion(self, model, task, sizes)`
+  - `__init__` (method, line 882) `def __init__(self, config)`
+  - `experiment_batch_size_mechanism` (method, line 891) `def experiment_batch_size_mechanism(self)`
+  - `experiment_kappa_intervention` (method, line 962) `def experiment_kappa_intervention(self)`
+  - `experiment_failure_analysis` (method, line 1026) `def experiment_failure_analysis(self)`
+  - `experiment_generalization` (method, line 1088) `def experiment_generalization(self)`
+  - `experiment_basin_volume` (method, line 1145) `def experiment_basin_volume(self)`
+  - `experiment_hardware_reproducibility` (method, line 1158) `def experiment_hardware_reproducibility(self)`
+  - `experiment_fragility` (method, line 1217) `def experiment_fragility(self)`
+  - `run_all_experiments` (method, line 1332) `def run_all_experiments(self)`
+  - `_save_results` (method, line 1371) `def _save_results(self)`
+  - `_generate_summary` (method, line 1379) `def _generate_summary(self)`
+  - `checker` (method, line 1253) `def checker()`
+
+## experiments/extended_experiments/exp1_covariance_spectrometry.py
+- Layer: testing
+- Language: py
+- Symbols:
+  - `setup_matplotlib` (function, line 22) `def setup_matplotlib()`
+  - `StrassenOperator` (class, line 48) `class StrassenOperator(Module)`
+  - `generate_batch` (method, line 112) `def generate_batch(n, scale)`
+  - `compute_gradient_covariance` (method, line 120) `def compute_gradient_covariance(model, batch_size, n_samples)`
+  - `load_checkpoint` (method, line 196) `def load_checkpoint(checkpoint_path)`
+  - `analyze_checkpoint` (method, line 222) `def analyze_checkpoint(checkpoint_path, batch_sizes, n_samples, n_runs)`
+  - `main` (method, line 277) `def main()`
+  - `generate_visualization` (method, line 380) `def generate_visualization(results, output_dir)`
+  - `__init__` (method, line 54) `def __init__(self, rank)`
+  - `forward` (method, line 61) `def forward(self, A, B)`
+  - `get_all_parameters` (method, line 71) `def get_all_parameters(self)`
+  - `compute_per_sample_gradients` (method, line 78) `def compute_per_sample_gradients(self, A, B, C_true)`
+
+## experiments/extended_experiments/exp2_noise_ablation.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `setup_matplotlib` (function, line 25) `def setup_matplotlib()`
+  - `StrassenOperator` (class, line 49) `class StrassenOperator(Module)`
+  - `generate_batch` (method, line 99) `def generate_batch(n, scale)`
+  - `compute_gradient_covariance_matrix` (method, line 107) `def compute_gradient_covariance_matrix(model, n_samples, batch_size)`
+  - `get_eigenbasis` (method, line 139) `def get_eigenbasis(covariance)`
+  - `load_checkpoint` (method, line 150) `def load_checkpoint(checkpoint_path)`
+  - `experiment_treatment_a_gradient_noise` (method, line 172) `def experiment_treatment_a_gradient_noise(model, noise_std, n_test)`
+  - `experiment_treatment_b_weight_noise` (method, line 212) `def experiment_treatment_b_weight_noise(model, noise_std, n_test)`
+  - `experiment_treatment_c_structured_noise` (method, line 246) `def experiment_treatment_c_structured_noise(model, covariance, noise_std, n_test)`
+  - `run_noise_ablation` (method, line 315) `def run_noise_ablation(checkpoint_path, noise_levels)`
+  - `main` (method, line 348) `def main()`
+  - `generate_visualization` (method, line 433) `def generate_visualization(results, output_dir)`
+  - `__init__` (method, line 54) `def __init__(self, rank)`
+  - `forward` (method, line 61) `def forward(self, A, B)`
+  - `get_all_parameters` (method, line 71) `def get_all_parameters(self)`
+  - `set_parameters` (method, line 77) `def set_parameters(self, new_params)`
+  - `compute_loss` (method, line 85) `def compute_loss(self, A, B)`
+  - `compute_accuracy` (method, line 91) `def compute_accuracy(self, A, B, threshold)`
+
+## experiments/extended_experiments/exp3_prospective_prediction.py
+- Layer: infrastructure
+- Language: py
+- Symbols:
+  - `setup_matplotlib` (function, line 32) `def setup_matplotlib()`
+  - `StrassenOperator` (class, line 56) `class StrassenOperator(Module)`
+  - `generate_batch` (method, line 114) `def generate_batch(n, scale)`
+  - `compute_kappa` (method, line 121) `def compute_kappa(model, n_samples, batch_size)`
+  - `load_checkpoint` (method, line 166) `def load_checkpoint(checkpoint_path)`
+  - `simulate_early_prediction` (method, line 188) `def simulate_early_prediction(checkpoint_path, early_epoch_fraction)`
+  - `run_prospective_prediction_experiment` (method, line 236) `def run_prospective_prediction_experiment(checkpoint_files)`
+  - `compute_roc_analysis` (method, line 252) `def compute_roc_analysis(predictions)`
+  - `main` (method, line 313) `def main()`
+  - `generate_visualization` (method, line 410) `def generate_visualization(results, predictions, output_dir)`
+  - `__init__` (method, line 59) `def __init__(self, rank)`
+  - `forward` (method, line 66) `def forward(self, A, B)`
+  - `get_all_parameters` (method, line 76) `def get_all_parameters(self)`
+  - `set_parameters` (method, line 82) `def set_parameters(self, new_params)`
+  - `count_active_slots` (method, line 89) `def count_active_slots(self, threshold)`
+  - `compute_discretization_margin` (method, line 97) `def compute_discretization_margin(self)`
+  - `is_grokked` (method, line 107) `def is_grokked(self, margin_threshold, active_slots_target)`
+
+## experiments/extended_experiments/exp4_trajectory_perturbation.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `setup_matplotlib` (function, line 27) `def setup_matplotlib()`
+  - `StrassenOperator` (class, line 51) `class StrassenOperator(Module)`
+  - `generate_batch` (method, line 117) `def generate_batch(n, scale)`
+  - `load_checkpoint` (method, line 124) `def load_checkpoint(checkpoint_path)`
+  - `simulate_trajectory_perturbation` (method, line 146) `def simulate_trajectory_perturbation(checkpoint_path, perturbations)`
+  - `main` (method, line 277) `def main()`
+  - `generate_visualization` (method, line 398) `def generate_visualization(results, output_dir)`
+  - `__init__` (method, line 54) `def __init__(self, rank)`
+  - `forward` (method, line 61) `def forward(self, A, B)`
+  - `get_all_parameters` (method, line 71) `def get_all_parameters(self)`
+  - `set_parameters` (method, line 77) `def set_parameters(self, new_params)`
+  - `get_weight_norm` (method, line 84) `def get_weight_norm(self)`
+  - `get_weight_direction` (method, line 91) `def get_weight_direction(self)`
+  - `compute_gradient_norm` (method, line 96) `def compute_gradient_norm(self, A, B)`
+  - `cosine_similarity` (method, line 110) `def cosine_similarity(self, other_params)`
+  - `compute_metrics` (method, line 194) `def compute_metrics(model, name)`
+
+## experiments/extended_experiments/exp5_discreteness_attractors.py
+- Layer: infrastructure
+- Language: py
+
+## experiments/extended_experiments/run_all_experiments.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `setup_matplotlib` (function, line 24) `def setup_matplotlib()`
+  - `StrassenOperator` (class, line 48) `class StrassenOperator(Module)`
+  - `generate_batch` (method, line 95) `def generate_batch(n, scale)`
+  - `load_checkpoint_robust` (method, line 101) `def load_checkpoint_robust(checkpoint_path, model)`
+  - `compute_gradient_covariance_safe` (method, line 135) `def compute_gradient_covariance_safe(model, batch_size, n_samples)`
+  - `run_all_experiments` (method, line 205) `def run_all_experiments()`
+  - `generate_summary_visualization` (method, line 496) `def generate_summary_visualization(results, output_dir)`
+  - `__init__` (method, line 51) `def __init__(self, rank)`
+  - `forward` (method, line 58) `def forward(self, A, B)`
+  - `get_all_parameters` (method, line 68) `def get_all_parameters(self)`
+  - `set_parameters` (method, line 74) `def set_parameters(self, new_params)`
+  - `count_active_slots` (method, line 81) `def count_active_slots(self, threshold)`
+  - `compute_discretization_margin` (method, line 88) `def compute_discretization_margin(self)`
+  - `compute_accuracy` (method, line 324) `def compute_accuracy()`
+
+## experiments/extended_experiments/validate2.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `ExperimentConfig` (class, line 60) `class ExperimentConfig`
+  - `StrassenOperator` (class, line 126) `class StrassenOperator(Module)`
+  - `StrassenDataGenerator` (class, line 225) `class StrassenDataGenerator`
+  - `LocalComplexityCalculator` (class, line 277) `class LocalComplexityCalculator`
+  - `GrokkingVerifier` (class, line 340) `class GrokkingVerifier`
+  - `IterativePruningEngine` (class, line 405) `class IterativePruningEngine`
+  - `LocalComplexityExperiment` (class, line 764) `class LocalComplexityExperiment`
+  - `BalancedRunsGenerator` (class, line 890) `class BalancedRunsGenerator`
+  - `BootstrapStatistics` (class, line 1135) `class BootstrapStatistics`
+  - `VisualizationGenerator` (class, line 1281) `class VisualizationGenerator`
+  - `ExperimentOrchestrator` (class, line 1646) `class ExperimentOrchestrator`
+  - `find_grokked_checkpoint` (method, line 2313) `def find_grokked_checkpoint()`
+  - `analyze_checkpoints` (method, line 2353) `def analyze_checkpoints()`
+  - `main` (method, line 2423) `def main()`
+  - `__post_init__` (method, line 115) `def __post_init__(self)`
+  - `__init__` (method, line 139) `def __init__(self, rank)`
+  - `_initialize_weights` (method, line 150) `def _initialize_weights(self)`
+  - `forward` (method, line 156) `def forward(self, A, B)`
+  - `slot_importance` (method, line 183) `def slot_importance(self)`
+  - `count_active` (method, line 190) `def count_active(self, threshold)`
+  - `compute_SP` (method, line 194) `def compute_SP(self)`
+  - `get_state_dict` (method, line 202) `def get_state_dict(self)`
+  - `load_state_dict` (method, line 211) `def load_state_dict(self, state_dict)`
+  - `__init__` (method, line 228) `def __init__(self, num_samples, matrix_size, seed)`
+  - `generate_matrix` (method, line 238) `def generate_matrix(self)`
+  - `generate_data` (method, line 242) `def generate_data(self)`
+  - `get_train_test` (method, line 260) `def get_train_test(self, test_ratio)`
+  - `__init__` (method, line 287) `def __init__(self, model, config)`
+  - `compute_lc` (method, line 292) `def compute_lc(self, batch_inputs, batch_targets)`
+  - `compute_batch_diversity` (method, line 326) `def compute_batch_diversity(self, batch_inputs)`
+  - `__init__` (method, line 343) `def __init__(self, config)`
+  - `verify` (method, line 347) `def verify(self, model, n_test)`
+  - `_generate_batch` (method, line 393) `def _generate_batch(self, n, scale)`
+  - `__init__` (method, line 420) `def __init__(self, config)`
+  - `get_weight_magnitudes` (method, line 426) `def get_weight_magnitudes(self, model)`
+  - `compute_sparsity` (method, line 431) `def compute_sparsity(self, model)`
+  - `prune_percent` (method, line 437) `def prune_percent(self, model, percent)`
+  - `fine_tune` (method, line 457) `def fine_tune(self, model, train_data)`
+  - `_generate_batch` (method, line 510) `def _generate_batch(self, n, scale)`
+  - `run_protocol` (method, line 624) `def run_protocol(self, model, train_data)`
+  - `__init__` (method, line 775) `def __init__(self, config)`
+  - `run_full_experiment` (method, line 779) `def run_full_experiment(self, target_epochs)`
+  - `_generate_batch` (method, line 882) `def _generate_batch(self, n, scale)`
+  - `__init__` (method, line 903) `def __init__(self, config)`
+  - `run_balanced_experiments` (method, line 907) `def run_balanced_experiments(self, n_runs)`
+  - `_train_single_run` (method, line 1021) `def _train_single_run(self, run_idx, config)`
+  - `_compute_roc` (method, line 1099) `def _compute_roc(self, y_true, y_scores)`
+  - `_generate_batch` (method, line 1127) `def _generate_batch(self, n, scale)`
+  - `__init__` (method, line 1145) `def __init__(self, config)`
+  - `compute_roc_with_ci` (method, line 1149) `def compute_roc_with_ci(self, y_true, y_scores)`
+  - `compute_kappa_with_ci` (method, line 1236) `def compute_kappa_with_ci(self, y_true, y_pred)`
+  - `compute_accuracy_with_ci` (method, line 1260) `def compute_accuracy_with_ci(self, correct)`
+  - `__init__` (method, line 1284) `def __init__(self, style)`
+  - `plot_local_complexity` (method, line 1298) `def plot_local_complexity(self, epochs, lc_values, accuracy, save_path)`
+  - `plot_pruning_results` (method, line 1342) `def plot_pruning_results(self, pruning_data, save_path)`
+  - `plot_roc_with_ci` (method, line 1404) `def plot_roc_with_ci(self, roc_data, save_path)`
+  - `plot_balanced_runs_results` (method, line 1467) `def plot_balanced_runs_results(self, balanced_data, save_path)`
+  - `plot_discretization_results` (method, line 1556) `def plot_discretization_results(self, pruning_data, save_path)`
+  - `__init__` (method, line 1659) `def __init__(self, config)`
+  - `find_grokked_checkpoint` (method, line 1689) `def find_grokked_checkpoint(self)`
+  - `load_grokked_checkpoint` (method, line 1733) `def load_grokked_checkpoint(self, checkpoint_path)`
+  - `verify_checkpoint_is_grokked` (method, line 1768) `def verify_checkpoint_is_grokked(self)`
+  - `run_local_complexity_experiment` (method, line 1795) `def run_local_complexity_experiment(self, epochs)`
+  - `run_lc_training_experiment` (method, line 1897) `def run_lc_training_experiment(self, epochs)`
+  - `run_pruning_experiment` (method, line 1936) `def run_pruning_experiment(self)`
+  - `run_balanced_runs_experiment` (method, line 1980) `def run_balanced_runs_experiment(self, n_runs)`
+  - `run_roc_analysis` (method, line 2043) `def run_roc_analysis(self)`
+  - `_generate_batch` (method, line 2117) `def _generate_batch(self, n, scale)`
+  - `generate_summary_report` (method, line 2124) `def generate_summary_report(self)`
+  - `save_results` (method, line 2197) `def save_results(self)`
+  - `run_all_experiments` (method, line 2235) `def run_all_experiments(self, checkpoint_path)`
