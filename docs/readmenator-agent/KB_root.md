@@ -1,0 +1,451 @@
+# Subsystem: root (page 1 of 4)
+Pages: [KB_root.md](KB_root.md), [KB_root_p2.md](KB_root_p2.md), [KB_root_p3.md](KB_root_p3.md), [KB_root_p4.md](KB_root_p4.md)
+
+## app.py
+- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
+- Layer: utility
+- Language: py
+- Symbols:
+  - `StrassenNet` (class, line 24) `class StrassenNet(Module)`
+  - `__init__` (method, line 25) `def __init__(self, rank)`
+  - `forward` (method, line 31) `def forward(self, A, B)`
+
+## batch_size.py
+- Doc: StrassenPlanckCalculator - Extended with Batch Size Thermodynamics  Calculates effective Planck...
+- Layer: utility
+- Language: py
+- Symbols:
+  - `Configuration` (class, line 31) `class Configuration`
+  - `set_random_seed` (method, line 71) `def set_random_seed(seed)`
+  - `BilinearStrassenModel` (class, line 77) `class BilinearStrassenModel(Module)`
+  - `CheckpointMigrator` (class, line 100) `class CheckpointMigrator(ABC)`
+  - `CustomFormatMigrator` (class, line 110) `class CustomFormatMigrator(CheckpointMigrator)`
+  - `StandardFormatMigrator` (class, line 122) `class StandardFormatMigrator(CheckpointMigrator)`
+  - `CheckpointMigrationManager` (class, line 131) `class CheckpointMigrationManager`
+  - `StrassenDataGenerator` (class, line 147) `class StrassenDataGenerator`
+  - `CrystallographyMetrics` (class, line 156) `class CrystallographyMetrics`
+  - `PlanckConstantCalculator` (class, line 186) `class PlanckConstantCalculator`
+  - `BatchSizeThermodynamics` (class, line 217) `class BatchSizeThermodynamics`
+  - `StrassenCheckpointLoader` (class, line 262) `class StrassenCheckpointLoader`
+  - `StrassenPlanckAnalyzer` (class, line 292) `class StrassenPlanckAnalyzer`
+  - `main` (method, line 341) `def main()`
+  - `__init__` (method, line 78) `def __init__(self, config)`
+  - `forward` (method, line 88) `def forward(self, a, b)`
+  - `get_coefficients` (method, line 91) `def get_coefficients(self)`
+  - `compute_lambda_effective` (method, line 94) `def compute_lambda_effective(self)`
+  - `can_migrate` (method, line 102) `def can_migrate(self, state_dict)`
+  - `migrate` (method, line 106) `def migrate(self, state_dict)`
+  - `can_migrate` (method, line 111) `def can_migrate(self, state_dict)`
+  - `migrate` (method, line 114) `def migrate(self, state_dict)`
+  - `can_migrate` (method, line 123) `def can_migrate(self, state_dict)`
+  - `migrate` (method, line 126) `def migrate(self, state_dict)`
+  - `__init__` (method, line 132) `def __init__(self)`
+  - `migrate_checkpoint` (method, line 135) `def migrate_checkpoint(self, path, device)`
+  - `generate_batch` (method, line 149) `def generate_batch(batch_size, config)`
+  - `compute_kappa` (method, line 158) `def compute_kappa(model, num_batches, config)`
+  - `compute_discretization_margin` (method, line 174) `def compute_discretization_margin(coeffs)`
+  - `compute_local_complexity` (method, line 178) `def compute_local_complexity(model, config)`
+  - `__init__` (method, line 187) `def __init__(self, metrics, training_metrics, config)`
+  - `calculate_all` (method, line 196) `def calculate_all(self)`
+  - `__init__` (method, line 218) `def __init__(self, model, h_bar, delta_struct, config)`
+  - `analyze_batch_size_spectrum` (method, line 224) `def analyze_batch_size_spectrum(self)`
+  - `_measure_gradients` (method, line 246) `def _measure_gradients(self, batch_size)`
+  - `__init__` (method, line 263) `def __init__(self, config)`
+  - `load` (method, line 267) `def load(self, path, device)`
+  - `extract_training_metrics` (method, line 281) `def extract_training_metrics(self, path)`
+  - `__init__` (method, line 293) `def __init__(self, config)`
+  - `analyze_checkpoint` (method, line 297) `def analyze_checkpoint(self, path, device)`
+  - `analyze_directory` (method, line 323) `def analyze_directory(self, directory, device, pattern)`
+
+## boltzmann_experiments.py
+- Doc: compute_kappa: Classical kappa - will be inf for discrete states
+- Layer: utility
+- Language: py
+- Symbols:
+  - `Config` (class, line 19) `class Config`
+  - `set_seed` (method, line 30) `def set_seed(seed)`
+  - `CheckpointLoadingError` (class, line 37) `class CheckpointLoadingError(Exception)`
+  - `ICheckpointLoader` (class, line 40) `class ICheckpointLoader(ABC)`
+  - `CheckpointLoader` (class, line 45) `class CheckpointLoader(ICheckpointLoader)`
+  - `CheckpointMigrator` (class, line 52) `class CheckpointMigrator`
+  - `BilinearStrassenModel` (class, line 118) `class BilinearStrassenModel(Module)`
+  - `CrystallographyMetrics` (class, line 137) `class CrystallographyMetrics`
+  - `DLProgram` (class, line 199) `class DLProgram`
+  - `main` (method, line 935) `def main()`
+  - `_simulate_training_trajectory` (method, line 951) `def _simulate_training_trajectory(self, final_params, final_delta)`
+  - `_compute_generalization_entropy` (method, line 962) `def _compute_generalization_entropy(self, params, successful_ckpts)`
+  - `_fit_timescale` (method, line 1016) `def _fit_timescale(self, entropy_values)`
+  - `_plot_entropy_production` (method, line 1026) `def _plot_entropy_production(self, t, S, dS_dt, ckpt_name)`
+  - `phase3_extensivity_law` (method, line 1044) `def phase3_extensivity_law(self)`
+  - `load_checkpoint` (method, line 42) `def load_checkpoint(self, path, device)`
+  - `load_checkpoint` (method, line 46) `def load_checkpoint(self, path, device)`
+  - `migrate_checkpoint` (method, line 54) `def migrate_checkpoint(raw_data)`
+  - `_format_direct_tensors` (method, line 70) `def _format_direct_tensors(tensor_dict)`
+  - `_migrate_dict` (method, line 92) `def _migrate_dict(state_dict)`
+  - `_migrate_encoder_format` (method, line 105) `def _migrate_encoder_format(state_dict)`
+  - `_migrate_coefs_format` (method, line 115) `def _migrate_coefs_format(state_dict)`
+  - `__init__` (method, line 119) `def __init__(self, n_slots)`
+  - `_initialize_symmetric` (method, line 126) `def _initialize_symmetric(self)`
+  - `forward` (method, line 131) `def forward(self, a, b)`
+  - `get_coefficients` (method, line 134) `def get_coefficients(self)`
+  - `compute_kappa` (method, line 139) `def compute_kappa(coeffs)`
+  - `compute_delta` (method, line 156) `def compute_delta(coeffs)`
+  - `compute_local_complexity` (method, line 161) `def compute_local_complexity(coeffs)`
+  - `compute_alpha_purity` (method, line 169) `def compute_alpha_purity(coeffs)`
+  - `compute_kappa_quantum` (method, line 178) `def compute_kappa_quantum(coeffs, hbar)`
+  - `__init__` (method, line 200) `def __init__(self, checkpoint_dir, results_dir)`
+  - `_load_all_checkpoints` (method, line 207) `def _load_all_checkpoints(self)`
+  - `run_full_boltzmann_program` (method, line 247) `def run_full_boltzmann_program(self)`
+  - `_print_executive_summary` (method, line 267) `def _print_executive_summary(self, results)`
+  - `_save_results` (method, line 307) `def _save_results(self, results, filename)`
+  - `phase1_molecular_hypothesis` (method, line 328) `def phase1_molecular_hypothesis(self)`
+  - `_compute_entropy_simple` (method, line 435) `def _compute_entropy_simple(self, params)`
+  - `_compute_entropy` (method, line 446) `def _compute_entropy(self, params)`
+  - `_compute_effective_volume` (method, line 466) `def _compute_effective_volume(self, kde)`
+  - `_plot_parameter_distribution` (method, line 475) `def _plot_parameter_distribution(self, params, group_name, kde)`
+  - `phase2_entropy_production` (method, line 506) `def phase2_entropy_production(self)`
+  - `_simulate_training_trajectory` (method, line 592) `def _simulate_training_trajectory(self, final_params, final_delta)`
+  - `_compute_generalization_entropy` (method, line 604) `def _compute_generalization_entropy(self, params, successful_ckpts)`
+  - `_fit_timescale` (method, line 691) `def _fit_timescale(self, entropy_values)`
+  - `_plot_entropy_production` (method, line 701) `def _plot_entropy_production(self, t, S, dS_dt, ckpt_name)`
+  - `phase3_extensivity_law` (method, line 719) `def phase3_extensivity_law(self)`
+  - `_verify_scaling` (method, line 773) `def _verify_scaling(self, coeffs, N)`
+  - `_recursive_strassen` (method, line 783) `def _recursive_strassen(self, A, B, coeffs, N)`
+  - `_fit_extensivity` (method, line 812) `def _fit_extensivity(self, errors, sizes, purity)`
+  - `_verify_extensivity_universality` (method, line 824) `def _verify_extensivity_universality(self, results)`
+  - `_plot_extensivity` (method, line 828) `def _plot_extensivity(self, sizes, errors, purity, ckpt_name)`
+  - `phase4_quantum_basis_transform` (method, line 841) `def phase4_quantum_basis_transform(self)`
+  - `_find_broken_symmetries` (method, line 895) `def _find_broken_symmetries(self, coeffs)`
+  - `_measure_uncertainty` (method, line 903) `def _measure_uncertainty(self, coeffs, basis)`
+  - `_plot_uncertainty_distribution` (method, line 914) `def _plot_uncertainty_distribution(self, coeffs, symmetry_basis, ckpt_name)`
+  - `model` (method, line 1017) `def model(t, A, tau, C)`
+  - `convert_to_serializable` (method, line 310) `def convert_to_serializable(obj)`
+  - `model` (method, line 692) `def model(t, A, tau, C)`
+  - `model` (method, line 813) `def model(N, alpha, beta)`
+
+## compute_gns_checkpoints.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `estimate_gns` (function, line 11) `def estimate_gns(model, batch_size, num_batches)`
+  - `main` (function, line 37) `def main()`
+
+## crystallography.py
+- Doc: Cristalografo para Strassen - VERSIÓN DEFINITIVA CORREGIDA - Índice normalizado a [0,1] - Manejo...
+- Layer: utility
+- Language: py
+- Symbols:
+  - `Config` (class, line 25) `class Config`
+  - `set_seed` (method, line 35) `def set_seed(seed)`
+  - `BilinearStrassenModel` (class, line 44) `class BilinearStrassenModel(Module)`
+  - `CheckpointMigrator` (class, line 71) `class CheckpointMigrator`
+  - `StrassenDataGenerator` (class, line 155) `class StrassenDataGenerator`
+  - `SparsificationProtocol` (class, line 172) `class SparsificationProtocol`
+  - `CrystallographyMetrics` (class, line 206) `class CrystallographyMetrics`
+  - `StrassenDiffractionTest` (class, line 232) `class StrassenDiffractionTest`
+  - `BasinResilienceSpectrometer` (class, line 277) `class BasinResilienceSpectrometer`
+  - `CrystalPurityIndex` (class, line 345) `class CrystalPurityIndex`
+  - `StrassenCrystallographer` (class, line 416) `class StrassenCrystallographer`
+  - `LocalComplexity` (class, line 523) `class LocalComplexity`
+  - `main` (method, line 542) `def main()`
+  - `__init__` (method, line 45) `def __init__(self, n_slots)`
+  - `_initialize_symmetric` (method, line 52) `def _initialize_symmetric(self)`
+  - `forward` (method, line 57) `def forward(self, a, b)`
+  - `get_coefficients` (method, line 60) `def get_coefficients(self)`
+  - `migrate_checkpoint` (method, line 73) `def migrate_checkpoint(path, device)`
+  - `_migrate_custom` (method, line 106) `def _migrate_custom(state_dict)`
+  - `_migrate_encoder` (method, line 123) `def _migrate_encoder(state_dict)`
+  - `_migrate_standard` (method, line 147) `def _migrate_standard(state_dict)`
+  - `generate_batch` (method, line 157) `def generate_batch(batch_size)`
+  - `verify_structure` (method, line 164) `def verify_structure(coeffs)`
+  - `__init__` (method, line 173) `def __init__(self, model)`
+  - `prune_to_target` (method, line 176) `def prune_to_target(self, target)`
+  - `discretize_weights` (method, line 192) `def discretize_weights(self, margin)`
+  - `compute_kappa` (method, line 208) `def compute_kappa(model, dataloader, num_batches)`
+  - `compute_discretization_margin` (method, line 225) `def compute_discretization_margin(coeffs)`
+  - `__init__` (method, line 233) `def __init__(self, model)`
+  - `test_gauge_invariance` (method, line 236) `def test_gauge_invariance(self, n_samples)`
+  - `_functional_error` (method, line 262) `def _functional_error(self, test_coeffs)`
+  - `__init__` (method, line 278) `def __init__(self, model)`
+  - `measure_resilience_spectrum` (method, line 282) `def measure_resilience_spectrum(self, noise_levels)`
+  - `_test_noise_recovery` (method, line 293) `def _test_noise_recovery(self, sigma, n_trials)`
+  - `_apply_noise` (method, line 312) `def _apply_noise(self, sigma)`
+  - `_anneal_to_attractor` (method, line 317) `def _anneal_to_attractor(self, max_epochs)`
+  - `_estimate_critical_noise` (method, line 329) `def _estimate_critical_noise(self, results)`
+  - `__init__` (method, line 346) `def __init__(self, model, diffraction_results, resilience_results, metrics_results)`
+  - `compute` (method, line 359) `def compute(self)`
+  - `_assign_grade` (method, line 399) `def _assign_grade(self, index, delta)`
+  - `__init__` (method, line 417) `def __init__(self, checkpoint_path, device)`
+  - `run_full_analysis` (method, line 445) `def run_full_analysis(self)`
+  - `_save_report` (method, line 506) `def _save_report(self, report)`
+  - `compute` (method, line 525) `def compute(model)`
+  - `dataloader_gen` (method, line 465) `def dataloader_gen()`
+
+## dirac_polos_zeros.py
+- Layer: utility
+- Language: py
+- Symbols:
+  - `AnalysisConfig` (class, line 24) `class AnalysisConfig`
+  - `IModel` (class, line 54) `class IModel(Protocol)`
+  - `IChargeDistributionExtractor` (class, line 60) `class IChargeDistributionExtractor(Protocol)`
+  - `IDiracAnalyzer` (class, line 65) `class IDiracAnalyzer(Protocol)`
+  - `IFieldCalculator` (class, line 70) `class IFieldCalculator(Protocol)`
+  - `IFluxCalculator` (class, line 75) `class IFluxCalculator(Protocol)`
+  - `IStateSpaceExtractor` (class, line 80) `class IStateSpaceExtractor(Protocol)`
+  - `ITransferFunctionComputer` (class, line 85) `class ITransferFunctionComputer(Protocol)`
+  - `IPoleZeroAnalyzer` (class, line 90) `class IPoleZeroAnalyzer(Protocol)`
+  - `IFrequencyAnalyzer` (class, line 97) `class IFrequencyAnalyzer(Protocol)`
+  - `ITimeResponseAnalyzer` (class, line 104) `class ITimeResponseAnalyzer(Protocol)`
+  - `ICheckpointLoader` (class, line 110) `class ICheckpointLoader(Protocol)`
+  - `ICheckpointMigrator` (class, line 115) `class ICheckpointMigrator(Protocol)`
+  - `IVisualizer` (class, line 120) `class IVisualizer(Protocol)`
+  - `BilinearModel` (class, line 124) `class BilinearModel(Module)`
+  - `ChargeDistributionExtractor` (class, line 152) `class ChargeDistributionExtractor`
+  - `DiracDeltaAnalyzer` (class, line 160) `class DiracDeltaAnalyzer`
+  - `ElectricFieldCalculator` (class, line 192) `class ElectricFieldCalculator`
+  - `ElectricFluxCalculator` (class, line 225) `class ElectricFluxCalculator`
+  - `DivergenceCalculator` (class, line 248) `class DivergenceCalculator`
+  - `GaussLawVerifier` (class, line 253) `class GaussLawVerifier`
+  - `StateSpaceExtractor` (class, line 271) `class StateSpaceExtractor`
+  - `TransferFunctionComputer` (class, line 298) `class TransferFunctionComputer`
+  - `PoleZeroAnalyzer` (class, line 313) `class PoleZeroAnalyzer`
+  - `FrequencyResponseAnalyzer` (class, line 463) `class FrequencyResponseAnalyzer`
+  - `TimeResponseAnalyzer` (class, line 566) `class TimeResponseAnalyzer`
+  - `CheckpointLoader` (class, line 653) `class CheckpointLoader`
+  - `CheckpointMigrator` (class, line 661) `class CheckpointMigrator`
+  - `ChargeDistributionVisualizer` (class, line 710) `class ChargeDistributionVisualizer`
+  - `ElectricFieldVisualizer` (class, line 738) `class ElectricFieldVisualizer`
+  - `DivergenceVisualizer` (class, line 780) `class DivergenceVisualizer`
+  - `PoleZeroVisualizer` (class, line 809) `class PoleZeroVisualizer`
+  - `BodeVisualizer` (class, line 848) `class BodeVisualizer`
+  - `NyquistVisualizer` (class, line 899) `class NyquistVisualizer`
+  - `TimeResponseVisualizer` (class, line 936) `class TimeResponseVisualizer`
+  - `CombinedVisualizer` (class, line 966) `class CombinedVisualizer`
+  - `SystemAnalyzer` (class, line 1070) `class SystemAnalyzer`
+  - `AnalysisPipeline` (class, line 1288) `class AnalysisPipeline`
+  - `main` (method, line 1545) `def main()`
+  - `forward` (method, line 55) `def forward(self, a, b)`
+  - `get_coefficients` (method, line 56) `def get_coefficients(self)`
+  - `extract` (method, line 61) `def extract(self, model)`
+  - `analyze` (method, line 66) `def analyze(self, charge_density)`
+  - `calculate` (method, line 71) `def calculate(self, dirac_data, eval_points)`
+  - `calculate` (method, line 76) `def calculate(self, electric_field, surface_points)`
+  - `extract` (method, line 81) `def extract(self, model)`
+  - `compute` (method, line 86) `def compute(self, A, B, C, D)`
+  - `analyze_stability` (method, line 91) `def analyze_stability(self)`
+  - `get_poles` (method, line 92) `def get_poles(self)`
+  - `get_zeros` (method, line 93) `def get_zeros(self)`
+  - `compute_bode` (method, line 98) `def compute_bode(self)`
+  - `compute_margins` (method, line 99) `def compute_margins(self)`
+  - `compute_nyquist` (method, line 100) `def compute_nyquist(self)`
+  - `compute_step` (method, line 105) `def compute_step(self)`
+  - `compute_impulse` (method, line 106) `def compute_impulse(self)`
+  - `load` (method, line 111) `def load(self, path, device)`
+  - `migrate` (method, line 116) `def migrate(self, raw_data)`
+  - `visualize` (method, line 121) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 125) `def __init__(self, hidden_dim, matrix_size)`
+  - `_initialize` (method, line 136) `def _initialize(self)`
+  - `forward` (method, line 141) `def forward(self, a, b)`
+  - `get_coefficients` (method, line 144) `def get_coefficients(self)`
+  - `extract` (method, line 153) `def extract(self, model)`
+  - `__init__` (method, line 161) `def __init__(self, config)`
+  - `analyze` (method, line 164) `def analyze(self, charge_density)`
+  - `__init__` (method, line 193) `def __init__(self, config)`
+  - `calculate` (method, line 196) `def calculate(self, dirac_data, eval_points)`
+  - `__init__` (method, line 226) `def __init__(self, config)`
+  - `calculate` (method, line 229) `def calculate(self, electric_field, surface_points)`
+  - `calculate` (method, line 249) `def calculate(self, electric_field)`
+  - `__init__` (method, line 254) `def __init__(self, config)`
+  - `verify` (method, line 257) `def verify(self, dirac_data, flux_data)`
+  - `extract` (method, line 272) `def extract(self, model)`
+  - `compute` (method, line 299) `def compute(self, A, B, C, D)`
+  - `__init__` (method, line 314) `def __init__(self, numerator, denominator, config)`
+  - `_compute` (method, line 323) `def _compute(self)`
+  - `get_poles` (method, line 334) `def get_poles(self)`
+  - `get_zeros` (method, line 337) `def get_zeros(self)`
+  - `analyze_stability` (method, line 340) `def analyze_stability(self)`
+  - `classify_poles` (method, line 378) `def classify_poles(self)`
+  - `compute_damping` (method, line 406) `def compute_damping(self)`
+  - `compute_time_constants` (method, line 445) `def compute_time_constants(self)`
+  - `__init__` (method, line 464) `def __init__(self, numerator, denominator, config)`
+  - `compute_bode` (method, line 474) `def compute_bode(self)`
+  - `compute_margins` (method, line 490) `def compute_margins(self)`
+  - `compute_nyquist` (method, line 516) `def compute_nyquist(self)`
+  - `evaluate_nyquist_stability` (method, line 535) `def evaluate_nyquist_stability(self, nyquist_data)`
+  - `__init__` (method, line 567) `def __init__(self, numerator, denominator, config)`
+  - `compute_step` (method, line 577) `def compute_step(self)`
+  - `compute_impulse` (method, line 589) `def compute_impulse(self)`
+  - `analyze_step_characteristics` (method, line 601) `def analyze_step_characteristics(self, step_data)`
+  - `load` (method, line 654) `def load(self, path, device)`
+  - `migrate` (method, line 662) `def migrate(self, raw_data)`
+  - `_migrate_dict` (method, line 674) `def _migrate_dict(self, state_dict)`
+  - `_migrate_custom_format` (method, line 683) `def _migrate_custom_format(self, state_dict)`
+  - `_migrate_coefs_format` (method, line 699) `def _migrate_coefs_format(self, state_dict)`
+  - `_migrate_standard_format` (method, line 706) `def _migrate_standard_format(self, state_dict)`
+  - `__init__` (method, line 711) `def __init__(self, config)`
+  - `visualize` (method, line 714) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 739) `def __init__(self, config)`
+  - `visualize` (method, line 742) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 781) `def __init__(self, config)`
+  - `visualize` (method, line 784) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 810) `def __init__(self, config)`
+  - `visualize` (method, line 813) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 849) `def __init__(self, config)`
+  - `visualize` (method, line 852) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 900) `def __init__(self, config)`
+  - `visualize` (method, line 903) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 937) `def __init__(self, config)`
+  - `visualize` (method, line 940) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 967) `def __init__(self, config)`
+  - `visualize` (method, line 970) `def visualize(self, data, output_path)`
+  - `__init__` (method, line 1071) `def __init__(self, checkpoint_path, config)`
+  - `_load_model` (method, line 1088) `def _load_model(self)`
+  - `analyze` (method, line 1104) `def analyze(self)`
+  - `_print_report` (method, line 1204) `def _print_report(self, results)`
+  - `__init__` (method, line 1289) `def __init__(self, config)`
+  - `process_checkpoint` (method, line 1300) `def process_checkpoint(self, checkpoint_path, output_dir)`
+  - `process_directory` (method, line 1357) `def process_directory(self, checkpoint_dir, n_latest, output_dir)`
+  - `generate_summary` (method, line 1385) `def generate_summary(self, all_results, output_dir)`
+  - `_compute_aggregate_statistics` (method, line 1406) `def _compute_aggregate_statistics(self, results)`
+  - `_generate_text_report` (method, line 1473) `def _generate_text_report(self, summary, output_dir)`
+
+## experimetn2.py
+- Doc: Unified Hidden Connections Suite - Physical ML Lab (Falsification and Rigor)
+- Layer: utility
+- Language: py
+- Symbols:
+  - `StrassStrassenConfig` (class, line 53) `class StrassStrassenConfig`
+  - `TrainingConfig` (class, line 71) `class TrainingConfig`
+  - `SuiteConfig` (class, line 84) `class SuiteConfig`
+  - `StrassStrassenModel` (class, line 95) `class StrassStrassenModel(Module)`
+  - `ComplexStrassStrassenModel` (class, line 135) `class ComplexStrassStrassenModel(Module)`
+  - `StrassenDataGenerator` (class, line 178) `class StrassenDataGenerator`
+  - `CheckpointManager` (class, line 190) `class CheckpointManager`
+  - `LevelSpacingRatioCalculator` (class, line 207) `class LevelSpacingRatioCalculator`
+  - `ExactHessianCalculator` (class, line 244) `class ExactHessianCalculator`
+  - `SyntheticPlanckCalculator` (class, line 278) `class SyntheticPlanckCalculator`
+  - `SuperpositionMetricCalculator` (class, line 328) `class SuperpositionMetricCalculator`
+  - `IExperiment` (class, line 385) `class IExperiment(ABC)`
+  - `Experiment1RicciMBLDuality` (class, line 393) `class Experiment1RicciMBLDuality(IExperiment)`
+  - `Experiment2AltlandZirnbauer` (class, line 457) `class Experiment2AltlandZirnbauer(IExperiment)`
+  - `Experiment3ConformalIsomorphism` (class, line 520) `class Experiment3ConformalIsomorphism(IExperiment)`
+  - `Experiment4CompressionFrontier` (class, line 570) `class Experiment4CompressionFrontier(IExperiment)`
+  - `Experiment5HolographicPruning` (class, line 624) `class Experiment5HolographicPruning(IExperiment)`
+  - `UnifiedSuite` (class, line 699) `class UnifiedSuite`
+  - `main` (method, line 745) `def main()`
+  - `__post_init__` (method, line 63) `def __post_init__(self)`
+  - `__init__` (method, line 101) `def __init__(self, config)`
+  - `forward` (method, line 115) `def forward(self, A, B)`
+  - `get_coefficients` (method, line 125) `def get_coefficients(self)`
+  - `slot_importance` (method, line 128) `def slot_importance(self)`
+  - `__init__` (method, line 140) `def __init__(self, config, gamma)`
+  - `get_complex_tensors` (method, line 153) `def get_complex_tensors(self)`
+  - `forward` (method, line 160) `def forward(self, A, B)`
+  - `__init__` (method, line 180) `def __init__(self, config)`
+  - `generate_batch` (method, line 183) `def generate_batch(self, batch_size)`
+  - `save` (method, line 192) `def save(self, model, epoch, metrics, path)`
+  - `__init__` (method, line 209) `def __init__(self, tolerance)`
+  - `calculate_r_ratio` (method, line 212) `def calculate_r_ratio(self, eigenvalues)`
+  - `__init__` (method, line 246) `def __init__(self, config)`
+  - `compute_hessian` (method, line 249) `def compute_hessian(self, model, A, B, C_true)`
+  - `__init__` (method, line 280) `def __init__(self, noise_floor)`
+  - `calculate` (method, line 283) `def calculate(self, model, current_loss)`
+  - `__init__` (method, line 330) `def __init__(self, config)`
+  - `calculate` (method, line 333) `def calculate(self, model, datagen)`
+  - `run` (method, line 388) `def run(self, model)`
+  - `get_name` (method, line 390) `def get_name(self)`
+  - `__init__` (method, line 399) `def __init__(self, suite_config, datagen)`
+  - `get_name` (method, line 405) `def get_name(self)`
+  - `run` (method, line 408) `def run(self, model)`
+  - `__init__` (method, line 463) `def __init__(self, suite_config, datagen)`
+  - `get_name` (method, line 468) `def get_name(self)`
+  - `run` (method, line 471) `def run(self, model)`
+  - `__init__` (method, line 527) `def __init__(self, suite_config, datagen)`
+  - `get_name` (method, line 531) `def get_name(self)`
+  - `run` (method, line 534) `def run(self, model)`
+  - `__init__` (method, line 576) `def __init__(self, suite_config, datagen)`
+  - `get_name` (method, line 582) `def get_name(self)`
+  - `run` (method, line 585) `def run(self, model)`
+  - `__init__` (method, line 630) `def __init__(self, suite_config, datagen)`
+  - `get_name` (method, line 634) `def get_name(self)`
+  - `run` (method, line 637) `def run(self, model)`
+  - `__init__` (method, line 701) `def __init__(self, config)`
+  - `execute_all` (method, line 712) `def execute_all(self)`
+  - `loss_fn` (method, line 254) `def loss_fn(flat_param_tensor)`
+
+## fermi.py
+- Doc: plot_band_structures: Generate comparison plots of band structures across checkpoints.
+- Layer: utility
+- Language: py
+- Symbols:
+  - `FermiConfig` (class, line 19) `class FermiConfig`
+  - `IModel` (class, line 49) `class IModel(Protocol)`
+  - `IBlochWaveConstructor` (class, line 54) `class IBlochWaveConstructor(Protocol)`
+  - `IBandStructureCalculator` (class, line 59) `class IBandStructureCalculator(Protocol)`
+  - `IFermiLevelCalculator` (class, line 64) `class IFermiLevelCalculator(Protocol)`
+  - `IDensityOfStatesCalculator` (class, line 69) `class IDensityOfStatesCalculator(Protocol)`
+  - `IElectronicPropertiesCalculator` (class, line 74) `class IElectronicPropertiesCalculator(Protocol)`
+  - `IMetalInsulatorClassifier` (class, line 79) `class IMetalInsulatorClassifier(Protocol)`
+  - `BilinearModel` (class, line 83) `class BilinearModel(Module)`
+  - `BlochWaveConstructor` (class, line 111) `class BlochWaveConstructor`
+  - `BandStructureCalculator` (class, line 135) `class BandStructureCalculator`
+  - `FermiLevelCalculator` (class, line 215) `class FermiLevelCalculator`
+  - `DensityOfStatesCalculator` (class, line 285) `class DensityOfStatesCalculator`
+  - `ElectronicPropertiesCalculator` (class, line 306) `class ElectronicPropertiesCalculator`
+  - `MetalInsulatorClassifier` (class, line 368) `class MetalInsulatorClassifier`
+  - `CheckpointMigrator` (class, line 408) `class CheckpointMigrator`
+  - `FermiLevelAnalyzer` (class, line 458) `class FermiLevelAnalyzer`
+  - `FermiPipeline` (class, line 608) `class FermiPipeline`
+  - `main` (method, line 766) `def main()`
+  - `get_coefficients` (method, line 50) `def get_coefficients(self)`
+  - `construct` (method, line 55) `def construct(self, weights, k)`
+  - `calculate` (method, line 60) `def calculate(self, model)`
+  - `calculate` (method, line 65) `def calculate(self, eigenvalues, num_electrons)`
+  - `calculate` (method, line 70) `def calculate(self, eigenvalues, energies)`
+  - `calculate` (method, line 75) `def calculate(self, eigenvalues, eigenvectors, fermi_level)`
+  - `classify` (method, line 80) `def classify(self, band_gap, dos_at_fermi)`
+  - `__init__` (method, line 84) `def __init__(self, hidden_dim, matrix_size)`
+  - `_initialize` (method, line 95) `def _initialize(self)`
+  - `forward` (method, line 100) `def forward(self, a, b)`
+  - `get_coefficients` (method, line 103) `def get_coefficients(self)`
+  - `__init__` (method, line 112) `def __init__(self, config)`
+  - `construct` (method, line 115) `def construct(self, weights, k)`
+  - `__init__` (method, line 136) `def __init__(self, config)`
+  - `calculate` (method, line 140) `def calculate(self, model)`
+  - `_calculate_band_gap` (method, line 171) `def _calculate_band_gap(self, band_structure)`
+  - `_calculate_effective_masses` (method, line 188) `def _calculate_effective_masses(self, k_points, band_structure, valence_idx, conduction_idx)`
+  - `_is_direct_gap` (method, line 208) `def _is_direct_gap(self, band_structure, valence_idx, conduction_idx)`
+  - `__init__` (method, line 216) `def __init__(self, config)`
+  - `calculate` (method, line 219) `def calculate(self, eigenvalues, num_electrons)`
+  - `_calculate_chemical_potential` (method, line 240) `def _calculate_chemical_potential(self, eigenvalues, num_electrons)`
+  - `_find_chemical_potential_iterative` (method, line 253) `def _find_chemical_potential_iterative(self, eigenvalues, num_electrons, temperature, max_iter)`
+  - `_fermi_dirac` (method, line 273) `def _fermi_dirac(self, energy, mu, temperature)`
+  - `__init__` (method, line 286) `def __init__(self, config)`
+  - `calculate` (method, line 289) `def calculate(self, eigenvalues, energies)`
+  - `_gaussian` (method, line 302) `def _gaussian(self, x, mu, sigma)`
+  - `__init__` (method, line 307) `def __init__(self, config)`
+  - `calculate` (method, line 310) `def calculate(self, eigenvalues, eigenvectors, fermi_level)`
+  - `_calculate_kinetic_energy` (method, line 337) `def _calculate_kinetic_energy(self, occupied_states)`
+  - `_calculate_electronic_pressure` (method, line 347) `def _calculate_electronic_pressure(self, eigenvalues, fermi_level)`
+  - `_calculate_compressibility` (method, line 357) `def _calculate_compressibility(self, eigenvalues, fermi_level)`
+  - `__init__` (method, line 369) `def __init__(self, config)`
+  - `classify` (method, line 372) `def classify(self, band_gap, dos_at_fermi)`
+  - `classify_transport` (method, line 386) `def classify_transport(self, effective_masses, band_gap)`
+  - `migrate` (method, line 409) `def migrate(self, raw_data, device)`
+  - `_migrate_dict` (method, line 419) `def _migrate_dict(self, state_dict, device)`
+  - `_migrate_custom_format` (method, line 428) `def _migrate_custom_format(self, state_dict, device)`
+  - `_migrate_coefs_format` (method, line 447) `def _migrate_coefs_format(self, state_dict)`
+  - `_migrate_standard_format` (method, line 454) `def _migrate_standard_format(self, state_dict)`
+  - `__init__` (method, line 459) `def __init__(self, checkpoint_path, config)`
+  - `_load_checkpoint` (method, line 472) `def _load_checkpoint(self)`
+  - `analyze` (method, line 495) `def analyze(self)`
+  - `_print_report` (method, line 550) `def _print_report(self, results)`
+  - `__init__` (method, line 609) `def __init__(self, config)`
+  - `process_checkpoint` (method, line 612) `def process_checkpoint(self, checkpoint_path, output_dir)`
+  - `process_directory` (method, line 626) `def process_directory(self, checkpoint_dir, n_latest, output_dir)`
+  - `generate_summary` (method, line 653) `def generate_summary(self, all_results, output_dir)`
+  - `_generate_text_report` (method, line 686) `def _generate_text_report(self, summary, output_dir)`
+  - `plot_band_structures` (method, line 724) `def plot_band_structures(self, all_results, output_dir)`
+
+
+Next: [KB_root_p2.md](KB_root_p2.md)
