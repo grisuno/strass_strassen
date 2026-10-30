@@ -1,0 +1,114 @@
+{
+  "volume_pruning": {
+    "trials": [
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      }
+    ],
+    "mean_degradation": 0.0
+  },
+  "area_pruning": {
+    "trials": [
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      },
+      {
+        "accuracy_before": 0.0,
+        "accuracy_after": 0.0,
+        "accuracy_drop": 0.0
+      }
+    ],
+    "mean_degradation": 0.0
+  },
+  "holographic_signature_detected": false,
+  "verdict": "no_holographic_signature"
+}

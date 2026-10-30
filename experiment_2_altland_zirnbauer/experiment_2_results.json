@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "gamma": 0.0,
+      "mean_spacing_ratio": 0.5351632833480835,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 7.018157756333299e-12,
+      "final_accuracy": 1.0
+    },
+    {
+      "gamma": 0.1,
+      "mean_spacing_ratio": 0.5419585704803467,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 3.7314586975867314e-09,
+      "final_accuracy": 1.0
+    },
+    {
+      "gamma": 0.2,
+      "mean_spacing_ratio": 0.5274645090103149,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 1.688168160818293e-09,
+      "final_accuracy": 1.0
+    },
+    {
+      "gamma": 0.3,
+      "mean_spacing_ratio": 0.5164207816123962,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 3.444753929215949e-06,
+      "final_accuracy": 0.2578125
+    },
+    {
+      "gamma": 0.4,
+      "mean_spacing_ratio": 0.5123443603515625,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 8.70123386675914e-08,
+      "final_accuracy": 0.9609375
+    },
+    {
+      "gamma": 0.5,
+      "mean_spacing_ratio": 0.5041155219078064,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 1.2236571755863679e-09,
+      "final_accuracy": 1.0
+    },
+    {
+      "gamma": 0.6,
+      "mean_spacing_ratio": 0.5243005752563477,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 8.527407402425524e-08,
+      "final_accuracy": 0.97265625
+    },
+    {
+      "gamma": 0.7,
+      "mean_spacing_ratio": 0.46498677134513855,
+      "phase_classification": "thermal",
+      "final_loss": 2.9225775506347418e-05,
+      "final_accuracy": 0.0234375
+    },
+    {
+      "gamma": 0.8,
+      "mean_spacing_ratio": 0.4988199472427368,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 2.7906514432629592e-08,
+      "final_accuracy": 0.99609375
+    },
+    {
+      "gamma": 0.9,
+      "mean_spacing_ratio": 0.4971712827682495,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 5.65392213047744e-08,
+      "final_accuracy": 0.98828125
+    },
+    {
+      "gamma": 1.0,
+      "mean_spacing_ratio": 0.49717655777931213,
+      "phase_classification": "wigner_dyson",
+      "final_loss": 1.261289739318272e-08,
+      "final_accuracy": 1.0
+    }
+  ],
+  "summary": {
+    "goe_dominant_count": 10,
+    "gue_dominant_count": 0,
+    "critical_gamma": 0.6499999999999999,
+    "max_gamma_tested": 1.0,
+    "transition_detected": true,
+    "verdict": "symmetry_classes_validated"
+  }
+}

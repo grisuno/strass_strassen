@@ -1,0 +1,8 @@
+{
+  "mean_error": 2016.735045431539,
+  "max_error": 52313.465809513546,
+  "std_error": 7477.104104973868,
+  "num_transformations": 50,
+  "is_invariant": false,
+  "verdict": "conformal_operator_not_learned"
+}

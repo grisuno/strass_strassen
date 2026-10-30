@@ -1,0 +1,120 @@
+{
+  "analysis_v2": {
+    "god_nodes": [
+      [
+        "xray_tensor_diffractometer.py",
+        13.200000000000001
+      ],
+      [
+        "dirac_polos_zeros.py",
+        12.3
+      ],
+      [
+        "full_seed_prospector.py",
+        11.600000000000001
+      ],
+      [
+        "experiments/extended_experiments/all_test_extended.py",
+        11.4
+      ],
+      [
+        "unified_hidden_connections_suite.py",
+        9.9
+      ],
+      [
+        "percolation_analysis.py",
+        9.1
+      ],
+      [
+        "mbl_analyzer.py",
+        8.9
+      ],
+      [
+        "gravity.py",
+        8.8
+      ],
+      [
+        "grain.py",
+        7.7
+      ],
+      [
+        "plank.py",
+        7.2
+      ]
+    ],
+    "communities": [],
+    "surprising_connections": [],
+    "suggested_questions": [
+      "What does xray_tensor_diffractometer.py depend on, and what depends on it? (0 connections)",
+      "What does dirac_polos_zeros.py depend on, and what depends on it? (0 connections)",
+      "What does full_seed_prospector.py depend on, and what depends on it? (0 connections)",
+      "What is StrassenNet in app.py and how is it used?",
+      "What is Configuration in batch_size.py and how is it used?"
+    ]
+  },
+  "layers": {
+    "app.py": "utility",
+    "batch_size.py": "utility",
+    "boltzmann_experiments.py": "utility",
+    "compute_gns_checkpoints.py": "utility",
+    "crystallography.py": "utility",
+    "dirac_polos_zeros.py": "utility",
+    "experiments/ablation/ablation_8192.py": "utility",
+    "experiments/ablation/ablation_study.py": "utility",
+    "experiments/apendix_experiments.py": "utility",
+    "experiments/cache_analysis_v2.py": "infrastructure",
+    "experiments/extended_experiments/all_test_extended.py": "testing",
+    "experiments/extended_experiments/exp1_covariance_spectrometry.py": "testing",
+    "experiments/extended_experiments/exp2_noise_ablation.py": "utility",
+    "experiments/extended_experiments/exp3_prospective_prediction.py": "utility",
+    "experiments/extended_experiments/exp4_trajectory_perturbation.py": "utility",
+    "experiments/extended_experiments/exp5_discreteness_attractors.py": "utility",
+    "experiments/extended_experiments/run_all_experiments.py": "utility",
+    "experiments/extended_experiments/validate2.py": "utility",
+    "experiments/generate_figures.py": "utility",
+    "experiments/statistics/coherence_analysis.py": "utility",
+    "experiments/statistics/rigorous_experiment.py": "utility",
+    "experiments/validation/benchmark.py": "utility",
+    "experiments/validation_experiments.py": "utility",
+    "experiments/verify_checkpoints.py": "utility",
+    "experimetn2.py": "utility",
+    "fermi.py": "utility",
+    "full_seed_prospector.py": "data_access",
+    "grain.py": "utility",
+    "gravity.py": "utility",
+    "grigori_perelmans_ricci_flow.py": "utility",
+    "hawking_radiation.py": "utility",
+    "install.sh": "utility",
+    "maxwell_strassen_analysis.py": "utility",
+    "mbl_analyzer.py": "utility",
+    "measure_strassen.py": "utility",
+    "menu.py": "utility",
+    "percolation_analysis.py": "utility",
+    "plank.py": "utility",
+    "purity_index.py": "utility",
+    "scrodingger.py": "utility",
+    "src/benchmarks/benchmark_final.py": "utility",
+    "src/benchmarks/benchmark_scientific.py": "utility",
+    "src/benchmarks/benchmark_strassen.py": "utility",
+    "src/benchmarks/strassen_numpy.py": "utility",
+    "src/discovery/auto_T_discovery.py": "utility",
+    "src/native/strassen_c.c": "utility",
+    "src/native/strassen_optimal.c": "utility",
+    "src/native/strassen_turbo.c": "utility",
+    "src/training/convergence_theory.py": "utility",
+    "src/training/grokkit_physics.py": "utility",
+    "src/training/main.py": "utility",
+    "src/training/main_pure_math.py": "utility",
+    "src/training/strassen_core.py": "utility",
+    "src/training/strassen_grokkit.py": "utility",
+    "src/training/train_strassen.py": "utility",
+    "superposition.py": "utility",
+    "tests/test_main.py": "testing",
+    "train_batch_sweep.py": "utility",
+    "unified_hidden_connections_suite.py": "utility",
+    "xray_tensor_diffractometer.py": "utility"
+  },
+  "security": {
+    "findings": []
+  }
+}

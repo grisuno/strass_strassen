@@ -1,0 +1,67 @@
+# strass_strassen
+
+> Static analysis knowledge base for strass_strassen: 0 communities, 60 files, 617 imports, 3 languages, 2032 symbols.
+
+Generated offline by readmenator (zero LLM tokens). Start with the wiki index for the big picture, then the agent INDEX for file lookup.
+
+## Wiki
+
+- [readmenator-wiki/index.md](md/readmenator-wiki/index.md): The codebase centres on xraytensordiffractometer.py, diracpoloszeros.py, fullseedprospector.py. Architecturally it is 4 layers, dominant utility (55 files)...
+- [readmenator-wiki/REPORT.md](md/readmenator-wiki/REPORT.md): Project: strassstrassen | 2026-10-30 | offline, deterministic
+- [readmenator-wiki/community_0_root.md](md/readmenator-wiki/community_0_root.md): Community 0 | 60 files | cohesion 1.00
+- [readmenator-wiki/concepts.md](md/readmenator-wiki/concepts.md): Second-brain semantic layer: nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+- [readmenator-wiki/queries.md](md/readmenator-wiki/queries.md): Log each answered question here so the wiki compounds. Format: question, answer, cited files.
+
+## GraphRAG
+
+- [readmenator-graphrag/REPORTS.md](md/readmenator-graphrag/REPORTS.md): Entities: 2215 | Relationships: 5593 | Communities: 1 | Themes: 0 | Text units: 2076
+
+## Agent Docs
+
+- [readmenator-agent/INDEX.md](md/readmenator-agent/INDEX.md)
+- [readmenator-agent/GOTCHAS.md](md/readmenator-agent/GOTCHAS.md): These files have the most connections. Changes here have high blast radius.
+- [readmenator-agent/API.md](md/readmenator-agent/API.md): StrassenNet.init (method) app.py:25 def init(self, rank)
+- [readmenator-agent/API_p2.md](md/readmenator-agent/API_p2.md): IMetricCalculator.calculate (method) fullseedprospector.py:166 def calculate(self)
+- [readmenator-agent/API_p3.md](md/readmenator-agent/API_p3.md): strassenmultiply (function) src/benchmarks/benchmarkscientific.py:38 def strassenmultiply(A, B)
+- [readmenator-agent/ARCHITECTURE.md](md/readmenator-agent/ARCHITECTURE.md): (no internal resolved imports)
+- [readmenator-agent/CONCEPTS.md](md/readmenator-agent/CONCEPTS.md): Nouns map atomically to file sets (EXTRACTED); verbs aggregate structural edges (INFERRED).
+- [readmenator-agent/KB_ablation.md](md/readmenator-agent/KB_ablation.md): Doc: ABLACIÓN RIGUROSA - Strassen vs OpenBLAS
+- [readmenator-agent/KB_benchmarks.md](md/readmenator-agent/KB_benchmarks.md): Doc: BENCHMARK FINAL: Strassen Hybrid vs NumPy BLAS
+- [readmenator-agent/KB_experiments.md](md/readmenator-agent/KB_experiments.md): Doc: Experiments for Paper Validation
+- [readmenator-agent/KB_extended_experiments.md](md/readmenator-agent/KB_extended_experiments.md): Doc: Enhanced Grokking Experiments Script This script extends the original grokking experiments to...
+- [readmenator-agent/KB_misc.md](md/readmenator-agent/KB_misc.md): Doc: LÍMITE DE RUIDO DE GRADIENTE COMPUTACIONAL - BENCHMARK
+- [readmenator-agent/KB_native.md](md/readmenator-agent/KB_native.md): Doc: allocmatrix: Strassen Matrix Multiplication - C Implementation Author: grisun0 Compila: gcc...
+- [readmenator-agent/KB_root.md](md/readmenator-agent/KB_root.md): Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
+- [readmenator-agent/KB_root_p2.md](md/readmenator-agent/KB_root_p2.md): Doc: Riemann-Strassen Crystallization Framework v3.0
+- [readmenator-agent/KB_root_p3.md](md/readmenator-agent/KB_root_p3.md): Doc: Electromagnetic Analysis of Strassen Algorithm Crystallization Applies Maxwell's Equations to...
+- [readmenator-agent/KB_root_p4.md](md/readmenator-agent/KB_root_p4.md): Doc: Config: Configuration for Superposition Analysis on Strassen Checkpoints.
+- [readmenator-agent/KB_statistics.md](md/readmenator-agent/KB_statistics.md): Doc: ANÁLISIS DE COHERENCIA TEMPORAL
+- [readmenator-agent/KB_training.md](md/readmenator-agent/KB_training.md): Doc: Convergence Theory for Algorithmic Invariance This module addresses the reviewer's key...
+- [readmenator-agent/MEMORY.md](md/readmenator-agent/MEMORY.md): Generated from 60 files at commit f08f59266567. Read this first, then readmenator-wiki/index.md, then readmenator . ask "<question>" for anything specific.
+- [readmenator-agent/SECURITY.md](md/readmenator-agent/SECURITY.md)
+- [readmenator-agent/SYMBOLS.md](md/readmenator-agent/SYMBOLS.md)
+- [readmenator-agent/SYMBOLS_p2.md](md/readmenator-agent/SYMBOLS_p2.md)
+- [readmenator-agent/SYMBOLS_p3.md](md/readmenator-agent/SYMBOLS_p3.md)
+- [readmenator-agent/SYMBOLS_p4.md](md/readmenator-agent/SYMBOLS_p4.md)
+- [readmenator-agent/SYMBOLS_p5.md](md/readmenator-agent/SYMBOLS_p5.md)
+- [readmenator-agent/recipes/add-function.md](md/readmenator-agent/recipes/add-function.md): Find the target file by purpose: grep -in '<topic>' readmenator-agent/INDEX.md
+- [readmenator-agent/recipes/change-impact.md](md/readmenator-agent/recipes/change-impact.md): Who depends on it: grep -n -- '-> <file>' readmenator-agent/ARCHITECTURE.md
+- [readmenator-agent/recipes/fix-cycle.md](md/readmenator-agent/recipes/fix-cycle.md): Read cycles: grep -A5 'Dependency Cycles' readmenator-agent/GOTCHAS.md
+- [readmenator-agent/recipes/fix-security.md](md/readmenator-agent/recipes/fix-security.md): Read findings: grep -n '<file>' readmenator-agent/SECURITY.md
+- [readmenator-agent/recipes/reduce-complexity.md](md/readmenator-agent/recipes/reduce-complexity.md): Target hotspot: xraytensordiffractometer.py
+
+## Project Docs
+
+- [KNOWLEDGE_BASE.md](md/KNOWLEDGE_BASE.md): Start here: Statistics Dashboard for scope, God Nodes for blast radius, Architecture Reference for per-file API. Agents: prefer readmenator-agent/INDEX.md +...
+- [README.md](md/README.md): Author: Iscomeback, Gris ( grisun0 )
+- [SECURITY.md](md/SECURITY.md): Use this section to tell people about which versions of your project are
+- [readmenator-diagrams/overview.md](md/readmenator-diagrams/overview.md): Static architecture map of 60 files (c, py, sh) in 1 components: project. Structure is extracted statically without LLM calls; component prose may be enriched...
+- [readmenator-diagrams/project.md](md/readmenator-diagrams/project.md): project groups 60 files (c, py, sh) around StrassenNet, init, forward, Configuration, setrandomseed. Autor: Gris Iscomeback Correo electrónico...
+
+## Optional
+
+- [Runtime Architecture](architecture.html): Components, services, storage, and boundaries across layers. (interactive HTML)
+- [Data Flow](dataflow.html): Movement of data from sources through transforms to stores. (interactive HTML)
+- [Change Lifecycle](lifecycle.html): States, transitions, waits, and retry paths of change. (interactive HTML)
+- [Request Sequence](sequence.html): Ordered interaction between top participants over time. (interactive HTML)
+- [Delivery Workflow](workflow.html): Delivery path across lanes from entry to terminal outcomes. (interactive HTML)

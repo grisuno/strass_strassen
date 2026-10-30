@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "version": "1.2.0-2026",
+    "compiled_at": "2026-05-21T03:22:20.869281"
+  },
+  "results": {
+    "ricci_mbl_duality": {
+      "trajectory": [
+        {
+          "epoch": 10,
+          "loss": 1.8683032989501953,
+          "ricci_scalar": 0.4696394205093384,
+          "mean_spacing_ratio": 0.421855628490448,
+          "phase": "Poisson (Integrable)"
+        },
+        {
+          "epoch": 50,
+          "loss": 0.5631183385848999,
+          "ricci_scalar": 32.91738510131836,
+          "mean_spacing_ratio": 0.5543453693389893,
+          "phase": "Wigner-Dyson (GOE)"
+        },
+        {
+          "epoch": 100,
+          "loss": 0.17880377173423767,
+          "ricci_scalar": 38.321678161621094,
+          "mean_spacing_ratio": 0.5181208848953247,
+          "phase": "Wigner-Dyson (GOE)"
+        },
+        {
+          "epoch": 300,
+          "loss": 8.488938328810036e-05,
+          "ricci_scalar": 47.724239349365234,
+          "mean_spacing_ratio": 0.5336290597915649,
+          "phase": "Wigner-Dyson (GOE)"
+        },
+        {
+          "epoch": 600,
+          "loss": 1.3480025700118858e-05,
+          "ricci_scalar": 55.621063232421875,
+          "mean_spacing_ratio": 0.5697604417800903,
+          "phase": "Wigner-Dyson (GOE)"
+        },
+        {
+          "epoch": 1000,
+          "loss": 4.184868885204196e-06,
+          "ricci_scalar": 61.522735595703125,
+          "mean_spacing_ratio": 0.5127997398376465,
+          "phase": "Wigner-Dyson (GOE)"
+        },
+        {
+          "epoch": 1500,
+          "loss": 2.302503389728372e-06,
+          "ricci_scalar": 47.31346893310547,
+          "mean_spacing_ratio": 0.51252281665802,
+          "phase": "Wigner-Dyson (GOE)"
+        },
+        {
+          "epoch": 2000,
+          "loss": 1.8944980411106371e-06,
+          "ricci_scalar": 46.021888732910156,
+          "mean_spacing_ratio": 0.48941513895988464,
+          "phase": "Wigner-Dyson (GOE)"
+        }
+      ],
+      "summary": {
+        "correlation_ricci_spacing": 0.7075194426233837,
+        "initial_phase": "Poisson (Integrable)",
+        "final_phase": "Wigner-Dyson (GOE)",
+        "verdict": "duality_inconclusive"
+      }
+    },
+    "altland_zirnbauer_symmetry": {
+      "results": [
+        {
+          "gamma": 0.0,
+          "mean_spacing_ratio": 0.33482739329338074,
+          "phase": "Many-Body Localized (MBL)"
+        },
+        {
+          "gamma": 0.25,
+          "mean_spacing_ratio": 0.36152544617652893,
+          "phase": "Poisson (Integrable)"
+        },
+        {
+          "gamma": 0.5,
+          "mean_spacing_ratio": 0.4196277856826782,
+          "phase": "Poisson (Integrable)"
+        },
+        {
+          "gamma": 0.75,
+          "mean_spacing_ratio": 0.3598230183124542,
+          "phase": "Poisson (Integrable)"
+        },
+        {
+          "gamma": 1.0,
+          "mean_spacing_ratio": 0.3654269874095917,
+          "phase": "Poisson (Integrable)"
+        }
+      ],
+      "summary": {
+        "spectral_shift": 0.030599594116210938,
+        "verdict": "symmetry_transition_detected"
+      }
+    },
+    "conformal_isomorphism": {
+      "moebius_error": 0.1112259179353714,
+      "scale_error": 5.754845654812592e-18,
+      "summary": {
+        "verdict": "scale_conformal_equivariant",
+        "moebius_falsification_verified": true
+      }
+    },
+    "compression_frontier": {
+      "samples": [
+        {
+          "weight_decay": 1e-05,
+          "hbar": 2.438523058317692,
+          "psi": 7.6588765811169495,
+          "uncertainty_product": 18.67634714386305
+        },
+        {
+          "weight_decay": 0.001,
+          "hbar": 2.3566880587837837,
+          "psi": 7.574583746765085,
+          "uncertainty_product": 17.850931066259008
+        }
+      ],
+      "summary": {
+        "verdict": "uncertainty_relation_preserved"
+      }
+    },
+    "holographic_pruning": {
+      "base_accuracy": 1.0,
+      "volume_accuracy_drop": 0.9939999999478459,
+      "area_accuracy_drop": 0.9239999949932098,
+      "summary": {
+        "verdict": "volumetric_law_dominates",
+        "holographic_nature": true
+      }
+    }
+  },
+  "summary": {
+    "individual_verdicts": {
+      "ricci_mbl_duality": "duality_inconclusive",
+      "altland_zirnbauer_symmetry": "symmetry_transition_detected",
+      "conformal_isomorphism": "scale_conformal_equivariant",
+      "compression_frontier": "uncertainty_relation_preserved",
+      "holographic_pruning": "volumetric_law_dominates"
+    },
+    "timestamp": "2026-05-21T03:22:20.869273",
+    "hardware_device": "cuda"
+  }
+}

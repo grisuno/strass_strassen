@@ -1,0 +1,2351 @@
+# General Index
+
+[Back to index](index.md)
+
+[A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [Z](#z)
+
+<a id="a"></a>
+
+## A
+
+- [`A`](modules/experiments.ablation.ablation_8192.py.md#a) constant in `experiments.ablation.ablation_8192`
+- [`accumulate_gradient`](modules/full_seed_prospector.py.md#comprehensivemetricsaggregator-accumulate_gradient) method of `ComprehensiveMetricsAggregator` in `full_seed_prospector`
+- [`accumulate_gradient`](modules/full_seed_prospector.py.md#kappacalculator-accumulate_gradient) method of `KappaCalculator` in `full_seed_prospector`
+- [`accuracy`](modules/src.training.main.py.md#trainer-accuracy) method of `Trainer` in `src.training.main`
+- [`accuracy_error_tolerance`](modules/full_seed_prospector.py.md#unifiedconfig-accuracy_error_tolerance) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`ACCURACY_THRESHOLD`](modules/src.training.main.py.md#config-accuracy_threshold) attribute of `Config` in `src.training.main`
+- [`accuracy_threshold`](modules/unified_hidden_connections_suite.py.md#experiment5config-accuracy_threshold) attribute of `Experiment5Config` in `unified_hidden_connections_suite`
+- [`accuracy_threshold`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-accuracy_threshold) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`accuracy_threshold`](modules/experimetn2.py.md#trainingconfig-accuracy_threshold) attribute of `TrainingConfig` in `experimetn2`
+- [`accuracy_threshold`](modules/unified_hidden_connections_suite.py.md#trainingconfig-accuracy_threshold) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`accuracy_threshold`](modules/full_seed_prospector.py.md#unifiedconfig-accuracy_threshold) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`AccuracyCalculator`](modules/full_seed_prospector.py.md#accuracycalculator) class in `full_seed_prospector`
+- [`active_count`](modules/src.training.main_pure_math.py.md#strassenmodel-active_count) method of `StrassenModel` in `src.training.main_pure_math`
+- [`ACTIVE_PARAM_THRESHOLD`](modules/hawking_radiation.py.md#hawkingconfiguration-active_param_threshold) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`AdaptiveQuantizationLoss`](modules/full_seed_prospector.py.md#adaptivequantizationloss) class in `full_seed_prospector`
+- [`ALIGN`](modules/src.native.strassen_turbo.c.md#align) macro in `src/native/strassen_turbo.c`
+- [`ALPHA_SATURATION`](modules/mbl_analyzer.py.md#mblconfiguration-alpha_saturation) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`ALPHA_SATURATION`](modules/percolation_analysis.py.md#percolationconfiguration-alpha_saturation) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`ALPHA_SATURATION`](modules/purity_index.py.md#purityconfig-alpha_saturation) attribute of `PurityConfig` in `purity_index`
+- [`ALPHA_THRESHOLD_CRYSTAL`](modules/mbl_analyzer.py.md#mblconfiguration-alpha_threshold_crystal) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`ALPHA_THRESHOLD_CRYSTAL`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-alpha_threshold_crystal) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`ALPHA_THRESHOLD_CRYSTAL`](modules/percolation_analysis.py.md#percolationconfiguration-alpha_threshold_crystal) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`ALPHA_THRESHOLD_CRYSTAL`](modules/purity_index.py.md#purityconfig-alpha_threshold_crystal) attribute of `PurityConfig` in `purity_index`
+- [`ALPHA_THRESHOLD_GLASS`](modules/mbl_analyzer.py.md#mblconfiguration-alpha_threshold_glass) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`ALPHA_THRESHOLD_GLASS`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-alpha_threshold_glass) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`ALPHA_THRESHOLD_GLASS`](modules/percolation_analysis.py.md#percolationconfiguration-alpha_threshold_glass) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`ALPHA_THRESHOLD_GLASS`](modules/purity_index.py.md#purityconfig-alpha_threshold_glass) attribute of `PurityConfig` in `purity_index`
+- [`AMORPHOUS_DELTA_THRESHOLD`](modules/plank.py.md#configuration-amorphous_delta_threshold) attribute of `Configuration` in `plank`
+- [`AnalysisConfig`](modules/dirac_polos_zeros.py.md#analysisconfig) class in `dirac_polos_zeros`
+- [`AnalysisPipeline`](modules/dirac_polos_zeros.py.md#analysispipeline) class in `dirac_polos_zeros`
+- [`analyze`](modules/maxwell_strassen_analysis.py.md#bandgapanalyzer-analyze) method of `BandgapAnalyzer` in `maxwell_strassen_analysis`
+- [`analyze`](modules/percolation_analysis.py.md#bondpercolationanalyzer-analyze) method of `BondPercolationAnalyzer` in `percolation_analysis`
+- [`analyze`](modules/dirac_polos_zeros.py.md#diracdeltaanalyzer-analyze) method of `DiracDeltaAnalyzer` in `dirac_polos_zeros`
+- [`analyze`](modules/grain.py.md#domainfragmentationanalyzer-analyze) method of `DomainFragmentationAnalyzer` in `grain`
+- [`analyze`](modules/fermi.py.md#fermilevelanalyzer-analyze) method of `FermiLevelAnalyzer` in `fermi`
+- [`analyze`](modules/grain.py.md#grainboundaryanalyzer-analyze) method of `GrainBoundaryAnalyzer` in `grain`
+- [`analyze`](modules/dirac_polos_zeros.py.md#idiracanalyzer-analyze) method of `IDiracAnalyzer` in `dirac_polos_zeros`
+- [`analyze`](modules/grain.py.md#idomainfragmentationanalyzer-analyze) method of `IDomainFragmentationAnalyzer` in `grain`
+- [`analyze`](modules/mbl_analyzer.py.md#mblcheckpointanalyzer-analyze) method of `MBLCheckpointAnalyzer` in `mbl_analyzer`
+- [`analyze`](modules/percolation_analysis.py.md#pruningpercolationanalyzer-analyze) method of `PruningPercolationAnalyzer` in `percolation_analysis`
+- [`analyze`](modules/purity_index.py.md#purityanalyzer-analyze) method of `PurityAnalyzer` in `purity_index`
+- [`analyze`](modules/scrodingger.py.md#schrodingeranalyzer-analyze) method of `SchrodingerAnalyzer` in `scrodingger`
+- [`analyze`](modules/percolation_analysis.py.md#sitepercolationanalyzer-analyze) method of `SitePercolationAnalyzer` in `percolation_analysis`
+- [`analyze`](modules/dirac_polos_zeros.py.md#systemanalyzer-analyze) method of `SystemAnalyzer` in `dirac_polos_zeros`
+- [`analyze`](modules/gravity.py.md#thermodynamicanalyzer-analyze) method of `ThermodynamicAnalyzer` in `gravity`
+- [`analyze_at_threshold`](modules/percolation_analysis.py.md#clustersizedistributionanalyzer-analyze_at_threshold) method of `ClusterSizeDistributionAnalyzer` in `percolation_analysis`
+- [`analyze_batch_size_spectrum`](modules/batch_size.py.md#batchsizethermodynamics-analyze_batch_size_spectrum) method of `BatchSizeThermodynamics` in `batch_size`
+- [`analyze_checkpoint`](modules/superposition.py.md#ianalyzer-analyze_checkpoint) method of `IAnalyzer` in `superposition`
+- [`analyze_checkpoint`](modules/maxwell_strassen_analysis.py.md#maxwellanalyzer-analyze_checkpoint) method of `MaxwellAnalyzer` in `maxwell_strassen_analysis`
+- [`analyze_checkpoint`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzerpipeline-analyze_checkpoint) method of `RicciFlowAnalyzerPipeline` in `grigori_perelmans_ricci_flow`
+- [`analyze_checkpoint`](modules/hawking_radiation.py.md#robusthawkinganalyzer-analyze_checkpoint) method of `RobustHawkingAnalyzer` in `hawking_radiation`
+- [`analyze_checkpoint`](modules/superposition.py.md#strassencheckpointanalyzer-analyze_checkpoint) method of `StrassenCheckpointAnalyzer` in `superposition`
+- [`analyze_checkpoint`](modules/batch_size.py.md#strassenplanckanalyzer-analyze_checkpoint) method of `StrassenPlanckAnalyzer` in `batch_size`
+- [`analyze_checkpoint`](modules/plank.py.md#strassenplanckanalyzer-analyze_checkpoint) method of `StrassenPlanckAnalyzer` in `plank`
+- [`analyze_checkpoint`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#analyze_checkpoint) function in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`analyze_checkpoints`](modules/experiments.extended_experiments.validate2.py.md#analyze_checkpoints) function in `experiments.extended_experiments.validate2`
+- [`analyze_curvature`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzer-analyze_curvature) method of `RicciFlowAnalyzer` in `grigori_perelmans_ricci_flow`
+- [`analyze_directory`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzerpipeline-analyze_directory) method of `RicciFlowAnalyzerPipeline` in `grigori_perelmans_ricci_flow`
+- [`analyze_directory`](modules/hawking_radiation.py.md#robusthawkinganalyzer-analyze_directory) method of `RobustHawkingAnalyzer` in `hawking_radiation`
+- [`analyze_directory`](modules/superposition.py.md#strassencheckpointanalyzer-analyze_directory) method of `StrassenCheckpointAnalyzer` in `superposition`
+- [`analyze_directory`](modules/batch_size.py.md#strassenplanckanalyzer-analyze_directory) method of `StrassenPlanckAnalyzer` in `batch_size`
+- [`analyze_directory`](modules/plank.py.md#strassenplanckanalyzer-analyze_directory) method of `StrassenPlanckAnalyzer` in `plank`
+- [`analyze_layer`](modules/grain.py.md#ilayeranalyzer-analyze_layer) method of `ILayerAnalyzer` in `grain`
+- [`analyze_layer`](modules/grain.py.md#layeranalyzer-analyze_layer) method of `LayerAnalyzer` in `grain`
+- [`analyze_permittivity_tensor`](modules/maxwell_strassen_analysis.py.md#dielectrictensoranalyzer-analyze_permittivity_tensor) method of `DielectricTensorAnalyzer` in `maxwell_strassen_analysis`
+- [`analyze_permittivity_tensor`](modules/maxwell_strassen_analysis.py.md#idielectricanalyzer-analyze_permittivity_tensor) method of `IDielectricAnalyzer` in `maxwell_strassen_analysis`
+- [`analyze_polycrystal`](modules/purity_index.py.md#ipolycrystalanalyzer-analyze_polycrystal) method of `IPolycrystalAnalyzer` in `purity_index`
+- [`analyze_polycrystal`](modules/purity_index.py.md#polycrystalanalyzer-analyze_polycrystal) method of `PolycrystalAnalyzer` in `purity_index`
+- [`analyze_poynting_flow`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-analyze_poynting_flow) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`analyze_results`](modules/experiments.ablation.ablation_study.py.md#analyze_results) function in `experiments.ablation.ablation_study`
+- [`analyze_robustness`](modules/mbl_analyzer.py.md#discretizationdialanalyzer-analyze_robustness) method of `DiscretizationDialAnalyzer` in `mbl_analyzer`
+- [`analyze_robustness`](modules/mbl_analyzer.py.md#idiscretizationdialanalyzer-analyze_robustness) method of `IDiscretizationDialAnalyzer` in `mbl_analyzer`
+- [`analyze_stability`](modules/dirac_polos_zeros.py.md#ipolezeroanalyzer-analyze_stability) method of `IPoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`analyze_stability`](modules/dirac_polos_zeros.py.md#polezeroanalyzer-analyze_stability) method of `PoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`analyze_step_characteristics`](modules/dirac_polos_zeros.py.md#timeresponseanalyzer-analyze_step_characteristics) method of `TimeResponseAnalyzer` in `dirac_polos_zeros`
+- [`analyze_structure`](modules/src.discovery.auto_T_discovery.py.md#autotdiscovery-analyze_structure) method of `AutoTDiscovery` in `src.discovery.auto_T_discovery`
+- [`ANISOTROPY_RATIO_THRESHOLD`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-anisotropy_ratio_threshold) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`anneal_crystal`](modules/xray_tensor_diffractometer.py.md#epitaxialgrowthengine-anneal_crystal) method of `EpitaxialGrowthEngine` in `xray_tensor_diffractometer`
+- [`AreaPruningStrategy`](modules/unified_hidden_connections_suite.py.md#areapruningstrategy) class in `unified_hidden_connections_suite`
+- [`AutoTDiscovery`](modules/src.discovery.auto_T_discovery.py.md#autotdiscovery) class in `src.discovery.auto_T_discovery`
+
+<a id="b"></a>
+
+## B
+
+- [`B`](modules/experiments.ablation.ablation_8192.py.md#b) constant in `experiments.ablation.ablation_8192`
+- [`BalancedRunsGenerator`](modules/experiments.extended_experiments.validate2.py.md#balancedrunsgenerator) class in `experiments.extended_experiments.validate2`
+- [`BandgapAnalyzer`](modules/maxwell_strassen_analysis.py.md#bandgapanalyzer) class in `maxwell_strassen_analysis`
+- [`BandStructureCalculator`](modules/fermi.py.md#bandstructurecalculator) class in `fermi`
+- [`BASE_DIR`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#base_dir) constant in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`BASE_DIR`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#base_dir) constant in `experiments.extended_experiments.exp2_noise_ablation`
+- [`BASE_DIR`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#base_dir) constant in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`BASE_DIR`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#base_dir) constant in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`BASE_DIR`](modules/experiments.extended_experiments.run_all_experiments.py.md#base_dir) constant in `experiments.extended_experiments.run_all_experiments`
+- [`BASE_DIR`](modules/experiments.generate_figures.py.md#base_dir) constant in `experiments.generate_figures`
+- [`BASE_DIR`](modules/menu.py.md#base_dir) constant in `menu`
+- [`BASE_DIR`](modules/src.training.main.py.md#base_dir) constant in `src.training.main`
+- [`BasinResilienceSpectrometer`](modules/crystallography.py.md#basinresiliencespectrometer) class in `crystallography`
+- [`BasinResilienceSpectrometer`](modules/plank.py.md#basinresiliencespectrometer) class in `plank`
+- [`BasinStabilityCalculator`](modules/gravity.py.md#basinstabilitycalculator) class in `gravity`
+- [`BATCH_SIZE`](modules/dirac_polos_zeros.py.md#analysisconfig-batch_size) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`BATCH_SIZE`](modules/boltzmann_experiments.py.md#config-batch_size) attribute of `Config` in `boltzmann_experiments`
+- [`BATCH_SIZE`](modules/crystallography.py.md#config-batch_size) attribute of `Config` in `crystallography`
+- [`BATCH_SIZE`](modules/src.training.main.py.md#config-batch_size) attribute of `Config` in `src.training.main`
+- [`BATCH_SIZE`](modules/superposition.py.md#config-batch_size) attribute of `Config` in `superposition`
+- [`BATCH_SIZE`](modules/xray_tensor_diffractometer.py.md#config-batch_size) attribute of `Config` in `xray_tensor_diffractometer`
+- [`BATCH_SIZE`](modules/batch_size.py.md#configuration-batch_size) attribute of `Configuration` in `batch_size`
+- [`BATCH_SIZE`](modules/plank.py.md#configuration-batch_size) attribute of `Configuration` in `plank`
+- [`batch_size`](modules/unified_hidden_connections_suite.py.md#experiment2config-batch_size) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`batch_size`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-batch_size) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`batch_size`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-batch_size) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`BATCH_SIZE`](modules/scrodingger.py.md#schrodingerconfig-batch_size) attribute of `SchrodingerConfig` in `scrodingger`
+- [`BATCH_SIZE`](modules/grain.py.md#strassenconfig-batch_size) attribute of `StrassenConfig` in `grain`
+- [`BATCH_SIZE`](modules/gravity.py.md#thermodynamicconfig-batch_size) attribute of `ThermodynamicConfig` in `gravity`
+- [`batch_size`](modules/experimetn2.py.md#trainingconfig-batch_size) attribute of `TrainingConfig` in `experimetn2`
+- [`batch_size`](modules/unified_hidden_connections_suite.py.md#trainingconfig-batch_size) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`batch_size_cycle_length`](modules/full_seed_prospector.py.md#unifiedconfig-batch_size_cycle_length) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`batch_size_max`](modules/full_seed_prospector.py.md#unifiedconfig-batch_size_max) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`batch_size_min`](modules/full_seed_prospector.py.md#unifiedconfig-batch_size_min) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`BATCH_SIZE_RANGE`](modules/batch_size.py.md#configuration-batch_size_range) attribute of `Configuration` in `batch_size`
+- [`batch_sizes`](modules/unified_hidden_connections_suite.py.md#experiment4config-batch_sizes) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`BatchSizeThermodynamics`](modules/batch_size.py.md#batchsizethermodynamics) class in `batch_size`
+- [`benchmark`](modules/src.benchmarks.benchmark_final.py.md#benchmark) function in `src.benchmarks.benchmark_final`
+- [`benchmark_function`](modules/src.benchmarks.benchmark_scientific.py.md#benchmark_function) function in `src.benchmarks.benchmark_scientific`
+- [`benchmark_resolution`](modules/src.benchmarks.benchmark_strassen.py.md#benchmark_resolution) function in `src.benchmarks.benchmark_strassen`
+- [`benchmark_single`](modules/experiments.ablation.ablation_study.py.md#benchmark_single) function in `experiments.ablation.ablation_study`
+- [`BenchmarkConfig`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig) class in `src.benchmarks.benchmark_strassen`
+- [`BenchmarkResult`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult) class in `experiments.ablation.ablation_study`
+- [`BenchmarkResult`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult) class in `src.benchmarks.benchmark_strassen`
+- [`BilinearModel`](modules/dirac_polos_zeros.py.md#bilinearmodel) class in `dirac_polos_zeros`
+- [`BilinearModel`](modules/fermi.py.md#bilinearmodel) class in `fermi`
+- [`BilinearModel`](modules/gravity.py.md#bilinearmodel) class in `gravity`
+- [`BilinearModel`](modules/purity_index.py.md#bilinearmodel) class in `purity_index`
+- [`BilinearModel`](modules/scrodingger.py.md#bilinearmodel) class in `scrodingger`
+- [`BilinearStrassenModel`](modules/batch_size.py.md#bilinearstrassenmodel) class in `batch_size`
+- [`BilinearStrassenModel`](modules/boltzmann_experiments.py.md#bilinearstrassenmodel) class in `boltzmann_experiments`
+- [`BilinearStrassenModel`](modules/crystallography.py.md#bilinearstrassenmodel) class in `crystallography`
+- [`BilinearStrassenModel`](modules/grain.py.md#bilinearstrassenmodel) class in `grain`
+- [`BilinearStrassenModel`](modules/grigori_perelmans_ricci_flow.py.md#bilinearstrassenmodel) class in `grigori_perelmans_ricci_flow`
+- [`BilinearStrassenModel`](modules/hawking_radiation.py.md#bilinearstrassenmodel) class in `hawking_radiation`
+- [`BilinearStrassenModel`](modules/maxwell_strassen_analysis.py.md#bilinearstrassenmodel) class in `maxwell_strassen_analysis`
+- [`BilinearStrassenModel`](modules/mbl_analyzer.py.md#bilinearstrassenmodel) class in `mbl_analyzer`
+- [`BilinearStrassenModel`](modules/plank.py.md#bilinearstrassenmodel) class in `plank`
+- [`BilinearStrassenModel`](modules/superposition.py.md#bilinearstrassenmodel) class in `superposition`
+- [`BilinearStrassenModel`](modules/xray_tensor_diffractometer.py.md#bilinearstrassenmodel) class in `xray_tensor_diffractometer`
+- [`BlochWaveConstructor`](modules/fermi.py.md#blochwaveconstructor) class in `fermi`
+- [`BLOCK_SIZE`](modules/src.native.strassen_turbo.c.md#block_size) macro in `src/native/strassen_turbo.c`
+- [`block_size`](modules/src.discovery.auto_T_discovery.py.md#symmetrystructure-block_size) attribute of `SymmetryStructure` in `src.discovery.auto_T_discovery`
+- [`BodeVisualizer`](modules/dirac_polos_zeros.py.md#bodevisualizer) class in `dirac_polos_zeros`
+- [`BOLTZMANN_CONSTANT`](modules/batch_size.py.md#configuration-boltzmann_constant) attribute of `Configuration` in `batch_size`
+- [`BOLTZMANN_CONSTANT`](modules/plank.py.md#configuration-boltzmann_constant) attribute of `Configuration` in `plank`
+- [`boltzmann_constant`](modules/full_seed_prospector.py.md#unifiedconfig-boltzmann_constant) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`BOLTZMANN_CONSTANT_SI`](modules/hawking_radiation.py.md#hawkingconfiguration-boltzmann_constant_si) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`BoltzmannAnalysisProgram`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram) class in `xray_tensor_diffractometer`
+- [`BoltzmannConstantCalculator`](modules/hawking_radiation.py.md#boltzmannconstantcalculator) class in `hawking_radiation`
+- [`BondPercolationAnalyzer`](modules/percolation_analysis.py.md#bondpercolationanalyzer) class in `percolation_analysis`
+- [`BootstrapStatistics`](modules/experiments.extended_experiments.validate2.py.md#bootstrapstatistics) class in `experiments.extended_experiments.validate2`
+- [`BRAGG_PEAK_PROMINENCE`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-bragg_peak_prominence) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+
+<a id="c"></a>
+
+## C
+
+- [`C`](modules/experiments.ablation.ablation_8192.py.md#c) constant in `experiments.ablation.ablation_8192`
+- [`cache_analysis`](modules/experiments.cache_analysis_v2.py.md#cache_analysis) function in `experiments.cache_analysis_v2`
+- [`calculate`](modules/full_seed_prospector.py.md#accuracycalculator-calculate) method of `AccuracyCalculator` in `full_seed_prospector`
+- [`calculate`](modules/fermi.py.md#bandstructurecalculator-calculate) method of `BandStructureCalculator` in `fermi`
+- [`calculate`](modules/gravity.py.md#basinstabilitycalculator-calculate) method of `BasinStabilityCalculator` in `gravity`
+- [`calculate`](modules/hawking_radiation.py.md#boltzmannconstantcalculator-calculate) method of `BoltzmannConstantCalculator` in `hawking_radiation`
+- [`calculate`](modules/gravity.py.md#conditionnumbercalculator-calculate) method of `ConditionNumberCalculator` in `gravity`
+- [`calculate`](modules/gravity.py.md#configurationentropycalculator-calculate) method of `ConfigurationEntropyCalculator` in `gravity`
+- [`calculate`](modules/full_seed_prospector.py.md#deltacalculator-calculate) method of `DeltaCalculator` in `full_seed_prospector`
+- [`calculate`](modules/fermi.py.md#densityofstatescalculator-calculate) method of `DensityOfStatesCalculator` in `fermi`
+- [`calculate`](modules/dirac_polos_zeros.py.md#divergencecalculator-calculate) method of `DivergenceCalculator` in `dirac_polos_zeros`
+- [`calculate`](modules/mbl_analyzer.py.md#effectivetemperaturecalculator-calculate) method of `EffectiveTemperatureCalculator` in `mbl_analyzer`
+- [`calculate`](modules/purity_index.py.md#effectivetemperaturecalculator-calculate) method of `EffectiveTemperatureCalculator` in `purity_index`
+- [`calculate`](modules/dirac_polos_zeros.py.md#electricfieldcalculator-calculate) method of `ElectricFieldCalculator` in `dirac_polos_zeros`
+- [`calculate`](modules/dirac_polos_zeros.py.md#electricfluxcalculator-calculate) method of `ElectricFluxCalculator` in `dirac_polos_zeros`
+- [`calculate`](modules/fermi.py.md#electronicpropertiescalculator-calculate) method of `ElectronicPropertiesCalculator` in `fermi`
+- [`calculate`](modules/scrodingger.py.md#expectationvaluecalculator-calculate) method of `ExpectationValueCalculator` in `scrodingger`
+- [`calculate`](modules/fermi.py.md#fermilevelcalculator-calculate) method of `FermiLevelCalculator` in `fermi`
+- [`calculate`](modules/grigori_perelmans_ricci_flow.py.md#geometricplanckcalculator-calculate) method of `GeometricPlanckCalculator` in `grigori_perelmans_ricci_flow`
+- [`calculate`](modules/full_seed_prospector.py.md#gradientmetricscalculator-calculate) staticmethod of `GradientMetricsCalculator` in `full_seed_prospector`
+- [`calculate`](modules/gravity.py.md#gravitationalconstantcalculator-calculate) method of `GravitationalConstantCalculator` in `gravity`
+- [`calculate`](modules/hawking_radiation.py.md#gravitationalconstantcalculator-calculate) method of `GravitationalConstantCalculator` in `hawking_radiation`
+- [`calculate`](modules/gravity.py.md#heisenberguncertaintycalculator-calculate) method of `HeisenbergUncertaintyCalculator` in `gravity`
+- [`calculate`](modules/hawking_radiation.py.md#horizonareacalculator-calculate) method of `HorizonAreaCalculator` in `hawking_radiation`
+- [`calculate`](modules/fermi.py.md#ibandstructurecalculator-calculate) method of `IBandStructureCalculator` in `fermi`
+- [`calculate`](modules/gravity.py.md#ibasinstabilitycalculator-calculate) method of `IBasinStabilityCalculator` in `gravity`
+- [`calculate`](modules/gravity.py.md#iconditionnumbercalculator-calculate) method of `IConditionNumberCalculator` in `gravity`
+- [`calculate`](modules/fermi.py.md#idensityofstatescalculator-calculate) method of `IDensityOfStatesCalculator` in `fermi`
+- [`calculate`](modules/grain.py.md#idislocationcalculator-calculate) method of `IDislocationCalculator` in `grain`
+- [`calculate`](modules/purity_index.py.md#ieffectivetemperaturecalculator-calculate) method of `IEffectiveTemperatureCalculator` in `purity_index`
+- [`calculate`](modules/fermi.py.md#ielectronicpropertiescalculator-calculate) method of `IElectronicPropertiesCalculator` in `fermi`
+- [`calculate`](modules/gravity.py.md#ientropycalculator-calculate) method of `IEntropyCalculator` in `gravity`
+- [`calculate`](modules/scrodingger.py.md#iexpectationvaluecalculator-calculate) method of `IExpectationValueCalculator` in `scrodingger`
+- [`calculate`](modules/fermi.py.md#ifermilevelcalculator-calculate) method of `IFermiLevelCalculator` in `fermi`
+- [`calculate`](modules/dirac_polos_zeros.py.md#ifieldcalculator-calculate) method of `IFieldCalculator` in `dirac_polos_zeros`
+- [`calculate`](modules/dirac_polos_zeros.py.md#ifluxcalculator-calculate) method of `IFluxCalculator` in `dirac_polos_zeros`
+- [`calculate`](modules/gravity.py.md#igravitationalconstantcalculator-calculate) method of `IGravitationalConstantCalculator` in `gravity`
+- [`calculate`](modules/gravity.py.md#iheisenberguncertaintycalculator-calculate) method of `IHeisenbergUncertaintyCalculator` in `gravity`
+- [`calculate`](modules/gravity.py.md#ilandauerconstantcalculator-calculate) method of `ILandauerConstantCalculator` in `gravity`
+- [`calculate`](modules/mbl_analyzer.py.md#ilevelspacingcalculator-calculate) method of `ILevelSpacingCalculator` in `mbl_analyzer`
+- [`calculate`](modules/gravity.py.md#ilocalcomplexitycalculator-calculate) method of `ILocalComplexityCalculator` in `gravity`
+- [`calculate`](modules/full_seed_prospector.py.md#imetriccalculator-calculate) method of `IMetricCalculator` in `full_seed_prospector`
+- [`calculate`](modules/unified_hidden_connections_suite.py.md#imetriccalculator-calculate) method of `IMetricCalculator` in `unified_hidden_connections_suite`
+- [`calculate`](modules/gravity.py.md#iorderparametercalculator-calculate) method of `IOrderParameterCalculator` in `gravity`
+- [`calculate`](modules/mbl_analyzer.py.md#iparticipationratiocalculator-calculate) method of `IParticipationRatioCalculator` in `mbl_analyzer`
+- [`calculate`](modules/scrodingger.py.md#ipotentialcalculator-calculate) method of `IPotentialCalculator` in `scrodingger`
+- [`calculate`](modules/purity_index.py.md#ipurityindexcalculator-calculate) method of `IPurityIndexCalculator` in `purity_index`
+- [`calculate`](modules/gravity.py.md#ispecificheatcalculator-calculate) method of `ISpecificHeatCalculator` in `gravity`
+- [`calculate`](modules/mbl_analyzer.py.md#isyntheticplanckcalculator-calculate) method of `ISyntheticPlanckCalculator` in `mbl_analyzer`
+- [`calculate`](modules/scrodingger.py.md#iuncertaintycalculator-calculate) method of `IUncertaintyCalculator` in `scrodingger`
+- [`calculate`](modules/gravity.py.md#izeroshottransfercalculator-calculate) method of `IZeroShotTransferCalculator` in `gravity`
+- [`calculate`](modules/hawking_radiation.py.md#informationalmasscalculator-calculate) method of `InformationalMassCalculator` in `hawking_radiation`
+- [`calculate`](modules/gravity.py.md#landauerconstantcalculator-calculate) method of `LandauerConstantCalculator` in `gravity`
+- [`calculate`](modules/mbl_analyzer.py.md#levelspacingratiocalculator-calculate) method of `LevelSpacingRatioCalculator` in `mbl_analyzer`
+- [`calculate`](modules/unified_hidden_connections_suite.py.md#levelspacingratiocalculator-calculate) method of `LevelSpacingRatioCalculator` in `unified_hidden_connections_suite`
+- [`calculate`](modules/full_seed_prospector.py.md#localcomplexitycalculator-calculate) method of `LocalComplexityCalculator` in `full_seed_prospector`
+- [`calculate`](modules/gravity.py.md#localcomplexitycalculator-calculate) method of `LocalComplexityCalculator` in `gravity`
+- [`calculate`](modules/gravity.py.md#orderparametercalculator-calculate) method of `OrderParameterCalculator` in `gravity`
+- [`calculate`](modules/mbl_analyzer.py.md#participationratiocalculator-calculate) method of `ParticipationRatioCalculator` in `mbl_analyzer`
+- [`calculate`](modules/full_seed_prospector.py.md#perelmanentropycalculator-calculate) method of `PerelmanEntropyCalculator` in `full_seed_prospector`
+- [`calculate`](modules/maxwell_strassen_analysis.py.md#photonicentropycalculator-calculate) method of `PhotonicEntropyCalculator` in `maxwell_strassen_analysis`
+- [`calculate`](modules/hawking_radiation.py.md#planckconstantcalculator-calculate) method of `PlanckConstantCalculator` in `hawking_radiation`
+- [`calculate`](modules/scrodingger.py.md#potentialcalculator-calculate) method of `PotentialCalculator` in `scrodingger`
+- [`calculate`](modules/mbl_analyzer.py.md#purityindexcalculator-calculate) method of `PurityIndexCalculator` in `mbl_analyzer`
+- [`calculate`](modules/purity_index.py.md#purityindexcalculator-calculate) method of `PurityIndexCalculator` in `purity_index`
+- [`calculate`](modules/unified_hidden_connections_suite.py.md#ricciscalarcalculator-calculate) method of `RicciScalarCalculator` in `unified_hidden_connections_suite`
+- [`calculate`](modules/full_seed_prospector.py.md#sparsitycalculator-calculate) method of `SparsityCalculator` in `full_seed_prospector`
+- [`calculate`](modules/gravity.py.md#specificheatcalculator-calculate) method of `SpecificHeatCalculator` in `gravity`
+- [`calculate`](modules/hawking_radiation.py.md#speedoflightcalculator-calculate) method of `SpeedOfLightCalculator` in `hawking_radiation`
+- [`calculate`](modules/full_seed_prospector.py.md#superpositioncalculator-calculate) method of `SuperpositionCalculator` in `full_seed_prospector`
+- [`calculate`](modules/experimetn2.py.md#superpositionmetriccalculator-calculate) method of `SuperpositionMetricCalculator` in `experimetn2`
+- [`calculate`](modules/unified_hidden_connections_suite.py.md#superpositionmetriccalculator-calculate) method of `SuperpositionMetricCalculator` in `unified_hidden_connections_suite`
+- [`calculate`](modules/experimetn2.py.md#syntheticplanckcalculator-calculate) method of `SyntheticPlanckCalculator` in `experimetn2`
+- [`calculate`](modules/unified_hidden_connections_suite.py.md#syntheticplanckcalculator-calculate) method of `SyntheticPlanckCalculator` in `unified_hidden_connections_suite`
+- [`calculate`](modules/mbl_analyzer.py.md#syntheticplanckconstantcalculator-calculate) method of `SyntheticPlanckConstantCalculator` in `mbl_analyzer`
+- [`calculate`](modules/full_seed_prospector.py.md#thermodynamicmetricscalculator-calculate) method of `ThermodynamicMetricsCalculator` in `full_seed_prospector`
+- [`calculate`](modules/scrodingger.py.md#uncertaintycalculator-calculate) method of `UncertaintyCalculator` in `scrodingger`
+- [`calculate`](modules/gravity.py.md#zeroshottransfercalculator-calculate) method of `ZeroShotTransferCalculator` in `gravity`
+- [`calculate_all`](modules/hawking_radiation.py.md#hawkingradiationcalculator-calculate_all) method of `HawkingRadiationCalculator` in `hawking_radiation`
+- [`calculate_all`](modules/batch_size.py.md#planckconstantcalculator-calculate_all) method of `PlanckConstantCalculator` in `batch_size`
+- [`calculate_all`](modules/plank.py.md#planckconstantcalculator-calculate_all) method of `PlanckConstantCalculator` in `plank`
+- [`calculate_base_discretization`](modules/mbl_analyzer.py.md#discretizationdialanalyzer-calculate_base_discretization) method of `DiscretizationDialAnalyzer` in `mbl_analyzer`
+- [`calculate_carnot_efficiency`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-calculate_carnot_efficiency) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`calculate_from_model`](modules/mbl_analyzer.py.md#syntheticplanckconstantcalculator-calculate_from_model) method of `SyntheticPlanckConstantCalculator` in `mbl_analyzer`
+- [`calculate_kappa`](modules/full_seed_prospector.py.md#kappacalculator-calculate_kappa) method of `KappaCalculator` in `full_seed_prospector`
+- [`calculate_r_ratio`](modules/experimetn2.py.md#levelspacingratiocalculator-calculate_r_ratio) method of `LevelSpacingRatioCalculator` in `experimetn2`
+- [`can_migrate`](modules/batch_size.py.md#checkpointmigrator-can_migrate) method of `CheckpointMigrator` in `batch_size`
+- [`can_migrate`](modules/grigori_perelmans_ricci_flow.py.md#checkpointmigrator-can_migrate) method of `CheckpointMigrator` in `grigori_perelmans_ricci_flow`
+- [`can_migrate`](modules/plank.py.md#checkpointmigrator-can_migrate) method of `CheckpointMigrator` in `plank`
+- [`can_migrate`](modules/batch_size.py.md#customformatmigrator-can_migrate) method of `CustomFormatMigrator` in `batch_size`
+- [`can_migrate`](modules/grigori_perelmans_ricci_flow.py.md#customformatmigrator-can_migrate) method of `CustomFormatMigrator` in `grigori_perelmans_ricci_flow`
+- [`can_migrate`](modules/plank.py.md#customformatmigrator-can_migrate) method of `CustomFormatMigrator` in `plank`
+- [`can_migrate`](modules/plank.py.md#encoderformatmigrator-can_migrate) method of `EncoderFormatMigrator` in `plank`
+- [`can_migrate`](modules/batch_size.py.md#standardformatmigrator-can_migrate) method of `StandardFormatMigrator` in `batch_size`
+- [`can_migrate`](modules/grigori_perelmans_ricci_flow.py.md#standardformatmigrator-can_migrate) method of `StandardFormatMigrator` in `grigori_perelmans_ricci_flow`
+- [`can_migrate`](modules/plank.py.md#standardformatmigrator-can_migrate) method of `StandardFormatMigrator` in `plank`
+- [`CanonicalStrassenProvider`](modules/full_seed_prospector.py.md#canonicalstrassenprovider) class in `full_seed_prospector`
+- [`CATEGORIES`](modules/menu.py.md#categories) constant in `menu`
+- [`ChargeDistributionExtractor`](modules/dirac_polos_zeros.py.md#chargedistributionextractor) class in `dirac_polos_zeros`
+- [`ChargeDistributionVisualizer`](modules/dirac_polos_zeros.py.md#chargedistributionvisualizer) class in `dirac_polos_zeros`
+- [`check_extensivity`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-check_extensivity) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`CHECKPOINT_COMPRESSION`](modules/mbl_analyzer.py.md#mblconfiguration-checkpoint_compression) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`CHECKPOINT_DIR`](modules/superposition.py.md#config-checkpoint_dir) attribute of `Config` in `superposition`
+- [`checkpoint_dir`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-checkpoint_dir) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`CHECKPOINT_DIR`](modules/grain.py.md#strassenconfig-checkpoint_dir) attribute of `StrassenConfig` in `grain`
+- [`checkpoint_dir`](modules/full_seed_prospector.py.md#unifiedconfig-checkpoint_dir) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`CHECKPOINT_DIRECTORY`](modules/plank.py.md#configuration-checkpoint_directory) attribute of `Configuration` in `plank`
+- [`CHECKPOINT_DIRECTORY`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-checkpoint_directory) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`checkpoint_epochs`](modules/unified_hidden_connections_suite.py.md#experiment1config-checkpoint_epochs) attribute of `Experiment1Config` in `unified_hidden_connections_suite`
+- [`CHECKPOINT_INTERVAL_MINUTES`](modules/superposition.py.md#config-checkpoint_interval_minutes) attribute of `Config` in `superposition`
+- [`CHECKPOINT_INTERVAL_MINUTES`](modules/xray_tensor_diffractometer.py.md#config-checkpoint_interval_minutes) attribute of `Config` in `xray_tensor_diffractometer`
+- [`checkpoint_interval_minutes`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-checkpoint_interval_minutes) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`CHECKPOINT_INTERVAL_MINUTES`](modules/mbl_analyzer.py.md#mblconfiguration-checkpoint_interval_minutes) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`CHECKPOINT_INTERVAL_MINUTES`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-checkpoint_interval_minutes) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`CHECKPOINT_INTERVAL_MINUTES`](modules/percolation_analysis.py.md#percolationconfiguration-checkpoint_interval_minutes) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`CHECKPOINT_INTERVAL_MINUTES`](modules/grain.py.md#strassenconfig-checkpoint_interval_minutes) attribute of `StrassenConfig` in `grain`
+- [`checkpoint_interval_minutes`](modules/full_seed_prospector.py.md#unifiedconfig-checkpoint_interval_minutes) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`CHECKPOINT_KEEP_LATEST`](modules/mbl_analyzer.py.md#mblconfiguration-checkpoint_keep_latest) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`CheckpointLoader`](modules/boltzmann_experiments.py.md#checkpointloader) class in `boltzmann_experiments`
+- [`CheckpointLoader`](modules/dirac_polos_zeros.py.md#checkpointloader) class in `dirac_polos_zeros`
+- [`CheckpointLoader`](modules/scrodingger.py.md#checkpointloader) class in `scrodingger`
+- [`CheckpointLoader`](modules/superposition.py.md#checkpointloader) class in `superposition`
+- [`CheckpointLoader`](modules/xray_tensor_diffractometer.py.md#checkpointloader) class in `xray_tensor_diffractometer`
+- [`CheckpointLoadingError`](modules/boltzmann_experiments.py.md#checkpointloadingerror) exception in `boltzmann_experiments`
+- [`CheckpointLoadingError`](modules/superposition.py.md#checkpointloadingerror) exception in `superposition`
+- [`CheckpointLoadingError`](modules/xray_tensor_diffractometer.py.md#checkpointloadingerror) exception in `xray_tensor_diffractometer`
+- [`CheckpointManager`](modules/experimetn2.py.md#checkpointmanager) class in `experimetn2`
+- [`CheckpointManager`](modules/full_seed_prospector.py.md#checkpointmanager) class in `full_seed_prospector`
+- [`CheckpointManager`](modules/grain.py.md#checkpointmanager) class in `grain`
+- [`CheckpointManager`](modules/maxwell_strassen_analysis.py.md#checkpointmanager) class in `maxwell_strassen_analysis`
+- [`CheckpointManager`](modules/unified_hidden_connections_suite.py.md#checkpointmanager) class in `unified_hidden_connections_suite`
+- [`CheckpointMigrationManager`](modules/batch_size.py.md#checkpointmigrationmanager) class in `batch_size`
+- [`CheckpointMigrationManager`](modules/grigori_perelmans_ricci_flow.py.md#checkpointmigrationmanager) class in `grigori_perelmans_ricci_flow`
+- [`CheckpointMigrationManager`](modules/plank.py.md#checkpointmigrationmanager) class in `plank`
+- [`CheckpointMigrator`](modules/batch_size.py.md#checkpointmigrator) class in `batch_size`
+- [`CheckpointMigrator`](modules/boltzmann_experiments.py.md#checkpointmigrator) class in `boltzmann_experiments`
+- [`CheckpointMigrator`](modules/crystallography.py.md#checkpointmigrator) class in `crystallography`
+- [`CheckpointMigrator`](modules/dirac_polos_zeros.py.md#checkpointmigrator) class in `dirac_polos_zeros`
+- [`CheckpointMigrator`](modules/fermi.py.md#checkpointmigrator) class in `fermi`
+- [`CheckpointMigrator`](modules/grigori_perelmans_ricci_flow.py.md#checkpointmigrator) class in `grigori_perelmans_ricci_flow`
+- [`CheckpointMigrator`](modules/maxwell_strassen_analysis.py.md#checkpointmigrator) class in `maxwell_strassen_analysis`
+- [`CheckpointMigrator`](modules/mbl_analyzer.py.md#checkpointmigrator) class in `mbl_analyzer`
+- [`CheckpointMigrator`](modules/percolation_analysis.py.md#checkpointmigrator) class in `percolation_analysis`
+- [`CheckpointMigrator`](modules/plank.py.md#checkpointmigrator) class in `plank`
+- [`CheckpointMigrator`](modules/purity_index.py.md#checkpointmigrator) class in `purity_index`
+- [`CheckpointMigrator`](modules/scrodingger.py.md#checkpointmigrator) class in `scrodingger`
+- [`CheckpointMigrator`](modules/superposition.py.md#checkpointmigrator) class in `superposition`
+- [`CheckpointMigrator`](modules/xray_tensor_diffractometer.py.md#checkpointmigrator) class in `xray_tensor_diffractometer`
+- [`CHECKPOINTS_DIR`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#checkpoints_dir) constant in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`CHECKPOINTS_DIR`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#checkpoints_dir) constant in `experiments.extended_experiments.exp2_noise_ablation`
+- [`CHECKPOINTS_DIR`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#checkpoints_dir) constant in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`CHECKPOINTS_DIR`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#checkpoints_dir) constant in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`CHECKPOINTS_DIR`](modules/experiments.extended_experiments.run_all_experiments.py.md#checkpoints_dir) constant in `experiments.extended_experiments.run_all_experiments`
+- [`CHECKPOINTS_DIR`](modules/experiments.generate_figures.py.md#checkpoints_dir) constant in `experiments.generate_figures`
+- [`chemical_potential`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-chemical_potential) attribute of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`classify`](modules/maxwell_strassen_analysis.py.md#crystalphaseclassifier-classify) method of `CrystalPhaseClassifier` in `maxwell_strassen_analysis`
+- [`classify`](modules/fermi.py.md#imetalinsulatorclassifier-classify) method of `IMetalInsulatorClassifier` in `fermi`
+- [`classify`](modules/maxwell_strassen_analysis.py.md#iphaseclassifier-classify) method of `IPhaseClassifier` in `maxwell_strassen_analysis`
+- [`classify`](modules/purity_index.py.md#iphaseclassifier-classify) method of `IPhaseClassifier` in `purity_index`
+- [`classify`](modules/fermi.py.md#metalinsulatorclassifier-classify) method of `MetalInsulatorClassifier` in `fermi`
+- [`classify`](modules/mbl_analyzer.py.md#phaseclassifier-classify) method of `PhaseClassifier` in `mbl_analyzer`
+- [`classify`](modules/purity_index.py.md#phaseclassifier-classify) method of `PhaseClassifier` in `purity_index`
+- [`classify_poles`](modules/dirac_polos_zeros.py.md#polezeroanalyzer-classify_poles) method of `PoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`classify_polycrystal_state`](modules/purity_index.py.md#phaseclassifier-classify_polycrystal_state) method of `PhaseClassifier` in `purity_index`
+- [`classify_transport`](modules/fermi.py.md#metalinsulatorclassifier-classify_transport) method of `MetalInsulatorClassifier` in `fermi`
+- [`classify_universality`](modules/percolation_analysis.py.md#percolationuniversalityanalyzer-classify_universality) method of `PercolationUniversalityAnalyzer` in `percolation_analysis`
+- [`clear_screen`](modules/menu.py.md#clear_screen) function in `menu`
+- [`ClusterSizeDistributionAnalyzer`](modules/percolation_analysis.py.md#clustersizedistributionanalyzer) class in `percolation_analysis`
+- [`CoefficientDiscretizationPhase`](modules/full_seed_prospector.py.md#coefficientdiscretizationphase) class in `full_seed_prospector`
+- [`collect`](modules/mbl_analyzer.py.md#itrainingmetricscollector-collect) method of `ITrainingMetricsCollector` in `mbl_analyzer`
+- [`collect`](modules/mbl_analyzer.py.md#mblmetricscollector-collect) method of `MBLMetricsCollector` in `mbl_analyzer`
+- [`COLORMAP`](modules/dirac_polos_zeros.py.md#analysisconfig-colormap) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`COLORMAP`](modules/scrodingger.py.md#schrodingerconfig-colormap) attribute of `SchrodingerConfig` in `scrodingger`
+- [`COLORMAP`](modules/gravity.py.md#thermodynamicconfig-colormap) attribute of `ThermodynamicConfig` in `gravity`
+- [`CombinedVisualizer`](modules/dirac_polos_zeros.py.md#combinedvisualizer) class in `dirac_polos_zeros`
+- [`compare`](modules/purity_index.py.md#ipuritycomparator-compare) method of `IPurityComparator` in `purity_index`
+- [`compare`](modules/purity_index.py.md#puritycomparator-compare) method of `PurityComparator` in `purity_index`
+- [`compare_with_standard`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-compare_with_standard) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`ComplexStrassStrassenModel`](modules/experimetn2.py.md#complexstrassstrassenmodel) class in `experimetn2`
+- [`ComprehensiveMetricsAggregator`](modules/full_seed_prospector.py.md#comprehensivemetricsaggregator) class in `full_seed_prospector`
+- [`compute`](modules/full_seed_prospector.py.md#adaptivequantizationloss-compute) method of `AdaptiveQuantizationLoss` in `full_seed_prospector`
+- [`compute`](modules/crystallography.py.md#crystalpurityindex-compute) method of `CrystalPurityIndex` in `crystallography`
+- [`compute`](modules/plank.py.md#crystalpurityindex-compute) method of `CrystalPurityIndex` in `plank`
+- [`compute`](modules/full_seed_prospector.py.md#geometriclossaggregator-compute) method of `GeometricLossAggregator` in `full_seed_prospector`
+- [`compute`](modules/full_seed_prospector.py.md#ilosscomponent-compute) method of `ILossComponent` in `full_seed_prospector`
+- [`compute`](modules/superposition.py.md#imetricscalculator-compute) method of `IMetricsCalculator` in `superposition`
+- [`compute`](modules/xray_tensor_diffractometer.py.md#imetricscalculator-compute) method of `IMetricsCalculator` in `xray_tensor_diffractometer`
+- [`compute`](modules/dirac_polos_zeros.py.md#itransferfunctioncomputer-compute) method of `ITransferFunctionComputer` in `dirac_polos_zeros`
+- [`compute`](modules/crystallography.py.md#localcomplexity-compute) staticmethod of `LocalComplexity` in `crystallography`
+- [`compute`](modules/full_seed_prospector.py.md#riccicurvaturepenalty-compute) method of `RicciCurvaturePenalty` in `full_seed_prospector`
+- [`compute`](modules/superposition.py.md#superpositionmetrics-compute) method of `SuperpositionMetrics` in `superposition`
+- [`compute`](modules/dirac_polos_zeros.py.md#transferfunctioncomputer-compute) method of `TransferFunctionComputer` in `dirac_polos_zeros`
+- [`compute_accuracy`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#strassenoperator-compute_accuracy) method of `StrassenOperator` in `experiments.extended_experiments.exp2_noise_ablation`
+- [`compute_accuracy_with_ci`](modules/experiments.extended_experiments.validate2.py.md#bootstrapstatistics-compute_accuracy_with_ci) method of `BootstrapStatistics` in `experiments.extended_experiments.validate2`
+- [`compute_all`](modules/full_seed_prospector.py.md#comprehensivemetricsaggregator-compute_all) method of `ComprehensiveMetricsAggregator` in `full_seed_prospector`
+- [`compute_all_metrics`](modules/plank.py.md#crystallographymetrics-compute_all_metrics) staticmethod of `CrystallographyMetrics` in `plank`
+- [`compute_all_metrics`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics-compute_all_metrics) staticmethod of `CrystallographyMetrics` in `xray_tensor_diffractometer`
+- [`compute_alpha_purity`](modules/boltzmann_experiments.py.md#crystallographymetrics-compute_alpha_purity) staticmethod of `CrystallographyMetrics` in `boltzmann_experiments`
+- [`compute_alpha_purity`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics-compute_alpha_purity) staticmethod of `CrystallographyMetrics` in `xray_tensor_diffractometer`
+- [`compute_batch_diversity`](modules/experiments.extended_experiments.validate2.py.md#localcomplexitycalculator-compute_batch_diversity) method of `LocalComplexityCalculator` in `experiments.extended_experiments.validate2`
+- [`compute_bode`](modules/dirac_polos_zeros.py.md#frequencyresponseanalyzer-compute_bode) method of `FrequencyResponseAnalyzer` in `dirac_polos_zeros`
+- [`compute_bode`](modules/dirac_polos_zeros.py.md#ifrequencyanalyzer-compute_bode) method of `IFrequencyAnalyzer` in `dirac_polos_zeros`
+- [`compute_boundary_gradient`](modules/xray_tensor_diffractometer.py.md#greencowexperiment-compute_boundary_gradient) method of `GreenCowExperiment` in `xray_tensor_diffractometer`
+- [`compute_bulk_gradient`](modules/xray_tensor_diffractometer.py.md#greencowexperiment-compute_bulk_gradient) method of `GreenCowExperiment` in `xray_tensor_diffractometer`
+- [`compute_cache_math`](modules/experiments.validation_experiments.py.md#compute_cache_math) function in `experiments.validation_experiments`
+- [`compute_critical_exponents`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-compute_critical_exponents) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`compute_damping`](modules/dirac_polos_zeros.py.md#polezeroanalyzer-compute_damping) method of `PoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`compute_delta`](modules/boltzmann_experiments.py.md#crystallographymetrics-compute_delta) staticmethod of `CrystallographyMetrics` in `boltzmann_experiments`
+- [`compute_delta`](modules/experiments.apendix_experiments.py.md#compute_delta) function in `experiments.apendix_experiments`
+- [`compute_delta`](modules/experiments.verify_checkpoints.py.md#compute_delta) function in `experiments.verify_checkpoints`
+- [`compute_discretization_error`](modules/experiments.statistics.rigorous_experiment.py.md#compute_discretization_error) function in `experiments.statistics.rigorous_experiment`
+- [`compute_discretization_margin`](modules/batch_size.py.md#crystallographymetrics-compute_discretization_margin) staticmethod of `CrystallographyMetrics` in `batch_size`
+- [`compute_discretization_margin`](modules/crystallography.py.md#crystallographymetrics-compute_discretization_margin) staticmethod of `CrystallographyMetrics` in `crystallography`
+- [`compute_discretization_margin`](modules/plank.py.md#crystallographymetrics-compute_discretization_margin) staticmethod of `CrystallographyMetrics` in `plank`
+- [`compute_discretization_margin`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics-compute_discretization_margin) staticmethod of `CrystallographyMetrics` in `xray_tensor_diffractometer`
+- [`compute_discretization_margin`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator-compute_discretization_margin) method of `StrassenOperator` in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`compute_discretization_margin`](modules/experiments.extended_experiments.run_all_experiments.py.md#strassenoperator-compute_discretization_margin) method of `StrassenOperator` in `experiments.extended_experiments.run_all_experiments`
+- [`compute_effective_temperature`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-compute_effective_temperature) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`compute_entropy`](modules/superposition.py.md#superpositionmetrics-compute_entropy) method of `SuperpositionMetrics` in `superposition`
+- [`compute_equation_of_state`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-compute_equation_of_state) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`compute_feature_probabilities`](modules/superposition.py.md#superpositionmetrics-compute_feature_probabilities) method of `SuperpositionMetrics` in `superposition`
+- [`compute_fisher_information_matrix`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-compute_fisher_information_matrix) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`compute_frobenius_metric`](modules/superposition.py.md#superpositionmetrics-compute_frobenius_metric) method of `SuperpositionMetrics` in `superposition`
+- [`compute_gibbs_free_energy`](modules/xray_tensor_diffractometer.py.md#spectroscopymetrics-compute_gibbs_free_energy) staticmethod of `SpectroscopyMetrics` in `xray_tensor_diffractometer`
+- [`compute_gradient_covariance`](modules/experiments.apendix_experiments.py.md#compute_gradient_covariance) function in `experiments.apendix_experiments`
+- [`compute_gradient_covariance`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#compute_gradient_covariance) function in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`compute_gradient_covariance_matrix`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#compute_gradient_covariance_matrix) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`compute_gradient_covariance_safe`](modules/experiments.extended_experiments.run_all_experiments.py.md#compute_gradient_covariance_safe) function in `experiments.extended_experiments.run_all_experiments`
+- [`compute_gradient_norm`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-compute_gradient_norm) method of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`compute_heat_kernel_trace`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzer-compute_heat_kernel_trace) method of `RicciFlowAnalyzer` in `grigori_perelmans_ricci_flow`
+- [`compute_hessian`](modules/experimetn2.py.md#exacthessiancalculator-compute_hessian) method of `ExactHessianCalculator` in `experimetn2`
+- [`compute_hessian`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzer-compute_hessian) method of `RicciFlowAnalyzer` in `grigori_perelmans_ricci_flow`
+- [`compute_impulse`](modules/dirac_polos_zeros.py.md#itimeresponseanalyzer-compute_impulse) method of `ITimeResponseAnalyzer` in `dirac_polos_zeros`
+- [`compute_impulse`](modules/dirac_polos_zeros.py.md#timeresponseanalyzer-compute_impulse) method of `TimeResponseAnalyzer` in `dirac_polos_zeros`
+- [`compute_interference_matrix`](modules/superposition.py.md#superpositionmetrics-compute_interference_matrix) method of `SuperpositionMetrics` in `superposition`
+- [`compute_kappa`](modules/batch_size.py.md#crystallographymetrics-compute_kappa) staticmethod of `CrystallographyMetrics` in `batch_size`
+- [`compute_kappa`](modules/boltzmann_experiments.py.md#crystallographymetrics-compute_kappa) staticmethod of `CrystallographyMetrics` in `boltzmann_experiments`
+- [`compute_kappa`](modules/crystallography.py.md#crystallographymetrics-compute_kappa) staticmethod of `CrystallographyMetrics` in `crystallography`
+- [`compute_kappa`](modules/plank.py.md#crystallographymetrics-compute_kappa) staticmethod of `CrystallographyMetrics` in `plank`
+- [`compute_kappa`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics-compute_kappa) staticmethod of `CrystallographyMetrics` in `xray_tensor_diffractometer`
+- [`compute_kappa`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#compute_kappa) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`compute_kappa_eff`](modules/src.training.convergence_theory.py.md#hutchinsontraceestimator-compute_kappa_eff) method of `HutchinsonTraceEstimator` in `src.training.convergence_theory`
+- [`compute_kappa_quantum`](modules/boltzmann_experiments.py.md#crystallographymetrics-compute_kappa_quantum) staticmethod of `CrystallographyMetrics` in `boltzmann_experiments`
+- [`compute_kappa_quantum`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics-compute_kappa_quantum) staticmethod of `CrystallographyMetrics` in `xray_tensor_diffractometer`
+- [`compute_kappa_with_ci`](modules/experiments.extended_experiments.validate2.py.md#bootstrapstatistics-compute_kappa_with_ci) method of `BootstrapStatistics` in `experiments.extended_experiments.validate2`
+- [`compute_lambda_effective`](modules/batch_size.py.md#bilinearstrassenmodel-compute_lambda_effective) method of `BilinearStrassenModel` in `batch_size`
+- [`compute_lambda_effective`](modules/plank.py.md#bilinearstrassenmodel-compute_lambda_effective) method of `BilinearStrassenModel` in `plank`
+- [`compute_lc`](modules/experiments.extended_experiments.validate2.py.md#localcomplexitycalculator-compute_lc) method of `LocalComplexityCalculator` in `experiments.extended_experiments.validate2`
+- [`compute_LC`](modules/src.training.strassen_grokkit.py.md#strassenoperator-compute_lc) method of `StrassenOperator` in `src.training.strassen_grokkit`
+- [`compute_local_complexity`](modules/batch_size.py.md#crystallographymetrics-compute_local_complexity) staticmethod of `CrystallographyMetrics` in `batch_size`
+- [`compute_local_complexity`](modules/boltzmann_experiments.py.md#crystallographymetrics-compute_local_complexity) staticmethod of `CrystallographyMetrics` in `boltzmann_experiments`
+- [`compute_local_complexity`](modules/plank.py.md#crystallographymetrics-compute_local_complexity) staticmethod of `CrystallographyMetrics` in `plank`
+- [`compute_local_complexity`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics-compute_local_complexity) staticmethod of `CrystallographyMetrics` in `xray_tensor_diffractometer`
+- [`compute_loss`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#strassenoperator-compute_loss) method of `StrassenOperator` in `experiments.extended_experiments.exp2_noise_ablation`
+- [`compute_margins`](modules/dirac_polos_zeros.py.md#frequencyresponseanalyzer-compute_margins) method of `FrequencyResponseAnalyzer` in `dirac_polos_zeros`
+- [`compute_margins`](modules/dirac_polos_zeros.py.md#ifrequencyanalyzer-compute_margins) method of `IFrequencyAnalyzer` in `dirac_polos_zeros`
+- [`compute_mutual_information`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-compute_mutual_information) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`compute_nyquist`](modules/dirac_polos_zeros.py.md#frequencyresponseanalyzer-compute_nyquist) method of `FrequencyResponseAnalyzer` in `dirac_polos_zeros`
+- [`compute_nyquist`](modules/dirac_polos_zeros.py.md#ifrequencyanalyzer-compute_nyquist) method of `IFrequencyAnalyzer` in `dirac_polos_zeros`
+- [`compute_per_sample_gradients`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#strassenoperator-compute_per_sample_gradients) method of `StrassenOperator` in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`compute_poynting_vector`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics-compute_poynting_vector) staticmethod of `CrystallographyMetrics` in `xray_tensor_diffractometer`
+- [`compute_ricci_curvature`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-compute_ricci_curvature) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`compute_roc_analysis`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#compute_roc_analysis) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`compute_roc_with_ci`](modules/experiments.extended_experiments.validate2.py.md#bootstrapstatistics-compute_roc_with_ci) method of `BootstrapStatistics` in `experiments.extended_experiments.validate2`
+- [`compute_S_theta`](modules/experiments.apendix_experiments.py.md#compute_s_theta) function in `experiments.apendix_experiments`
+- [`compute_S_theta`](modules/experiments.verify_checkpoints.py.md#compute_s_theta) function in `experiments.verify_checkpoints`
+- [`compute_scattering`](modules/maxwell_strassen_analysis.py.md#imaxwellsolver-compute_scattering) method of `IMaxwellSolver` in `maxwell_strassen_analysis`
+- [`compute_scattering`](modules/maxwell_strassen_analysis.py.md#maxwellscatteringsolver-compute_scattering) method of `MaxwellScatteringSolver` in `maxwell_strassen_analysis`
+- [`compute_SP`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator-compute_sp) method of `StrassenOperator` in `experiments.extended_experiments.validate2`
+- [`compute_SP`](modules/src.training.strassen_grokkit.py.md#strassenoperator-compute_sp) method of `StrassenOperator` in `src.training.strassen_grokkit`
+- [`compute_sparsity`](modules/experiments.extended_experiments.validate2.py.md#iterativepruningengine-compute_sparsity) method of `IterativePruningEngine` in `experiments.extended_experiments.validate2`
+- [`compute_specific_heat`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-compute_specific_heat) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`compute_spectral_gap`](modules/experiments.statistics.rigorous_experiment.py.md#compute_spectral_gap) function in `experiments.statistics.rigorous_experiment`
+- [`compute_step`](modules/dirac_polos_zeros.py.md#itimeresponseanalyzer-compute_step) method of `ITimeResponseAnalyzer` in `dirac_polos_zeros`
+- [`compute_step`](modules/dirac_polos_zeros.py.md#timeresponseanalyzer-compute_step) method of `TimeResponseAnalyzer` in `dirac_polos_zeros`
+- [`compute_superposition`](modules/superposition.py.md#superpositionmetrics-compute_superposition) method of `SuperpositionMetrics` in `superposition`
+- [`compute_time_constants`](modules/dirac_polos_zeros.py.md#polezeroanalyzer-compute_time_constants) method of `PoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`compute_topological_entropy`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzer-compute_topological_entropy) method of `RicciFlowAnalyzer` in `grigori_perelmans_ricci_flow`
+- [`compute_weight_diffraction`](modules/xray_tensor_diffractometer.py.md#spectroscopymetrics-compute_weight_diffraction) staticmethod of `SpectroscopyMetrics` in `xray_tensor_diffractometer`
+- [`ConditionNumberCalculator`](modules/gravity.py.md#conditionnumbercalculator) class in `gravity`
+- [`confidence`](modules/src.discovery.auto_T_discovery.py.md#symmetrystructure-confidence) attribute of `SymmetryStructure` in `src.discovery.auto_T_discovery`
+- [`confidence_level`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-confidence_level) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`CONFIG`](modules/batch_size.py.md#config) constant in `batch_size`
+- [`CONFIG`](modules/grigori_perelmans_ricci_flow.py.md#config) constant in `grigori_perelmans_ricci_flow`
+- [`CONFIG`](modules/hawking_radiation.py.md#config) constant in `hawking_radiation`
+- [`CONFIG`](modules/plank.py.md#config) constant in `plank`
+- [`Config`](modules/boltzmann_experiments.py.md#config) class in `boltzmann_experiments`
+- [`Config`](modules/crystallography.py.md#config) class in `crystallography`
+- [`Config`](modules/src.training.main.py.md#config) class in `src.training.main`
+- [`Config`](modules/superposition.py.md#config) class in `superposition`
+- [`Config`](modules/xray_tensor_diffractometer.py.md#config) class in `xray_tensor_diffractometer`
+- [`Configuration`](modules/batch_size.py.md#configuration) class in `batch_size`
+- [`Configuration`](modules/plank.py.md#configuration) class in `plank`
+- [`ConfigurationEntropyCalculator`](modules/gravity.py.md#configurationentropycalculator) class in `gravity`
+- [`construct`](modules/fermi.py.md#blochwaveconstructor-construct) method of `BlochWaveConstructor` in `fermi`
+- [`construct`](modules/scrodingger.py.md#hamiltonianconstructor-construct) method of `HamiltonianConstructor` in `scrodingger`
+- [`construct`](modules/fermi.py.md#iblochwaveconstructor-construct) method of `IBlochWaveConstructor` in `fermi`
+- [`construct`](modules/scrodingger.py.md#ihamiltonianconstructor-construct) method of `IHamiltonianConstructor` in `scrodingger`
+- [`construct_adjacency_from_weights`](modules/percolation_analysis.py.md#weightgraphconstructor-construct_adjacency_from_weights) method of `WeightGraphConstructor` in `percolation_analysis`
+- [`construct_hessian_approximation`](modules/mbl_analyzer.py.md#bilinearstrassenmodel-construct_hessian_approximation) method of `BilinearStrassenModel` in `mbl_analyzer`
+- [`construct_slot_interaction_graph`](modules/percolation_analysis.py.md#weightgraphconstructor-construct_slot_interaction_graph) method of `WeightGraphConstructor` in `percolation_analysis`
+- [`construct_T`](modules/src.discovery.auto_T_discovery.py.md#autotdiscovery-construct_t) method of `AutoTDiscovery` in `src.discovery.auto_T_discovery`
+- [`construct_weight_correlation_graph`](modules/percolation_analysis.py.md#weightgraphconstructor-construct_weight_correlation_graph) method of `WeightGraphConstructor` in `percolation_analysis`
+- [`convergence_theorem`](modules/src.training.convergence_theory.py.md#convergence_theorem) function in `src.training.convergence_theory`
+- [`ConvergenceMetrics`](modules/src.training.convergence_theory.py.md#convergencemetrics) class in `src.training.convergence_theory`
+- [`cosine_annealing_t0`](modules/full_seed_prospector.py.md#unifiedconfig-cosine_annealing_t0) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`cosine_similarity`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-cosine_similarity) method of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`count_active`](modules/experiments.apendix_experiments.py.md#strassenoperator-count_active) method of `StrassenOperator` in `experiments.apendix_experiments`
+- [`count_active`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator-count_active) method of `StrassenOperator` in `experiments.extended_experiments.validate2`
+- [`count_active`](modules/full_seed_prospector.py.md#strassenoperator-count_active) method of `StrassenOperator` in `full_seed_prospector`
+- [`count_active`](modules/src.training.strassen_grokkit.py.md#strassenoperator-count_active) method of `StrassenOperator` in `src.training.strassen_grokkit`
+- [`count_active`](modules/src.training.train_strassen.py.md#strassenoperator-count_active) method of `StrassenOperator` in `src.training.train_strassen`
+- [`count_active_slots`](modules/unified_hidden_connections_suite.py.md#strassstrassenmodel-count_active_slots) method of `StrassStrassenModel` in `unified_hidden_connections_suite`
+- [`count_active_slots`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator-count_active_slots) method of `StrassenOperator` in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`count_active_slots`](modules/experiments.extended_experiments.run_all_experiments.py.md#strassenoperator-count_active_slots) method of `StrassenOperator` in `experiments.extended_experiments.run_all_experiments`
+- [`create_config_from_args`](modules/plank.py.md#create_config_from_args) function in `plank`
+- [`create_superlattice_seed`](modules/xray_tensor_diffractometer.py.md#spectroscopymetrics-create_superlattice_seed) staticmethod of `SpectroscopyMetrics` in `xray_tensor_diffractometer`
+- [`crystal_dir`](modules/full_seed_prospector.py.md#unifiedconfig-crystal_dir) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`CRYSTAL_TEMPERATURE_THRESHOLD`](modules/mbl_analyzer.py.md#mblconfiguration-crystal_temperature_threshold) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`CRYSTAL_TEMPERATURE_THRESHOLD`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-crystal_temperature_threshold) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`CRYSTAL_TEMPERATURE_THRESHOLD`](modules/percolation_analysis.py.md#percolationconfiguration-crystal_temperature_threshold) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`CRYSTAL_TEMPERATURE_THRESHOLD`](modules/purity_index.py.md#purityconfig-crystal_temperature_threshold) attribute of `PurityConfig` in `purity_index`
+- [`crystallinity`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-crystallinity) attribute of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`CRYSTALLINITY_ENTROPY_THRESHOLD`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-crystallinity_entropy_threshold) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`crystallization_confirmation_epochs`](modules/full_seed_prospector.py.md#unifiedconfig-crystallization_confirmation_epochs) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`CrystallographyMetrics`](modules/batch_size.py.md#crystallographymetrics) class in `batch_size`
+- [`CrystallographyMetrics`](modules/boltzmann_experiments.py.md#crystallographymetrics) class in `boltzmann_experiments`
+- [`CrystallographyMetrics`](modules/crystallography.py.md#crystallographymetrics) class in `crystallography`
+- [`CrystallographyMetrics`](modules/plank.py.md#crystallographymetrics) class in `plank`
+- [`CrystallographyMetrics`](modules/xray_tensor_diffractometer.py.md#crystallographymetrics) class in `xray_tensor_diffractometer`
+- [`CrystalPhaseClassifier`](modules/maxwell_strassen_analysis.py.md#crystalphaseclassifier) class in `maxwell_strassen_analysis`
+- [`CrystalPurityIndex`](modules/crystallography.py.md#crystalpurityindex) class in `crystallography`
+- [`CrystalPurityIndex`](modules/plank.py.md#crystalpurityindex) class in `plank`
+- [`CustomFormatMigrator`](modules/batch_size.py.md#customformatmigrator) class in `batch_size`
+- [`CustomFormatMigrator`](modules/grigori_perelmans_ricci_flow.py.md#customformatmigrator) class in `grigori_perelmans_ricci_flow`
+- [`CustomFormatMigrator`](modules/plank.py.md#customformatmigrator) class in `plank`
+- [`CustomUnpickler`](modules/hawking_radiation.py.md#customunpickler) class in `hawking_radiation`
+
+<a id="d"></a>
+
+## D
+
+- [`data_seed_offset`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-data_seed_offset) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`decode`](modules/superposition.py.md#sparseautoencoder-decode) method of `SparseAutoencoder` in `superposition`
+- [`DELTA_THRESHOLD`](modules/dirac_polos_zeros.py.md#analysisconfig-delta_threshold) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`delta_threshold`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-delta_threshold) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`DELTA_THRESHOLD`](modules/gravity.py.md#thermodynamicconfig-delta_threshold) attribute of `ThermodynamicConfig` in `gravity`
+- [`DeltaCalculator`](modules/full_seed_prospector.py.md#deltacalculator) class in `full_seed_prospector`
+- [`DensityOfStatesCalculator`](modules/fermi.py.md#densityofstatescalculator) class in `fermi`
+- [`detect`](modules/grain.py.md#grainboundarydetector-detect) method of `GrainBoundaryDetector` in `grain`
+- [`detect`](modules/grain.py.md#igrainboundarydetector-detect) method of `IGrainBoundaryDetector` in `grain`
+- [`detect`](modules/gravity.py.md#phasetransitiondetector-detect) method of `PhaseTransitionDetector` in `gravity`
+- [`detect_hidden_dim`](modules/superposition.py.md#checkpointmigrator-detect_hidden_dim) staticmethod of `CheckpointMigrator` in `superposition`
+- [`detect_necks`](modules/grigori_perelmans_ricci_flow.py.md#singularityengine-detect_necks) method of `SingularityEngine` in `grigori_perelmans_ricci_flow`
+- [`detect_phase_transition`](modules/src.training.grokkit_physics.py.md#detect_phase_transition) function in `src.training.grokkit_physics`
+- [`DEVICE`](modules/dirac_polos_zeros.py.md#analysisconfig-device) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`DEVICE`](modules/boltzmann_experiments.py.md#config-device) attribute of `Config` in `boltzmann_experiments`
+- [`DEVICE`](modules/src.training.main.py.md#config-device) attribute of `Config` in `src.training.main`
+- [`DEVICE`](modules/superposition.py.md#config-device) attribute of `Config` in `superposition`
+- [`DEVICE`](modules/xray_tensor_diffractometer.py.md#config-device) attribute of `Config` in `xray_tensor_diffractometer`
+- [`DEVICE`](modules/experiments.apendix_experiments.py.md#device) constant in `experiments.apendix_experiments`
+- [`DEVICE`](modules/src.training.train_strassen.py.md#device) constant in `src.training.train_strassen`
+- [`device`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-device) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`DEVICE`](modules/fermi.py.md#fermiconfig-device) attribute of `FermiConfig` in `fermi`
+- [`DEVICE`](modules/hawking_radiation.py.md#hawkingconfiguration-device) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`DEVICE`](modules/mbl_analyzer.py.md#mblconfiguration-device) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`DEVICE`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-device) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`DEVICE`](modules/percolation_analysis.py.md#percolationconfiguration-device) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`DEVICE`](modules/purity_index.py.md#purityconfig-device) attribute of `PurityConfig` in `purity_index`
+- [`DEVICE`](modules/scrodingger.py.md#schrodingerconfig-device) attribute of `SchrodingerConfig` in `scrodingger`
+- [`device`](modules/experimetn2.py.md#strassstrassenconfig-device) attribute of `StrassStrassenConfig` in `experimetn2`
+- [`device`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig-device) attribute of `StrassStrassenConfig` in `unified_hidden_connections_suite`
+- [`DEVICE`](modules/grain.py.md#strassenconfig-device) attribute of `StrassenConfig` in `grain`
+- [`DEVICE`](modules/gravity.py.md#thermodynamicconfig-device) attribute of `ThermodynamicConfig` in `gravity`
+- [`device`](modules/full_seed_prospector.py.md#unifiedconfig-device) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`DielectricTensorAnalyzer`](modules/maxwell_strassen_analysis.py.md#dielectrictensoranalyzer) class in `maxwell_strassen_analysis`
+- [`DiracDeltaAnalyzer`](modules/dirac_polos_zeros.py.md#diracdeltaanalyzer) class in `dirac_polos_zeros`
+- [`DISCRETIZATION_BASE`](modules/mbl_analyzer.py.md#mblconfiguration-discretization_base) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`discretization_error`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-discretization_error) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`DISCRETIZATION_GAP_COLLAPSE_THRESHOLD`](modules/mbl_analyzer.py.md#mblconfiguration-discretization_gap_collapse_threshold) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`DISCRETIZATION_GAP_COLLAPSE_THRESHOLD`](modules/percolation_analysis.py.md#percolationconfiguration-discretization_gap_collapse_threshold) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`DISCRETIZATION_MARGIN`](modules/boltzmann_experiments.py.md#config-discretization_margin) attribute of `Config` in `boltzmann_experiments`
+- [`DISCRETIZATION_MARGIN`](modules/crystallography.py.md#config-discretization_margin) attribute of `Config` in `crystallography`
+- [`DISCRETIZATION_MARGIN`](modules/xray_tensor_diffractometer.py.md#config-discretization_margin) attribute of `Config` in `xray_tensor_diffractometer`
+- [`DISCRETIZATION_MARGIN`](modules/batch_size.py.md#configuration-discretization_margin) attribute of `Configuration` in `batch_size`
+- [`DISCRETIZATION_MARGIN`](modules/plank.py.md#configuration-discretization_margin) attribute of `Configuration` in `plank`
+- [`DISCRETIZATION_MARGIN`](modules/hawking_radiation.py.md#hawkingconfiguration-discretization_margin) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`DISCRETIZATION_MARGIN`](modules/mbl_analyzer.py.md#mblconfiguration-discretization_margin) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`DISCRETIZATION_MARGIN`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-discretization_margin) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`DISCRETIZATION_MARGIN`](modules/percolation_analysis.py.md#percolationconfiguration-discretization_margin) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`DISCRETIZATION_MARGIN`](modules/purity_index.py.md#purityconfig-discretization_margin) attribute of `PurityConfig` in `purity_index`
+- [`DISCRETIZATION_MARGIN`](modules/grain.py.md#strassenconfig-discretization_margin) attribute of `StrassenConfig` in `grain`
+- [`DISCRETIZATION_NOISE_LEVELS`](modules/mbl_analyzer.py.md#mblconfiguration-discretization_noise_levels) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`DISCRETIZATION_NOISE_LEVELS`](modules/percolation_analysis.py.md#percolationconfiguration-discretization_noise_levels) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`discretization_threshold`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-discretization_threshold) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`discretization_tolerance`](modules/full_seed_prospector.py.md#unifiedconfig-discretization_tolerance) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`discretization_values`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-discretization_values) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`discretization_values`](modules/src.discovery.auto_T_discovery.py.md#symmetrystructure-discretization_values) attribute of `SymmetryStructure` in `src.discovery.auto_T_discovery`
+- [`DiscretizationDialAnalyzer`](modules/mbl_analyzer.py.md#discretizationdialanalyzer) class in `mbl_analyzer`
+- [`discretize`](modules/src.training.train_strassen.py.md#discretize) function in `src.training.train_strassen`
+- [`discretize_weights`](modules/crystallography.py.md#sparsificationprotocol-discretize_weights) method of `SparsificationProtocol` in `crystallography`
+- [`DivergenceCalculator`](modules/dirac_polos_zeros.py.md#divergencecalculator) class in `dirac_polos_zeros`
+- [`DivergenceVisualizer`](modules/dirac_polos_zeros.py.md#divergencevisualizer) class in `dirac_polos_zeros`
+- [`DLProgram`](modules/boltzmann_experiments.py.md#dlprogram) class in `boltzmann_experiments`
+- [`DomainFragmentationAnalyzer`](modules/grain.py.md#domainfragmentationanalyzer) class in `grain`
+- [`dtype`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-dtype) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`dtype`](modules/experimetn2.py.md#strassstrassenconfig-dtype) attribute of `StrassStrassenConfig` in `experimetn2`
+- [`dtype`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig-dtype) attribute of `StrassStrassenConfig` in `unified_hidden_connections_suite`
+- [`DynamicBatchSizeScheduler`](modules/full_seed_prospector.py.md#dynamicbatchsizescheduler) class in `full_seed_prospector`
+
+<a id="e"></a>
+
+## E
+
+- [`EFFECTIVE_INFORMATION_DIM`](modules/hawking_radiation.py.md#hawkingconfiguration-effective_information_dim) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`EFFECTIVE_MODES`](modules/batch_size.py.md#configuration-effective_modes) attribute of `Configuration` in `batch_size`
+- [`EFFECTIVE_MODES`](modules/plank.py.md#configuration-effective_modes) attribute of `Configuration` in `plank`
+- [`EffectiveTemperatureCalculator`](modules/mbl_analyzer.py.md#effectivetemperaturecalculator) class in `mbl_analyzer`
+- [`EffectiveTemperatureCalculator`](modules/purity_index.py.md#effectivetemperaturecalculator) class in `purity_index`
+- [`EIGENVALUE_COUNT`](modules/scrodingger.py.md#schrodingerconfig-eigenvalue_count) attribute of `SchrodingerConfig` in `scrodingger`
+- [`eigenvalue_filter_threshold`](modules/full_seed_prospector.py.md#unifiedconfig-eigenvalue_filter_threshold) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`EigenvalueSolver`](modules/scrodingger.py.md#eigenvaluesolver) class in `scrodingger`
+- [`ElectricFieldCalculator`](modules/dirac_polos_zeros.py.md#electricfieldcalculator) class in `dirac_polos_zeros`
+- [`ElectricFieldVisualizer`](modules/dirac_polos_zeros.py.md#electricfieldvisualizer) class in `dirac_polos_zeros`
+- [`ElectricFluxCalculator`](modules/dirac_polos_zeros.py.md#electricfluxcalculator) class in `dirac_polos_zeros`
+- [`ELECTRON_MASS`](modules/fermi.py.md#fermiconfig-electron_mass) attribute of `FermiConfig` in `fermi`
+- [`ElectronicPropertiesCalculator`](modules/fermi.py.md#electronicpropertiescalculator) class in `fermi`
+- [`encode`](modules/superposition.py.md#sparseautoencoder-encode) method of `SparseAutoencoder` in `superposition`
+- [`EncoderFormatMigrator`](modules/plank.py.md#encoderformatmigrator) class in `plank`
+- [`ENERGY_FLOW_SCALE`](modules/xray_tensor_diffractometer.py.md#config-energy_flow_scale) attribute of `Config` in `xray_tensor_diffractometer`
+- [`ENERGY_TOLERANCE`](modules/scrodingger.py.md#schrodingerconfig-energy_tolerance) attribute of `SchrodingerConfig` in `scrodingger`
+- [`entropy`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-entropy) attribute of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`ENTROPY_BINS`](modules/xray_tensor_diffractometer.py.md#config-entropy_bins) attribute of `Config` in `xray_tensor_diffractometer`
+- [`ENTROPY_BINS`](modules/hawking_radiation.py.md#hawkingconfiguration-entropy_bins) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`ENTROPY_BINS`](modules/mbl_analyzer.py.md#mblconfiguration-entropy_bins) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`ENTROPY_BINS`](modules/percolation_analysis.py.md#percolationconfiguration-entropy_bins) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`ENTROPY_BINS`](modules/purity_index.py.md#purityconfig-entropy_bins) attribute of `PurityConfig` in `purity_index`
+- [`ENTROPY_BINS`](modules/grain.py.md#strassenconfig-entropy_bins) attribute of `StrassenConfig` in `grain`
+- [`ENTROPY_BINS`](modules/gravity.py.md#thermodynamicconfig-entropy_bins) attribute of `ThermodynamicConfig` in `gravity`
+- [`ENTROPY_EPS`](modules/xray_tensor_diffractometer.py.md#config-entropy_eps) attribute of `Config` in `xray_tensor_diffractometer`
+- [`ENTROPY_METHOD`](modules/xray_tensor_diffractometer.py.md#config-entropy_method) attribute of `Config` in `xray_tensor_diffractometer`
+- [`EpitaxialGrowthEngine`](modules/xray_tensor_diffractometer.py.md#epitaxialgrowthengine) class in `xray_tensor_diffractometer`
+- [`EpitaxyExperiment`](modules/xray_tensor_diffractometer.py.md#epitaxyexperiment) class in `xray_tensor_diffractometer`
+- [`EPOCHS`](modules/boltzmann_experiments.py.md#config-epochs) attribute of `Config` in `boltzmann_experiments`
+- [`EPOCHS`](modules/crystallography.py.md#config-epochs) attribute of `Config` in `crystallography`
+- [`EPOCHS`](modules/xray_tensor_diffractometer.py.md#config-epochs) attribute of `Config` in `xray_tensor_diffractometer`
+- [`EPOCHS`](modules/batch_size.py.md#configuration-epochs) attribute of `Configuration` in `batch_size`
+- [`EPOCHS`](modules/plank.py.md#configuration-epochs) attribute of `Configuration` in `plank`
+- [`epochs`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-epochs) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`epochs`](modules/experimetn2.py.md#trainingconfig-epochs) attribute of `TrainingConfig` in `experimetn2`
+- [`epochs`](modules/unified_hidden_connections_suite.py.md#trainingconfig-epochs) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`epochs_per_config`](modules/unified_hidden_connections_suite.py.md#experiment4config-epochs_per_config) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`epochs_per_gamma`](modules/unified_hidden_connections_suite.py.md#experiment2config-epochs_per_gamma) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`EPSILON`](modules/superposition.py.md#config-epsilon) attribute of `Config` in `superposition`
+- [`epsilon`](modules/unified_hidden_connections_suite.py.md#experiment4config-epsilon) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`EPSILON_0`](modules/dirac_polos_zeros.py.md#analysisconfig-epsilon_0) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`EPSILON_0`](modules/gravity.py.md#thermodynamicconfig-epsilon_0) attribute of `ThermodynamicConfig` in `gravity`
+- [`epsilon_hw`](modules/src.training.convergence_theory.py.md#convergencemetrics-epsilon_hw) attribute of `ConvergenceMetrics` in `src.training.convergence_theory`
+- [`error`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-error) attribute of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`error_msg`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-error_msg) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`estimate_gns`](modules/compute_gns_checkpoints.py.md#estimate_gns) function in `compute_gns_checkpoints`
+- [`estimate_hbar_algorithmic`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics-estimate_hbar_algorithmic) staticmethod of `ThermodynamicMetrics` in `xray_tensor_diffractometer`
+- [`estimate_memory_mb`](modules/src.benchmarks.benchmark_strassen.py.md#estimate_memory_mb) function in `src.benchmarks.benchmark_strassen`
+- [`estimate_noise`](modules/src.training.convergence_theory.py.md#hardwarenoiseestimator-estimate_noise) method of `HardwareNoiseEstimator` in `src.training.convergence_theory`
+- [`estimate_trace`](modules/src.training.convergence_theory.py.md#hutchinsontraceestimator-estimate_trace) method of `HutchinsonTraceEstimator` in `src.training.convergence_theory`
+- [`EV_CONVERSION`](modules/fermi.py.md#fermiconfig-ev_conversion) attribute of `FermiConfig` in `fermi`
+- [`eval_interval`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-eval_interval) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`evaluate`](modules/src.training.main.py.md#trainer-evaluate) method of `Trainer` in `src.training.main`
+- [`evaluate_nyquist_stability`](modules/dirac_polos_zeros.py.md#frequencyresponseanalyzer-evaluate_nyquist_stability) method of `FrequencyResponseAnalyzer` in `dirac_polos_zeros`
+- [`evolve`](modules/scrodingger.py.md#itimeevolver-evolve) method of `ITimeEvolver` in `scrodingger`
+- [`evolve`](modules/scrodingger.py.md#timeevolver-evolve) method of `TimeEvolver` in `scrodingger`
+- [`ExactHessianCalculator`](modules/experimetn2.py.md#exacthessiancalculator) class in `experimetn2`
+- [`execute`](modules/full_seed_prospector.py.md#coefficientdiscretizationphase-execute) method of `CoefficientDiscretizationPhase` in `full_seed_prospector`
+- [`execute`](modules/full_seed_prospector.py.md#itrainingphase-execute) method of `ITrainingPhase` in `full_seed_prospector`
+- [`execute`](modules/full_seed_prospector.py.md#longtrainingphase-execute) method of `LongTrainingPhase` in `full_seed_prospector`
+- [`execute`](modules/full_seed_prospector.py.md#progressivesparsificationphase-execute) method of `ProgressiveSparsificationPhase` in `full_seed_prospector`
+- [`execute`](modules/full_seed_prospector.py.md#prospectorphase-execute) method of `ProspectorPhase` in `full_seed_prospector`
+- [`execute_all`](modules/experimetn2.py.md#unifiedsuite-execute_all) method of `UnifiedSuite` in `experimetn2`
+- [`ExecutionMode`](modules/full_seed_prospector.py.md#executionmode) enum in `full_seed_prospector`
+- [`EXPANSION_SCALES`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-expansion_scales) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`EXPANSION_SCALES`](modules/percolation_analysis.py.md#percolationconfiguration-expansion_scales) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`ExpectationValueCalculator`](modules/scrodingger.py.md#expectationvaluecalculator) class in `scrodingger`
+- [`Experiment1Config`](modules/unified_hidden_connections_suite.py.md#experiment1config) class in `unified_hidden_connections_suite`
+- [`Experiment1RicciMBLDuality`](modules/experimetn2.py.md#experiment1riccimblduality) class in `experimetn2`
+- [`Experiment1RicciMBLDuality`](modules/unified_hidden_connections_suite.py.md#experiment1riccimblduality) class in `unified_hidden_connections_suite`
+- [`Experiment2AltlandZirnbauer`](modules/experimetn2.py.md#experiment2altlandzirnbauer) class in `experimetn2`
+- [`Experiment2AltlandZirnbauer`](modules/unified_hidden_connections_suite.py.md#experiment2altlandzirnbauer) class in `unified_hidden_connections_suite`
+- [`Experiment2Config`](modules/unified_hidden_connections_suite.py.md#experiment2config) class in `unified_hidden_connections_suite`
+- [`Experiment3Config`](modules/unified_hidden_connections_suite.py.md#experiment3config) class in `unified_hidden_connections_suite`
+- [`Experiment3ConformalIsomorphism`](modules/experimetn2.py.md#experiment3conformalisomorphism) class in `experimetn2`
+- [`Experiment3ConformalIsomorphism`](modules/unified_hidden_connections_suite.py.md#experiment3conformalisomorphism) class in `unified_hidden_connections_suite`
+- [`Experiment4CompressionFrontier`](modules/experimetn2.py.md#experiment4compressionfrontier) class in `experimetn2`
+- [`Experiment4CompressionFrontier`](modules/unified_hidden_connections_suite.py.md#experiment4compressionfrontier) class in `unified_hidden_connections_suite`
+- [`Experiment4Config`](modules/unified_hidden_connections_suite.py.md#experiment4config) class in `unified_hidden_connections_suite`
+- [`Experiment5Config`](modules/unified_hidden_connections_suite.py.md#experiment5config) class in `unified_hidden_connections_suite`
+- [`Experiment5HolographicPruning`](modules/experimetn2.py.md#experiment5holographicpruning) class in `experimetn2`
+- [`Experiment5HolographicPruning`](modules/unified_hidden_connections_suite.py.md#experiment5holographicpruning) class in `unified_hidden_connections_suite`
+- [`experiment_1`](modules/unified_hidden_connections_suite.py.md#suiteconfig-experiment_1) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`experiment_2`](modules/unified_hidden_connections_suite.py.md#suiteconfig-experiment_2) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`experiment_3`](modules/unified_hidden_connections_suite.py.md#suiteconfig-experiment_3) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`experiment_4`](modules/unified_hidden_connections_suite.py.md#suiteconfig-experiment_4) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`experiment_5`](modules/unified_hidden_connections_suite.py.md#suiteconfig-experiment_5) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`experiment_treatment_a_gradient_noise`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#experiment_treatment_a_gradient_noise) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`experiment_treatment_b_weight_noise`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#experiment_treatment_b_weight_noise) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`experiment_treatment_c_structured_noise`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#experiment_treatment_c_structured_noise) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`ExperimentConfig`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig) class in `experiments.extended_experiments.validate2`
+- [`ExperimentConfig`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig) class in `experiments.statistics.rigorous_experiment`
+- [`ExperimentOrchestrator`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator) class in `experiments.extended_experiments.validate2`
+- [`ExperimentResult`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult) class in `experiments.statistics.rigorous_experiment`
+- [`extract`](modules/dirac_polos_zeros.py.md#chargedistributionextractor-extract) method of `ChargeDistributionExtractor` in `dirac_polos_zeros`
+- [`extract`](modules/dirac_polos_zeros.py.md#ichargedistributionextractor-extract) method of `IChargeDistributionExtractor` in `dirac_polos_zeros`
+- [`extract`](modules/dirac_polos_zeros.py.md#istatespaceextractor-extract) method of `IStateSpaceExtractor` in `dirac_polos_zeros`
+- [`extract`](modules/scrodingger.py.md#iwavefunctionextractor-extract) method of `IWaveFunctionExtractor` in `scrodingger`
+- [`extract`](modules/hawking_radiation.py.md#metadataextractor-extract) staticmethod of `MetadataExtractor` in `hawking_radiation`
+- [`extract`](modules/dirac_polos_zeros.py.md#statespaceextractor-extract) method of `StateSpaceExtractor` in `dirac_polos_zeros`
+- [`extract`](modules/scrodingger.py.md#wavefunctionextractor-extract) method of `WaveFunctionExtractor` in `scrodingger`
+- [`extract_bottleneck_activations`](modules/superposition.py.md#strassencheckpointanalyzer-extract_bottleneck_activations) method of `StrassenCheckpointAnalyzer` in `superposition`
+- [`extract_canonical_decomposition`](modules/xray_tensor_diffractometer.py.md#spectroscopymetrics-extract_canonical_decomposition) staticmethod of `SpectroscopyMetrics` in `xray_tensor_diffractometer`
+- [`extract_lattice_parameters`](modules/xray_tensor_diffractometer.py.md#spectroscopymetrics-extract_lattice_parameters) staticmethod of `SpectroscopyMetrics` in `xray_tensor_diffractometer`
+- [`extract_training_metrics`](modules/batch_size.py.md#strassencheckpointloader-extract_training_metrics) method of `StrassenCheckpointLoader` in `batch_size`
+- [`extract_training_metrics`](modules/plank.py.md#strassencheckpointloader-extract_training_metrics) method of `StrassenCheckpointLoader` in `plank`
+
+<a id="f"></a>
+
+## F
+
+- [`FERMI_TOLERANCE`](modules/fermi.py.md#fermiconfig-fermi_tolerance) attribute of `FermiConfig` in `fermi`
+- [`FermiConfig`](modules/fermi.py.md#fermiconfig) class in `fermi`
+- [`FermiLevelAnalyzer`](modules/fermi.py.md#fermilevelanalyzer) class in `fermi`
+- [`FermiLevelCalculator`](modules/fermi.py.md#fermilevelcalculator) class in `fermi`
+- [`FermiPipeline`](modules/fermi.py.md#fermipipeline) class in `fermi`
+- [`FIGURE_DPI`](modules/dirac_polos_zeros.py.md#analysisconfig-figure_dpi) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`FIGURE_DPI`](modules/fermi.py.md#fermiconfig-figure_dpi) attribute of `FermiConfig` in `fermi`
+- [`FIGURE_DPI`](modules/mbl_analyzer.py.md#mblconfiguration-figure_dpi) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`FIGURE_DPI`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-figure_dpi) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`FIGURE_DPI`](modules/percolation_analysis.py.md#percolationconfiguration-figure_dpi) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`FIGURE_DPI`](modules/purity_index.py.md#purityconfig-figure_dpi) attribute of `PurityConfig` in `purity_index`
+- [`FIGURE_DPI`](modules/scrodingger.py.md#schrodingerconfig-figure_dpi) attribute of `SchrodingerConfig` in `scrodingger`
+- [`FIGURE_DPI`](modules/grain.py.md#strassenconfig-figure_dpi) attribute of `StrassenConfig` in `grain`
+- [`FIGURE_DPI`](modules/gravity.py.md#thermodynamicconfig-figure_dpi) attribute of `ThermodynamicConfig` in `gravity`
+- [`FIGURE_HEIGHT`](modules/percolation_analysis.py.md#percolationconfiguration-figure_height) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`FIGURE_WIDTH`](modules/percolation_analysis.py.md#percolationconfiguration-figure_width) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`FIGURES_DIR`](modules/experiments.generate_figures.py.md#figures_dir) constant in `experiments.generate_figures`
+- [`final_loss`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-final_loss) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`find_class`](modules/hawking_radiation.py.md#customunpickler-find_class) method of `CustomUnpickler` in `hawking_radiation`
+- [`find_grokked_checkpoint`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-find_grokked_checkpoint) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`find_grokked_checkpoint`](modules/experiments.extended_experiments.validate2.py.md#find_grokked_checkpoint) function in `experiments.extended_experiments.validate2`
+- [`find_optimal_B`](modules/experiments.statistics.rigorous_experiment.py.md#find_optimal_b) function in `experiments.statistics.rigorous_experiment`
+- [`fine_tune`](modules/experiments.extended_experiments.validate2.py.md#iterativepruningengine-fine_tune) method of `IterativePruningEngine` in `experiments.extended_experiments.validate2`
+- [`finetune_epochs`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-finetune_epochs) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`finetune_lr`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-finetune_lr) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`fit_noise_model`](modules/experiments.statistics.rigorous_experiment.py.md#fit_noise_model) function in `experiments.statistics.rigorous_experiment`
+- [`FLUX_INTEGRATION_SAMPLES`](modules/dirac_polos_zeros.py.md#analysisconfig-flux_integration_samples) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`FLUX_INTEGRATION_SAMPLES`](modules/gravity.py.md#thermodynamicconfig-flux_integration_samples) attribute of `ThermodynamicConfig` in `gravity`
+- [`forward`](modules/dirac_polos_zeros.py.md#bilinearmodel-forward) method of `BilinearModel` in `dirac_polos_zeros`
+- [`forward`](modules/fermi.py.md#bilinearmodel-forward) method of `BilinearModel` in `fermi`
+- [`forward`](modules/gravity.py.md#bilinearmodel-forward) method of `BilinearModel` in `gravity`
+- [`forward`](modules/purity_index.py.md#bilinearmodel-forward) method of `BilinearModel` in `purity_index`
+- [`forward`](modules/scrodingger.py.md#bilinearmodel-forward) method of `BilinearModel` in `scrodingger`
+- [`forward`](modules/batch_size.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `batch_size`
+- [`forward`](modules/boltzmann_experiments.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `boltzmann_experiments`
+- [`forward`](modules/crystallography.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `crystallography`
+- [`forward`](modules/grain.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `grain`
+- [`forward`](modules/grigori_perelmans_ricci_flow.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `grigori_perelmans_ricci_flow`
+- [`forward`](modules/hawking_radiation.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `hawking_radiation`
+- [`forward`](modules/maxwell_strassen_analysis.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `maxwell_strassen_analysis`
+- [`forward`](modules/mbl_analyzer.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `mbl_analyzer`
+- [`forward`](modules/plank.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `plank`
+- [`forward`](modules/superposition.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `superposition`
+- [`forward`](modules/xray_tensor_diffractometer.py.md#bilinearstrassenmodel-forward) method of `BilinearStrassenModel` in `xray_tensor_diffractometer`
+- [`forward`](modules/experimetn2.py.md#complexstrassstrassenmodel-forward) method of `ComplexStrassStrassenModel` in `experimetn2`
+- [`forward`](modules/dirac_polos_zeros.py.md#imodel-forward) method of `IModel` in `dirac_polos_zeros`
+- [`forward`](modules/grain.py.md#imodel-forward) method of `IModel` in `grain`
+- [`forward`](modules/gravity.py.md#imodel-forward) method of `IModel` in `gravity`
+- [`forward`](modules/hawking_radiation.py.md#imodel-forward) method of `IModel` in `hawking_radiation`
+- [`forward`](modules/mbl_analyzer.py.md#imodel-forward) method of `IModel` in `mbl_analyzer`
+- [`forward`](modules/src.training.convergence_theory.py.md#simplestrassenmodel-forward) method of `SimpleStrassenModel` in `src.training.convergence_theory`
+- [`forward`](modules/superposition.py.md#sparseautoencoder-forward) method of `SparseAutoencoder` in `superposition`
+- [`forward`](modules/experimetn2.py.md#strassstrassenmodel-forward) method of `StrassStrassenModel` in `experimetn2`
+- [`forward`](modules/unified_hidden_connections_suite.py.md#strassstrassenmodel-forward) method of `StrassStrassenModel` in `unified_hidden_connections_suite`
+- [`forward`](modules/experiments.verify_checkpoints.py.md#strassenbilinear-forward) method of `StrassenBilinear` in `experiments.verify_checkpoints`
+- [`forward`](modules/src.training.main.py.md#strassendiscovery-forward) method of `StrassenDiscovery` in `src.training.main`
+- [`forward`](modules/experiments.statistics.rigorous_experiment.py.md#strassenmodel-forward) method of `StrassenModel` in `experiments.statistics.rigorous_experiment`
+- [`forward`](modules/src.training.main_pure_math.py.md#strassenmodel-forward) method of `StrassenModel` in `src.training.main_pure_math`
+- [`forward`](modules/app.py.md#strassennet-forward) method of `StrassenNet` in `app`
+- [`forward`](modules/experiments.apendix_experiments.py.md#strassenoperator-forward) method of `StrassenOperator` in `experiments.apendix_experiments`
+- [`forward`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#strassenoperator-forward) method of `StrassenOperator` in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`forward`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#strassenoperator-forward) method of `StrassenOperator` in `experiments.extended_experiments.exp2_noise_ablation`
+- [`forward`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator-forward) method of `StrassenOperator` in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`forward`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-forward) method of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`forward`](modules/experiments.extended_experiments.run_all_experiments.py.md#strassenoperator-forward) method of `StrassenOperator` in `experiments.extended_experiments.run_all_experiments`
+- [`forward`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator-forward) method of `StrassenOperator` in `experiments.extended_experiments.validate2`
+- [`forward`](modules/full_seed_prospector.py.md#strassenoperator-forward) method of `StrassenOperator` in `full_seed_prospector`
+- [`forward`](modules/src.training.strassen_grokkit.py.md#strassenoperator-forward) method of `StrassenOperator` in `src.training.strassen_grokkit`
+- [`forward`](modules/src.training.train_strassen.py.md#strassenoperator-forward) method of `StrassenOperator` in `src.training.train_strassen`
+- [`FREQUENCY_MAX`](modules/dirac_polos_zeros.py.md#analysisconfig-frequency_max) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`FREQUENCY_MAX`](modules/gravity.py.md#thermodynamicconfig-frequency_max) attribute of `ThermodynamicConfig` in `gravity`
+- [`FREQUENCY_MIN`](modules/dirac_polos_zeros.py.md#analysisconfig-frequency_min) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`FREQUENCY_MIN`](modules/gravity.py.md#thermodynamicconfig-frequency_min) attribute of `ThermodynamicConfig` in `gravity`
+- [`FREQUENCY_SAMPLES`](modules/dirac_polos_zeros.py.md#analysisconfig-frequency_samples) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`FREQUENCY_SAMPLES`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-frequency_samples) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`FREQUENCY_SAMPLES`](modules/gravity.py.md#thermodynamicconfig-frequency_samples) attribute of `ThermodynamicConfig` in `gravity`
+- [`FrequencyResponseAnalyzer`](modules/dirac_polos_zeros.py.md#frequencyresponseanalyzer) class in `dirac_polos_zeros`
+
+<a id="g"></a>
+
+## G
+
+- [`G_ALG_WINDOW`](modules/gravity.py.md#thermodynamicconfig-g_alg_window) attribute of `ThermodynamicConfig` in `gravity`
+- [`gamma_values`](modules/unified_hidden_connections_suite.py.md#experiment2config-gamma_values) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`GAUGE_ERROR_THRESHOLD`](modules/plank.py.md#configuration-gauge_error_threshold) attribute of `Configuration` in `plank`
+- [`GAUGE_SAMPLES`](modules/batch_size.py.md#configuration-gauge_samples) attribute of `Configuration` in `batch_size`
+- [`GAUGE_SAMPLES`](modules/plank.py.md#configuration-gauge_samples) attribute of `Configuration` in `plank`
+- [`GAUSSIAN_SIGMA`](modules/dirac_polos_zeros.py.md#analysisconfig-gaussian_sigma) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`GAUSSIAN_SIGMA`](modules/gravity.py.md#thermodynamicconfig-gaussian_sigma) attribute of `ThermodynamicConfig` in `gravity`
+- [`GaussLawVerifier`](modules/dirac_polos_zeros.py.md#gausslawverifier) class in `dirac_polos_zeros`
+- [`gen_data`](modules/src.training.main_pure_math.py.md#gen_data) function in `src.training.main_pure_math`
+- [`generate_ablation_figure`](modules/experiments.generate_figures.py.md#generate_ablation_figure) function in `experiments.generate_figures`
+- [`generate_all_figures`](modules/percolation_analysis.py.md#percolationvisualizationengine-generate_all_figures) method of `PercolationVisualizationEngine` in `percolation_analysis`
+- [`generate_batch`](modules/unified_hidden_connections_suite.py.md#idatagenerator-generate_batch) method of `IDataGenerator` in `unified_hidden_connections_suite`
+- [`generate_batch`](modules/xray_tensor_diffractometer.py.md#idatagenerator-generate_batch) method of `IDataGenerator` in `xray_tensor_diffractometer`
+- [`generate_batch`](modules/full_seed_prospector.py.md#matrixdatagenerator-generate_batch) method of `MatrixDataGenerator` in `full_seed_prospector`
+- [`generate_batch`](modules/batch_size.py.md#strassendatagenerator-generate_batch) staticmethod of `StrassenDataGenerator` in `batch_size`
+- [`generate_batch`](modules/crystallography.py.md#strassendatagenerator-generate_batch) staticmethod of `StrassenDataGenerator` in `crystallography`
+- [`generate_batch`](modules/experimetn2.py.md#strassendatagenerator-generate_batch) method of `StrassenDataGenerator` in `experimetn2`
+- [`generate_batch`](modules/grigori_perelmans_ricci_flow.py.md#strassendatagenerator-generate_batch) staticmethod of `StrassenDataGenerator` in `grigori_perelmans_ricci_flow`
+- [`generate_batch`](modules/plank.py.md#strassendatagenerator-generate_batch) staticmethod of `StrassenDataGenerator` in `plank`
+- [`generate_batch`](modules/superposition.py.md#strassendatagenerator-generate_batch) method of `StrassenDataGenerator` in `superposition`
+- [`generate_batch`](modules/unified_hidden_connections_suite.py.md#strassendatagenerator-generate_batch) method of `StrassenDataGenerator` in `unified_hidden_connections_suite`
+- [`generate_batch`](modules/xray_tensor_diffractometer.py.md#strassendatagenerator-generate_batch) staticmethod of `StrassenDataGenerator` in `xray_tensor_diffractometer`
+- [`generate_batch`](modules/experiments.apendix_experiments.py.md#generate_batch) function in `experiments.apendix_experiments`
+- [`generate_batch`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#generate_batch) function in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`generate_batch`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#generate_batch) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`generate_batch`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#generate_batch) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`generate_batch`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#generate_batch) function in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`generate_batch`](modules/experiments.extended_experiments.run_all_experiments.py.md#generate_batch) function in `experiments.extended_experiments.run_all_experiments`
+- [`generate_batch`](modules/src.training.strassen_grokkit.py.md#generate_batch) function in `src.training.strassen_grokkit`
+- [`generate_batch`](modules/src.training.train_strassen.py.md#generate_batch) function in `src.training.train_strassen`
+- [`generate_benchmark_figure`](modules/experiments.generate_figures.py.md#generate_benchmark_figure) function in `experiments.generate_figures`
+- [`generate_coherence_figure`](modules/experiments.generate_figures.py.md#generate_coherence_figure) function in `experiments.generate_figures`
+- [`generate_crystallization_figure`](modules/experiments.generate_figures.py.md#generate_crystallization_figure) function in `experiments.generate_figures`
+- [`generate_data`](modules/experiments.extended_experiments.validate2.py.md#strassendatagenerator-generate_data) method of `StrassenDataGenerator` in `experiments.extended_experiments.validate2`
+- [`generate_data`](modules/experiments.statistics.rigorous_experiment.py.md#generate_data) function in `experiments.statistics.rigorous_experiment`
+- [`generate_dataset`](modules/superposition.py.md#strassendatagenerator-generate_dataset) method of `StrassenDataGenerator` in `superposition`
+- [`generate_json_report`](modules/percolation_analysis.py.md#percolationreportgenerator-generate_json_report) method of `PercolationReportGenerator` in `percolation_analysis`
+- [`generate_matrix`](modules/experiments.extended_experiments.validate2.py.md#strassendatagenerator-generate_matrix) method of `StrassenDataGenerator` in `experiments.extended_experiments.validate2`
+- [`generate_phase_transition_figure`](modules/experiments.generate_figures.py.md#generate_phase_transition_figure) function in `experiments.generate_figures`
+- [`generate_report`](modules/maxwell_strassen_analysis.py.md#maxwellanalyzer-generate_report) method of `MaxwellAnalyzer` in `maxwell_strassen_analysis`
+- [`generate_report`](modules/experiments.statistics.rigorous_experiment.py.md#generate_report) function in `experiments.statistics.rigorous_experiment`
+- [`generate_summary`](modules/dirac_polos_zeros.py.md#analysispipeline-generate_summary) method of `AnalysisPipeline` in `dirac_polos_zeros`
+- [`generate_summary`](modules/fermi.py.md#fermipipeline-generate_summary) method of `FermiPipeline` in `fermi`
+- [`generate_summary`](modules/grain.py.md#grainboundarypipeline-generate_summary) method of `GrainBoundaryPipeline` in `grain`
+- [`generate_summary`](modules/mbl_analyzer.py.md#mblanalysispipeline-generate_summary) method of `MBLAnalysisPipeline` in `mbl_analyzer`
+- [`generate_summary`](modules/purity_index.py.md#puritypipeline-generate_summary) method of `PurityPipeline` in `purity_index`
+- [`generate_summary`](modules/scrodingger.py.md#schrodingerpipeline-generate_summary) method of `SchrodingerPipeline` in `scrodingger`
+- [`generate_summary`](modules/gravity.py.md#thermodynamicpipeline-generate_summary) method of `ThermodynamicPipeline` in `gravity`
+- [`generate_summary_report`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-generate_summary_report) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`generate_summary_visualization`](modules/experiments.extended_experiments.run_all_experiments.py.md#generate_summary_visualization) function in `experiments.extended_experiments.run_all_experiments`
+- [`generate_test_set`](modules/experiments.apendix_experiments.py.md#generate_test_set) function in `experiments.apendix_experiments`
+- [`generate_text_report`](modules/percolation_analysis.py.md#percolationreportgenerator-generate_text_report) method of `PercolationReportGenerator` in `percolation_analysis`
+- [`generate_visualization`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#generate_visualization) function in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`generate_visualization`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#generate_visualization) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`generate_visualization`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#generate_visualization) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`generate_visualization`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#generate_visualization) function in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`generate_visualizations`](modules/plank.py.md#reportgenerator-generate_visualizations) method of `ReportGenerator` in `plank`
+- [`generate_weight_geometry_figure`](modules/experiments.generate_figures.py.md#generate_weight_geometry_figure) function in `experiments.generate_figures`
+- [`GeometricLossAggregator`](modules/full_seed_prospector.py.md#geometriclossaggregator) class in `full_seed_prospector`
+- [`GeometricPlanckCalculator`](modules/grigori_perelmans_ricci_flow.py.md#geometricplanckcalculator) class in `grigori_perelmans_ricci_flow`
+- [`get_active_slots`](modules/src.training.main.py.md#strassendiscovery-get_active_slots) method of `StrassenDiscovery` in `src.training.main`
+- [`get_all_parameters`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#strassenoperator-get_all_parameters) method of `StrassenOperator` in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`get_all_parameters`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#strassenoperator-get_all_parameters) method of `StrassenOperator` in `experiments.extended_experiments.exp2_noise_ablation`
+- [`get_all_parameters`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator-get_all_parameters) method of `StrassenOperator` in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`get_all_parameters`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-get_all_parameters) method of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`get_all_parameters`](modules/experiments.extended_experiments.run_all_experiments.py.md#strassenoperator-get_all_parameters) method of `StrassenOperator` in `experiments.extended_experiments.run_all_experiments`
+- [`get_batch_size`](modules/full_seed_prospector.py.md#dynamicbatchsizescheduler-get_batch_size) method of `DynamicBatchSizeScheduler` in `full_seed_prospector`
+- [`get_canonical`](modules/full_seed_prospector.py.md#canonicalstrassenprovider-get_canonical) staticmethod of `CanonicalStrassenProvider` in `full_seed_prospector`
+- [`get_canonical_strassen`](modules/src.training.train_strassen.py.md#get_canonical_strassen) function in `src.training.train_strassen`
+- [`get_coefficients`](modules/dirac_polos_zeros.py.md#bilinearmodel-get_coefficients) method of `BilinearModel` in `dirac_polos_zeros`
+- [`get_coefficients`](modules/fermi.py.md#bilinearmodel-get_coefficients) method of `BilinearModel` in `fermi`
+- [`get_coefficients`](modules/gravity.py.md#bilinearmodel-get_coefficients) method of `BilinearModel` in `gravity`
+- [`get_coefficients`](modules/purity_index.py.md#bilinearmodel-get_coefficients) method of `BilinearModel` in `purity_index`
+- [`get_coefficients`](modules/scrodingger.py.md#bilinearmodel-get_coefficients) method of `BilinearModel` in `scrodingger`
+- [`get_coefficients`](modules/batch_size.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `batch_size`
+- [`get_coefficients`](modules/boltzmann_experiments.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `boltzmann_experiments`
+- [`get_coefficients`](modules/crystallography.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `crystallography`
+- [`get_coefficients`](modules/grain.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `grain`
+- [`get_coefficients`](modules/grigori_perelmans_ricci_flow.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `grigori_perelmans_ricci_flow`
+- [`get_coefficients`](modules/hawking_radiation.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `hawking_radiation`
+- [`get_coefficients`](modules/maxwell_strassen_analysis.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `maxwell_strassen_analysis`
+- [`get_coefficients`](modules/mbl_analyzer.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `mbl_analyzer`
+- [`get_coefficients`](modules/plank.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `plank`
+- [`get_coefficients`](modules/superposition.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `superposition`
+- [`get_coefficients`](modules/xray_tensor_diffractometer.py.md#bilinearstrassenmodel-get_coefficients) method of `BilinearStrassenModel` in `xray_tensor_diffractometer`
+- [`get_coefficients`](modules/dirac_polos_zeros.py.md#imodel-get_coefficients) method of `IModel` in `dirac_polos_zeros`
+- [`get_coefficients`](modules/fermi.py.md#imodel-get_coefficients) method of `IModel` in `fermi`
+- [`get_coefficients`](modules/grain.py.md#imodel-get_coefficients) method of `IModel` in `grain`
+- [`get_coefficients`](modules/gravity.py.md#imodel-get_coefficients) method of `IModel` in `gravity`
+- [`get_coefficients`](modules/hawking_radiation.py.md#imodel-get_coefficients) method of `IModel` in `hawking_radiation`
+- [`get_coefficients`](modules/maxwell_strassen_analysis.py.md#imodel-get_coefficients) method of `IModel` in `maxwell_strassen_analysis`
+- [`get_coefficients`](modules/mbl_analyzer.py.md#imodel-get_coefficients) method of `IModel` in `mbl_analyzer`
+- [`get_coefficients`](modules/percolation_analysis.py.md#imodel-get_coefficients) method of `IModel` in `percolation_analysis`
+- [`get_coefficients`](modules/purity_index.py.md#imodel-get_coefficients) method of `IModel` in `purity_index`
+- [`get_coefficients`](modules/scrodingger.py.md#imodel-get_coefficients) method of `IModel` in `scrodingger`
+- [`get_coefficients`](modules/percolation_analysis.py.md#numpymodelwrapper-get_coefficients) method of `NumpyModelWrapper` in `percolation_analysis`
+- [`get_coefficients`](modules/experimetn2.py.md#strassstrassenmodel-get_coefficients) method of `StrassStrassenModel` in `experimetn2`
+- [`get_coefficients`](modules/unified_hidden_connections_suite.py.md#strassstrassenmodel-get_coefficients) method of `StrassStrassenModel` in `unified_hidden_connections_suite`
+- [`get_coefficients`](modules/src.training.strassen_core.py.md#get_coefficients) function in `src.training.strassen_core`
+- [`get_complex_tensors`](modules/experimetn2.py.md#complexstrassstrassenmodel-get_complex_tensors) method of `ComplexStrassStrassenModel` in `experimetn2`
+- [`get_current_metrics`](modules/grain.py.md#trainingmetricstracker-get_current_metrics) method of `TrainingMetricsTracker` in `grain`
+- [`get_discrete_coefficients`](modules/experiments.verify_checkpoints.py.md#strassenbilinear-get_discrete_coefficients) method of `StrassenBilinear` in `experiments.verify_checkpoints`
+- [`get_dtype`](modules/src.benchmarks.benchmark_strassen.py.md#get_dtype) function in `src.benchmarks.benchmark_strassen`
+- [`get_effective_input_dim`](modules/hawking_radiation.py.md#hawkingconfiguration-get_effective_input_dim) method of `HawkingConfiguration` in `hawking_radiation`
+- [`get_effective_input_dim`](modules/mbl_analyzer.py.md#mblconfiguration-get_effective_input_dim) method of `MBLConfiguration` in `mbl_analyzer`
+- [`get_effective_input_dim`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-get_effective_input_dim) method of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`get_effective_input_dim`](modules/percolation_analysis.py.md#percolationconfiguration-get_effective_input_dim) method of `PercolationConfiguration` in `percolation_analysis`
+- [`get_eigenbasis`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#get_eigenbasis) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`get_flat_parameters`](modules/hawking_radiation.py.md#bilinearstrassenmodel-get_flat_parameters) method of `BilinearStrassenModel` in `hawking_radiation`
+- [`get_flat_parameters`](modules/mbl_analyzer.py.md#bilinearstrassenmodel-get_flat_parameters) method of `BilinearStrassenModel` in `mbl_analyzer`
+- [`get_flat_parameters`](modules/percolation_analysis.py.md#numpymodelwrapper-get_flat_parameters) method of `NumpyModelWrapper` in `percolation_analysis`
+- [`get_flat_parameters`](modules/unified_hidden_connections_suite.py.md#strassstrassenmodel-get_flat_parameters) method of `StrassStrassenModel` in `unified_hidden_connections_suite`
+- [`get_flat_parameters`](modules/full_seed_prospector.py.md#strassenoperator-get_flat_parameters) method of `StrassenOperator` in `full_seed_prospector`
+- [`get_flat_params`](modules/grigori_perelmans_ricci_flow.py.md#bilinearstrassenmodel-get_flat_params) method of `BilinearStrassenModel` in `grigori_perelmans_ricci_flow`
+- [`get_kappa_trend`](modules/full_seed_prospector.py.md#kappacalculator-get_kappa_trend) method of `KappaCalculator` in `full_seed_prospector`
+- [`get_latest_checkpoint_path`](modules/full_seed_prospector.py.md#checkpointmanager-get_latest_checkpoint_path) method of `CheckpointManager` in `full_seed_prospector`
+- [`get_name`](modules/experimetn2.py.md#experiment1riccimblduality-get_name) method of `Experiment1RicciMBLDuality` in `experimetn2`
+- [`get_name`](modules/unified_hidden_connections_suite.py.md#experiment1riccimblduality-get_name) method of `Experiment1RicciMBLDuality` in `unified_hidden_connections_suite`
+- [`get_name`](modules/experimetn2.py.md#experiment2altlandzirnbauer-get_name) method of `Experiment2AltlandZirnbauer` in `experimetn2`
+- [`get_name`](modules/unified_hidden_connections_suite.py.md#experiment2altlandzirnbauer-get_name) method of `Experiment2AltlandZirnbauer` in `unified_hidden_connections_suite`
+- [`get_name`](modules/experimetn2.py.md#experiment3conformalisomorphism-get_name) method of `Experiment3ConformalIsomorphism` in `experimetn2`
+- [`get_name`](modules/unified_hidden_connections_suite.py.md#experiment3conformalisomorphism-get_name) method of `Experiment3ConformalIsomorphism` in `unified_hidden_connections_suite`
+- [`get_name`](modules/experimetn2.py.md#experiment4compressionfrontier-get_name) method of `Experiment4CompressionFrontier` in `experimetn2`
+- [`get_name`](modules/unified_hidden_connections_suite.py.md#experiment4compressionfrontier-get_name) method of `Experiment4CompressionFrontier` in `unified_hidden_connections_suite`
+- [`get_name`](modules/experimetn2.py.md#experiment5holographicpruning-get_name) method of `Experiment5HolographicPruning` in `experimetn2`
+- [`get_name`](modules/unified_hidden_connections_suite.py.md#experiment5holographicpruning-get_name) method of `Experiment5HolographicPruning` in `unified_hidden_connections_suite`
+- [`get_name`](modules/experimetn2.py.md#iexperiment-get_name) method of `IExperiment` in `experimetn2`
+- [`get_name`](modules/unified_hidden_connections_suite.py.md#iexperiment-get_name) method of `IExperiment` in `unified_hidden_connections_suite`
+- [`get_num_threads`](modules/src.native.strassen_turbo.c.md#get_num_threads) function in `src/native/strassen_turbo.c`
+- [`get_parameter_count`](modules/full_seed_prospector.py.md#strassenoperator-get_parameter_count) method of `StrassenOperator` in `full_seed_prospector`
+- [`get_percolation_thresholds`](modules/percolation_analysis.py.md#percolationconfiguration-get_percolation_thresholds) method of `PercolationConfiguration` in `percolation_analysis`
+- [`get_poles`](modules/dirac_polos_zeros.py.md#ipolezeroanalyzer-get_poles) method of `IPoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`get_poles`](modules/dirac_polos_zeros.py.md#polezeroanalyzer-get_poles) method of `PoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`get_slot_norms`](modules/src.training.main.py.md#strassendiscovery-get_slot_norms) method of `StrassenDiscovery` in `src.training.main`
+- [`get_state_dict`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator-get_state_dict) method of `StrassenOperator` in `experiments.extended_experiments.validate2`
+- [`get_total_parameters`](modules/hawking_radiation.py.md#hawkingconfiguration-get_total_parameters) method of `HawkingConfiguration` in `hawking_radiation`
+- [`get_total_parameters`](modules/mbl_analyzer.py.md#mblconfiguration-get_total_parameters) method of `MBLConfiguration` in `mbl_analyzer`
+- [`get_total_parameters`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-get_total_parameters) method of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`get_total_parameters`](modules/percolation_analysis.py.md#percolationconfiguration-get_total_parameters) method of `PercolationConfiguration` in `percolation_analysis`
+- [`get_train_test`](modules/experiments.extended_experiments.validate2.py.md#strassendatagenerator-get_train_test) method of `StrassenDataGenerator` in `experiments.extended_experiments.validate2`
+- [`get_training_bar_string`](modules/grain.py.md#trainingmetricstracker-get_training_bar_string) method of `TrainingMetricsTracker` in `grain`
+- [`get_weakest_slot`](modules/src.training.main.py.md#strassendiscovery-get_weakest_slot) method of `StrassenDiscovery` in `src.training.main`
+- [`get_weight_direction`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-get_weight_direction) method of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`get_weight_magnitudes`](modules/experiments.extended_experiments.validate2.py.md#iterativepruningengine-get_weight_magnitudes) method of `IterativePruningEngine` in `experiments.extended_experiments.validate2`
+- [`get_weight_norm`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-get_weight_norm) method of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`get_zeros`](modules/dirac_polos_zeros.py.md#ipolezeroanalyzer-get_zeros) method of `IPoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`get_zeros`](modules/dirac_polos_zeros.py.md#polezeroanalyzer-get_zeros) method of `PoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`gflops`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-gflops) attribute of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`gibbs_free_energy`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-gibbs_free_energy) method of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`GLASS_TEMPERATURE_THRESHOLD`](modules/mbl_analyzer.py.md#mblconfiguration-glass_temperature_threshold) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`GLASS_TEMPERATURE_THRESHOLD`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-glass_temperature_threshold) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`GLASS_TEMPERATURE_THRESHOLD`](modules/percolation_analysis.py.md#percolationconfiguration-glass_temperature_threshold) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`GLASS_TEMPERATURE_THRESHOLD`](modules/purity_index.py.md#purityconfig-glass_temperature_threshold) attribute of `PurityConfig` in `purity_index`
+- [`GlassDetector`](modules/full_seed_prospector.py.md#glassdetector) class in `full_seed_prospector`
+- [`global_output_dir`](modules/unified_hidden_connections_suite.py.md#suiteconfig-global_output_dir) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`grad_clip_norm`](modules/experimetn2.py.md#trainingconfig-grad_clip_norm) attribute of `TrainingConfig` in `experimetn2`
+- [`grad_clip_norm`](modules/unified_hidden_connections_suite.py.md#trainingconfig-grad_clip_norm) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`gradient_clip`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-gradient_clip) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`gradient_clip`](modules/full_seed_prospector.py.md#unifiedconfig-gradient_clip) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`GRADIENT_ESTIMATION_BATCHES`](modules/batch_size.py.md#configuration-gradient_estimation_batches) attribute of `Configuration` in `batch_size`
+- [`gradient_norm`](modules/src.training.convergence_theory.py.md#convergencemetrics-gradient_norm) attribute of `ConvergenceMetrics` in `src.training.convergence_theory`
+- [`GRADIENT_WINDOW`](modules/hawking_radiation.py.md#hawkingconfiguration-gradient_window) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`GradientMetricsCalculator`](modules/full_seed_prospector.py.md#gradientmetricscalculator) class in `full_seed_prospector`
+- [`GRAIN_BOUNDARY_LAYERS`](modules/grain.py.md#strassenconfig-grain_boundary_layers) attribute of `StrassenConfig` in `grain`
+- [`GrainBoundaryAnalyzer`](modules/grain.py.md#grainboundaryanalyzer) class in `grain`
+- [`GrainBoundaryDetector`](modules/grain.py.md#grainboundarydetector) class in `grain`
+- [`GrainBoundaryPipeline`](modules/grain.py.md#grainboundarypipeline) class in `grain`
+- [`GRAVITATIONAL_CONSTANT`](modules/batch_size.py.md#configuration-gravitational_constant) attribute of `Configuration` in `batch_size`
+- [`GRAVITATIONAL_CONSTANT`](modules/plank.py.md#configuration-gravitational_constant) attribute of `Configuration` in `plank`
+- [`GRAVITATIONAL_CONSTANT_SI`](modules/hawking_radiation.py.md#hawkingconfiguration-gravitational_constant_si) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`GravitationalConstantCalculator`](modules/gravity.py.md#gravitationalconstantcalculator) class in `gravity`
+- [`GravitationalConstantCalculator`](modules/hawking_radiation.py.md#gravitationalconstantcalculator) class in `hawking_radiation`
+- [`GreenCowExperiment`](modules/xray_tensor_diffractometer.py.md#greencowexperiment) class in `xray_tensor_diffractometer`
+- [`GRID_DIMENSION`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-grid_dimension) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`grokking_accuracy_threshold`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-grokking_accuracy_threshold) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`grokking_epoch`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-grokking_epoch) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`GrokkingVerifier`](modules/experiments.extended_experiments.validate2.py.md#grokkingverifier) class in `experiments.extended_experiments.validate2`
+- [`grow_epitaxial_crystal`](modules/xray_tensor_diffractometer.py.md#epitaxialgrowthengine-grow_epitaxial_crystal) method of `EpitaxialGrowthEngine` in `xray_tensor_diffractometer`
+
+<a id="h"></a>
+
+## H
+
+- [`HamiltonianConstructor`](modules/scrodingger.py.md#hamiltonianconstructor) class in `scrodingger`
+- [`hard_prune`](modules/src.training.main_pure_math.py.md#hard_prune) function in `src.training.main_pure_math`
+- [`HardwareNoiseEstimator`](modules/src.training.convergence_theory.py.md#hardwarenoiseestimator) class in `src.training.convergence_theory`
+- [`HawkingConfiguration`](modules/hawking_radiation.py.md#hawkingconfiguration) class in `hawking_radiation`
+- [`HawkingRadiationCalculator`](modules/hawking_radiation.py.md#hawkingradiationcalculator) class in `hawking_radiation`
+- [`HBAR`](modules/xray_tensor_diffractometer.py.md#config-hbar) attribute of `Config` in `xray_tensor_diffractometer`
+- [`HBAR`](modules/fermi.py.md#fermiconfig-hbar) attribute of `FermiConfig` in `fermi`
+- [`HBAR`](modules/scrodingger.py.md#schrodingerconfig-hbar) attribute of `SchrodingerConfig` in `scrodingger`
+- [`HBAR_ENERGY_GAP_SCALE`](modules/mbl_analyzer.py.md#mblconfiguration-hbar_energy_gap_scale) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`HBAR_ENERGY_GAP_SCALE`](modules/percolation_analysis.py.md#percolationconfiguration-hbar_energy_gap_scale) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`HBAR_NUMERICAL_NOISE_FLOOR`](modules/mbl_analyzer.py.md#mblconfiguration-hbar_numerical_noise_floor) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`HBAR_NUMERICAL_NOISE_FLOOR`](modules/percolation_analysis.py.md#percolationconfiguration-hbar_numerical_noise_floor) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`heat_kernel_times`](modules/unified_hidden_connections_suite.py.md#experiment1config-heat_kernel_times) attribute of `Experiment1Config` in `unified_hidden_connections_suite`
+- [`HEAT_KERNEL_TIMES`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-heat_kernel_times) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`HEISENBERG_TOLERANCE`](modules/gravity.py.md#thermodynamicconfig-heisenberg_tolerance) attribute of `ThermodynamicConfig` in `gravity`
+- [`HeisenbergUncertaintyCalculator`](modules/gravity.py.md#heisenberguncertaintycalculator) class in `gravity`
+- [`helmholtz_free_energy`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-helmholtz_free_energy) method of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`HESSIAN_BATCH_SIZE`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-hessian_batch_size) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`hessian_samples`](modules/unified_hidden_connections_suite.py.md#experiment1config-hessian_samples) attribute of `Experiment1Config` in `unified_hidden_connections_suite`
+- [`HIDDEN_DIM`](modules/dirac_polos_zeros.py.md#analysisconfig-hidden_dim) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`HIDDEN_DIM`](modules/superposition.py.md#config-hidden_dim) attribute of `Config` in `superposition`
+- [`HIDDEN_DIM`](modules/xray_tensor_diffractometer.py.md#config-hidden_dim) attribute of `Config` in `xray_tensor_diffractometer`
+- [`hidden_dim`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-hidden_dim) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`HIDDEN_DIM`](modules/fermi.py.md#fermiconfig-hidden_dim) attribute of `FermiConfig` in `fermi`
+- [`HIDDEN_DIM`](modules/hawking_radiation.py.md#hawkingconfiguration-hidden_dim) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`HIDDEN_DIM`](modules/mbl_analyzer.py.md#mblconfiguration-hidden_dim) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`HIDDEN_DIM`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-hidden_dim) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`HIDDEN_DIM`](modules/percolation_analysis.py.md#percolationconfiguration-hidden_dim) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`HIDDEN_DIM`](modules/purity_index.py.md#purityconfig-hidden_dim) attribute of `PurityConfig` in `purity_index`
+- [`HIDDEN_DIM`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-hidden_dim) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`HIDDEN_DIM`](modules/scrodingger.py.md#schrodingerconfig-hidden_dim) attribute of `SchrodingerConfig` in `scrodingger`
+- [`HIDDEN_DIM`](modules/grain.py.md#strassenconfig-hidden_dim) attribute of `StrassenConfig` in `grain`
+- [`HIDDEN_DIM`](modules/gravity.py.md#thermodynamicconfig-hidden_dim) attribute of `ThermodynamicConfig` in `gravity`
+- [`HIDDEN_SLOTS`](modules/batch_size.py.md#configuration-hidden_slots) attribute of `Configuration` in `batch_size`
+- [`HIDDEN_SLOTS`](modules/plank.py.md#configuration-hidden_slots) attribute of `Configuration` in `plank`
+- [`HorizonAreaCalculator`](modules/hawking_radiation.py.md#horizonareacalculator) class in `hawking_radiation`
+- [`HutchinsonTraceEstimator`](modules/src.training.convergence_theory.py.md#hutchinsontraceestimator) class in `src.training.convergence_theory`
+
+<a id="i"></a>
+
+## I
+
+- [`IAnalyzer`](modules/superposition.py.md#ianalyzer) class in `superposition`
+- [`IBandStructureCalculator`](modules/fermi.py.md#ibandstructurecalculator) protocol in `fermi`
+- [`IBasinStabilityCalculator`](modules/gravity.py.md#ibasinstabilitycalculator) protocol in `gravity`
+- [`IBlochWaveConstructor`](modules/fermi.py.md#iblochwaveconstructor) protocol in `fermi`
+- [`IChargeDistributionExtractor`](modules/dirac_polos_zeros.py.md#ichargedistributionextractor) protocol in `dirac_polos_zeros`
+- [`ICheckpointLoader`](modules/boltzmann_experiments.py.md#icheckpointloader) class in `boltzmann_experiments`
+- [`ICheckpointLoader`](modules/dirac_polos_zeros.py.md#icheckpointloader) protocol in `dirac_polos_zeros`
+- [`ICheckpointLoader`](modules/scrodingger.py.md#icheckpointloader) protocol in `scrodingger`
+- [`ICheckpointLoader`](modules/superposition.py.md#icheckpointloader) protocol in `superposition`
+- [`ICheckpointLoader`](modules/xray_tensor_diffractometer.py.md#icheckpointloader) protocol in `xray_tensor_diffractometer`
+- [`ICheckpointManager`](modules/full_seed_prospector.py.md#icheckpointmanager) class in `full_seed_prospector`
+- [`ICheckpointManager`](modules/grain.py.md#icheckpointmanager) protocol in `grain`
+- [`ICheckpointManager`](modules/mbl_analyzer.py.md#icheckpointmanager) protocol in `mbl_analyzer`
+- [`ICheckpointManager`](modules/unified_hidden_connections_suite.py.md#icheckpointmanager) protocol in `unified_hidden_connections_suite`
+- [`ICheckpointMigrator`](modules/dirac_polos_zeros.py.md#icheckpointmigrator) protocol in `dirac_polos_zeros`
+- [`ICheckpointMigrator`](modules/scrodingger.py.md#icheckpointmigrator) protocol in `scrodingger`
+- [`IConditionNumberCalculator`](modules/gravity.py.md#iconditionnumbercalculator) protocol in `gravity`
+- [`IDataGenerator`](modules/unified_hidden_connections_suite.py.md#idatagenerator) protocol in `unified_hidden_connections_suite`
+- [`IDataGenerator`](modules/xray_tensor_diffractometer.py.md#idatagenerator) protocol in `xray_tensor_diffractometer`
+- [`IDensityOfStatesCalculator`](modules/fermi.py.md#idensityofstatescalculator) protocol in `fermi`
+- [`IDielectricAnalyzer`](modules/maxwell_strassen_analysis.py.md#idielectricanalyzer) protocol in `maxwell_strassen_analysis`
+- [`IDiracAnalyzer`](modules/dirac_polos_zeros.py.md#idiracanalyzer) protocol in `dirac_polos_zeros`
+- [`IDiscretizationDialAnalyzer`](modules/mbl_analyzer.py.md#idiscretizationdialanalyzer) protocol in `mbl_analyzer`
+- [`IDislocationCalculator`](modules/grain.py.md#idislocationcalculator) protocol in `grain`
+- [`IDomainFragmentationAnalyzer`](modules/grain.py.md#idomainfragmentationanalyzer) protocol in `grain`
+- [`IEffectiveTemperatureCalculator`](modules/purity_index.py.md#ieffectivetemperaturecalculator) protocol in `purity_index`
+- [`IEigenvalueSolver`](modules/scrodingger.py.md#ieigenvaluesolver) protocol in `scrodingger`
+- [`IElectronicPropertiesCalculator`](modules/fermi.py.md#ielectronicpropertiescalculator) protocol in `fermi`
+- [`IEntropyCalculator`](modules/gravity.py.md#ientropycalculator) protocol in `gravity`
+- [`IExpectationValueCalculator`](modules/scrodingger.py.md#iexpectationvaluecalculator) protocol in `scrodingger`
+- [`IExperiment`](modules/experimetn2.py.md#iexperiment) class in `experimetn2`
+- [`IExperiment`](modules/unified_hidden_connections_suite.py.md#iexperiment) class in `unified_hidden_connections_suite`
+- [`IFermiLevelCalculator`](modules/fermi.py.md#ifermilevelcalculator) protocol in `fermi`
+- [`IFieldCalculator`](modules/dirac_polos_zeros.py.md#ifieldcalculator) protocol in `dirac_polos_zeros`
+- [`IFluxCalculator`](modules/dirac_polos_zeros.py.md#ifluxcalculator) protocol in `dirac_polos_zeros`
+- [`IFrequencyAnalyzer`](modules/dirac_polos_zeros.py.md#ifrequencyanalyzer) protocol in `dirac_polos_zeros`
+- [`IGeometryMapper`](modules/maxwell_strassen_analysis.py.md#igeometrymapper) protocol in `maxwell_strassen_analysis`
+- [`IGrainBoundaryDetector`](modules/grain.py.md#igrainboundarydetector) protocol in `grain`
+- [`IGravitationalConstantCalculator`](modules/gravity.py.md#igravitationalconstantcalculator) protocol in `gravity`
+- [`IHamiltonianConstructor`](modules/scrodingger.py.md#ihamiltonianconstructor) protocol in `scrodingger`
+- [`IHeisenbergUncertaintyCalculator`](modules/gravity.py.md#iheisenberguncertaintycalculator) protocol in `gravity`
+- [`ILandauerConstantCalculator`](modules/gravity.py.md#ilandauerconstantcalculator) protocol in `gravity`
+- [`ILayerAnalyzer`](modules/grain.py.md#ilayeranalyzer) protocol in `grain`
+- [`ILevelSpacingCalculator`](modules/mbl_analyzer.py.md#ilevelspacingcalculator) protocol in `mbl_analyzer`
+- [`ILocalComplexityCalculator`](modules/gravity.py.md#ilocalcomplexitycalculator) protocol in `gravity`
+- [`ILossComponent`](modules/full_seed_prospector.py.md#ilosscomponent) class in `full_seed_prospector`
+- [`IMaxwellSolver`](modules/maxwell_strassen_analysis.py.md#imaxwellsolver) protocol in `maxwell_strassen_analysis`
+- [`IMetalInsulatorClassifier`](modules/fermi.py.md#imetalinsulatorclassifier) protocol in `fermi`
+- [`IMetricCalculator`](modules/full_seed_prospector.py.md#imetriccalculator) class in `full_seed_prospector`
+- [`IMetricCalculator`](modules/unified_hidden_connections_suite.py.md#imetriccalculator) class in `unified_hidden_connections_suite`
+- [`IMetricsCalculator`](modules/superposition.py.md#imetricscalculator) class in `superposition`
+- [`IMetricsCalculator`](modules/xray_tensor_diffractometer.py.md#imetricscalculator) protocol in `xray_tensor_diffractometer`
+- [`IModel`](modules/dirac_polos_zeros.py.md#imodel) protocol in `dirac_polos_zeros`
+- [`IModel`](modules/fermi.py.md#imodel) protocol in `fermi`
+- [`IModel`](modules/grain.py.md#imodel) protocol in `grain`
+- [`IModel`](modules/gravity.py.md#imodel) protocol in `gravity`
+- [`IModel`](modules/hawking_radiation.py.md#imodel) protocol in `hawking_radiation`
+- [`IModel`](modules/maxwell_strassen_analysis.py.md#imodel) protocol in `maxwell_strassen_analysis`
+- [`IModel`](modules/mbl_analyzer.py.md#imodel) protocol in `mbl_analyzer`
+- [`IModel`](modules/percolation_analysis.py.md#imodel) protocol in `percolation_analysis`
+- [`IModel`](modules/purity_index.py.md#imodel) protocol in `purity_index`
+- [`IModel`](modules/scrodingger.py.md#imodel) protocol in `scrodingger`
+- [`INDUSTRIAL_DELTA_THRESHOLD`](modules/batch_size.py.md#configuration-industrial_delta_threshold) attribute of `Configuration` in `batch_size`
+- [`INDUSTRIAL_DELTA_THRESHOLD`](modules/plank.py.md#configuration-industrial_delta_threshold) attribute of `Configuration` in `plank`
+- [`INDUSTRIAL_DELTA_THRESHOLD`](modules/hawking_radiation.py.md#hawkingconfiguration-industrial_delta_threshold) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`InformationalMassCalculator`](modules/hawking_radiation.py.md#informationalmasscalculator) class in `hawking_radiation`
+- [`__init__`](modules/full_seed_prospector.py.md#accuracycalculator-__init__) constructor of `AccuracyCalculator` in `full_seed_prospector`
+- [`__init__`](modules/full_seed_prospector.py.md#adaptivequantizationloss-__init__) constructor of `AdaptiveQuantizationLoss` in `full_seed_prospector`
+- [`__init__`](modules/dirac_polos_zeros.py.md#analysispipeline-__init__) constructor of `AnalysisPipeline` in `dirac_polos_zeros`
+- [`__init__`](modules/src.discovery.auto_T_discovery.py.md#autotdiscovery-__init__) constructor of `AutoTDiscovery` in `src.discovery.auto_T_discovery`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#balancedrunsgenerator-__init__) constructor of `BalancedRunsGenerator` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/fermi.py.md#bandstructurecalculator-__init__) constructor of `BandStructureCalculator` in `fermi`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#bandgapanalyzer-__init__) constructor of `BandgapAnalyzer` in `maxwell_strassen_analysis`
+- [`__init__`](modules/crystallography.py.md#basinresiliencespectrometer-__init__) constructor of `BasinResilienceSpectrometer` in `crystallography`
+- [`__init__`](modules/plank.py.md#basinresiliencespectrometer-__init__) constructor of `BasinResilienceSpectrometer` in `plank`
+- [`__init__`](modules/gravity.py.md#basinstabilitycalculator-__init__) constructor of `BasinStabilityCalculator` in `gravity`
+- [`__init__`](modules/batch_size.py.md#batchsizethermodynamics-__init__) constructor of `BatchSizeThermodynamics` in `batch_size`
+- [`__init__`](modules/dirac_polos_zeros.py.md#bilinearmodel-__init__) constructor of `BilinearModel` in `dirac_polos_zeros`
+- [`__init__`](modules/fermi.py.md#bilinearmodel-__init__) constructor of `BilinearModel` in `fermi`
+- [`__init__`](modules/gravity.py.md#bilinearmodel-__init__) constructor of `BilinearModel` in `gravity`
+- [`__init__`](modules/purity_index.py.md#bilinearmodel-__init__) constructor of `BilinearModel` in `purity_index`
+- [`__init__`](modules/scrodingger.py.md#bilinearmodel-__init__) constructor of `BilinearModel` in `scrodingger`
+- [`__init__`](modules/batch_size.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `batch_size`
+- [`__init__`](modules/boltzmann_experiments.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `boltzmann_experiments`
+- [`__init__`](modules/crystallography.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `crystallography`
+- [`__init__`](modules/grain.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `grain`
+- [`__init__`](modules/grigori_perelmans_ricci_flow.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `grigori_perelmans_ricci_flow`
+- [`__init__`](modules/hawking_radiation.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `hawking_radiation`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `maxwell_strassen_analysis`
+- [`__init__`](modules/mbl_analyzer.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `mbl_analyzer`
+- [`__init__`](modules/plank.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `plank`
+- [`__init__`](modules/superposition.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `superposition`
+- [`__init__`](modules/xray_tensor_diffractometer.py.md#bilinearstrassenmodel-__init__) constructor of `BilinearStrassenModel` in `xray_tensor_diffractometer`
+- [`__init__`](modules/fermi.py.md#blochwaveconstructor-__init__) constructor of `BlochWaveConstructor` in `fermi`
+- [`__init__`](modules/dirac_polos_zeros.py.md#bodevisualizer-__init__) constructor of `BodeVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-__init__) constructor of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`__init__`](modules/hawking_radiation.py.md#boltzmannconstantcalculator-__init__) constructor of `BoltzmannConstantCalculator` in `hawking_radiation`
+- [`__init__`](modules/percolation_analysis.py.md#bondpercolationanalyzer-__init__) constructor of `BondPercolationAnalyzer` in `percolation_analysis`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#bootstrapstatistics-__init__) constructor of `BootstrapStatistics` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/dirac_polos_zeros.py.md#chargedistributionvisualizer-__init__) constructor of `ChargeDistributionVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/full_seed_prospector.py.md#checkpointmanager-__init__) constructor of `CheckpointManager` in `full_seed_prospector`
+- [`__init__`](modules/grain.py.md#checkpointmanager-__init__) constructor of `CheckpointManager` in `grain`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#checkpointmanager-__init__) constructor of `CheckpointManager` in `maxwell_strassen_analysis`
+- [`__init__`](modules/batch_size.py.md#checkpointmigrationmanager-__init__) constructor of `CheckpointMigrationManager` in `batch_size`
+- [`__init__`](modules/grigori_perelmans_ricci_flow.py.md#checkpointmigrationmanager-__init__) constructor of `CheckpointMigrationManager` in `grigori_perelmans_ricci_flow`
+- [`__init__`](modules/plank.py.md#checkpointmigrationmanager-__init__) constructor of `CheckpointMigrationManager` in `plank`
+- [`__init__`](modules/percolation_analysis.py.md#clustersizedistributionanalyzer-__init__) constructor of `ClusterSizeDistributionAnalyzer` in `percolation_analysis`
+- [`__init__`](modules/full_seed_prospector.py.md#coefficientdiscretizationphase-__init__) constructor of `CoefficientDiscretizationPhase` in `full_seed_prospector`
+- [`__init__`](modules/dirac_polos_zeros.py.md#combinedvisualizer-__init__) constructor of `CombinedVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/experimetn2.py.md#complexstrassstrassenmodel-__init__) constructor of `ComplexStrassStrassenModel` in `experimetn2`
+- [`__init__`](modules/full_seed_prospector.py.md#comprehensivemetricsaggregator-__init__) constructor of `ComprehensiveMetricsAggregator` in `full_seed_prospector`
+- [`__init__`](modules/gravity.py.md#conditionnumbercalculator-__init__) constructor of `ConditionNumberCalculator` in `gravity`
+- [`__init__`](modules/gravity.py.md#configurationentropycalculator-__init__) constructor of `ConfigurationEntropyCalculator` in `gravity`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#crystalphaseclassifier-__init__) constructor of `CrystalPhaseClassifier` in `maxwell_strassen_analysis`
+- [`__init__`](modules/crystallography.py.md#crystalpurityindex-__init__) constructor of `CrystalPurityIndex` in `crystallography`
+- [`__init__`](modules/plank.py.md#crystalpurityindex-__init__) constructor of `CrystalPurityIndex` in `plank`
+- [`__init__`](modules/boltzmann_experiments.py.md#dlprogram-__init__) constructor of `DLProgram` in `boltzmann_experiments`
+- [`__init__`](modules/full_seed_prospector.py.md#deltacalculator-__init__) constructor of `DeltaCalculator` in `full_seed_prospector`
+- [`__init__`](modules/fermi.py.md#densityofstatescalculator-__init__) constructor of `DensityOfStatesCalculator` in `fermi`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#dielectrictensoranalyzer-__init__) constructor of `DielectricTensorAnalyzer` in `maxwell_strassen_analysis`
+- [`__init__`](modules/dirac_polos_zeros.py.md#diracdeltaanalyzer-__init__) constructor of `DiracDeltaAnalyzer` in `dirac_polos_zeros`
+- [`__init__`](modules/mbl_analyzer.py.md#discretizationdialanalyzer-__init__) constructor of `DiscretizationDialAnalyzer` in `mbl_analyzer`
+- [`__init__`](modules/dirac_polos_zeros.py.md#divergencevisualizer-__init__) constructor of `DivergenceVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/grain.py.md#domainfragmentationanalyzer-__init__) constructor of `DomainFragmentationAnalyzer` in `grain`
+- [`__init__`](modules/full_seed_prospector.py.md#dynamicbatchsizescheduler-__init__) constructor of `DynamicBatchSizeScheduler` in `full_seed_prospector`
+- [`__init__`](modules/mbl_analyzer.py.md#effectivetemperaturecalculator-__init__) constructor of `EffectiveTemperatureCalculator` in `mbl_analyzer`
+- [`__init__`](modules/purity_index.py.md#effectivetemperaturecalculator-__init__) constructor of `EffectiveTemperatureCalculator` in `purity_index`
+- [`__init__`](modules/scrodingger.py.md#eigenvaluesolver-__init__) constructor of `EigenvalueSolver` in `scrodingger`
+- [`__init__`](modules/dirac_polos_zeros.py.md#electricfieldcalculator-__init__) constructor of `ElectricFieldCalculator` in `dirac_polos_zeros`
+- [`__init__`](modules/dirac_polos_zeros.py.md#electricfieldvisualizer-__init__) constructor of `ElectricFieldVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/dirac_polos_zeros.py.md#electricfluxcalculator-__init__) constructor of `ElectricFluxCalculator` in `dirac_polos_zeros`
+- [`__init__`](modules/fermi.py.md#electronicpropertiescalculator-__init__) constructor of `ElectronicPropertiesCalculator` in `fermi`
+- [`__init__`](modules/xray_tensor_diffractometer.py.md#epitaxialgrowthengine-__init__) constructor of `EpitaxialGrowthEngine` in `xray_tensor_diffractometer`
+- [`__init__`](modules/xray_tensor_diffractometer.py.md#epitaxyexperiment-__init__) constructor of `EpitaxyExperiment` in `xray_tensor_diffractometer`
+- [`__init__`](modules/experimetn2.py.md#exacthessiancalculator-__init__) constructor of `ExactHessianCalculator` in `experimetn2`
+- [`__init__`](modules/experimetn2.py.md#experiment1riccimblduality-__init__) constructor of `Experiment1RicciMBLDuality` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#experiment1riccimblduality-__init__) constructor of `Experiment1RicciMBLDuality` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experimetn2.py.md#experiment2altlandzirnbauer-__init__) constructor of `Experiment2AltlandZirnbauer` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#experiment2altlandzirnbauer-__init__) constructor of `Experiment2AltlandZirnbauer` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experimetn2.py.md#experiment3conformalisomorphism-__init__) constructor of `Experiment3ConformalIsomorphism` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#experiment3conformalisomorphism-__init__) constructor of `Experiment3ConformalIsomorphism` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experimetn2.py.md#experiment4compressionfrontier-__init__) constructor of `Experiment4CompressionFrontier` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#experiment4compressionfrontier-__init__) constructor of `Experiment4CompressionFrontier` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experimetn2.py.md#experiment5holographicpruning-__init__) constructor of `Experiment5HolographicPruning` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#experiment5holographicpruning-__init__) constructor of `Experiment5HolographicPruning` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-__init__) constructor of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/fermi.py.md#fermilevelanalyzer-__init__) constructor of `FermiLevelAnalyzer` in `fermi`
+- [`__init__`](modules/fermi.py.md#fermilevelcalculator-__init__) constructor of `FermiLevelCalculator` in `fermi`
+- [`__init__`](modules/fermi.py.md#fermipipeline-__init__) constructor of `FermiPipeline` in `fermi`
+- [`__init__`](modules/dirac_polos_zeros.py.md#frequencyresponseanalyzer-__init__) constructor of `FrequencyResponseAnalyzer` in `dirac_polos_zeros`
+- [`__init__`](modules/dirac_polos_zeros.py.md#gausslawverifier-__init__) constructor of `GaussLawVerifier` in `dirac_polos_zeros`
+- [`__init__`](modules/full_seed_prospector.py.md#geometriclossaggregator-__init__) constructor of `GeometricLossAggregator` in `full_seed_prospector`
+- [`__init__`](modules/grigori_perelmans_ricci_flow.py.md#geometricplanckcalculator-__init__) constructor of `GeometricPlanckCalculator` in `grigori_perelmans_ricci_flow`
+- [`__init__`](modules/full_seed_prospector.py.md#glassdetector-__init__) constructor of `GlassDetector` in `full_seed_prospector`
+- [`__init__`](modules/grain.py.md#grainboundaryanalyzer-__init__) constructor of `GrainBoundaryAnalyzer` in `grain`
+- [`__init__`](modules/grain.py.md#grainboundarydetector-__init__) constructor of `GrainBoundaryDetector` in `grain`
+- [`__init__`](modules/grain.py.md#grainboundarypipeline-__init__) constructor of `GrainBoundaryPipeline` in `grain`
+- [`__init__`](modules/gravity.py.md#gravitationalconstantcalculator-__init__) constructor of `GravitationalConstantCalculator` in `gravity`
+- [`__init__`](modules/hawking_radiation.py.md#gravitationalconstantcalculator-__init__) constructor of `GravitationalConstantCalculator` in `hawking_radiation`
+- [`__init__`](modules/xray_tensor_diffractometer.py.md#greencowexperiment-__init__) constructor of `GreenCowExperiment` in `xray_tensor_diffractometer`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#grokkingverifier-__init__) constructor of `GrokkingVerifier` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/scrodingger.py.md#hamiltonianconstructor-__init__) constructor of `HamiltonianConstructor` in `scrodingger`
+- [`__init__`](modules/src.training.convergence_theory.py.md#hardwarenoiseestimator-__init__) constructor of `HardwareNoiseEstimator` in `src.training.convergence_theory`
+- [`__init__`](modules/hawking_radiation.py.md#hawkingradiationcalculator-__init__) constructor of `HawkingRadiationCalculator` in `hawking_radiation`
+- [`__init__`](modules/gravity.py.md#heisenberguncertaintycalculator-__init__) constructor of `HeisenbergUncertaintyCalculator` in `gravity`
+- [`__init__`](modules/hawking_radiation.py.md#horizonareacalculator-__init__) constructor of `HorizonAreaCalculator` in `hawking_radiation`
+- [`__init__`](modules/src.training.convergence_theory.py.md#hutchinsontraceestimator-__init__) constructor of `HutchinsonTraceEstimator` in `src.training.convergence_theory`
+- [`__init__`](modules/hawking_radiation.py.md#informationalmasscalculator-__init__) constructor of `InformationalMassCalculator` in `hawking_radiation`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#iterativepruningengine-__init__) constructor of `IterativePruningEngine` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/full_seed_prospector.py.md#kappacalculator-__init__) constructor of `KappaCalculator` in `full_seed_prospector`
+- [`__init__`](modules/gravity.py.md#landauerconstantcalculator-__init__) constructor of `LandauerConstantCalculator` in `gravity`
+- [`__init__`](modules/experimetn2.py.md#levelspacingratiocalculator-__init__) constructor of `LevelSpacingRatioCalculator` in `experimetn2`
+- [`__init__`](modules/mbl_analyzer.py.md#levelspacingratiocalculator-__init__) constructor of `LevelSpacingRatioCalculator` in `mbl_analyzer`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#levelspacingratiocalculator-__init__) constructor of `LevelSpacingRatioCalculator` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#localcomplexitycalculator-__init__) constructor of `LocalComplexityCalculator` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/full_seed_prospector.py.md#localcomplexitycalculator-__init__) constructor of `LocalComplexityCalculator` in `full_seed_prospector`
+- [`__init__`](modules/gravity.py.md#localcomplexitycalculator-__init__) constructor of `LocalComplexityCalculator` in `gravity`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#localcomplexityexperiment-__init__) constructor of `LocalComplexityExperiment` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/full_seed_prospector.py.md#longtrainingphase-__init__) constructor of `LongTrainingPhase` in `full_seed_prospector`
+- [`__init__`](modules/full_seed_prospector.py.md#longtrainingpipeline-__init__) constructor of `LongTrainingPipeline` in `full_seed_prospector`
+- [`__init__`](modules/mbl_analyzer.py.md#mblanalysispipeline-__init__) constructor of `MBLAnalysisPipeline` in `mbl_analyzer`
+- [`__init__`](modules/mbl_analyzer.py.md#mblcheckpointanalyzer-__init__) constructor of `MBLCheckpointAnalyzer` in `mbl_analyzer`
+- [`__init__`](modules/mbl_analyzer.py.md#mblcheckpointmanager-__init__) constructor of `MBLCheckpointManager` in `mbl_analyzer`
+- [`__init__`](modules/mbl_analyzer.py.md#mblmetricscollector-__init__) constructor of `MBLMetricsCollector` in `mbl_analyzer`
+- [`__init__`](modules/src.training.main.py.md#matrix4x4dataset-__init__) constructor of `Matrix4x4Dataset` in `src.training.main`
+- [`__init__`](modules/full_seed_prospector.py.md#matrixdatagenerator-__init__) constructor of `MatrixDataGenerator` in `full_seed_prospector`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#maxwellanalyzer-__init__) constructor of `MaxwellAnalyzer` in `maxwell_strassen_analysis`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#maxwellscatteringsolver-__init__) constructor of `MaxwellScatteringSolver` in `maxwell_strassen_analysis`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#maxwellvisualizer-__init__) constructor of `MaxwellVisualizer` in `maxwell_strassen_analysis`
+- [`__init__`](modules/fermi.py.md#metalinsulatorclassifier-__init__) constructor of `MetalInsulatorClassifier` in `fermi`
+- [`__init__`](modules/percolation_analysis.py.md#numpymodelwrapper-__init__) constructor of `NumpyModelWrapper` in `percolation_analysis`
+- [`__init__`](modules/dirac_polos_zeros.py.md#nyquistvisualizer-__init__) constructor of `NyquistVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/gravity.py.md#orderparametercalculator-__init__) constructor of `OrderParameterCalculator` in `gravity`
+- [`__init__`](modules/mbl_analyzer.py.md#participationratiocalculator-__init__) constructor of `ParticipationRatioCalculator` in `mbl_analyzer`
+- [`__init__`](modules/percolation_analysis.py.md#percolationanalysispipeline-__init__) constructor of `PercolationAnalysisPipeline` in `percolation_analysis`
+- [`__init__`](modules/percolation_analysis.py.md#percolationcheckpointmanager-__init__) constructor of `PercolationCheckpointManager` in `percolation_analysis`
+- [`__init__`](modules/percolation_analysis.py.md#percolationreportgenerator-__init__) constructor of `PercolationReportGenerator` in `percolation_analysis`
+- [`__init__`](modules/percolation_analysis.py.md#percolationuniversalityanalyzer-__init__) constructor of `PercolationUniversalityAnalyzer` in `percolation_analysis`
+- [`__init__`](modules/percolation_analysis.py.md#percolationvisualizationengine-__init__) constructor of `PercolationVisualizationEngine` in `percolation_analysis`
+- [`__init__`](modules/full_seed_prospector.py.md#perelmanentropycalculator-__init__) constructor of `PerelmanEntropyCalculator` in `full_seed_prospector`
+- [`__init__`](modules/mbl_analyzer.py.md#phaseclassifier-__init__) constructor of `PhaseClassifier` in `mbl_analyzer`
+- [`__init__`](modules/purity_index.py.md#phaseclassifier-__init__) constructor of `PhaseClassifier` in `purity_index`
+- [`__init__`](modules/gravity.py.md#phasetransitiondetector-__init__) constructor of `PhaseTransitionDetector` in `gravity`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#photonicentropycalculator-__init__) constructor of `PhotonicEntropyCalculator` in `maxwell_strassen_analysis`
+- [`__init__`](modules/batch_size.py.md#planckconstantcalculator-__init__) constructor of `PlanckConstantCalculator` in `batch_size`
+- [`__init__`](modules/hawking_radiation.py.md#planckconstantcalculator-__init__) constructor of `PlanckConstantCalculator` in `hawking_radiation`
+- [`__init__`](modules/plank.py.md#planckconstantcalculator-__init__) constructor of `PlanckConstantCalculator` in `plank`
+- [`__init__`](modules/dirac_polos_zeros.py.md#polezeroanalyzer-__init__) constructor of `PoleZeroAnalyzer` in `dirac_polos_zeros`
+- [`__init__`](modules/dirac_polos_zeros.py.md#polezerovisualizer-__init__) constructor of `PoleZeroVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/purity_index.py.md#polycrystalanalyzer-__init__) constructor of `PolycrystalAnalyzer` in `purity_index`
+- [`__init__`](modules/scrodingger.py.md#potentialcalculator-__init__) constructor of `PotentialCalculator` in `scrodingger`
+- [`__init__`](modules/full_seed_prospector.py.md#progressivesparsificationphase-__init__) constructor of `ProgressiveSparsificationPhase` in `full_seed_prospector`
+- [`__init__`](modules/full_seed_prospector.py.md#prospectorphase-__init__) constructor of `ProspectorPhase` in `full_seed_prospector`
+- [`__init__`](modules/percolation_analysis.py.md#pruningpercolationanalyzer-__init__) constructor of `PruningPercolationAnalyzer` in `percolation_analysis`
+- [`__init__`](modules/purity_index.py.md#purityanalyzer-__init__) constructor of `PurityAnalyzer` in `purity_index`
+- [`__init__`](modules/purity_index.py.md#puritycomparator-__init__) constructor of `PurityComparator` in `purity_index`
+- [`__init__`](modules/mbl_analyzer.py.md#purityindexcalculator-__init__) constructor of `PurityIndexCalculator` in `mbl_analyzer`
+- [`__init__`](modules/purity_index.py.md#purityindexcalculator-__init__) constructor of `PurityIndexCalculator` in `purity_index`
+- [`__init__`](modules/purity_index.py.md#puritypipeline-__init__) constructor of `PurityPipeline` in `purity_index`
+- [`__init__`](modules/plank.py.md#reportgenerator-__init__) constructor of `ReportGenerator` in `plank`
+- [`__init__`](modules/full_seed_prospector.py.md#resiliencespectrometer-__init__) constructor of `ResilienceSpectrometer` in `full_seed_prospector`
+- [`__init__`](modules/full_seed_prospector.py.md#riccicurvaturepenalty-__init__) constructor of `RicciCurvaturePenalty` in `full_seed_prospector`
+- [`__init__`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzer-__init__) constructor of `RicciFlowAnalyzer` in `grigori_perelmans_ricci_flow`
+- [`__init__`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzerpipeline-__init__) constructor of `RicciFlowAnalyzerPipeline` in `grigori_perelmans_ricci_flow`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#ricciscalarcalculator-__init__) constructor of `RicciScalarCalculator` in `unified_hidden_connections_suite`
+- [`__init__`](modules/hawking_radiation.py.md#robusthawkinganalyzer-__init__) constructor of `RobustHawkingAnalyzer` in `hawking_radiation`
+- [`__init__`](modules/superposition.py.md#saetrainer-__init__) constructor of `SAETrainer` in `superposition`
+- [`__init__`](modules/scrodingger.py.md#schrodingeranalyzer-__init__) constructor of `SchrodingerAnalyzer` in `scrodingger`
+- [`__init__`](modules/scrodingger.py.md#schrodingerpipeline-__init__) constructor of `SchrodingerPipeline` in `scrodingger`
+- [`__init__`](modules/full_seed_prospector.py.md#seedprospector-__init__) constructor of `SeedProspector` in `full_seed_prospector`
+- [`__init__`](modules/src.training.convergence_theory.py.md#simplestrassenmodel-__init__) constructor of `SimpleStrassenModel` in `src.training.convergence_theory`
+- [`__init__`](modules/grigori_perelmans_ricci_flow.py.md#singularityengine-__init__) constructor of `SingularityEngine` in `grigori_perelmans_ricci_flow`
+- [`__init__`](modules/percolation_analysis.py.md#sitepercolationanalyzer-__init__) constructor of `SitePercolationAnalyzer` in `percolation_analysis`
+- [`__init__`](modules/superposition.py.md#sparseautoencoder-__init__) constructor of `SparseAutoencoder` in `superposition`
+- [`__init__`](modules/crystallography.py.md#sparsificationprotocol-__init__) constructor of `SparsificationProtocol` in `crystallography`
+- [`__init__`](modules/full_seed_prospector.py.md#sparsitycalculator-__init__) constructor of `SparsityCalculator` in `full_seed_prospector`
+- [`__init__`](modules/gravity.py.md#specificheatcalculator-__init__) constructor of `SpecificHeatCalculator` in `gravity`
+- [`__init__`](modules/hawking_radiation.py.md#speedoflightcalculator-__init__) constructor of `SpeedOfLightCalculator` in `hawking_radiation`
+- [`__init__`](modules/experimetn2.py.md#strassstrassenmodel-__init__) constructor of `StrassStrassenModel` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#strassstrassenmodel-__init__) constructor of `StrassStrassenModel` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experiments.verify_checkpoints.py.md#strassenbilinear-__init__) constructor of `StrassenBilinear` in `experiments.verify_checkpoints`
+- [`__init__`](modules/superposition.py.md#strassencheckpointanalyzer-__init__) constructor of `StrassenCheckpointAnalyzer` in `superposition`
+- [`__init__`](modules/batch_size.py.md#strassencheckpointloader-__init__) constructor of `StrassenCheckpointLoader` in `batch_size`
+- [`__init__`](modules/plank.py.md#strassencheckpointloader-__init__) constructor of `StrassenCheckpointLoader` in `plank`
+- [`__init__`](modules/crystallography.py.md#strassencrystallographer-__init__) constructor of `StrassenCrystallographer` in `crystallography`
+- [`__init__`](modules/xray_tensor_diffractometer.py.md#strassencrystallographer-__init__) constructor of `StrassenCrystallographer` in `xray_tensor_diffractometer`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#strassendatagenerator-__init__) constructor of `StrassenDataGenerator` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/experimetn2.py.md#strassendatagenerator-__init__) constructor of `StrassenDataGenerator` in `experimetn2`
+- [`__init__`](modules/superposition.py.md#strassendatagenerator-__init__) constructor of `StrassenDataGenerator` in `superposition`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#strassendatagenerator-__init__) constructor of `StrassenDataGenerator` in `unified_hidden_connections_suite`
+- [`__init__`](modules/crystallography.py.md#strassendiffractiontest-__init__) constructor of `StrassenDiffractionTest` in `crystallography`
+- [`__init__`](modules/plank.py.md#strassendiffractiontest-__init__) constructor of `StrassenDiffractionTest` in `plank`
+- [`__init__`](modules/src.training.main.py.md#strassendiscovery-__init__) constructor of `StrassenDiscovery` in `src.training.main`
+- [`__init__`](modules/maxwell_strassen_analysis.py.md#strassengeometrymapper-__init__) constructor of `StrassenGeometryMapper` in `maxwell_strassen_analysis`
+- [`__init__`](modules/experiments.statistics.rigorous_experiment.py.md#strassenmodel-__init__) constructor of `StrassenModel` in `experiments.statistics.rigorous_experiment`
+- [`__init__`](modules/src.training.main_pure_math.py.md#strassenmodel-__init__) constructor of `StrassenModel` in `src.training.main_pure_math`
+- [`__init__`](modules/app.py.md#strassennet-__init__) constructor of `StrassenNet` in `app`
+- [`__init__`](modules/experiments.apendix_experiments.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `experiments.apendix_experiments`
+- [`__init__`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`__init__`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `experiments.extended_experiments.exp2_noise_ablation`
+- [`__init__`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`__init__`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`__init__`](modules/experiments.extended_experiments.run_all_experiments.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `experiments.extended_experiments.run_all_experiments`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/full_seed_prospector.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `full_seed_prospector`
+- [`__init__`](modules/src.training.strassen_grokkit.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `src.training.strassen_grokkit`
+- [`__init__`](modules/src.training.train_strassen.py.md#strassenoperator-__init__) constructor of `StrassenOperator` in `src.training.train_strassen`
+- [`__init__`](modules/batch_size.py.md#strassenplanckanalyzer-__init__) constructor of `StrassenPlanckAnalyzer` in `batch_size`
+- [`__init__`](modules/plank.py.md#strassenplanckanalyzer-__init__) constructor of `StrassenPlanckAnalyzer` in `plank`
+- [`__init__`](modules/grain.py.md#strassentrainer-__init__) constructor of `StrassenTrainer` in `grain`
+- [`__init__`](modules/full_seed_prospector.py.md#strassenverifier-__init__) constructor of `StrassenVerifier` in `full_seed_prospector`
+- [`__init__`](modules/full_seed_prospector.py.md#superpositioncalculator-__init__) constructor of `SuperpositionCalculator` in `full_seed_prospector`
+- [`__init__`](modules/experimetn2.py.md#superpositionmetriccalculator-__init__) constructor of `SuperpositionMetricCalculator` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#superpositionmetriccalculator-__init__) constructor of `SuperpositionMetricCalculator` in `unified_hidden_connections_suite`
+- [`__init__`](modules/superposition.py.md#superpositionmetrics-__init__) constructor of `SuperpositionMetrics` in `superposition`
+- [`__init__`](modules/experimetn2.py.md#syntheticplanckcalculator-__init__) constructor of `SyntheticPlanckCalculator` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#syntheticplanckcalculator-__init__) constructor of `SyntheticPlanckCalculator` in `unified_hidden_connections_suite`
+- [`__init__`](modules/mbl_analyzer.py.md#syntheticplanckconstantcalculator-__init__) constructor of `SyntheticPlanckConstantCalculator` in `mbl_analyzer`
+- [`__init__`](modules/dirac_polos_zeros.py.md#systemanalyzer-__init__) constructor of `SystemAnalyzer` in `dirac_polos_zeros`
+- [`__init__`](modules/gravity.py.md#thermodynamicanalyzer-__init__) constructor of `ThermodynamicAnalyzer` in `gravity`
+- [`__init__`](modules/full_seed_prospector.py.md#thermodynamicmetricscalculator-__init__) constructor of `ThermodynamicMetricsCalculator` in `full_seed_prospector`
+- [`__init__`](modules/gravity.py.md#thermodynamicpipeline-__init__) constructor of `ThermodynamicPipeline` in `gravity`
+- [`__init__`](modules/scrodingger.py.md#timeevolver-__init__) constructor of `TimeEvolver` in `scrodingger`
+- [`__init__`](modules/dirac_polos_zeros.py.md#timeresponseanalyzer-__init__) constructor of `TimeResponseAnalyzer` in `dirac_polos_zeros`
+- [`__init__`](modules/dirac_polos_zeros.py.md#timeresponsevisualizer-__init__) constructor of `TimeResponseVisualizer` in `dirac_polos_zeros`
+- [`__init__`](modules/src.training.main.py.md#trainer-__init__) constructor of `Trainer` in `src.training.main`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#trainer-__init__) constructor of `Trainer` in `unified_hidden_connections_suite`
+- [`__init__`](modules/grain.py.md#trainingmetricstracker-__init__) constructor of `TrainingMetricsTracker` in `grain`
+- [`__init__`](modules/scrodingger.py.md#uncertaintycalculator-__init__) constructor of `UncertaintyCalculator` in `scrodingger`
+- [`__init__`](modules/experimetn2.py.md#unifiedsuite-__init__) constructor of `UnifiedSuite` in `experimetn2`
+- [`__init__`](modules/unified_hidden_connections_suite.py.md#unifiedsuite-__init__) constructor of `UnifiedSuite` in `unified_hidden_connections_suite`
+- [`__init__`](modules/experiments.extended_experiments.validate2.py.md#visualizationgenerator-__init__) constructor of `VisualizationGenerator` in `experiments.extended_experiments.validate2`
+- [`__init__`](modules/scrodingger.py.md#wavefunctionvisualizer-__init__) constructor of `WaveFunctionVisualizer` in `scrodingger`
+- [`__init__`](modules/percolation_analysis.py.md#weightgraphconstructor-__init__) constructor of `WeightGraphConstructor` in `percolation_analysis`
+- [`__init__`](modules/gravity.py.md#zeroshottransfercalculator-__init__) constructor of `ZeroShotTransferCalculator` in `gravity`
+- [`init_method`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-init_method) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`init_scale`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-init_scale) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`INPUT_DIM`](modules/superposition.py.md#config-input_dim) attribute of `Config` in `superposition`
+- [`INPUT_DIM`](modules/batch_size.py.md#configuration-input_dim) attribute of `Configuration` in `batch_size`
+- [`INPUT_DIM`](modules/plank.py.md#configuration-input_dim) attribute of `Configuration` in `plank`
+- [`input_dim`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-input_dim) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`input_dim`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-input_dim) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`INPUT_DIM`](modules/hawking_radiation.py.md#hawkingconfiguration-input_dim) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`INPUT_DIM`](modules/mbl_analyzer.py.md#mblconfiguration-input_dim) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`INPUT_DIM`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-input_dim) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`INPUT_DIM`](modules/percolation_analysis.py.md#percolationconfiguration-input_dim) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`INPUT_DIM`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-input_dim) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`input_dim`](modules/experimetn2.py.md#strassstrassenconfig-input_dim) attribute of `StrassStrassenConfig` in `experimetn2`
+- [`input_dim`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig-input_dim) attribute of `StrassStrassenConfig` in `unified_hidden_connections_suite`
+- [`input_dim`](modules/full_seed_prospector.py.md#unifiedconfig-input_dim) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`internal_energy`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-internal_energy) attribute of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`invariant_subspace_dim`](modules/src.discovery.auto_T_discovery.py.md#symmetrystructure-invariant_subspace_dim) attribute of `SymmetryStructure` in `src.discovery.auto_T_discovery`
+- [`IOrderParameterCalculator`](modules/gravity.py.md#iorderparametercalculator) protocol in `gravity`
+- [`IParticipationRatioCalculator`](modules/mbl_analyzer.py.md#iparticipationratiocalculator) protocol in `mbl_analyzer`
+- [`IPhaseClassifier`](modules/maxwell_strassen_analysis.py.md#iphaseclassifier) protocol in `maxwell_strassen_analysis`
+- [`IPhaseClassifier`](modules/purity_index.py.md#iphaseclassifier) protocol in `purity_index`
+- [`IPoleZeroAnalyzer`](modules/dirac_polos_zeros.py.md#ipolezeroanalyzer) protocol in `dirac_polos_zeros`
+- [`IPolycrystalAnalyzer`](modules/purity_index.py.md#ipolycrystalanalyzer) protocol in `purity_index`
+- [`IPotentialCalculator`](modules/scrodingger.py.md#ipotentialcalculator) protocol in `scrodingger`
+- [`IPruningStrategy`](modules/unified_hidden_connections_suite.py.md#ipruningstrategy) class in `unified_hidden_connections_suite`
+- [`IPurityComparator`](modules/purity_index.py.md#ipuritycomparator) protocol in `purity_index`
+- [`IPurityIndexCalculator`](modules/purity_index.py.md#ipurityindexcalculator) protocol in `purity_index`
+- [`is_crystallizing`](modules/full_seed_prospector.py.md#kappacalculator-is_crystallizing) method of `KappaCalculator` in `full_seed_prospector`
+- [`is_grokked`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator-is_grokked) method of `StrassenOperator` in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`is_stable`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-is_stable) method of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`ISpecificHeatCalculator`](modules/gravity.py.md#ispecificheatcalculator) protocol in `gravity`
+- [`IStateSpaceExtractor`](modules/dirac_polos_zeros.py.md#istatespaceextractor) protocol in `dirac_polos_zeros`
+- [`ISyntheticPlanckCalculator`](modules/mbl_analyzer.py.md#isyntheticplanckcalculator) protocol in `mbl_analyzer`
+- [`IterativePruningEngine`](modules/experiments.extended_experiments.validate2.py.md#iterativepruningengine) class in `experiments.extended_experiments.validate2`
+- [`ITimeEvolver`](modules/scrodingger.py.md#itimeevolver) protocol in `scrodingger`
+- [`ITimeResponseAnalyzer`](modules/dirac_polos_zeros.py.md#itimeresponseanalyzer) protocol in `dirac_polos_zeros`
+- [`ITrainer`](modules/unified_hidden_connections_suite.py.md#itrainer) protocol in `unified_hidden_connections_suite`
+- [`ITrainingMetricsCollector`](modules/mbl_analyzer.py.md#itrainingmetricscollector) protocol in `mbl_analyzer`
+- [`ITrainingMonitor`](modules/grain.py.md#itrainingmonitor) protocol in `grain`
+- [`ITrainingPhase`](modules/full_seed_prospector.py.md#itrainingphase) class in `full_seed_prospector`
+- [`ITransferFunctionComputer`](modules/dirac_polos_zeros.py.md#itransferfunctioncomputer) protocol in `dirac_polos_zeros`
+- [`IUncertaintyCalculator`](modules/scrodingger.py.md#iuncertaintycalculator) protocol in `scrodingger`
+- [`IVisualizer`](modules/dirac_polos_zeros.py.md#ivisualizer) protocol in `dirac_polos_zeros`
+- [`IWaveFunctionExtractor`](modules/scrodingger.py.md#iwavefunctionextractor) protocol in `scrodingger`
+- [`IZeroShotTransferCalculator`](modules/gravity.py.md#izeroshottransfercalculator) protocol in `gravity`
+
+<a id="k"></a>
+
+## K
+
+- [`K_MAX`](modules/fermi.py.md#fermiconfig-k_max) attribute of `FermiConfig` in `fermi`
+- [`K_MIN`](modules/fermi.py.md#fermiconfig-k_min) attribute of `FermiConfig` in `fermi`
+- [`K_POINTS`](modules/fermi.py.md#fermiconfig-k_points) attribute of `FermiConfig` in `fermi`
+- [`KAPPA_BATCHES`](modules/batch_size.py.md#configuration-kappa_batches) attribute of `Configuration` in `batch_size`
+- [`KAPPA_BATCHES`](modules/plank.py.md#configuration-kappa_batches) attribute of `Configuration` in `plank`
+- [`kappa_calculation_freq`](modules/full_seed_prospector.py.md#unifiedconfig-kappa_calculation_freq) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`kappa_crystallization_threshold`](modules/full_seed_prospector.py.md#unifiedconfig-kappa_crystallization_threshold) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`kappa_eff`](modules/src.training.convergence_theory.py.md#convergencemetrics-kappa_eff) attribute of `ConvergenceMetrics` in `src.training.convergence_theory`
+- [`kappa_eff`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-kappa_eff) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`kappa_max_samples`](modules/full_seed_prospector.py.md#unifiedconfig-kappa_max_samples) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`kappa_min_samples`](modules/full_seed_prospector.py.md#unifiedconfig-kappa_min_samples) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`KAPPA_SAMPLES_PER_BATCH`](modules/plank.py.md#configuration-kappa_samples_per_batch) attribute of `Configuration` in `plank`
+- [`kappa_std`](modules/src.training.convergence_theory.py.md#convergencemetrics-kappa_std) attribute of `ConvergenceMetrics` in `src.training.convergence_theory`
+- [`kappa_window_size`](modules/full_seed_prospector.py.md#unifiedconfig-kappa_window_size) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`KappaCalculator`](modules/full_seed_prospector.py.md#kappacalculator) class in `full_seed_prospector`
+- [`KDE_BANDWIDTH`](modules/xray_tensor_diffractometer.py.md#config-kde_bandwidth) attribute of `Config` in `xray_tensor_diffractometer`
+
+<a id="l"></a>
+
+## L
+
+- [`LANDAUER_THRESHOLD`](modules/gravity.py.md#thermodynamicconfig-landauer_threshold) attribute of `ThermodynamicConfig` in `gravity`
+- [`LandauerConstantCalculator`](modules/gravity.py.md#landauerconstantcalculator) class in `gravity`
+- [`latest_checkpoint_name`](modules/full_seed_prospector.py.md#unifiedconfig-latest_checkpoint_name) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`LATTICE_CONSTANT`](modules/fermi.py.md#fermiconfig-lattice_constant) attribute of `FermiConfig` in `fermi`
+- [`LATTICE_CONSTANT`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-lattice_constant) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`LayerAnalyzer`](modules/grain.py.md#layeranalyzer) class in `grain`
+- [`LC_ACTIVATION_THRESHOLD`](modules/plank.py.md#configuration-lc_activation_threshold) attribute of `Configuration` in `plank`
+- [`LC_PERCENTILE`](modules/batch_size.py.md#configuration-lc_percentile) attribute of `Configuration` in `batch_size`
+- [`LC_PERCENTILE`](modules/plank.py.md#configuration-lc_percentile) attribute of `Configuration` in `plank`
+- [`LEARNING_RATE`](modules/dirac_polos_zeros.py.md#analysisconfig-learning_rate) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`LEARNING_RATE`](modules/boltzmann_experiments.py.md#config-learning_rate) attribute of `Config` in `boltzmann_experiments`
+- [`LEARNING_RATE`](modules/crystallography.py.md#config-learning_rate) attribute of `Config` in `crystallography`
+- [`LEARNING_RATE`](modules/xray_tensor_diffractometer.py.md#config-learning_rate) attribute of `Config` in `xray_tensor_diffractometer`
+- [`LEARNING_RATE`](modules/batch_size.py.md#configuration-learning_rate) attribute of `Configuration` in `batch_size`
+- [`LEARNING_RATE`](modules/plank.py.md#configuration-learning_rate) attribute of `Configuration` in `plank`
+- [`learning_rate`](modules/unified_hidden_connections_suite.py.md#experiment2config-learning_rate) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`learning_rate`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-learning_rate) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`learning_rate`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-learning_rate) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`LEARNING_RATE`](modules/grain.py.md#strassenconfig-learning_rate) attribute of `StrassenConfig` in `grain`
+- [`LEARNING_RATE`](modules/gravity.py.md#thermodynamicconfig-learning_rate) attribute of `ThermodynamicConfig` in `gravity`
+- [`learning_rate`](modules/experimetn2.py.md#trainingconfig-learning_rate) attribute of `TrainingConfig` in `experimetn2`
+- [`learning_rate`](modules/unified_hidden_connections_suite.py.md#trainingconfig-learning_rate) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`learning_rate`](modules/full_seed_prospector.py.md#unifiedconfig-learning_rate) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`LEVEL_SPACING_POISSON`](modules/mbl_analyzer.py.md#mblconfiguration-level_spacing_poisson) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`LEVEL_SPACING_POISSON`](modules/percolation_analysis.py.md#percolationconfiguration-level_spacing_poisson) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`level_spacing_tolerance`](modules/unified_hidden_connections_suite.py.md#experiment2config-level_spacing_tolerance) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`LEVEL_SPACING_TOLERANCE`](modules/mbl_analyzer.py.md#mblconfiguration-level_spacing_tolerance) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`LEVEL_SPACING_TOLERANCE`](modules/percolation_analysis.py.md#percolationconfiguration-level_spacing_tolerance) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`LEVEL_SPACING_WIGNER_DYSON`](modules/mbl_analyzer.py.md#mblconfiguration-level_spacing_wigner_dyson) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`LEVEL_SPACING_WIGNER_DYSON`](modules/percolation_analysis.py.md#percolationconfiguration-level_spacing_wigner_dyson) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`LevelSpacingRatioCalculator`](modules/experimetn2.py.md#levelspacingratiocalculator) class in `experimetn2`
+- [`LevelSpacingRatioCalculator`](modules/mbl_analyzer.py.md#levelspacingratiocalculator) class in `mbl_analyzer`
+- [`LevelSpacingRatioCalculator`](modules/unified_hidden_connections_suite.py.md#levelspacingratiocalculator) class in `unified_hidden_connections_suite`
+- [`load`](modules/dirac_polos_zeros.py.md#checkpointloader-load) method of `CheckpointLoader` in `dirac_polos_zeros`
+- [`load`](modules/scrodingger.py.md#checkpointloader-load) method of `CheckpointLoader` in `scrodingger`
+- [`load`](modules/full_seed_prospector.py.md#checkpointmanager-load) method of `CheckpointManager` in `full_seed_prospector`
+- [`load`](modules/grain.py.md#checkpointmanager-load) method of `CheckpointManager` in `grain`
+- [`load`](modules/unified_hidden_connections_suite.py.md#checkpointmanager-load) method of `CheckpointManager` in `unified_hidden_connections_suite`
+- [`load`](modules/dirac_polos_zeros.py.md#icheckpointloader-load) method of `ICheckpointLoader` in `dirac_polos_zeros`
+- [`load`](modules/scrodingger.py.md#icheckpointloader-load) method of `ICheckpointLoader` in `scrodingger`
+- [`load`](modules/full_seed_prospector.py.md#icheckpointmanager-load) method of `ICheckpointManager` in `full_seed_prospector`
+- [`load`](modules/grain.py.md#icheckpointmanager-load) method of `ICheckpointManager` in `grain`
+- [`load`](modules/unified_hidden_connections_suite.py.md#icheckpointmanager-load) method of `ICheckpointManager` in `unified_hidden_connections_suite`
+- [`load`](modules/percolation_analysis.py.md#percolationcheckpointmanager-load) method of `PercolationCheckpointManager` in `percolation_analysis`
+- [`load`](modules/batch_size.py.md#strassencheckpointloader-load) method of `StrassenCheckpointLoader` in `batch_size`
+- [`load`](modules/plank.py.md#strassencheckpointloader-load) method of `StrassenCheckpointLoader` in `plank`
+- [`load_checkpoint`](modules/boltzmann_experiments.py.md#checkpointloader-load_checkpoint) method of `CheckpointLoader` in `boltzmann_experiments`
+- [`load_checkpoint`](modules/superposition.py.md#checkpointloader-load_checkpoint) method of `CheckpointLoader` in `superposition`
+- [`load_checkpoint`](modules/xray_tensor_diffractometer.py.md#checkpointloader-load_checkpoint) method of `CheckpointLoader` in `xray_tensor_diffractometer`
+- [`load_checkpoint`](modules/boltzmann_experiments.py.md#icheckpointloader-load_checkpoint) method of `ICheckpointLoader` in `boltzmann_experiments`
+- [`load_checkpoint`](modules/superposition.py.md#icheckpointloader-load_checkpoint) method of `ICheckpointLoader` in `superposition`
+- [`load_checkpoint`](modules/xray_tensor_diffractometer.py.md#icheckpointloader-load_checkpoint) method of `ICheckpointLoader` in `xray_tensor_diffractometer`
+- [`load_checkpoint`](modules/mbl_analyzer.py.md#icheckpointmanager-load_checkpoint) method of `ICheckpointManager` in `mbl_analyzer`
+- [`load_checkpoint`](modules/mbl_analyzer.py.md#mblcheckpointmanager-load_checkpoint) method of `MBLCheckpointManager` in `mbl_analyzer`
+- [`load_checkpoint`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#load_checkpoint) function in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`load_checkpoint`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#load_checkpoint) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`load_checkpoint`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#load_checkpoint) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`load_checkpoint`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#load_checkpoint) function in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`load_checkpoint`](modules/experiments.verify_checkpoints.py.md#load_checkpoint) function in `experiments.verify_checkpoints`
+- [`load_checkpoint_robust`](modules/experiments.extended_experiments.run_all_experiments.py.md#load_checkpoint_robust) function in `experiments.extended_experiments.run_all_experiments`
+- [`load_checkpoint_robust`](modules/hawking_radiation.py.md#load_checkpoint_robust) function in `hawking_radiation`
+- [`load_checkpoint_weights`](modules/experiments.generate_figures.py.md#load_checkpoint_weights) function in `experiments.generate_figures`
+- [`load_config`](modules/src.benchmarks.benchmark_strassen.py.md#load_config) function in `src.benchmarks.benchmark_strassen`
+- [`load_grokked_checkpoint`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-load_grokked_checkpoint) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`load_libraries`](modules/experiments.ablation.ablation_study.py.md#load_libraries) function in `experiments.ablation.ablation_study`
+- [`load_model`](modules/superposition.py.md#strassencheckpointanalyzer-load_model) method of `StrassenCheckpointAnalyzer` in `superposition`
+- [`load_state_dict`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator-load_state_dict) method of `StrassenOperator` in `experiments.extended_experiments.validate2`
+- [`local_complexity_epsilon`](modules/full_seed_prospector.py.md#unifiedconfig-local_complexity_epsilon) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`local_complexity_num_samples`](modules/full_seed_prospector.py.md#unifiedconfig-local_complexity_num_samples) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`LocalComplexity`](modules/crystallography.py.md#localcomplexity) class in `crystallography`
+- [`LocalComplexityCalculator`](modules/experiments.extended_experiments.validate2.py.md#localcomplexitycalculator) class in `experiments.extended_experiments.validate2`
+- [`LocalComplexityCalculator`](modules/full_seed_prospector.py.md#localcomplexitycalculator) class in `full_seed_prospector`
+- [`LocalComplexityCalculator`](modules/gravity.py.md#localcomplexitycalculator) class in `gravity`
+- [`LocalComplexityExperiment`](modules/experiments.extended_experiments.validate2.py.md#localcomplexityexperiment) class in `experiments.extended_experiments.validate2`
+- [`LOG_INTERVAL`](modules/src.training.main.py.md#config-log_interval) attribute of `Config` in `src.training.main`
+- [`log_interval`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-log_interval) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`log_interval`](modules/unified_hidden_connections_suite.py.md#trainingconfig-log_interval) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`LOG_LEVEL`](modules/xray_tensor_diffractometer.py.md#config-log_level) attribute of `Config` in `xray_tensor_diffractometer`
+- [`LongTrainingPhase`](modules/full_seed_prospector.py.md#longtrainingphase) class in `full_seed_prospector`
+- [`LongTrainingPipeline`](modules/full_seed_prospector.py.md#longtrainingpipeline) class in `full_seed_prospector`
+
+<a id="m"></a>
+
+## M
+
+- [`main`](modules/batch_size.py.md#main) function in `batch_size`
+- [`main`](modules/boltzmann_experiments.py.md#main) function in `boltzmann_experiments`
+- [`main`](modules/compute_gns_checkpoints.py.md#main) function in `compute_gns_checkpoints`
+- [`main`](modules/crystallography.py.md#main) function in `crystallography`
+- [`main`](modules/dirac_polos_zeros.py.md#main) function in `dirac_polos_zeros`
+- [`main`](modules/experiments.ablation.ablation_study.py.md#main) function in `experiments.ablation.ablation_study`
+- [`main`](modules/experiments.apendix_experiments.py.md#main) function in `experiments.apendix_experiments`
+- [`main`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#main) function in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`main`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#main) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`main`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#main) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`main`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#main) function in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`main`](modules/experiments.extended_experiments.validate2.py.md#main) function in `experiments.extended_experiments.validate2`
+- [`main`](modules/experiments.generate_figures.py.md#main) function in `experiments.generate_figures`
+- [`main`](modules/experiments.validation_experiments.py.md#main) function in `experiments.validation_experiments`
+- [`main`](modules/experiments.verify_checkpoints.py.md#main) function in `experiments.verify_checkpoints`
+- [`main`](modules/experimetn2.py.md#main) function in `experimetn2`
+- [`main`](modules/fermi.py.md#main) function in `fermi`
+- [`main`](modules/full_seed_prospector.py.md#main) function in `full_seed_prospector`
+- [`main`](modules/grain.py.md#main) function in `grain`
+- [`main`](modules/gravity.py.md#main) function in `gravity`
+- [`main`](modules/grigori_perelmans_ricci_flow.py.md#main) function in `grigori_perelmans_ricci_flow`
+- [`main`](modules/hawking_radiation.py.md#main) function in `hawking_radiation`
+- [`main`](modules/maxwell_strassen_analysis.py.md#main) function in `maxwell_strassen_analysis`
+- [`main`](modules/mbl_analyzer.py.md#main) function in `mbl_analyzer`
+- [`main`](modules/percolation_analysis.py.md#main) function in `percolation_analysis`
+- [`main`](modules/plank.py.md#main) function in `plank`
+- [`main`](modules/purity_index.py.md#main) function in `purity_index`
+- [`main`](modules/scrodingger.py.md#main) function in `scrodingger`
+- [`main`](modules/src.benchmarks.benchmark_final.py.md#main) function in `src.benchmarks.benchmark_final`
+- [`main`](modules/src.benchmarks.benchmark_scientific.py.md#main) function in `src.benchmarks.benchmark_scientific`
+- [`main`](modules/src.benchmarks.benchmark_strassen.py.md#main) function in `src.benchmarks.benchmark_strassen`
+- [`main`](modules/src.training.grokkit_physics.py.md#main) function in `src.training.grokkit_physics`
+- [`main`](modules/src.training.main.py.md#main) function in `src.training.main`
+- [`main`](modules/src.training.main_pure_math.py.md#main) function in `src.training.main_pure_math`
+- [`main`](modules/src.training.strassen_grokkit.py.md#main) function in `src.training.strassen_grokkit`
+- [`main`](modules/src.training.train_strassen.py.md#main) function in `src.training.train_strassen`
+- [`main`](modules/superposition.py.md#main) function in `superposition`
+- [`main`](modules/unified_hidden_connections_suite.py.md#main) function in `unified_hidden_connections_suite`
+- [`main`](modules/xray_tensor_diffractometer.py.md#main) function in `xray_tensor_diffractometer`
+- [`main_menu`](modules/menu.py.md#main_menu) function in `menu`
+- [`map_weights_to_lattice`](modules/maxwell_strassen_analysis.py.md#igeometrymapper-map_weights_to_lattice) method of `IGeometryMapper` in `maxwell_strassen_analysis`
+- [`map_weights_to_lattice`](modules/maxwell_strassen_analysis.py.md#strassengeometrymapper-map_weights_to_lattice) method of `StrassenGeometryMapper` in `maxwell_strassen_analysis`
+- [`mask_slot`](modules/src.training.main.py.md#strassendiscovery-mask_slot) method of `StrassenDiscovery` in `src.training.main`
+- [`MASS_EFFECTIVE`](modules/scrodingger.py.md#schrodingerconfig-mass_effective) attribute of `SchrodingerConfig` in `scrodingger`
+- [`Matrix4x4Dataset`](modules/src.training.main.py.md#matrix4x4dataset) class in `src.training.main`
+- [`MATRIX_SIZE`](modules/dirac_polos_zeros.py.md#analysisconfig-matrix_size) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`MATRIX_SIZE`](modules/superposition.py.md#config-matrix_size) attribute of `Config` in `superposition`
+- [`MATRIX_SIZE`](modules/xray_tensor_diffractometer.py.md#config-matrix_size) attribute of `Config` in `xray_tensor_diffractometer`
+- [`MATRIX_SIZE`](modules/batch_size.py.md#configuration-matrix_size) attribute of `Configuration` in `batch_size`
+- [`MATRIX_SIZE`](modules/plank.py.md#configuration-matrix_size) attribute of `Configuration` in `plank`
+- [`matrix_size`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-matrix_size) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`MATRIX_SIZE`](modules/fermi.py.md#fermiconfig-matrix_size) attribute of `FermiConfig` in `fermi`
+- [`MATRIX_SIZE`](modules/hawking_radiation.py.md#hawkingconfiguration-matrix_size) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`MATRIX_SIZE`](modules/mbl_analyzer.py.md#mblconfiguration-matrix_size) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`MATRIX_SIZE`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-matrix_size) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`MATRIX_SIZE`](modules/percolation_analysis.py.md#percolationconfiguration-matrix_size) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`MATRIX_SIZE`](modules/purity_index.py.md#purityconfig-matrix_size) attribute of `PurityConfig` in `purity_index`
+- [`MATRIX_SIZE`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-matrix_size) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`MATRIX_SIZE`](modules/scrodingger.py.md#schrodingerconfig-matrix_size) attribute of `SchrodingerConfig` in `scrodingger`
+- [`matrix_size`](modules/experimetn2.py.md#strassstrassenconfig-matrix_size) attribute of `StrassStrassenConfig` in `experimetn2`
+- [`matrix_size`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig-matrix_size) attribute of `StrassStrassenConfig` in `unified_hidden_connections_suite`
+- [`MATRIX_SIZE`](modules/grain.py.md#strassenconfig-matrix_size) attribute of `StrassenConfig` in `grain`
+- [`MATRIX_SIZE`](modules/gravity.py.md#thermodynamicconfig-matrix_size) attribute of `ThermodynamicConfig` in `gravity`
+- [`matrix_size`](modules/full_seed_prospector.py.md#unifiedconfig-matrix_size) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`MatrixDataGenerator`](modules/full_seed_prospector.py.md#matrixdatagenerator) class in `full_seed_prospector`
+- [`MAX_CHECKPOINTS`](modules/xray_tensor_diffractometer.py.md#config-max_checkpoints) attribute of `Config` in `xray_tensor_diffractometer`
+- [`max_epochs`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-max_epochs) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`MAX_EPOCHS`](modules/grain.py.md#strassenconfig-max_epochs) attribute of `StrassenConfig` in `grain`
+- [`max_error`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-max_error) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`max_memory_gb`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-max_memory_gb) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`MAX_OCCUPATION`](modules/fermi.py.md#fermiconfig-max_occupation) attribute of `FermiConfig` in `fermi`
+- [`max_time`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-max_time) property of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`MaxwellAnalyzer`](modules/maxwell_strassen_analysis.py.md#maxwellanalyzer) class in `maxwell_strassen_analysis`
+- [`MaxwellConfiguration`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration) class in `maxwell_strassen_analysis`
+- [`MaxwellScatteringSolver`](modules/maxwell_strassen_analysis.py.md#maxwellscatteringsolver) class in `maxwell_strassen_analysis`
+- [`MaxwellVisualizer`](modules/maxwell_strassen_analysis.py.md#maxwellvisualizer) class in `maxwell_strassen_analysis`
+- [`MBLAnalysisPipeline`](modules/mbl_analyzer.py.md#mblanalysispipeline) class in `mbl_analyzer`
+- [`MBLCheckpointAnalyzer`](modules/mbl_analyzer.py.md#mblcheckpointanalyzer) class in `mbl_analyzer`
+- [`MBLCheckpointManager`](modules/mbl_analyzer.py.md#mblcheckpointmanager) class in `mbl_analyzer`
+- [`MBLConfiguration`](modules/mbl_analyzer.py.md#mblconfiguration) class in `mbl_analyzer`
+- [`MBLMetricsCollector`](modules/mbl_analyzer.py.md#mblmetricscollector) class in `mbl_analyzer`
+- [`mean_error`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-mean_error) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`mean_gflops`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-mean_gflops) property of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`mean_time`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-mean_time) property of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`measure`](modules/full_seed_prospector.py.md#resiliencespectrometer-measure) method of `ResilienceSpectrometer` in `full_seed_prospector`
+- [`measure_physics`](modules/src.training.grokkit_physics.py.md#measure_physics) function in `src.training.grokkit_physics`
+- [`measure_resilience_spectrum`](modules/crystallography.py.md#basinresiliencespectrometer-measure_resilience_spectrum) method of `BasinResilienceSpectrometer` in `crystallography`
+- [`measure_resilience_spectrum`](modules/plank.py.md#basinresiliencespectrometer-measure_resilience_spectrum) method of `BasinResilienceSpectrometer` in `plank`
+- [`measure_single_sgemm`](modules/experiments.validation.benchmark.py.md#measure_single_sgemm) function in `experiments.validation.benchmark`
+- [`memory_mb`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-memory_mb) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`MetadataExtractor`](modules/hawking_radiation.py.md#metadataextractor) class in `hawking_radiation`
+- [`MetalInsulatorClassifier`](modules/fermi.py.md#metalinsulatorclassifier) class in `fermi`
+- [`METRIC_PRECISION`](modules/mbl_analyzer.py.md#mblconfiguration-metric_precision) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`METRIC_PRECISION`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-metric_precision) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`METRIC_PRECISION`](modules/percolation_analysis.py.md#percolationconfiguration-metric_precision) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`metrics_display_interval`](modules/full_seed_prospector.py.md#unifiedconfig-metrics_display_interval) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`metrics_history_max_length`](modules/full_seed_prospector.py.md#unifiedconfig-metrics_history_max_length) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`metrics_save_interval`](modules/full_seed_prospector.py.md#unifiedconfig-metrics_save_interval) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`MetricsComputationError`](modules/xray_tensor_diffractometer.py.md#metricscomputationerror) exception in `xray_tensor_diffractometer`
+- [`migrate`](modules/batch_size.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `batch_size`
+- [`migrate`](modules/dirac_polos_zeros.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `dirac_polos_zeros`
+- [`migrate`](modules/fermi.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `fermi`
+- [`migrate`](modules/grigori_perelmans_ricci_flow.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `grigori_perelmans_ricci_flow`
+- [`migrate`](modules/maxwell_strassen_analysis.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `maxwell_strassen_analysis`
+- [`migrate`](modules/mbl_analyzer.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `mbl_analyzer`
+- [`migrate`](modules/percolation_analysis.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `percolation_analysis`
+- [`migrate`](modules/plank.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `plank`
+- [`migrate`](modules/purity_index.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `purity_index`
+- [`migrate`](modules/scrodingger.py.md#checkpointmigrator-migrate) method of `CheckpointMigrator` in `scrodingger`
+- [`migrate`](modules/batch_size.py.md#customformatmigrator-migrate) method of `CustomFormatMigrator` in `batch_size`
+- [`migrate`](modules/grigori_perelmans_ricci_flow.py.md#customformatmigrator-migrate) method of `CustomFormatMigrator` in `grigori_perelmans_ricci_flow`
+- [`migrate`](modules/plank.py.md#customformatmigrator-migrate) method of `CustomFormatMigrator` in `plank`
+- [`migrate`](modules/plank.py.md#encoderformatmigrator-migrate) method of `EncoderFormatMigrator` in `plank`
+- [`migrate`](modules/dirac_polos_zeros.py.md#icheckpointmigrator-migrate) method of `ICheckpointMigrator` in `dirac_polos_zeros`
+- [`migrate`](modules/scrodingger.py.md#icheckpointmigrator-migrate) method of `ICheckpointMigrator` in `scrodingger`
+- [`migrate`](modules/hawking_radiation.py.md#robustcheckpointmigrator-migrate) method of `RobustCheckpointMigrator` in `hawking_radiation`
+- [`migrate`](modules/batch_size.py.md#standardformatmigrator-migrate) method of `StandardFormatMigrator` in `batch_size`
+- [`migrate`](modules/grigori_perelmans_ricci_flow.py.md#standardformatmigrator-migrate) method of `StandardFormatMigrator` in `grigori_perelmans_ricci_flow`
+- [`migrate`](modules/plank.py.md#standardformatmigrator-migrate) method of `StandardFormatMigrator` in `plank`
+- [`migrate_checkpoint`](modules/batch_size.py.md#checkpointmigrationmanager-migrate_checkpoint) method of `CheckpointMigrationManager` in `batch_size`
+- [`migrate_checkpoint`](modules/grigori_perelmans_ricci_flow.py.md#checkpointmigrationmanager-migrate_checkpoint) method of `CheckpointMigrationManager` in `grigori_perelmans_ricci_flow`
+- [`migrate_checkpoint`](modules/plank.py.md#checkpointmigrationmanager-migrate_checkpoint) method of `CheckpointMigrationManager` in `plank`
+- [`migrate_checkpoint`](modules/boltzmann_experiments.py.md#checkpointmigrator-migrate_checkpoint) staticmethod of `CheckpointMigrator` in `boltzmann_experiments`
+- [`migrate_checkpoint`](modules/crystallography.py.md#checkpointmigrator-migrate_checkpoint) staticmethod of `CheckpointMigrator` in `crystallography`
+- [`migrate_checkpoint`](modules/superposition.py.md#checkpointmigrator-migrate_checkpoint) staticmethod of `CheckpointMigrator` in `superposition`
+- [`migrate_checkpoint`](modules/xray_tensor_diffractometer.py.md#checkpointmigrator-migrate_checkpoint) staticmethod of `CheckpointMigrator` in `xray_tensor_diffractometer`
+- [`min_time`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-min_time) property of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`MIN_VARIANCE_THRESHOLD`](modules/superposition.py.md#config-min_variance_threshold) attribute of `Config` in `superposition`
+- [`MIN_VARIANCE_THRESHOLD`](modules/xray_tensor_diffractometer.py.md#config-min_variance_threshold) attribute of `Config` in `xray_tensor_diffractometer`
+- [`mining_check_interval`](modules/full_seed_prospector.py.md#unifiedconfig-mining_check_interval) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`mining_glass_patience_epochs`](modules/full_seed_prospector.py.md#unifiedconfig-mining_glass_patience_epochs) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`mining_max_attempts`](modules/full_seed_prospector.py.md#unifiedconfig-mining_max_attempts) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`mining_metrics_display_interval`](modules/full_seed_prospector.py.md#unifiedconfig-mining_metrics_display_interval) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`mining_partial_log_interval`](modules/full_seed_prospector.py.md#unifiedconfig-mining_partial_log_interval) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`mining_start_seed`](modules/full_seed_prospector.py.md#unifiedconfig-mining_start_seed) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`model_config`](modules/experimetn2.py.md#suiteconfig-model_config) attribute of `SuiteConfig` in `experimetn2`
+- [`model_config`](modules/unified_hidden_connections_suite.py.md#suiteconfig-model_config) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`MODEL_PATH`](modules/src.training.main.py.md#config-model_path) attribute of `Config` in `src.training.main`
+- [`mult_reduction`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-mult_reduction) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`multiplication_count`](modules/src.benchmarks.strassen_numpy.py.md#multiplication_count) function in `src.benchmarks.strassen_numpy`
+- [`multiplication_count`](modules/src.training.strassen_core.py.md#multiplication_count) function in `src.training.strassen_core`
+
+<a id="n"></a>
+
+## N
+
+- [`n_bootstrap`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-n_bootstrap) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`n_experiment_runs`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-n_experiment_runs) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`N_RUNS`](modules/experiments.ablation.ablation_8192.py.md#n_runs) constant in `experiments.ablation.ablation_8192`
+- [`N_RUNS`](modules/experiments.ablation.ablation_study.py.md#n_runs) constant in `experiments.ablation.ablation_study`
+- [`N_SLOTS`](modules/boltzmann_experiments.py.md#config-n_slots) attribute of `Config` in `boltzmann_experiments`
+- [`N_SLOTS`](modules/crystallography.py.md#config-n_slots) attribute of `Config` in `crystallography`
+- [`name`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-name) attribute of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`NECK_CURVATURE_THRESHOLD`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-neck_curvature_threshold) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`NOISE_LEVELS`](modules/batch_size.py.md#configuration-noise_levels) attribute of `Configuration` in `batch_size`
+- [`NOISE_LEVELS`](modules/plank.py.md#configuration-noise_levels) attribute of `Configuration` in `plank`
+- [`NUM_ACTIVATION_SAMPLES`](modules/superposition.py.md#config-num_activation_samples) attribute of `Config` in `superposition`
+- [`num_activation_samples`](modules/unified_hidden_connections_suite.py.md#experiment4config-num_activation_samples) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`NUM_BANDS`](modules/fermi.py.md#fermiconfig-num_bands) attribute of `FermiConfig` in `fermi`
+- [`NUM_ELECTRONS`](modules/fermi.py.md#fermiconfig-num_electrons) attribute of `FermiConfig` in `fermi`
+- [`NUM_SLOTS`](modules/src.training.main.py.md#config-num_slots) attribute of `Config` in `src.training.main`
+- [`num_test_samples`](modules/unified_hidden_connections_suite.py.md#experiment3config-num_test_samples) attribute of `Experiment3Config` in `unified_hidden_connections_suite`
+- [`num_test_samples`](modules/unified_hidden_connections_suite.py.md#experiment5config-num_test_samples) attribute of `Experiment5Config` in `unified_hidden_connections_suite`
+- [`num_threads`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-num_threads) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`num_transformations`](modules/unified_hidden_connections_suite.py.md#experiment3config-num_transformations) attribute of `Experiment3Config` in `unified_hidden_connections_suite`
+- [`num_trials`](modules/unified_hidden_connections_suite.py.md#experiment5config-num_trials) attribute of `Experiment5Config` in `unified_hidden_connections_suite`
+- [`numpy_multiply`](modules/src.benchmarks.benchmark_final.py.md#numpy_multiply) function in `src.benchmarks.benchmark_final`
+- [`numpy_multiply`](modules/src.benchmarks.benchmark_scientific.py.md#numpy_multiply) function in `src.benchmarks.benchmark_scientific`
+- [`NumpyModelWrapper`](modules/percolation_analysis.py.md#numpymodelwrapper) class in `percolation_analysis`
+- [`NyquistVisualizer`](modules/dirac_polos_zeros.py.md#nyquistvisualizer) class in `dirac_polos_zeros`
+
+<a id="o"></a>
+
+## O
+
+- [`OPTIMAL_DELTA_THRESHOLD`](modules/batch_size.py.md#configuration-optimal_delta_threshold) attribute of `Configuration` in `batch_size`
+- [`OPTIMAL_DELTA_THRESHOLD`](modules/plank.py.md#configuration-optimal_delta_threshold) attribute of `Configuration` in `plank`
+- [`OPTIMAL_DELTA_THRESHOLD`](modules/hawking_radiation.py.md#hawkingconfiguration-optimal_delta_threshold) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`OrderParameterCalculator`](modules/gravity.py.md#orderparametercalculator) class in `gravity`
+- [`OUTPUT_DIM`](modules/batch_size.py.md#configuration-output_dim) attribute of `Configuration` in `batch_size`
+- [`OUTPUT_DIM`](modules/plank.py.md#configuration-output_dim) attribute of `Configuration` in `plank`
+- [`output_dim`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-output_dim) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`output_dim`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-output_dim) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`OUTPUT_DIM`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-output_dim) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`output_dim`](modules/experimetn2.py.md#strassstrassenconfig-output_dim) attribute of `StrassStrassenConfig` in `experimetn2`
+- [`output_dim`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig-output_dim) attribute of `StrassStrassenConfig` in `unified_hidden_connections_suite`
+- [`output_dim`](modules/full_seed_prospector.py.md#unifiedconfig-output_dim) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`OUTPUT_DIR`](modules/src.training.main.py.md#config-output_dir) attribute of `Config` in `src.training.main`
+- [`output_dir`](modules/unified_hidden_connections_suite.py.md#experiment1config-output_dir) attribute of `Experiment1Config` in `unified_hidden_connections_suite`
+- [`output_dir`](modules/unified_hidden_connections_suite.py.md#experiment2config-output_dir) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`output_dir`](modules/unified_hidden_connections_suite.py.md#experiment3config-output_dir) attribute of `Experiment3Config` in `unified_hidden_connections_suite`
+- [`output_dir`](modules/unified_hidden_connections_suite.py.md#experiment4config-output_dir) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`output_dir`](modules/unified_hidden_connections_suite.py.md#experiment5config-output_dir) attribute of `Experiment5Config` in `unified_hidden_connections_suite`
+- [`OUTPUT_DIR`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#output_dir) constant in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`OUTPUT_DIR`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#output_dir) constant in `experiments.extended_experiments.exp2_noise_ablation`
+- [`OUTPUT_DIR`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#output_dir) constant in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`OUTPUT_DIR`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#output_dir) constant in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`OUTPUT_DIR`](modules/experiments.extended_experiments.run_all_experiments.py.md#output_dir) constant in `experiments.extended_experiments.run_all_experiments`
+- [`OUTPUT_DIR`](modules/grain.py.md#strassenconfig-output_dir) attribute of `StrassenConfig` in `grain`
+- [`output_dir`](modules/experimetn2.py.md#suiteconfig-output_dir) attribute of `SuiteConfig` in `experimetn2`
+- [`output_dir`](modules/full_seed_prospector.py.md#unifiedconfig-output_dir) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`OUTPUT_DIRECTORY`](modules/batch_size.py.md#configuration-output_directory) attribute of `Configuration` in `batch_size`
+- [`OUTPUT_DIRECTORY`](modules/plank.py.md#configuration-output_directory) attribute of `Configuration` in `plank`
+- [`OUTPUT_DIRECTORY`](modules/hawking_radiation.py.md#hawkingconfiguration-output_directory) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`OUTPUT_DIRECTORY`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-output_directory) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+
+<a id="p"></a>
+
+## P
+
+- [`parse_arguments`](modules/plank.py.md#parse_arguments) function in `plank`
+- [`ParticipationRatioCalculator`](modules/mbl_analyzer.py.md#participationratiocalculator) class in `mbl_analyzer`
+- [`particle_number`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-particle_number) attribute of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`passed`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-passed) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`PATIENCE`](modules/grain.py.md#strassenconfig-patience) attribute of `StrassenConfig` in `grain`
+- [`PCA_COMPONENTS`](modules/xray_tensor_diffractometer.py.md#config-pca_components) attribute of `Config` in `xray_tensor_diffractometer`
+- [`PERCOLATION_2D_BOND_PC`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_2d_bond_pc) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_2D_SITE_PC`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_2d_site_pc) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_3D_SITE_PC`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_3d_site_pc) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_BETA_2D`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_beta_2d) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_BETA_MF`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_beta_mf) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_GAMMA_2D`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_gamma_2d) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_GAMMA_MF`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_gamma_mf) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_NU_2D`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_nu_2d) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_NU_MF`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_nu_mf) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_NUM_THRESHOLDS`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_num_thresholds) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_THRESHOLD_MAX`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_threshold_max) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PERCOLATION_THRESHOLD_MIN`](modules/percolation_analysis.py.md#percolationconfiguration-percolation_threshold_min) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PercolationAnalysisPipeline`](modules/percolation_analysis.py.md#percolationanalysispipeline) class in `percolation_analysis`
+- [`PercolationCheckpointManager`](modules/percolation_analysis.py.md#percolationcheckpointmanager) class in `percolation_analysis`
+- [`PercolationConfiguration`](modules/percolation_analysis.py.md#percolationconfiguration) class in `percolation_analysis`
+- [`PercolationReportGenerator`](modules/percolation_analysis.py.md#percolationreportgenerator) class in `percolation_analysis`
+- [`PercolationUniversalityAnalyzer`](modules/percolation_analysis.py.md#percolationuniversalityanalyzer) class in `percolation_analysis`
+- [`PercolationVisualizationEngine`](modules/percolation_analysis.py.md#percolationvisualizationengine) class in `percolation_analysis`
+- [`perelman_dimension`](modules/full_seed_prospector.py.md#unifiedconfig-perelman_dimension) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`perelman_log_w_max`](modules/full_seed_prospector.py.md#unifiedconfig-perelman_log_w_max) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`perelman_log_w_min`](modules/full_seed_prospector.py.md#unifiedconfig-perelman_log_w_min) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`perelman_tau_adaptive`](modules/full_seed_prospector.py.md#unifiedconfig-perelman_tau_adaptive) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`perelman_tau_initial`](modules/full_seed_prospector.py.md#unifiedconfig-perelman_tau_initial) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`perelman_tau_min`](modules/full_seed_prospector.py.md#unifiedconfig-perelman_tau_min) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`perelman_tau_smoothing`](modules/full_seed_prospector.py.md#unifiedconfig-perelman_tau_smoothing) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`PerelmanEntropyCalculator`](modules/full_seed_prospector.py.md#perelmanentropycalculator) class in `full_seed_prospector`
+- [`perform_anova`](modules/experiments.statistics.rigorous_experiment.py.md#perform_anova) function in `experiments.statistics.rigorous_experiment`
+- [`PERMEABILITY_VACUUM`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-permeability_vacuum) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`PERMITTIVITY_VACUUM`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-permittivity_vacuum) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`PERMITTIVITY_WEIGHT_SCALE`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-permittivity_weight_scale) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`PHASE1_EPOCHS`](modules/src.training.main.py.md#config-phase1_epochs) attribute of `Config` in `src.training.main`
+- [`PHASE1_LR`](modules/src.training.main.py.md#config-phase1_lr) attribute of `Config` in `src.training.main`
+- [`phase1_molecular_hypothesis`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-phase1_molecular_hypothesis) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`phase1_molecular_hypothesis`](modules/boltzmann_experiments.py.md#dlprogram-phase1_molecular_hypothesis) method of `DLProgram` in `boltzmann_experiments`
+- [`PHASE1_WD`](modules/src.training.main.py.md#config-phase1_wd) attribute of `Config` in `src.training.main`
+- [`phase2_decay_factor`](modules/full_seed_prospector.py.md#unifiedconfig-phase2_decay_factor) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`phase2_entropy_production`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-phase2_entropy_production) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`phase2_entropy_production`](modules/boltzmann_experiments.py.md#dlprogram-phase2_entropy_production) method of `DLProgram` in `boltzmann_experiments`
+- [`PHASE2_EPOCHS`](modules/src.training.main.py.md#config-phase2_epochs) attribute of `Config` in `src.training.main`
+- [`phase2_learning_rate`](modules/full_seed_prospector.py.md#unifiedconfig-phase2_learning_rate) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`PHASE2_LR`](modules/src.training.main.py.md#config-phase2_lr) attribute of `Config` in `src.training.main`
+- [`phase2_steps`](modules/full_seed_prospector.py.md#unifiedconfig-phase2_steps) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`PHASE2_WD`](modules/src.training.main.py.md#config-phase2_wd) attribute of `Config` in `src.training.main`
+- [`phase3_epochs`](modules/full_seed_prospector.py.md#unifiedconfig-phase3_epochs) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`phase3_extensivity_law`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-phase3_extensivity_law) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`phase3_extensivity_law`](modules/boltzmann_experiments.py.md#dlprogram-phase3_extensivity_law) method of `DLProgram` in `boltzmann_experiments`
+- [`phase3_extensivity_law`](modules/boltzmann_experiments.py.md#phase3_extensivity_law) function in `boltzmann_experiments`
+- [`phase3_print_interval`](modules/full_seed_prospector.py.md#unifiedconfig-phase3_print_interval) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`phase4_quantum_basis_transform`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-phase4_quantum_basis_transform) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`phase4_quantum_basis_transform`](modules/boltzmann_experiments.py.md#dlprogram-phase4_quantum_basis_transform) method of `DLProgram` in `boltzmann_experiments`
+- [`phase5_thermodynamic_analysis`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-phase5_thermodynamic_analysis) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`phase6_spectroscopic_analysis`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-phase6_spectroscopic_analysis) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`PhaseClassifier`](modules/mbl_analyzer.py.md#phaseclassifier) class in `mbl_analyzer`
+- [`PhaseClassifier`](modules/purity_index.py.md#phaseclassifier) class in `purity_index`
+- [`PhaseTransitionDetector`](modules/gravity.py.md#phasetransitiondetector) class in `gravity`
+- [`PhotonicEntropyCalculator`](modules/maxwell_strassen_analysis.py.md#photonicentropycalculator) class in `maxwell_strassen_analysis`
+- [`planck_constant_regularization`](modules/full_seed_prospector.py.md#unifiedconfig-planck_constant_regularization) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`PLANCK_SI`](modules/batch_size.py.md#configuration-planck_si) attribute of `Configuration` in `batch_size`
+- [`PLANCK_SI`](modules/plank.py.md#configuration-planck_si) attribute of `Configuration` in `plank`
+- [`PLANCK_SI`](modules/hawking_radiation.py.md#hawkingconfiguration-planck_si) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`PLANCK_SI`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-planck_si) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`PlanckConstantCalculator`](modules/batch_size.py.md#planckconstantcalculator) class in `batch_size`
+- [`PlanckConstantCalculator`](modules/hawking_radiation.py.md#planckconstantcalculator) class in `hawking_radiation`
+- [`PlanckConstantCalculator`](modules/plank.py.md#planckconstantcalculator) class in `plank`
+- [`plot_balanced_runs_results`](modules/experiments.extended_experiments.validate2.py.md#visualizationgenerator-plot_balanced_runs_results) method of `VisualizationGenerator` in `experiments.extended_experiments.validate2`
+- [`plot_band_structures`](modules/fermi.py.md#fermipipeline-plot_band_structures) method of `FermiPipeline` in `fermi`
+- [`plot_discretization_results`](modules/experiments.extended_experiments.validate2.py.md#visualizationgenerator-plot_discretization_results) method of `VisualizationGenerator` in `experiments.extended_experiments.validate2`
+- [`plot_local_complexity`](modules/experiments.extended_experiments.validate2.py.md#visualizationgenerator-plot_local_complexity) method of `VisualizationGenerator` in `experiments.extended_experiments.validate2`
+- [`plot_pruning_results`](modules/experiments.extended_experiments.validate2.py.md#visualizationgenerator-plot_pruning_results) method of `VisualizationGenerator` in `experiments.extended_experiments.validate2`
+- [`plot_roc_with_ci`](modules/experiments.extended_experiments.validate2.py.md#visualizationgenerator-plot_roc_with_ci) method of `VisualizationGenerator` in `experiments.extended_experiments.validate2`
+- [`poisson_theoretical`](modules/unified_hidden_connections_suite.py.md#experiment2config-poisson_theoretical) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`POLE_ZERO_TOLERANCE`](modules/dirac_polos_zeros.py.md#analysisconfig-pole_zero_tolerance) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`POLE_ZERO_TOLERANCE`](modules/gravity.py.md#thermodynamicconfig-pole_zero_tolerance) attribute of `ThermodynamicConfig` in `gravity`
+- [`PoleZeroAnalyzer`](modules/dirac_polos_zeros.py.md#polezeroanalyzer) class in `dirac_polos_zeros`
+- [`PoleZeroVisualizer`](modules/dirac_polos_zeros.py.md#polezerovisualizer) class in `dirac_polos_zeros`
+- [`PolycrystalAnalyzer`](modules/purity_index.py.md#polycrystalanalyzer) class in `purity_index`
+- [`POLYCRYSTALLINE_DELTA_THRESHOLD`](modules/plank.py.md#configuration-polycrystalline_delta_threshold) attribute of `Configuration` in `plank`
+- [`post_crystallization_lr_factor`](modules/full_seed_prospector.py.md#unifiedconfig-post_crystallization_lr_factor) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`__post_init__`](modules/plank.py.md#configuration-__post_init__) method of `Configuration` in `plank`
+- [`POTENTIAL_WELL_DEPTH`](modules/scrodingger.py.md#schrodingerconfig-potential_well_depth) attribute of `SchrodingerConfig` in `scrodingger`
+- [`PotentialCalculator`](modules/scrodingger.py.md#potentialcalculator) class in `scrodingger`
+- [`POYNTING_THRESHOLD`](modules/xray_tensor_diffractometer.py.md#config-poynting_threshold) attribute of `Config` in `xray_tensor_diffractometer`
+- [`PR_DELIMITED_THRESHOLD`](modules/mbl_analyzer.py.md#mblconfiguration-pr_delimited_threshold) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`PR_DELIMITED_THRESHOLD`](modules/percolation_analysis.py.md#percolationconfiguration-pr_delimited_threshold) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PR_LOCALIZATION_THRESHOLD`](modules/mbl_analyzer.py.md#mblconfiguration-pr_localization_threshold) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`PR_LOCALIZATION_THRESHOLD`](modules/percolation_analysis.py.md#percolationconfiguration-pr_localization_threshold) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PR_RENYI_INDEX`](modules/mbl_analyzer.py.md#mblconfiguration-pr_renyi_index) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`PR_RENYI_INDEX`](modules/percolation_analysis.py.md#percolationconfiguration-pr_renyi_index) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PRE_REGISTERED_HYPOTHESES`](modules/experiments.statistics.rigorous_experiment.py.md#pre_registered_hypotheses) constant in `experiments.statistics.rigorous_experiment`
+- [`PRECISION`](modules/mbl_analyzer.py.md#mblconfiguration-precision) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`print_anova_table`](modules/experiments.statistics.rigorous_experiment.py.md#print_anova_table) function in `experiments.statistics.rigorous_experiment`
+- [`print_coefficients`](modules/src.training.main.py.md#strassendiscovery-print_coefficients) method of `StrassenDiscovery` in `src.training.main`
+- [`print_header`](modules/menu.py.md#print_header) function in `menu`
+- [`print_wrapped`](modules/menu.py.md#print_wrapped) function in `menu`
+- [`process_checkpoint`](modules/dirac_polos_zeros.py.md#analysispipeline-process_checkpoint) method of `AnalysisPipeline` in `dirac_polos_zeros`
+- [`process_checkpoint`](modules/fermi.py.md#fermipipeline-process_checkpoint) method of `FermiPipeline` in `fermi`
+- [`process_checkpoint`](modules/grain.py.md#grainboundarypipeline-process_checkpoint) method of `GrainBoundaryPipeline` in `grain`
+- [`process_checkpoint`](modules/mbl_analyzer.py.md#mblanalysispipeline-process_checkpoint) method of `MBLAnalysisPipeline` in `mbl_analyzer`
+- [`process_checkpoint`](modules/percolation_analysis.py.md#percolationanalysispipeline-process_checkpoint) method of `PercolationAnalysisPipeline` in `percolation_analysis`
+- [`process_checkpoint`](modules/purity_index.py.md#puritypipeline-process_checkpoint) method of `PurityPipeline` in `purity_index`
+- [`process_checkpoint`](modules/scrodingger.py.md#schrodingerpipeline-process_checkpoint) method of `SchrodingerPipeline` in `scrodingger`
+- [`process_checkpoint`](modules/gravity.py.md#thermodynamicpipeline-process_checkpoint) method of `ThermodynamicPipeline` in `gravity`
+- [`process_directory`](modules/dirac_polos_zeros.py.md#analysispipeline-process_directory) method of `AnalysisPipeline` in `dirac_polos_zeros`
+- [`process_directory`](modules/fermi.py.md#fermipipeline-process_directory) method of `FermiPipeline` in `fermi`
+- [`process_directory`](modules/grain.py.md#grainboundarypipeline-process_directory) method of `GrainBoundaryPipeline` in `grain`
+- [`process_directory`](modules/mbl_analyzer.py.md#mblanalysispipeline-process_directory) method of `MBLAnalysisPipeline` in `mbl_analyzer`
+- [`process_directory`](modules/percolation_analysis.py.md#percolationanalysispipeline-process_directory) method of `PercolationAnalysisPipeline` in `percolation_analysis`
+- [`process_directory`](modules/purity_index.py.md#puritypipeline-process_directory) method of `PurityPipeline` in `purity_index`
+- [`process_directory`](modules/scrodingger.py.md#schrodingerpipeline-process_directory) method of `SchrodingerPipeline` in `scrodingger`
+- [`process_directory`](modules/gravity.py.md#thermodynamicpipeline-process_directory) method of `ThermodynamicPipeline` in `gravity`
+- [`progressive_sparsification`](modules/src.training.strassen_grokkit.py.md#progressive_sparsification) function in `src.training.strassen_grokkit`
+- [`ProgressiveSparsificationPhase`](modules/full_seed_prospector.py.md#progressivesparsificationphase) class in `full_seed_prospector`
+- [`PROJECT_ROOT`](modules/experiments.extended_experiments.run_all_experiments.py.md#project_root) constant in `experiments.extended_experiments.run_all_experiments`
+- [`propose_surgery`](modules/grigori_perelmans_ricci_flow.py.md#singularityengine-propose_surgery) method of `SingularityEngine` in `grigori_perelmans_ricci_flow`
+- [`PROSPECT`](modules/full_seed_prospector.py.md#executionmode-prospect) attribute of `ExecutionMode` in `full_seed_prospector`
+- [`prospect`](modules/full_seed_prospector.py.md#seedprospector-prospect) method of `SeedProspector` in `full_seed_prospector`
+- [`prospect_cosine_t0`](modules/full_seed_prospector.py.md#unifiedconfig-prospect_cosine_t0) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`prospect_epochs`](modules/full_seed_prospector.py.md#unifiedconfig-prospect_epochs) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`ProspectorPhase`](modules/full_seed_prospector.py.md#prospectorphase) class in `full_seed_prospector`
+- [`prune`](modules/unified_hidden_connections_suite.py.md#areapruningstrategy-prune) method of `AreaPruningStrategy` in `unified_hidden_connections_suite`
+- [`prune`](modules/unified_hidden_connections_suite.py.md#ipruningstrategy-prune) method of `IPruningStrategy` in `unified_hidden_connections_suite`
+- [`prune`](modules/unified_hidden_connections_suite.py.md#volumepruningstrategy-prune) method of `VolumePruningStrategy` in `unified_hidden_connections_suite`
+- [`prune_fraction`](modules/unified_hidden_connections_suite.py.md#experiment5config-prune_fraction) attribute of `Experiment5Config` in `unified_hidden_connections_suite`
+- [`prune_initial_percent`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-prune_initial_percent) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`prune_max_iterations`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-prune_max_iterations) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`prune_percent`](modules/experiments.extended_experiments.validate2.py.md#iterativepruningengine-prune_percent) method of `IterativePruningEngine` in `experiments.extended_experiments.validate2`
+- [`prune_step_percent`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-prune_step_percent) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`prune_to_target`](modules/crystallography.py.md#sparsificationprotocol-prune_to_target) method of `SparsificationProtocol` in `crystallography`
+- [`PRUNING_LEVELS`](modules/mbl_analyzer.py.md#mblconfiguration-pruning_levels) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`PRUNING_LEVELS`](modules/percolation_analysis.py.md#percolationconfiguration-pruning_levels) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`PRUNING_LEVELS`](modules/purity_index.py.md#purityconfig-pruning_levels) attribute of `PurityConfig` in `purity_index`
+- [`PRUNING_THRESHOLD`](modules/grain.py.md#strassenconfig-pruning_threshold) attribute of `StrassenConfig` in `grain`
+- [`PruningPercolationAnalyzer`](modules/percolation_analysis.py.md#pruningpercolationanalyzer) class in `percolation_analysis`
+- [`PurityAnalyzer`](modules/purity_index.py.md#purityanalyzer) class in `purity_index`
+- [`PurityComparator`](modules/purity_index.py.md#puritycomparator) class in `purity_index`
+- [`PurityConfig`](modules/purity_index.py.md#purityconfig) class in `purity_index`
+- [`PurityIndexCalculator`](modules/mbl_analyzer.py.md#purityindexcalculator) class in `mbl_analyzer`
+- [`PurityIndexCalculator`](modules/purity_index.py.md#purityindexcalculator) class in `purity_index`
+- [`PurityPipeline`](modules/purity_index.py.md#puritypipeline) class in `purity_index`
+
+<a id="q"></a>
+
+## Q
+
+- [`quantization_anneal_start`](modules/full_seed_prospector.py.md#unifiedconfig-quantization_anneal_start) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`quantization_base_weight`](modules/full_seed_prospector.py.md#unifiedconfig-quantization_base_weight) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`quantization_kappa_multiplier`](modules/full_seed_prospector.py.md#unifiedconfig-quantization_kappa_multiplier) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`quantization_max_weight`](modules/full_seed_prospector.py.md#unifiedconfig-quantization_max_weight) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`quantization_mse_scale_factor`](modules/full_seed_prospector.py.md#unifiedconfig-quantization_mse_scale_factor) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`quantization_mse_scale_max`](modules/full_seed_prospector.py.md#unifiedconfig-quantization_mse_scale_max) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`quantization_mse_scale_min`](modules/full_seed_prospector.py.md#unifiedconfig-quantization_mse_scale_min) attribute of `UnifiedConfig` in `full_seed_prospector`
+
+<a id="r"></a>
+
+## R
+
+- [`RANDOM_SEED`](modules/boltzmann_experiments.py.md#config-random_seed) attribute of `Config` in `boltzmann_experiments`
+- [`RANDOM_SEED`](modules/crystallography.py.md#config-random_seed) attribute of `Config` in `crystallography`
+- [`RANDOM_SEED`](modules/xray_tensor_diffractometer.py.md#config-random_seed) attribute of `Config` in `xray_tensor_diffractometer`
+- [`RANDOM_SEED`](modules/batch_size.py.md#configuration-random_seed) attribute of `Configuration` in `batch_size`
+- [`RANDOM_SEED`](modules/plank.py.md#configuration-random_seed) attribute of `Configuration` in `plank`
+- [`RANDOM_SEED`](modules/grain.py.md#strassenconfig-random_seed) attribute of `StrassenConfig` in `grain`
+- [`random_seed`](modules/full_seed_prospector.py.md#unifiedconfig-random_seed) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`rank`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-rank) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`rank`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-rank) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`rank`](modules/experimetn2.py.md#strassstrassenconfig-rank) attribute of `StrassStrassenConfig` in `experimetn2`
+- [`rank`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig-rank) attribute of `StrassStrassenConfig` in `unified_hidden_connections_suite`
+- [`rank`](modules/src.discovery.auto_T_discovery.py.md#symmetrystructure-rank) attribute of `SymmetryStructure` in `src.discovery.auto_T_discovery`
+- [`rank`](modules/full_seed_prospector.py.md#unifiedconfig-rank) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`recursive_strassen_multiply`](modules/src.discovery.auto_T_discovery.py.md#recursive_strassen_multiply) function in `src.discovery.auto_T_discovery`
+- [`refine_pruned`](modules/src.training.main_pure_math.py.md#refine_pruned) function in `src.training.main_pure_math`
+- [`ReportGenerator`](modules/plank.py.md#reportgenerator) class in `plank`
+- [`reset`](modules/full_seed_prospector.py.md#comprehensivemetricsaggregator-reset) method of `ComprehensiveMetricsAggregator` in `full_seed_prospector`
+- [`reset`](modules/full_seed_prospector.py.md#kappacalculator-reset) method of `KappaCalculator` in `full_seed_prospector`
+- [`reset`](modules/full_seed_prospector.py.md#perelmanentropycalculator-reset) method of `PerelmanEntropyCalculator` in `full_seed_prospector`
+- [`resilience_check_interval`](modules/full_seed_prospector.py.md#unifiedconfig-resilience_check_interval) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`resilience_critical_threshold`](modules/full_seed_prospector.py.md#unifiedconfig-resilience_critical_threshold) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`RESILIENCE_EPOCHS`](modules/batch_size.py.md#configuration-resilience_epochs) attribute of `Configuration` in `batch_size`
+- [`RESILIENCE_EPOCHS`](modules/plank.py.md#configuration-resilience_epochs) attribute of `Configuration` in `plank`
+- [`RESILIENCE_LEARNING_RATE`](modules/plank.py.md#configuration-resilience_learning_rate) attribute of `Configuration` in `plank`
+- [`resilience_max_delta`](modules/full_seed_prospector.py.md#unifiedconfig-resilience_max_delta) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`resilience_min_accuracy`](modules/full_seed_prospector.py.md#unifiedconfig-resilience_min_accuracy) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`resilience_pruning_steps`](modules/full_seed_prospector.py.md#unifiedconfig-resilience_pruning_steps) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`resilience_sparsity_max`](modules/full_seed_prospector.py.md#unifiedconfig-resilience_sparsity_max) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`resilience_test_samples`](modules/full_seed_prospector.py.md#unifiedconfig-resilience_test_samples) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`RESILIENCE_TRIALS`](modules/batch_size.py.md#configuration-resilience_trials) attribute of `Configuration` in `batch_size`
+- [`RESILIENCE_TRIALS`](modules/plank.py.md#configuration-resilience_trials) attribute of `Configuration` in `plank`
+- [`ResilienceSpectrometer`](modules/full_seed_prospector.py.md#resiliencespectrometer) class in `full_seed_prospector`
+- [`resolution`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-resolution) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`resolutions`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-resolutions) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`RESULTS_DIR`](modules/superposition.py.md#config-results_dir) attribute of `Config` in `superposition`
+- [`RESULTS_DIR`](modules/xray_tensor_diffractometer.py.md#config-results_dir) attribute of `Config` in `xray_tensor_diffractometer`
+- [`results_file`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-results_file) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`ricci_penalty_weight`](modules/full_seed_prospector.py.md#unifiedconfig-ricci_penalty_weight) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`RicciConfig`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig) class in `grigori_perelmans_ricci_flow`
+- [`RicciCurvaturePenalty`](modules/full_seed_prospector.py.md#riccicurvaturepenalty) class in `full_seed_prospector`
+- [`RicciFlowAnalyzer`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzer) class in `grigori_perelmans_ricci_flow`
+- [`RicciFlowAnalyzerPipeline`](modules/grigori_perelmans_ricci_flow.py.md#ricciflowanalyzerpipeline) class in `grigori_perelmans_ricci_flow`
+- [`RicciScalarCalculator`](modules/unified_hidden_connections_suite.py.md#ricciscalarcalculator) class in `unified_hidden_connections_suite`
+- [`RobustCheckpointMigrator`](modules/hawking_radiation.py.md#robustcheckpointmigrator) class in `hawking_radiation`
+- [`RobustHawkingAnalyzer`](modules/hawking_radiation.py.md#robusthawkinganalyzer) class in `hawking_radiation`
+- [`run`](modules/experimetn2.py.md#experiment1riccimblduality-run) method of `Experiment1RicciMBLDuality` in `experimetn2`
+- [`run`](modules/unified_hidden_connections_suite.py.md#experiment1riccimblduality-run) method of `Experiment1RicciMBLDuality` in `unified_hidden_connections_suite`
+- [`run`](modules/experimetn2.py.md#experiment2altlandzirnbauer-run) method of `Experiment2AltlandZirnbauer` in `experimetn2`
+- [`run`](modules/unified_hidden_connections_suite.py.md#experiment2altlandzirnbauer-run) method of `Experiment2AltlandZirnbauer` in `unified_hidden_connections_suite`
+- [`run`](modules/experimetn2.py.md#experiment3conformalisomorphism-run) method of `Experiment3ConformalIsomorphism` in `experimetn2`
+- [`run`](modules/unified_hidden_connections_suite.py.md#experiment3conformalisomorphism-run) method of `Experiment3ConformalIsomorphism` in `unified_hidden_connections_suite`
+- [`run`](modules/experimetn2.py.md#experiment4compressionfrontier-run) method of `Experiment4CompressionFrontier` in `experimetn2`
+- [`run`](modules/unified_hidden_connections_suite.py.md#experiment4compressionfrontier-run) method of `Experiment4CompressionFrontier` in `unified_hidden_connections_suite`
+- [`run`](modules/experimetn2.py.md#experiment5holographicpruning-run) method of `Experiment5HolographicPruning` in `experimetn2`
+- [`run`](modules/unified_hidden_connections_suite.py.md#experiment5holographicpruning-run) method of `Experiment5HolographicPruning` in `unified_hidden_connections_suite`
+- [`run`](modules/experimetn2.py.md#iexperiment-run) method of `IExperiment` in `experimetn2`
+- [`run`](modules/unified_hidden_connections_suite.py.md#iexperiment-run) method of `IExperiment` in `unified_hidden_connections_suite`
+- [`run`](modules/full_seed_prospector.py.md#longtrainingpipeline-run) method of `LongTrainingPipeline` in `full_seed_prospector`
+- [`run_ablation`](modules/experiments.ablation.ablation_study.py.md#run_ablation) function in `experiments.ablation.ablation_study`
+- [`run_all`](modules/unified_hidden_connections_suite.py.md#unifiedsuite-run_all) method of `UnifiedSuite` in `unified_hidden_connections_suite`
+- [`run_all_experiments`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-run_all_experiments) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`run_all_experiments`](modules/experiments.extended_experiments.run_all_experiments.py.md#run_all_experiments) function in `experiments.extended_experiments.run_all_experiments`
+- [`run_analysis`](modules/grain.py.md#run_analysis) function in `grain`
+- [`run_balanced_experiments`](modules/experiments.extended_experiments.validate2.py.md#balancedrunsgenerator-run_balanced_experiments) method of `BalancedRunsGenerator` in `experiments.extended_experiments.validate2`
+- [`run_balanced_runs_experiment`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-run_balanced_runs_experiment) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`run_batch_size_effect`](modules/experiments.apendix_experiments.py.md#run_batch_size_effect) function in `experiments.apendix_experiments`
+- [`run_benchmark`](modules/src.benchmarks.benchmark_strassen.py.md#run_benchmark) function in `src.benchmarks.benchmark_strassen`
+- [`run_coherence_analysis`](modules/experiments.statistics.coherence_analysis.py.md#run_coherence_analysis) function in `experiments.statistics.coherence_analysis`
+- [`run_epitaxial_growth_experiment`](modules/xray_tensor_diffractometer.py.md#epitaxyexperiment-run_epitaxial_growth_experiment) method of `EpitaxyExperiment` in `xray_tensor_diffractometer`
+- [`run_epitaxy_from_best_crystal`](modules/xray_tensor_diffractometer.py.md#run_epitaxy_from_best_crystal) function in `xray_tensor_diffractometer`
+- [`run_full_analysis`](modules/crystallography.py.md#strassencrystallographer-run_full_analysis) method of `StrassenCrystallographer` in `crystallography`
+- [`run_full_analysis`](modules/xray_tensor_diffractometer.py.md#strassencrystallographer-run_full_analysis) method of `StrassenCrystallographer` in `xray_tensor_diffractometer`
+- [`run_full_boltzmann_program`](modules/xray_tensor_diffractometer.py.md#boltzmannanalysisprogram-run_full_boltzmann_program) method of `BoltzmannAnalysisProgram` in `xray_tensor_diffractometer`
+- [`run_full_boltzmann_program`](modules/boltzmann_experiments.py.md#dlprogram-run_full_boltzmann_program) method of `DLProgram` in `boltzmann_experiments`
+- [`run_full_experiment`](modules/experiments.extended_experiments.validate2.py.md#localcomplexityexperiment-run_full_experiment) method of `LocalComplexityExperiment` in `experiments.extended_experiments.validate2`
+- [`run_full_experiment`](modules/experiments.statistics.rigorous_experiment.py.md#run_full_experiment) function in `experiments.statistics.rigorous_experiment`
+- [`run_green_backprop_step`](modules/xray_tensor_diffractometer.py.md#greencowexperiment-run_green_backprop_step) method of `GreenCowExperiment` in `xray_tensor_diffractometer`
+- [`run_id`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-run_id) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`run_lc_training_experiment`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-run_lc_training_experiment) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`run_local_complexity_experiment`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-run_local_complexity_experiment) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`run_noise_ablation`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#run_noise_ablation) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`run_noise_stability_test`](modules/experiments.verify_checkpoints.py.md#run_noise_stability_test) function in `experiments.verify_checkpoints`
+- [`run_openblas`](modules/experiments.ablation.ablation_study.py.md#run_openblas) function in `experiments.ablation.ablation_study`
+- [`run_phase_diagram`](modules/experiments.apendix_experiments.py.md#run_phase_diagram) function in `experiments.apendix_experiments`
+- [`run_planck_analysis`](modules/experiments.validation.benchmark.py.md#run_planck_analysis) function in `experiments.validation.benchmark`
+- [`run_prospective_prediction_experiment`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#run_prospective_prediction_experiment) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`run_protocol`](modules/experiments.extended_experiments.validate2.py.md#iterativepruningengine-run_protocol) method of `IterativePruningEngine` in `experiments.extended_experiments.validate2`
+- [`run_pruning_experiment`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-run_pruning_experiment) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`run_roc_analysis`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-run_roc_analysis) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`run_script`](modules/menu.py.md#run_script) function in `menu`
+- [`run_single_experiment`](modules/experiments.statistics.rigorous_experiment.py.md#run_single_experiment) function in `experiments.statistics.rigorous_experiment`
+- [`run_strassen`](modules/experiments.ablation.ablation_study.py.md#run_strassen) function in `experiments.ablation.ablation_study`
+- [`run_training`](modules/grain.py.md#run_training) function in `grain`
+
+<a id="s"></a>
+
+## S
+
+- [`SAE_BATCH_SIZE`](modules/superposition.py.md#config-sae_batch_size) attribute of `Config` in `superposition`
+- [`sae_batch_size`](modules/unified_hidden_connections_suite.py.md#experiment4config-sae_batch_size) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`SAE_EPOCHS`](modules/superposition.py.md#config-sae_epochs) attribute of `Config` in `superposition`
+- [`sae_epochs`](modules/unified_hidden_connections_suite.py.md#experiment4config-sae_epochs) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`SAE_EXPANSION_FACTOR`](modules/superposition.py.md#config-sae_expansion_factor) attribute of `Config` in `superposition`
+- [`sae_expansion_factor`](modules/unified_hidden_connections_suite.py.md#experiment4config-sae_expansion_factor) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`SAE_L1_COEFFICIENT`](modules/superposition.py.md#config-sae_l1_coefficient) attribute of `Config` in `superposition`
+- [`sae_l1_coefficient`](modules/unified_hidden_connections_suite.py.md#experiment4config-sae_l1_coefficient) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`SAE_LEARNING_RATE`](modules/superposition.py.md#config-sae_learning_rate) attribute of `Config` in `superposition`
+- [`sae_learning_rate`](modules/unified_hidden_connections_suite.py.md#experiment4config-sae_learning_rate) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`SAETrainer`](modules/superposition.py.md#saetrainer) class in `superposition`
+- [`samples_per_resolution`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-samples_per_resolution) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`save`](modules/experimetn2.py.md#checkpointmanager-save) method of `CheckpointManager` in `experimetn2`
+- [`save`](modules/full_seed_prospector.py.md#checkpointmanager-save) method of `CheckpointManager` in `full_seed_prospector`
+- [`save`](modules/grain.py.md#checkpointmanager-save) method of `CheckpointManager` in `grain`
+- [`save`](modules/maxwell_strassen_analysis.py.md#checkpointmanager-save) method of `CheckpointManager` in `maxwell_strassen_analysis`
+- [`save`](modules/unified_hidden_connections_suite.py.md#checkpointmanager-save) method of `CheckpointManager` in `unified_hidden_connections_suite`
+- [`save`](modules/full_seed_prospector.py.md#icheckpointmanager-save) method of `ICheckpointManager` in `full_seed_prospector`
+- [`save`](modules/grain.py.md#icheckpointmanager-save) method of `ICheckpointManager` in `grain`
+- [`save`](modules/unified_hidden_connections_suite.py.md#icheckpointmanager-save) method of `ICheckpointManager` in `unified_hidden_connections_suite`
+- [`save`](modules/percolation_analysis.py.md#percolationcheckpointmanager-save) method of `PercolationCheckpointManager` in `percolation_analysis`
+- [`save_aggregate_report`](modules/plank.py.md#reportgenerator-save_aggregate_report) method of `ReportGenerator` in `plank`
+- [`save_checkpoint`](modules/mbl_analyzer.py.md#icheckpointmanager-save_checkpoint) method of `ICheckpointManager` in `mbl_analyzer`
+- [`save_checkpoint`](modules/mbl_analyzer.py.md#mblcheckpointmanager-save_checkpoint) method of `MBLCheckpointManager` in `mbl_analyzer`
+- [`save_checkpoints`](modules/unified_hidden_connections_suite.py.md#suiteconfig-save_checkpoints) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`SAVE_FORMAT`](modules/dirac_polos_zeros.py.md#analysisconfig-save_format) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`SAVE_FORMAT`](modules/fermi.py.md#fermiconfig-save_format) attribute of `FermiConfig` in `fermi`
+- [`SAVE_FORMAT`](modules/mbl_analyzer.py.md#mblconfiguration-save_format) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`SAVE_FORMAT`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-save_format) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`SAVE_FORMAT`](modules/percolation_analysis.py.md#percolationconfiguration-save_format) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`SAVE_FORMAT`](modules/purity_index.py.md#purityconfig-save_format) attribute of `PurityConfig` in `purity_index`
+- [`SAVE_FORMAT`](modules/scrodingger.py.md#schrodingerconfig-save_format) attribute of `SchrodingerConfig` in `scrodingger`
+- [`SAVE_FORMAT`](modules/grain.py.md#strassenconfig-save_format) attribute of `StrassenConfig` in `grain`
+- [`SAVE_FORMAT`](modules/gravity.py.md#thermodynamicconfig-save_format) attribute of `ThermodynamicConfig` in `gravity`
+- [`save_json_report`](modules/plank.py.md#reportgenerator-save_json_report) method of `ReportGenerator` in `plank`
+- [`save_results`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-save_results) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`save_results`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-save_results) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`save_results`](modules/src.benchmarks.benchmark_strassen.py.md#save_results) function in `src.benchmarks.benchmark_strassen`
+- [`scheduler_t0`](modules/experimetn2.py.md#trainingconfig-scheduler_t0) attribute of `TrainingConfig` in `experimetn2`
+- [`scheduler_t0`](modules/unified_hidden_connections_suite.py.md#trainingconfig-scheduler_t0) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`SchrodingerAnalyzer`](modules/scrodingger.py.md#schrodingeranalyzer) class in `scrodingger`
+- [`SchrodingerConfig`](modules/scrodingger.py.md#schrodingerconfig) class in `scrodingger`
+- [`SchrodingerPipeline`](modules/scrodingger.py.md#schrodingerpipeline) class in `scrodingger`
+- [`SEED`](modules/src.training.main.py.md#config-seed) attribute of `Config` in `src.training.main`
+- [`seed`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-seed) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`SEED`](modules/experiments.extended_experiments.validate2.py.md#seed) constant in `experiments.extended_experiments.validate2`
+- [`seed`](modules/experimetn2.py.md#trainingconfig-seed) attribute of `TrainingConfig` in `experimetn2`
+- [`seed`](modules/unified_hidden_connections_suite.py.md#trainingconfig-seed) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`SeedProspector`](modules/full_seed_prospector.py.md#seedprospector) class in `full_seed_prospector`
+- [`SEP`](modules/menu.py.md#sep) constant in `menu`
+- [`set_flat_params`](modules/grigori_perelmans_ricci_flow.py.md#bilinearstrassenmodel-set_flat_params) method of `BilinearStrassenModel` in `grigori_perelmans_ricci_flow`
+- [`set_parameters`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#strassenoperator-set_parameters) method of `StrassenOperator` in `experiments.extended_experiments.exp2_noise_ablation`
+- [`set_parameters`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator-set_parameters) method of `StrassenOperator` in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`set_parameters`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator-set_parameters) method of `StrassenOperator` in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`set_parameters`](modules/experiments.extended_experiments.run_all_experiments.py.md#strassenoperator-set_parameters) method of `StrassenOperator` in `experiments.extended_experiments.run_all_experiments`
+- [`set_random_seed`](modules/batch_size.py.md#set_random_seed) function in `batch_size`
+- [`set_random_seed`](modules/grigori_perelmans_ricci_flow.py.md#set_random_seed) function in `grigori_perelmans_ricci_flow`
+- [`set_random_seed`](modules/plank.py.md#set_random_seed) function in `plank`
+- [`set_seed`](modules/boltzmann_experiments.py.md#set_seed) function in `boltzmann_experiments`
+- [`set_seed`](modules/crystallography.py.md#set_seed) function in `crystallography`
+- [`set_seed`](modules/src.training.main.py.md#set_seed) function in `src.training.main`
+- [`set_seed`](modules/xray_tensor_diffractometer.py.md#set_seed) function in `xray_tensor_diffractometer`
+- [`setup_logger`](modules/xray_tensor_diffractometer.py.md#setup_logger) function in `xray_tensor_diffractometer`
+- [`setup_matplotlib`](modules/experiments.apendix_experiments.py.md#setup_matplotlib) function in `experiments.apendix_experiments`
+- [`setup_matplotlib`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#setup_matplotlib) function in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`setup_matplotlib`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#setup_matplotlib) function in `experiments.extended_experiments.exp2_noise_ablation`
+- [`setup_matplotlib`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#setup_matplotlib) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`setup_matplotlib`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#setup_matplotlib) function in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`setup_matplotlib`](modules/experiments.extended_experiments.run_all_experiments.py.md#setup_matplotlib) function in `experiments.extended_experiments.run_all_experiments`
+- [`setup_matplotlib_for_plotting`](modules/experiments.generate_figures.py.md#setup_matplotlib_for_plotting) function in `experiments.generate_figures`
+- [`should_checkpoint`](modules/full_seed_prospector.py.md#checkpointmanager-should_checkpoint) method of `CheckpointManager` in `full_seed_prospector`
+- [`should_checkpoint`](modules/full_seed_prospector.py.md#icheckpointmanager-should_checkpoint) method of `ICheckpointManager` in `full_seed_prospector`
+- [`should_checkpoint`](modules/grain.py.md#itrainingmonitor-should_checkpoint) method of `ITrainingMonitor` in `grain`
+- [`should_save`](modules/grain.py.md#checkpointmanager-should_save) method of `CheckpointManager` in `grain`
+- [`should_save`](modules/maxwell_strassen_analysis.py.md#checkpointmanager-should_save) method of `CheckpointManager` in `maxwell_strassen_analysis`
+- [`should_save`](modules/percolation_analysis.py.md#percolationcheckpointmanager-should_save) method of `PercolationCheckpointManager` in `percolation_analysis`
+- [`should_save_checkpoint`](modules/mbl_analyzer.py.md#mblcheckpointmanager-should_save_checkpoint) method of `MBLCheckpointManager` in `mbl_analyzer`
+- [`should_stop`](modules/full_seed_prospector.py.md#glassdetector-should_stop) method of `GlassDetector` in `full_seed_prospector`
+- [`show_category`](modules/menu.py.md#show_category) function in `menu`
+- [`show_checkpoints`](modules/menu.py.md#show_checkpoints) function in `menu`
+- [`show_coeffs`](modules/src.training.main_pure_math.py.md#show_coeffs) function in `src.training.main_pure_math`
+- [`show_results`](modules/menu.py.md#show_results) function in `menu`
+- [`SimpleStrassenModel`](modules/src.training.convergence_theory.py.md#simplestrassenmodel) class in `src.training.convergence_theory`
+- [`simulate_early_prediction`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#simulate_early_prediction) function in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`simulate_grokking_dynamics`](modules/experiments.validation_experiments.py.md#simulate_grokking_dynamics) function in `experiments.validation_experiments`
+- [`simulate_trajectory_perturbation`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#simulate_trajectory_perturbation) function in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`singularity_eigenvalue_ratio`](modules/unified_hidden_connections_suite.py.md#experiment1config-singularity_eigenvalue_ratio) attribute of `Experiment1Config` in `unified_hidden_connections_suite`
+- [`SINGULARITY_EIGENVALUE_RATIO`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-singularity_eigenvalue_ratio) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`SingularityEngine`](modules/grigori_perelmans_ricci_flow.py.md#singularityengine) class in `grigori_perelmans_ricci_flow`
+- [`SitePercolationAnalyzer`](modules/percolation_analysis.py.md#sitepercolationanalyzer) class in `percolation_analysis`
+- [`size`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-size) attribute of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`SIZES`](modules/experiments.ablation.ablation_study.py.md#sizes) constant in `experiments.ablation.ablation_study`
+- [`slot_importance`](modules/experimetn2.py.md#strassstrassenmodel-slot_importance) method of `StrassStrassenModel` in `experimetn2`
+- [`slot_importance`](modules/unified_hidden_connections_suite.py.md#strassstrassenmodel-slot_importance) method of `StrassStrassenModel` in `unified_hidden_connections_suite`
+- [`slot_importance`](modules/experiments.apendix_experiments.py.md#strassenoperator-slot_importance) method of `StrassenOperator` in `experiments.apendix_experiments`
+- [`slot_importance`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator-slot_importance) method of `StrassenOperator` in `experiments.extended_experiments.validate2`
+- [`slot_importance`](modules/full_seed_prospector.py.md#strassenoperator-slot_importance) method of `StrassenOperator` in `full_seed_prospector`
+- [`slot_importance`](modules/src.training.strassen_grokkit.py.md#strassenoperator-slot_importance) method of `StrassenOperator` in `src.training.strassen_grokkit`
+- [`slot_importance`](modules/src.training.train_strassen.py.md#strassenoperator-slot_importance) method of `StrassenOperator` in `src.training.train_strassen`
+- [`slot_norms`](modules/src.training.main_pure_math.py.md#strassenmodel-slot_norms) method of `StrassenModel` in `src.training.main_pure_math`
+- [`SOLAR_MASS`](modules/batch_size.py.md#configuration-solar_mass) attribute of `Configuration` in `batch_size`
+- [`SOLAR_MASS`](modules/plank.py.md#configuration-solar_mass) attribute of `Configuration` in `plank`
+- [`SOLAR_MASS_SI`](modules/hawking_radiation.py.md#hawkingconfiguration-solar_mass_si) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`solve`](modules/scrodingger.py.md#eigenvaluesolver-solve) method of `EigenvalueSolver` in `scrodingger`
+- [`solve`](modules/scrodingger.py.md#ieigenvaluesolver-solve) method of `IEigenvalueSolver` in `scrodingger`
+- [`solve_poisson`](modules/maxwell_strassen_analysis.py.md#imaxwellsolver-solve_poisson) method of `IMaxwellSolver` in `maxwell_strassen_analysis`
+- [`solve_poisson`](modules/maxwell_strassen_analysis.py.md#maxwellscatteringsolver-solve_poisson) method of `MaxwellScatteringSolver` in `maxwell_strassen_analysis`
+- [`SparseAutoencoder`](modules/superposition.py.md#sparseautoencoder) class in `superposition`
+- [`SparsificationProtocol`](modules/crystallography.py.md#sparsificationprotocol) class in `crystallography`
+- [`sparsify`](modules/src.training.train_strassen.py.md#sparsify) function in `src.training.train_strassen`
+- [`sparsify_and_discretize`](modules/experiments.apendix_experiments.py.md#sparsify_and_discretize) function in `experiments.apendix_experiments`
+- [`sparsity_threshold`](modules/full_seed_prospector.py.md#unifiedconfig-sparsity_threshold) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`SparsityCalculator`](modules/full_seed_prospector.py.md#sparsitycalculator) class in `full_seed_prospector`
+- [`SPATIAL_GRID_POINTS`](modules/scrodingger.py.md#schrodingerconfig-spatial_grid_points) attribute of `SchrodingerConfig` in `scrodingger`
+- [`SPATIAL_RESOLUTION`](modules/dirac_polos_zeros.py.md#analysisconfig-spatial_resolution) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`SPATIAL_RESOLUTION`](modules/gravity.py.md#thermodynamicconfig-spatial_resolution) attribute of `ThermodynamicConfig` in `gravity`
+- [`SPECIFIC_HEAT_WINDOW`](modules/mbl_analyzer.py.md#mblconfiguration-specific_heat_window) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`SPECIFIC_HEAT_WINDOW`](modules/percolation_analysis.py.md#percolationconfiguration-specific_heat_window) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`SPECIFIC_HEAT_WINDOW`](modules/purity_index.py.md#purityconfig-specific_heat_window) attribute of `PurityConfig` in `purity_index`
+- [`SpecificHeatCalculator`](modules/gravity.py.md#specificheatcalculator) class in `gravity`
+- [`spectral_gap`](modules/src.training.convergence_theory.py.md#convergencemetrics-spectral_gap) attribute of `ConvergenceMetrics` in `src.training.convergence_theory`
+- [`spectral_gap`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-spectral_gap) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`spectral_regularization`](modules/unified_hidden_connections_suite.py.md#experiment1config-spectral_regularization) attribute of `Experiment1Config` in `unified_hidden_connections_suite`
+- [`SPECTRAL_REGULARIZATION`](modules/hawking_radiation.py.md#hawkingconfiguration-spectral_regularization) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`SPECTRAL_REGULARIZATION`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-spectral_regularization) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`spectral_regularization`](modules/full_seed_prospector.py.md#unifiedconfig-spectral_regularization) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`SpectroscopyMetrics`](modules/xray_tensor_diffractometer.py.md#spectroscopymetrics) class in `xray_tensor_diffractometer`
+- [`SPEED_OF_LIGHT`](modules/batch_size.py.md#configuration-speed_of_light) attribute of `Configuration` in `batch_size`
+- [`SPEED_OF_LIGHT`](modules/plank.py.md#configuration-speed_of_light) attribute of `Configuration` in `plank`
+- [`SPEED_OF_LIGHT`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-speed_of_light) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`SPEED_OF_LIGHT_SI`](modules/hawking_radiation.py.md#hawkingconfiguration-speed_of_light_si) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`SpeedOfLightCalculator`](modules/hawking_radiation.py.md#speedoflightcalculator) class in `hawking_radiation`
+- [`speedup`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-speedup) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`STABILITY_MARGIN`](modules/dirac_polos_zeros.py.md#analysisconfig-stability_margin) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`STABILITY_MARGIN`](modules/gravity.py.md#thermodynamicconfig-stability_margin) attribute of `ThermodynamicConfig` in `gravity`
+- [`standard_avx512_multiply`](modules/src.benchmarks.benchmark_scientific.py.md#standard_avx512_multiply) function in `src.benchmarks.benchmark_scientific`
+- [`standard_multiply`](modules/src.native.strassen_c.c.md#standard_multiply) function in `src/native/strassen_c.c`
+- [`standard_mults`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-standard_mults) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`standard_time_ms`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-standard_time_ms) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`StandardFormatMigrator`](modules/batch_size.py.md#standardformatmigrator) class in `batch_size`
+- [`StandardFormatMigrator`](modules/grigori_perelmans_ricci_flow.py.md#standardformatmigrator) class in `grigori_perelmans_ricci_flow`
+- [`StandardFormatMigrator`](modules/plank.py.md#standardformatmigrator) class in `plank`
+- [`StateSpaceExtractor`](modules/dirac_polos_zeros.py.md#statespaceextractor) class in `dirac_polos_zeros`
+- [`STATS_DIR`](modules/experiments.generate_figures.py.md#stats_dir) constant in `experiments.generate_figures`
+- [`std_time`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-std_time) property of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`strassen`](modules/src.training.strassen_core.py.md#strassen) function in `src.training.strassen_core`
+- [`strassen_2x2`](modules/experiments.validation_experiments.py.md#strassen_2x2) function in `experiments.validation_experiments`
+- [`strassen_2x2`](modules/src.training.strassen_core.py.md#strassen_2x2) function in `src.training.strassen_core`
+- [`strassen_2x2_numpy`](modules/src.benchmarks.strassen_numpy.py.md#strassen_2x2_numpy) function in `src.benchmarks.strassen_numpy`
+- [`STRASSEN_DISCRETE_VALUES`](modules/percolation_analysis.py.md#percolationconfiguration-strassen_discrete_values) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`strassen_expand`](modules/experiments.verify_checkpoints.py.md#strassen_expand) function in `experiments.verify_checkpoints`
+- [`strassen_hybrid`](modules/src.benchmarks.strassen_numpy.py.md#strassen_hybrid) function in `src.benchmarks.strassen_numpy`
+- [`strassen_hybrid_multiply`](modules/src.benchmarks.benchmark_final.py.md#strassen_hybrid_multiply) function in `src.benchmarks.benchmark_final`
+- [`strassen_multiply`](modules/src.benchmarks.benchmark_scientific.py.md#strassen_multiply) function in `src.benchmarks.benchmark_scientific`
+- [`strassen_multiply`](modules/src.native.strassen_c.c.md#strassen_multiply) function in `src/native/strassen_c.c`
+- [`strassen_multiply`](modules/src.training.grokkit_physics.py.md#strassen_multiply) function in `src.training.grokkit_physics`
+- [`strassen_mults`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-strassen_mults) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`strassen_numpy`](modules/experiments.statistics.coherence_analysis.py.md#strassen_numpy) function in `experiments.statistics.coherence_analysis`
+- [`strassen_numpy`](modules/experiments.validation.benchmark.py.md#strassen_numpy) function in `experiments.validation.benchmark`
+- [`strassen_numpy`](modules/src.benchmarks.strassen_numpy.py.md#strassen_numpy) function in `src.benchmarks.strassen_numpy`
+- [`strassen_optimal`](modules/src.native.strassen_optimal.c.md#strassen_optimal) function in `src/native/strassen_optimal.c`
+- [`STRASSEN_RANK`](modules/percolation_analysis.py.md#percolationconfiguration-strassen_rank) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`strassen_recursive`](modules/experiments.validation_experiments.py.md#strassen_recursive) function in `experiments.validation_experiments`
+- [`strassen_recursive`](modules/src.native.strassen_c.c.md#strassen_recursive) function in `src/native/strassen_c.c`
+- [`STRASSEN_THRESHOLD`](modules/src.native.strassen_optimal.c.md#strassen_threshold) macro in `src/native/strassen_optimal.c`
+- [`strassen_time_ms`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkresult-strassen_time_ms) attribute of `BenchmarkResult` in `src.benchmarks.benchmark_strassen`
+- [`strassen_turbo`](modules/src.native.strassen_turbo.c.md#strassen_turbo) function in `src/native/strassen_turbo.c`
+- [`strassen_turbo_recursive`](modules/src.native.strassen_turbo.c.md#strassen_turbo_recursive) function in `src/native/strassen_turbo.c`
+- [`STRASSEN_U`](modules/experiments.validation_experiments.py.md#strassen_u) constant in `experiments.validation_experiments`
+- [`STRASSEN_V`](modules/experiments.validation_experiments.py.md#strassen_v) constant in `experiments.validation_experiments`
+- [`STRASSEN_W`](modules/experiments.validation_experiments.py.md#strassen_w) constant in `experiments.validation_experiments`
+- [`StrassenBilinear`](modules/experiments.verify_checkpoints.py.md#strassenbilinear) class in `experiments.verify_checkpoints`
+- [`StrassenCheckpointAnalyzer`](modules/superposition.py.md#strassencheckpointanalyzer) class in `superposition`
+- [`StrassenCheckpointLoader`](modules/batch_size.py.md#strassencheckpointloader) class in `batch_size`
+- [`StrassenCheckpointLoader`](modules/plank.py.md#strassencheckpointloader) class in `plank`
+- [`StrassenConfig`](modules/grain.py.md#strassenconfig) class in `grain`
+- [`StrassenCrystallographer`](modules/crystallography.py.md#strassencrystallographer) class in `crystallography`
+- [`StrassenCrystallographer`](modules/xray_tensor_diffractometer.py.md#strassencrystallographer) class in `xray_tensor_diffractometer`
+- [`StrassenDataGenerator`](modules/batch_size.py.md#strassendatagenerator) class in `batch_size`
+- [`StrassenDataGenerator`](modules/crystallography.py.md#strassendatagenerator) class in `crystallography`
+- [`StrassenDataGenerator`](modules/experiments.extended_experiments.validate2.py.md#strassendatagenerator) class in `experiments.extended_experiments.validate2`
+- [`StrassenDataGenerator`](modules/experimetn2.py.md#strassendatagenerator) class in `experimetn2`
+- [`StrassenDataGenerator`](modules/grigori_perelmans_ricci_flow.py.md#strassendatagenerator) class in `grigori_perelmans_ricci_flow`
+- [`StrassenDataGenerator`](modules/plank.py.md#strassendatagenerator) class in `plank`
+- [`StrassenDataGenerator`](modules/superposition.py.md#strassendatagenerator) class in `superposition`
+- [`StrassenDataGenerator`](modules/unified_hidden_connections_suite.py.md#strassendatagenerator) class in `unified_hidden_connections_suite`
+- [`StrassenDataGenerator`](modules/xray_tensor_diffractometer.py.md#strassendatagenerator) class in `xray_tensor_diffractometer`
+- [`StrassenDiffractionTest`](modules/crystallography.py.md#strassendiffractiontest) class in `crystallography`
+- [`StrassenDiffractionTest`](modules/plank.py.md#strassendiffractiontest) class in `plank`
+- [`StrassenDiscovery`](modules/src.training.main.py.md#strassendiscovery) class in `src.training.main`
+- [`StrassenGeometryMapper`](modules/maxwell_strassen_analysis.py.md#strassengeometrymapper) class in `maxwell_strassen_analysis`
+- [`StrassenModel`](modules/experiments.statistics.rigorous_experiment.py.md#strassenmodel) class in `experiments.statistics.rigorous_experiment`
+- [`StrassenModel`](modules/src.training.main_pure_math.py.md#strassenmodel) class in `src.training.main_pure_math`
+- [`StrassenNet`](modules/app.py.md#strassennet) class in `app`
+- [`StrassenOperator`](modules/experiments.apendix_experiments.py.md#strassenoperator) class in `experiments.apendix_experiments`
+- [`StrassenOperator`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#strassenoperator) class in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`StrassenOperator`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#strassenoperator) class in `experiments.extended_experiments.exp2_noise_ablation`
+- [`StrassenOperator`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#strassenoperator) class in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`StrassenOperator`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#strassenoperator) class in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`StrassenOperator`](modules/experiments.extended_experiments.run_all_experiments.py.md#strassenoperator) class in `experiments.extended_experiments.run_all_experiments`
+- [`StrassenOperator`](modules/experiments.extended_experiments.validate2.py.md#strassenoperator) class in `experiments.extended_experiments.validate2`
+- [`StrassenOperator`](modules/full_seed_prospector.py.md#strassenoperator) class in `full_seed_prospector`
+- [`StrassenOperator`](modules/src.training.strassen_grokkit.py.md#strassenoperator) class in `src.training.strassen_grokkit`
+- [`StrassenOperator`](modules/src.training.train_strassen.py.md#strassenoperator) class in `src.training.train_strassen`
+- [`StrassenPlanckAnalyzer`](modules/batch_size.py.md#strassenplanckanalyzer) class in `batch_size`
+- [`StrassenPlanckAnalyzer`](modules/plank.py.md#strassenplanckanalyzer) class in `plank`
+- [`StrassenTrainer`](modules/grain.py.md#strassentrainer) class in `grain`
+- [`StrassenVerifier`](modules/full_seed_prospector.py.md#strassenverifier) class in `full_seed_prospector`
+- [`StrassStrassenConfig`](modules/experimetn2.py.md#strassstrassenconfig) class in `experimetn2`
+- [`StrassStrassenConfig`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig) class in `unified_hidden_connections_suite`
+- [`StrassStrassenModel`](modules/experimetn2.py.md#strassstrassenmodel) class in `experimetn2`
+- [`StrassStrassenModel`](modules/unified_hidden_connections_suite.py.md#strassstrassenmodel) class in `unified_hidden_connections_suite`
+- [`STRONG_LAMBDA`](modules/batch_size.py.md#configuration-strong_lambda) attribute of `Configuration` in `batch_size`
+- [`STRONG_LAMBDA`](modules/plank.py.md#configuration-strong_lambda) attribute of `Configuration` in `plank`
+- [`STRONG_WEIGHTS`](modules/batch_size.py.md#configuration-strong_weights) attribute of `Configuration` in `batch_size`
+- [`STRONG_WEIGHTS`](modules/plank.py.md#configuration-strong_weights) attribute of `Configuration` in `plank`
+- [`STRUCTURAL_GAP_EPSILON`](modules/batch_size.py.md#configuration-structural_gap_epsilon) attribute of `Configuration` in `batch_size`
+- [`SuiteConfig`](modules/experimetn2.py.md#suiteconfig) class in `experimetn2`
+- [`SuiteConfig`](modules/unified_hidden_connections_suite.py.md#suiteconfig) class in `unified_hidden_connections_suite`
+- [`superposition_sae_hidden_dim`](modules/full_seed_prospector.py.md#unifiedconfig-superposition_sae_hidden_dim) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`superposition_sae_sparsity`](modules/full_seed_prospector.py.md#unifiedconfig-superposition_sae_sparsity) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`SuperpositionCalculator`](modules/full_seed_prospector.py.md#superpositioncalculator) class in `full_seed_prospector`
+- [`SuperpositionMetricCalculator`](modules/experimetn2.py.md#superpositionmetriccalculator) class in `experimetn2`
+- [`SuperpositionMetricCalculator`](modules/unified_hidden_connections_suite.py.md#superpositionmetriccalculator) class in `unified_hidden_connections_suite`
+- [`SuperpositionMetrics`](modules/superposition.py.md#superpositionmetrics) class in `superposition`
+- [`symmetry_type`](modules/src.discovery.auto_T_discovery.py.md#symmetrystructure-symmetry_type) attribute of `SymmetryStructure` in `src.discovery.auto_T_discovery`
+- [`SymmetryStructure`](modules/src.discovery.auto_T_discovery.py.md#symmetrystructure) class in `src.discovery.auto_T_discovery`
+- [`SyntheticPlanckCalculator`](modules/experimetn2.py.md#syntheticplanckcalculator) class in `experimetn2`
+- [`SyntheticPlanckCalculator`](modules/unified_hidden_connections_suite.py.md#syntheticplanckcalculator) class in `unified_hidden_connections_suite`
+- [`SyntheticPlanckConstantCalculator`](modules/mbl_analyzer.py.md#syntheticplanckconstantcalculator) class in `mbl_analyzer`
+- [`SystemAnalyzer`](modules/dirac_polos_zeros.py.md#systemanalyzer) class in `dirac_polos_zeros`
+
+<a id="t"></a>
+
+## T
+
+- [`T`](modules/experimetn2.py.md#t) constant in `experimetn2`
+- [`T`](modules/unified_hidden_connections_suite.py.md#t) constant in `unified_hidden_connections_suite`
+- [`target_accuracy`](modules/full_seed_prospector.py.md#unifiedconfig-target_accuracy) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`target_delta`](modules/full_seed_prospector.py.md#unifiedconfig-target_delta) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`target_kappa`](modules/full_seed_prospector.py.md#unifiedconfig-target_kappa) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`target_rank`](modules/experimetn2.py.md#strassstrassenconfig-target_rank) attribute of `StrassStrassenConfig` in `experimetn2`
+- [`target_rank`](modules/unified_hidden_connections_suite.py.md#strassstrassenconfig-target_rank) attribute of `StrassStrassenConfig` in `unified_hidden_connections_suite`
+- [`target_rank`](modules/full_seed_prospector.py.md#unifiedconfig-target_rank) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`TARGET_SLOTS`](modules/boltzmann_experiments.py.md#config-target_slots) attribute of `Config` in `boltzmann_experiments`
+- [`TARGET_SLOTS`](modules/crystallography.py.md#config-target_slots) attribute of `Config` in `crystallography`
+- [`TARGET_SLOTS`](modules/src.training.main.py.md#config-target_slots) attribute of `Config` in `src.training.main`
+- [`TARGET_SLOTS`](modules/xray_tensor_diffractometer.py.md#config-target_slots) attribute of `Config` in `xray_tensor_diffractometer`
+- [`TARGET_SLOTS`](modules/batch_size.py.md#configuration-target_slots) attribute of `Configuration` in `batch_size`
+- [`TARGET_SLOTS`](modules/plank.py.md#configuration-target_slots) attribute of `Configuration` in `plank`
+- [`TARGET_SLOTS`](modules/grain.py.md#strassenconfig-target_slots) attribute of `StrassenConfig` in `grain`
+- [`temperature`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential-temperature) attribute of `ThermodynamicPotential` in `xray_tensor_diffractometer`
+- [`TEMPERATURE_LOW`](modules/fermi.py.md#fermiconfig-temperature_low) attribute of `FermiConfig` in `fermi`
+- [`TEMPERATURE_RANGE`](modules/grigori_perelmans_ricci_flow.py.md#ricciconfig-temperature_range) attribute of `RicciConfig` in `grigori_perelmans_ricci_flow`
+- [`TEMPERATURE_ROOM`](modules/fermi.py.md#fermiconfig-temperature_room) attribute of `FermiConfig` in `fermi`
+- [`TEMPERATURE_WINDOW`](modules/hawking_radiation.py.md#hawkingconfiguration-temperature_window) attribute of `HawkingConfiguration` in `hawking_radiation`
+- [`TEMPERATURE_WINDOW`](modules/mbl_analyzer.py.md#mblconfiguration-temperature_window) attribute of `MBLConfiguration` in `mbl_analyzer`
+- [`TEMPERATURE_WINDOW`](modules/percolation_analysis.py.md#percolationconfiguration-temperature_window) attribute of `PercolationConfiguration` in `percolation_analysis`
+- [`TEMPERATURE_WINDOW`](modules/purity_index.py.md#purityconfig-temperature_window) attribute of `PurityConfig` in `purity_index`
+- [`TEMPERATURE_WINDOW`](modules/grain.py.md#strassenconfig-temperature_window) attribute of `StrassenConfig` in `grain`
+- [`TEMPERATURE_WINDOW`](modules/gravity.py.md#thermodynamicconfig-temperature_window) attribute of `ThermodynamicConfig` in `gravity`
+- [`TEMPERATURE_ZERO`](modules/fermi.py.md#fermiconfig-temperature_zero) attribute of `FermiConfig` in `fermi`
+- [`TERM_WIDTH`](modules/menu.py.md#term_width) constant in `menu`
+- [`test_accuracy`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-test_accuracy) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`test_expansion_sizes`](modules/experiments.validation_experiments.py.md#test_expansion_sizes) function in `experiments.validation_experiments`
+- [`test_gauge_invariance`](modules/crystallography.py.md#strassendiffractiontest-test_gauge_invariance) method of `StrassenDiffractionTest` in `crystallography`
+- [`test_gauge_invariance`](modules/plank.py.md#strassendiffractiontest-test_gauge_invariance) method of `StrassenDiffractionTest` in `plank`
+- [`test_iterations`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-test_iterations) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`test_noise_stability`](modules/experiments.validation_experiments.py.md#test_noise_stability) function in `experiments.validation_experiments`
+- [`TEST_SAMPLES`](modules/src.training.main.py.md#config-test_samples) attribute of `Config` in `src.training.main`
+- [`test_samples`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-test_samples) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`test_uniqueness_via_permutation`](modules/experiments.validation_experiments.py.md#test_uniqueness_via_permutation) function in `experiments.validation_experiments`
+- [`ThermodynamicAnalyzer`](modules/gravity.py.md#thermodynamicanalyzer) class in `gravity`
+- [`ThermodynamicConfig`](modules/gravity.py.md#thermodynamicconfig) class in `gravity`
+- [`ThermodynamicMetrics`](modules/xray_tensor_diffractometer.py.md#thermodynamicmetrics) class in `xray_tensor_diffractometer`
+- [`ThermodynamicMetricsCalculator`](modules/full_seed_prospector.py.md#thermodynamicmetricscalculator) class in `full_seed_prospector`
+- [`ThermodynamicPipeline`](modules/gravity.py.md#thermodynamicpipeline) class in `gravity`
+- [`ThermodynamicPotential`](modules/xray_tensor_diffractometer.py.md#thermodynamicpotential) class in `xray_tensor_diffractometer`
+- [`THRESHOLD`](modules/experiments.statistics.coherence_analysis.py.md#threshold) constant in `experiments.statistics.coherence_analysis`
+- [`THRESHOLD`](modules/experiments.validation.benchmark.py.md#threshold) constant in `experiments.validation.benchmark`
+- [`THRESHOLD`](modules/src.native.strassen_c.c.md#threshold) macro in `src/native/strassen_c.c`
+- [`THRESHOLD`](modules/src.native.strassen_turbo.c.md#threshold) macro in `src/native/strassen_turbo.c`
+- [`TIME_MAX`](modules/dirac_polos_zeros.py.md#analysisconfig-time_max) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`TIME_MAX`](modules/scrodingger.py.md#schrodingerconfig-time_max) attribute of `SchrodingerConfig` in `scrodingger`
+- [`TIME_MAX`](modules/gravity.py.md#thermodynamicconfig-time_max) attribute of `ThermodynamicConfig` in `gravity`
+- [`TIME_SAMPLES`](modules/dirac_polos_zeros.py.md#analysisconfig-time_samples) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`TIME_SAMPLES`](modules/gravity.py.md#thermodynamicconfig-time_samples) attribute of `ThermodynamicConfig` in `gravity`
+- [`TIME_STEPS`](modules/scrodingger.py.md#schrodingerconfig-time_steps) attribute of `SchrodingerConfig` in `scrodingger`
+- [`TimeEvolver`](modules/scrodingger.py.md#timeevolver) class in `scrodingger`
+- [`TimeResponseAnalyzer`](modules/dirac_polos_zeros.py.md#timeresponseanalyzer) class in `dirac_polos_zeros`
+- [`TimeResponseVisualizer`](modules/dirac_polos_zeros.py.md#timeresponsevisualizer) class in `dirac_polos_zeros`
+- [`times`](modules/experiments.ablation.ablation_study.py.md#benchmarkresult-times) attribute of `BenchmarkResult` in `experiments.ablation.ablation_study`
+- [`to_dict`](modules/grain.py.md#strassenconfig-to_dict) method of `StrassenConfig` in `grain`
+- [`tolerance_float`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-tolerance_float) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`tolerance_int`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-tolerance_int) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`tolerance_threshold`](modules/unified_hidden_connections_suite.py.md#experiment3config-tolerance_threshold) attribute of `Experiment3Config` in `unified_hidden_connections_suite`
+- [`TRAIN`](modules/full_seed_prospector.py.md#executionmode-train) attribute of `ExecutionMode` in `full_seed_prospector`
+- [`train`](modules/unified_hidden_connections_suite.py.md#itrainer-train) method of `ITrainer` in `unified_hidden_connections_suite`
+- [`train`](modules/superposition.py.md#saetrainer-train) method of `SAETrainer` in `superposition`
+- [`train`](modules/grain.py.md#strassentrainer-train) method of `StrassenTrainer` in `grain`
+- [`train`](modules/src.training.main.py.md#trainer-train) method of `Trainer` in `src.training.main`
+- [`train`](modules/unified_hidden_connections_suite.py.md#trainer-train) method of `Trainer` in `unified_hidden_connections_suite`
+- [`train`](modules/src.training.main_pure_math.py.md#train) function in `src.training.main_pure_math`
+- [`train_epoch`](modules/src.training.main.py.md#trainer-train_epoch) method of `Trainer` in `src.training.main`
+- [`train_epochs`](modules/full_seed_prospector.py.md#unifiedconfig-train_epochs) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`train_for_batch_size`](modules/train_batch_sweep.py.md#train_for_batch_size) function in `train_batch_sweep`
+- [`train_grokkit`](modules/src.training.strassen_grokkit.py.md#train_grokkit) function in `src.training.strassen_grokkit`
+- [`train_phase1`](modules/src.training.train_strassen.py.md#train_phase1) function in `src.training.train_strassen`
+- [`TRAIN_SAMPLES`](modules/src.training.main.py.md#config-train_samples) attribute of `Config` in `src.training.main`
+- [`train_with_green_cow`](modules/xray_tensor_diffractometer.py.md#greencowexperiment-train_with_green_cow) method of `GreenCowExperiment` in `xray_tensor_diffractometer`
+- [`train_with_logging`](modules/experiments.apendix_experiments.py.md#train_with_logging) function in `experiments.apendix_experiments`
+- [`Trainer`](modules/src.training.main.py.md#trainer) class in `src.training.main`
+- [`Trainer`](modules/unified_hidden_connections_suite.py.md#trainer) class in `unified_hidden_connections_suite`
+- [`training_config`](modules/experimetn2.py.md#suiteconfig-training_config) attribute of `SuiteConfig` in `experimetn2`
+- [`training_config`](modules/unified_hidden_connections_suite.py.md#suiteconfig-training_config) attribute of `SuiteConfig` in `unified_hidden_connections_suite`
+- [`TRAINING_DIR`](modules/experiments.extended_experiments.exp1_covariance_spectrometry.py.md#training_dir) constant in `experiments.extended_experiments.exp1_covariance_spectrometry`
+- [`TRAINING_DIR`](modules/experiments.extended_experiments.exp2_noise_ablation.py.md#training_dir) constant in `experiments.extended_experiments.exp2_noise_ablation`
+- [`TRAINING_DIR`](modules/experiments.extended_experiments.exp3_prospective_prediction.py.md#training_dir) constant in `experiments.extended_experiments.exp3_prospective_prediction`
+- [`TRAINING_DIR`](modules/experiments.extended_experiments.exp4_trajectory_perturbation.py.md#training_dir) constant in `experiments.extended_experiments.exp4_trajectory_perturbation`
+- [`TRAINING_DIR`](modules/experiments.extended_experiments.run_all_experiments.py.md#training_dir) constant in `experiments.extended_experiments.run_all_experiments`
+- [`training_time_seconds`](modules/experiments.statistics.rigorous_experiment.py.md#experimentresult-training_time_seconds) attribute of `ExperimentResult` in `experiments.statistics.rigorous_experiment`
+- [`TrainingConfig`](modules/experimetn2.py.md#trainingconfig) class in `experimetn2`
+- [`TrainingConfig`](modules/unified_hidden_connections_suite.py.md#trainingconfig) class in `unified_hidden_connections_suite`
+- [`TrainingError`](modules/xray_tensor_diffractometer.py.md#trainingerror) exception in `xray_tensor_diffractometer`
+- [`TrainingMetricsTracker`](modules/grain.py.md#trainingmetricstracker) class in `grain`
+- [`TransferFunctionComputer`](modules/dirac_polos_zeros.py.md#transferfunctioncomputer) class in `dirac_polos_zeros`
+
+<a id="u"></a>
+
+## U
+
+- [`ULTRA_STRONG_LAMBDA`](modules/batch_size.py.md#configuration-ultra_strong_lambda) attribute of `Configuration` in `batch_size`
+- [`ULTRA_STRONG_LAMBDA`](modules/plank.py.md#configuration-ultra_strong_lambda) attribute of `Configuration` in `plank`
+- [`ULTRA_STRONG_WEIGHTS`](modules/batch_size.py.md#configuration-ultra_strong_weights) attribute of `Configuration` in `batch_size`
+- [`ULTRA_STRONG_WEIGHTS`](modules/plank.py.md#configuration-ultra_strong_weights) attribute of `Configuration` in `plank`
+- [`UncertaintyCalculator`](modules/scrodingger.py.md#uncertaintycalculator) class in `scrodingger`
+- [`UnifiedConfig`](modules/full_seed_prospector.py.md#unifiedconfig) class in `full_seed_prospector`
+- [`UnifiedSuite`](modules/experimetn2.py.md#unifiedsuite) class in `experimetn2`
+- [`UnifiedSuite`](modules/unified_hidden_connections_suite.py.md#unifiedsuite) class in `unified_hidden_connections_suite`
+- [`update`](modules/grain.py.md#itrainingmonitor-update) method of `ITrainingMonitor` in `grain`
+- [`update`](modules/grain.py.md#trainingmetricstracker-update) method of `TrainingMetricsTracker` in `grain`
+- [`update_lr`](modules/full_seed_prospector.py.md#comprehensivemetricsaggregator-update_lr) method of `ComprehensiveMetricsAggregator` in `full_seed_prospector`
+- [`use_gpu_if_available`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-use_gpu_if_available) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+
+<a id="v"></a>
+
+## V
+
+- [`verbose`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-verbose) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`VERBOSE`](modules/grain.py.md#strassenconfig-verbose) attribute of `StrassenConfig` in `grain`
+- [`verify`](modules/dirac_polos_zeros.py.md#gausslawverifier-verify) method of `GaussLawVerifier` in `dirac_polos_zeros`
+- [`verify`](modules/experiments.extended_experiments.validate2.py.md#grokkingverifier-verify) method of `GrokkingVerifier` in `experiments.extended_experiments.validate2`
+- [`verify`](modules/full_seed_prospector.py.md#strassenverifier-verify) method of `StrassenVerifier` in `full_seed_prospector`
+- [`verify`](modules/src.training.main_pure_math.py.md#verify) function in `src.training.main_pure_math`
+- [`verify`](modules/src.training.train_strassen.py.md#verify) function in `src.training.train_strassen`
+- [`verify_2x2`](modules/experiments.verify_checkpoints.py.md#verify_2x2) function in `experiments.verify_checkpoints`
+- [`verify_checkpoint`](modules/experiments.verify_checkpoints.py.md#verify_checkpoint) function in `experiments.verify_checkpoints`
+- [`verify_checkpoint_is_grokked`](modules/experiments.extended_experiments.validate2.py.md#experimentorchestrator-verify_checkpoint_is_grokked) method of `ExperimentOrchestrator` in `experiments.extended_experiments.validate2`
+- [`verify_convergence_conditions`](modules/src.training.convergence_theory.py.md#verify_convergence_conditions) function in `src.training.convergence_theory`
+- [`verify_correctness`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-verify_correctness) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`verify_expanded_correctness`](modules/src.discovery.auto_T_discovery.py.md#verify_expanded_correctness) function in `src.discovery.auto_T_discovery`
+- [`verify_expansion`](modules/experiments.verify_checkpoints.py.md#verify_expansion) function in `experiments.verify_checkpoints`
+- [`verify_grokking`](modules/src.training.strassen_grokkit.py.md#verify_grokking) function in `src.training.strassen_grokkit`
+- [`verify_strassen_structure`](modules/experiments.apendix_experiments.py.md#verify_strassen_structure) function in `experiments.apendix_experiments`
+- [`verify_strassen_T`](modules/src.discovery.auto_T_discovery.py.md#verify_strassen_t) function in `src.discovery.auto_T_discovery`
+- [`verify_structure`](modules/crystallography.py.md#strassendatagenerator-verify_structure) staticmethod of `StrassenDataGenerator` in `crystallography`
+- [`verify_structure`](modules/plank.py.md#strassendatagenerator-verify_structure) staticmethod of `StrassenDataGenerator` in `plank`
+- [`verify_structure`](modules/xray_tensor_diffractometer.py.md#strassendatagenerator-verify_structure) staticmethod of `StrassenDataGenerator` in `xray_tensor_diffractometer`
+- [`VisualizationGenerator`](modules/experiments.extended_experiments.validate2.py.md#visualizationgenerator) class in `experiments.extended_experiments.validate2`
+- [`visualize`](modules/dirac_polos_zeros.py.md#bodevisualizer-visualize) method of `BodeVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#chargedistributionvisualizer-visualize) method of `ChargeDistributionVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#combinedvisualizer-visualize) method of `CombinedVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#divergencevisualizer-visualize) method of `DivergenceVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#electricfieldvisualizer-visualize) method of `ElectricFieldVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#ivisualizer-visualize) method of `IVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#nyquistvisualizer-visualize) method of `NyquistVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#polezerovisualizer-visualize) method of `PoleZeroVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/dirac_polos_zeros.py.md#timeresponsevisualizer-visualize) method of `TimeResponseVisualizer` in `dirac_polos_zeros`
+- [`visualize`](modules/scrodingger.py.md#wavefunctionvisualizer-visualize) method of `WaveFunctionVisualizer` in `scrodingger`
+- [`visualize_lattice`](modules/maxwell_strassen_analysis.py.md#maxwellvisualizer-visualize_lattice) method of `MaxwellVisualizer` in `maxwell_strassen_analysis`
+- [`visualize_potential`](modules/maxwell_strassen_analysis.py.md#maxwellvisualizer-visualize_potential) method of `MaxwellVisualizer` in `maxwell_strassen_analysis`
+- [`visualize_scattering`](modules/maxwell_strassen_analysis.py.md#maxwellvisualizer-visualize_scattering) method of `MaxwellVisualizer` in `maxwell_strassen_analysis`
+- [`VolumePruningStrategy`](modules/unified_hidden_connections_suite.py.md#volumepruningstrategy) class in `unified_hidden_connections_suite`
+
+<a id="w"></a>
+
+## W
+
+- [`wait_for_enter`](modules/menu.py.md#wait_for_enter) function in `menu`
+- [`WARMUP`](modules/experiments.ablation.ablation_8192.py.md#warmup) constant in `experiments.ablation.ablation_8192`
+- [`warmup_iterations`](modules/src.benchmarks.benchmark_strassen.py.md#benchmarkconfig-warmup_iterations) attribute of `BenchmarkConfig` in `src.benchmarks.benchmark_strassen`
+- [`WARMUP_RUNS`](modules/experiments.ablation.ablation_study.py.md#warmup_runs) constant in `experiments.ablation.ablation_study`
+- [`WAVE_FUNCTION_NORM_TOLERANCE`](modules/scrodingger.py.md#schrodingerconfig-wave_function_norm_tolerance) attribute of `SchrodingerConfig` in `scrodingger`
+- [`WaveFunctionExtractor`](modules/scrodingger.py.md#wavefunctionextractor) class in `scrodingger`
+- [`WaveFunctionVisualizer`](modules/scrodingger.py.md#wavefunctionvisualizer) class in `scrodingger`
+- [`WAVEVECTOR_MAX`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-wavevector_max) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`WAVEVECTOR_MIN`](modules/maxwell_strassen_analysis.py.md#maxwellconfiguration-wavevector_min) attribute of `MaxwellConfiguration` in `maxwell_strassen_analysis`
+- [`WEAK_LAMBDA`](modules/plank.py.md#configuration-weak_lambda) attribute of `Configuration` in `plank`
+- [`WEAK_WEIGHTS`](modules/batch_size.py.md#configuration-weak_weights) attribute of `Configuration` in `batch_size`
+- [`WEAK_WEIGHTS`](modules/plank.py.md#configuration-weak_weights) attribute of `Configuration` in `plank`
+- [`WEIGHT_DECAY`](modules/dirac_polos_zeros.py.md#analysisconfig-weight_decay) attribute of `AnalysisConfig` in `dirac_polos_zeros`
+- [`WEIGHT_DECAY`](modules/boltzmann_experiments.py.md#config-weight_decay) attribute of `Config` in `boltzmann_experiments`
+- [`WEIGHT_DECAY`](modules/crystallography.py.md#config-weight_decay) attribute of `Config` in `crystallography`
+- [`WEIGHT_DECAY`](modules/xray_tensor_diffractometer.py.md#config-weight_decay) attribute of `Config` in `xray_tensor_diffractometer`
+- [`WEIGHT_DECAY`](modules/batch_size.py.md#configuration-weight_decay) attribute of `Configuration` in `batch_size`
+- [`WEIGHT_DECAY`](modules/plank.py.md#configuration-weight_decay) attribute of `Configuration` in `plank`
+- [`weight_decay`](modules/unified_hidden_connections_suite.py.md#experiment2config-weight_decay) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+- [`weight_decay`](modules/experiments.extended_experiments.validate2.py.md#experimentconfig-weight_decay) attribute of `ExperimentConfig` in `experiments.extended_experiments.validate2`
+- [`weight_decay`](modules/experiments.statistics.rigorous_experiment.py.md#experimentconfig-weight_decay) attribute of `ExperimentConfig` in `experiments.statistics.rigorous_experiment`
+- [`WEIGHT_DECAY`](modules/grain.py.md#strassenconfig-weight_decay) attribute of `StrassenConfig` in `grain`
+- [`WEIGHT_DECAY`](modules/gravity.py.md#thermodynamicconfig-weight_decay) attribute of `ThermodynamicConfig` in `gravity`
+- [`weight_decay`](modules/experimetn2.py.md#trainingconfig-weight_decay) attribute of `TrainingConfig` in `experimetn2`
+- [`weight_decay`](modules/unified_hidden_connections_suite.py.md#trainingconfig-weight_decay) attribute of `TrainingConfig` in `unified_hidden_connections_suite`
+- [`weight_decay`](modules/full_seed_prospector.py.md#unifiedconfig-weight_decay) attribute of `UnifiedConfig` in `full_seed_prospector`
+- [`weight_decays`](modules/unified_hidden_connections_suite.py.md#experiment4config-weight_decays) attribute of `Experiment4Config` in `unified_hidden_connections_suite`
+- [`weight_discreteness`](modules/src.training.convergence_theory.py.md#convergencemetrics-weight_discreteness) attribute of `ConvergenceMetrics` in `src.training.convergence_theory`
+- [`WeightGraphConstructor`](modules/percolation_analysis.py.md#weightgraphconstructor) class in `percolation_analysis`
+- [`wigner_dyson_theoretical`](modules/unified_hidden_connections_suite.py.md#experiment2config-wigner_dyson_theoretical) attribute of `Experiment2Config` in `unified_hidden_connections_suite`
+
+<a id="z"></a>
+
+## Z
+
+- [`ZeroShotTransferCalculator`](modules/gravity.py.md#zeroshottransfercalculator) class in `gravity`
