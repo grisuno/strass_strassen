@@ -1,10 +1,10 @@
 {
   "tool": "readmenator",
   "schema_version": 2,
-  "generated_at": "2026-10-30T20:44:45Z",
+  "generated_at": "2026-10-30T20:59:14Z",
   "project_root": ".",
   "project_name": "strass_strassen",
-  "git_commit": "f08f59266567f34a64858f844da1472fd249ff3e",
+  "git_commit": "d112f5ae4932f5768ef684b87f1db0f2814445f8",
   "git_branch": "main",
   "source_fingerprint": "257027f71f78d200ecb5c20f487210ceebad6bc1e33c1c3edf85359c6df42309",
   "freshness_check": "readmenator . fresh  # exit 0 = docs match sources, exit 1 = run: readmenator . --rebuild",
@@ -145,6 +145,11 @@
       "path": "KB_training.md",
       "lines": 124,
       "approx_tokens": 1658
+    },
+    {
+      "path": "MEMORY.md",
+      "lines": 70,
+      "approx_tokens": 1058
     },
     {
       "path": "SECURITY.md",

@@ -37,7 +37,7 @@ Generated offline by readmenator (zero LLM tokens). Start with the wiki index fo
 - [readmenator-agent/KB_root_p4.md](md/readmenator-agent/KB_root_p4.md): Doc: Config: Configuration for Superposition Analysis on Strassen Checkpoints.
 - [readmenator-agent/KB_statistics.md](md/readmenator-agent/KB_statistics.md): Doc: ANÁLISIS DE COHERENCIA TEMPORAL
 - [readmenator-agent/KB_training.md](md/readmenator-agent/KB_training.md): Doc: Convergence Theory for Algorithmic Invariance This module addresses the reviewer's key...
-- [readmenator-agent/MEMORY.md](md/readmenator-agent/MEMORY.md): Generated from 60 files at commit f08f59266567. Read this first, then readmenator-wiki/index.md, then readmenator . ask "<question>" for anything specific.
+- [readmenator-agent/MEMORY.md](md/readmenator-agent/MEMORY.md): Generated from 60 files at commit d112f5ae4932. Read this first, then readmenator-wiki/index.md, then readmenator . ask "<question>" for anything specific.
 - [readmenator-agent/SECURITY.md](md/readmenator-agent/SECURITY.md)
 - [readmenator-agent/SYMBOLS.md](md/readmenator-agent/SYMBOLS.md)
 - [readmenator-agent/SYMBOLS_p2.md](md/readmenator-agent/SYMBOLS_p2.md)
